@@ -14,4 +14,16 @@ public class Snowball : MonoBehaviour
     {
         Destroy(gameObject);
     }
+
+    void OnTriggerEnter2D(Collider2D col)
+    {
+        print("Enemy is triggered");
+        if (col.gameObject.tag == "Enemy")
+        {
+            EnemyHealth temp;
+            temp = col.gameObject.GetComponent<EnemyHealth>();
+            temp.decHealth(1);
+            Destroy(gameObject);
+        }
+    }
 }

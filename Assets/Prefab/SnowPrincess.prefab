@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 3454021579525222223}
   m_Layer: 0
   m_Name: SnowPrincess
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -127,8 +127,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d7fea4d2392e7cd4b811288cde85cc4e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 0
-  initHealth: 0
+  maxHealth: 10
+  initHealth: 10
   HUD: {fileID: 2802602295603756205}
 --- !u!1 &8009827429404495592
 GameObject:
