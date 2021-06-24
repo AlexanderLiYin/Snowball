@@ -274,6 +274,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: SnowPrincess
       objectReference: {fileID: 0}
+    - target: {fileID: 2712580067303217094, guid: 3b4c23d0ab299a848bdebd67880e652e, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2712580067303217094, guid: 3b4c23d0ab299a848bdebd67880e652e, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3454021579525222223, guid: 3b4c23d0ab299a848bdebd67880e652e, type: 3}
+      propertyPath: maxHealth
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 3454021579525222223, guid: 3b4c23d0ab299a848bdebd67880e652e, type: 3}
+      propertyPath: initHealth
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 5459714438288331320, guid: 3b4c23d0ab299a848bdebd67880e652e, type: 3}
       propertyPath: cam
       value: 
