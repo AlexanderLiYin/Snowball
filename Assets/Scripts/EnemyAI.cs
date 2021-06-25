@@ -9,11 +9,10 @@ public class EnemyAI : MonoBehaviour
     public float bulletForce = 20f;
     public Rigidbody2D rb;
     public float fireRate = 1;
-
+    public float targetRange = 5f;
     float shootTime = 0;
     Vector2 startPos;
     GameObject player;
-    
 
     // Start is called before the first frame update
     void Start()
@@ -29,7 +28,6 @@ public class EnemyAI : MonoBehaviour
 
     public void Attack()
     {
-        float targetRange = 5f;
         if(Vector2.Distance(transform.position, player.transform.position) < targetRange)
         {
             Rigidbody2D pRB = player.GetComponent<Rigidbody2D>();
