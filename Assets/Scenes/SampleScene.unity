@@ -227,6 +227,10 @@ PrefabInstance:
       propertyPath: rb
       value: 
       objectReference: {fileID: 764245340}
+    - target: {fileID: 4010992429736461696, guid: 8bb84a63041016b40a33fadf8e699dbd, type: 3}
+      propertyPath: targetRange
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 6430139493646420943, guid: 8bb84a63041016b40a33fadf8e699dbd, type: 3}
       propertyPath: m_RootOrder
       value: 1

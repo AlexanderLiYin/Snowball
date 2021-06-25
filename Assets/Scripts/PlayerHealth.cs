@@ -16,12 +16,13 @@ public class PlayerHealth : MonoBehaviour
         HUD.HP(health);
     }
 
-    void Update()
+    public void decHealth(int dmg)
     {
-        if(Input.GetKeyDown(KeyCode.Space))
+        health -= dmg;
+        HUD.HP(health);
+        if (health <= 0)
         {
-            health -= 1;
-            HUD.HP(health);
+            print("Health is 0");
         }
     }
 }
