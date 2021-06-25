@@ -23,7 +23,7 @@ public class Snowball : MonoBehaviour
             EnemyHealth temp;
             temp = col.gameObject.GetComponent<EnemyHealth>();
             temp.decHealth(1);
-            Destroy(gameObject);
         }
+        Destroy(gameObject);
     }
 }

@@ -6,7 +6,6 @@ public class PlayerAttack : MonoBehaviour
 {
     public Transform firePoint;
     public GameObject snowballPrefab;
-
     public float bulletForce = 20f;
 
     // Start is called before the first frame update
