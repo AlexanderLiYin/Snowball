@@ -8,22 +8,16 @@ public class PlayerAttack : MonoBehaviour
     public GameObject snowballPrefab;
     public float bulletForce = 20f;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-
-    }
-
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetButtonDown("Fire1"))
+        if (Input.GetButtonDown("Fire1") && Time.timeScale != 0)
         {
-            Shoot();
+            Attack();
         }
     }
 
-    void Shoot()
+    void Attack()
     {
         GameObject snowball = Instantiate(snowballPrefab, firePoint.position, firePoint.rotation);
         Rigidbody2D rb = snowball.GetComponent<Rigidbody2D>();
