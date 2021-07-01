@@ -12,6 +12,9 @@ public class HUDScript : MonoBehaviour
     public GameObject winScreen;
     public TMP_Text timer;
     public float time = 600;
+    public GameObject star1;
+    public GameObject star2;
+    public GameObject star3;
     
     void FixedUpdate()
     {
@@ -54,6 +57,12 @@ public class HUDScript : MonoBehaviour
     public void Win()
     {
         winScreen.SetActive(true);
+        if(time > 60)
+            star1.SetActive(true);
+        if(time > 120)
+            star2.SetActive(true);
+        if(time > 180)
+            star3.SetActive(true);
         Time.timeScale = 0f;
     }
 
