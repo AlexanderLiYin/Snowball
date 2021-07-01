@@ -8,6 +8,7 @@ public class EnemyHealth : MonoBehaviour
     public int initHealth;
     int health;
     public HealthBar hpBar;
+    public bool isBoss;
 
     // Start is called before the first frame update
     void Start()
@@ -21,6 +22,10 @@ public class EnemyHealth : MonoBehaviour
         hpBar.HP(health);
         if(health <= 0)
         {
+            if(isBoss)
+            {
+                FindObjectOfType<GameManager>().Win();
+            }
             Destroy(gameObject);
         }
     }

@@ -17,6 +17,12 @@ public class GameManager : MonoBehaviour
         
     }
 
+    public void Win()
+    {
+        print("You Win");
+        HUD.Win();
+    }
+
     public void Lose()
     {
         print("You Lost");

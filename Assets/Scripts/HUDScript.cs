@@ -8,10 +8,17 @@ public class HUDScript : MonoBehaviour
 {
     public Slider slider;
     public GameObject loseScreen;
+    public GameObject winScreen;
 
     public void HP(int health)
     {
         slider.value = health;
+    }
+
+    public void Win()
+    {
+        winScreen.SetActive(true);
+        Time.timeScale = 0f;
     }
 
     public void Lose()
