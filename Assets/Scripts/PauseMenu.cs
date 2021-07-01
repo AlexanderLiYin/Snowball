@@ -5,14 +5,14 @@ using UnityEngine.SceneManagement;
 
 public class PauseMenu : MonoBehaviour
 {
-    public static bool pause = false;
+    public static bool isPaused = false;
     public GameObject pauseMenu;
 
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            if(pause)
+            if(isPaused)
             {
                 Resume();
             }
@@ -27,14 +27,14 @@ public class PauseMenu : MonoBehaviour
     {
         pauseMenu.SetActive(false);
         Time.timeScale = 1f;
-        pause = false;
+        isPaused = false;
     }
 
     void Pause()
     {
         pauseMenu.SetActive(true);
         Time.timeScale = 0f;
-        pause = true;
+        isPaused = true;
     }
 
     public void MainMenu()
@@ -42,7 +42,7 @@ public class PauseMenu : MonoBehaviour
         // Need to unpause before returning to main menu, else if scene is loaded again the game will still be paused.
         pauseMenu.SetActive(false);
         Time.timeScale = 1f;
-        pause = false;
+        isPaused = false;
         SceneManager.LoadScene(1);
     }
 }
