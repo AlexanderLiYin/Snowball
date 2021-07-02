@@ -7,7 +7,8 @@ public class PlayerHealth : MonoBehaviour
     public int maxHealth;
     public int initHealth;
     public HUDScript HUD;
-    public float evadeChance;
+    public PlayerMovement movement;
+    public float evadeChance = 10;
     bool onTrench = false;
     int health;
     
@@ -21,6 +22,14 @@ public class PlayerHealth : MonoBehaviour
     public void TrenchStatus(bool status)
     {
         onTrench = status;
+        if(onTrench == true)
+        {
+            movement.movespeed = 7;
+        }
+        else if (onTrench == false)
+        {
+            movement.movespeed = 5;
+        }
     }
 
     public void decHealth(int dmg)

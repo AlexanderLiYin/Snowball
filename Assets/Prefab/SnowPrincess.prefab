@@ -129,6 +129,7 @@ MonoBehaviour:
   maxHealth: 10
   initHealth: 10
   HUD: {fileID: 0}
+  movement: {fileID: 5459714438288331320}
   evadeChance: 20
 --- !u!1 &8009827429404495592
 GameObject:
