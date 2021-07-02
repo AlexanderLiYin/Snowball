@@ -4,14 +4,14 @@ using UnityEngine;
 
 public class PlayerHealth : MonoBehaviour
 {
-    public int maxHealth;
-    public int initHealth;
     public HUDScript HUD;
     public PlayerMovement movement;
-    public float evadeChance = 10;
-    bool onTrench = false;
+    public int maxHealth;
+    public int initHealth;
     int health;
-    
+    bool onTrench = false;
+    public float evadeChance = 10;
+
     // Start is called before the first frame update
     void Start()
     {

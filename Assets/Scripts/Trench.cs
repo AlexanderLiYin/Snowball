@@ -6,15 +6,13 @@ public class Trench : MonoBehaviour
 {
     void OnTriggerEnter2D(Collider2D col)
     {
-        /*
         if (col.gameObject.tag == "Enemy")
         {
             EnemyHealth temp;
             temp = col.gameObject.GetComponent<EnemyHealth>();
-            temp.decHealth(1);
+            temp.TrenchStatus(true);
         }
-        */
-        if (col.gameObject.tag == "Player")
+        else if (col.gameObject.tag == "Player")
         {
             PlayerHealth temp;
             temp = col.gameObject.GetComponent<PlayerHealth>();
@@ -24,7 +22,13 @@ public class Trench : MonoBehaviour
 
     void OnTriggerExit2D(Collider2D col)
     {
-        if (col.gameObject.tag == "Player")
+        if (col.gameObject.tag == "Enemy")
+        {
+            EnemyHealth temp;
+            temp = col.gameObject.GetComponent<EnemyHealth>();
+            temp.TrenchStatus(false);
+        }
+        else if (col.gameObject.tag == "Player")
         {
             PlayerHealth temp;
             temp = col.gameObject.GetComponent<PlayerHealth>();

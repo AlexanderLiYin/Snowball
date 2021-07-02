@@ -10,6 +10,9 @@ public class EnemyHealth : MonoBehaviour
     public HealthBar hpBar;
     public bool isBoss;
 
+    bool onTrench = false;
+    public float evadeChance = 10;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -18,6 +21,15 @@ public class EnemyHealth : MonoBehaviour
 
     public void decHealth(int dmg)
     {
+        if (onTrench)
+        {
+            if (evadeChance > Random.Range(0, 99))
+            {
+                print("Miss");
+                return;
+            }
+
+        }
         health -= dmg;
         hpBar.HP(health);
         if(health <= 0)
@@ -28,5 +40,10 @@ public class EnemyHealth : MonoBehaviour
             }
             Destroy(gameObject);
         }
+    }
+
+    public void TrenchStatus(bool status)
+    {
+        onTrench = status;
     }
 }
