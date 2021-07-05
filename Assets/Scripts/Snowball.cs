@@ -4,12 +4,7 @@ using UnityEngine;
 
 public class Snowball : MonoBehaviour
 {
-    void OnCollisionEnter2D(Collision2D collision)
-    {
-        Destroy(gameObject);
-    }
-
-    void OnTriggerEnter2D(Collider2D col)
+    void OnCollisionEnter2D(Collision2D col)
     {
         if (col.gameObject.tag == "Enemy")
         {
@@ -25,5 +20,6 @@ public class Snowball : MonoBehaviour
             temp.decHealth(1);
             Destroy(gameObject);
         }
+        Destroy(gameObject);
     }
 }
