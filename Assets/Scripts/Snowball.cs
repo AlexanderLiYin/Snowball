@@ -20,6 +20,14 @@ public class Snowball : MonoBehaviour
             temp.decHealth(1);
             Destroy(gameObject);
         }
+        else if (col.gameObject.tag == "Building")
+        {
+            Building temp;
+            temp = col.gameObject.GetComponent<Building>();
+            temp.decHealth(1);
+            print("Hit building");
+            Destroy(gameObject);
+        }
         Destroy(gameObject);
     }
 }
