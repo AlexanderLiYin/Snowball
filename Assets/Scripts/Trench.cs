@@ -14,7 +14,6 @@ public class Trench : MonoBehaviour
         }
         else if (col.gameObject.tag == "Player")
         {
-            print("Player has entered the trench");
             PlayerHealth temp;
             temp = col.gameObject.GetComponent<PlayerHealth>();
             temp.TrenchStatus(true);
