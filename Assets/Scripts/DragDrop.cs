@@ -39,7 +39,8 @@ public class DragDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, I
     {
         canvasGroup.alpha = 1f;
         Vector3 mouseLocation = GetMouseWorldPosition();
-        Instantiate(building, mouseLocation, Quaternion.identity);
+        if(CanSpawnBuilding(building,mouseLocation))
+            Instantiate(building, mouseLocation, Quaternion.identity);
         canvasGroup.blocksRaycasts = true;
         rectTransform.position = originPos; // Return icon to it's orginal location
     }
@@ -60,5 +61,13 @@ public class DragDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, I
     {
         Vector3 worldPosition = worldCamera.ScreenToWorldPoint(screenPosition);
         return worldPosition;
+    }
+
+    bool CanSpawnBuilding(GameObject build, Vector3 position)
+    {
+        BoxCollider2D buildingBoxCollider = build.GetComponent<BoxCollider2D>();
+        if (Physics2D.OverlapBox(position + (Vector3)buildingBoxCollider.offset, buildingBoxCollider.size, 0))
+            return false;
+        else return true;
     }
 }
