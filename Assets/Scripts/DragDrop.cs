@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
 public class DragDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, IEndDragHandler, IDragHandler, IDropHandler
 {
@@ -9,6 +10,7 @@ public class DragDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, I
     protected Vector3 originPos;
     protected CanvasGroup canvasGroup;
     public GameObject building;
+    Color color;
 
     [SerializeField] private Canvas canvas; // Used to scale drag incase canvas gets rescaled
     
@@ -17,6 +19,7 @@ public class DragDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, I
         rectTransform = GetComponent<RectTransform>();
         originPos = rectTransform.position;
         canvasGroup = GetComponent<CanvasGroup>();
+        color = gameObject.GetComponent<Image>().color;
     }
 
     public void OnPointerDown(PointerEventData eventData)
@@ -33,6 +36,14 @@ public class DragDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, I
     public void OnDrag(PointerEventData eventData)
     {
         rectTransform.anchoredPosition += eventData.delta * canvas.scaleFactor;
+        Vector3 mouseLocation = GetMouseWorldPosition();
+        if (!CanSpawnBuilding(building, mouseLocation))
+        {
+            gameObject.GetComponent<Image>().color = new Color(1, 0, 0, 1);
+            print("Is being called");
+        }
+        else
+            gameObject.GetComponent<Image>().color = color;
     }
 
     public void OnEndDrag(PointerEventData eventData)
@@ -41,6 +52,7 @@ public class DragDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, I
         Vector3 mouseLocation = GetMouseWorldPosition();
         if(CanSpawnBuilding(building,mouseLocation))
             Instantiate(building, mouseLocation, Quaternion.identity);
+
         canvasGroup.blocksRaycasts = true;
         rectTransform.position = originPos; // Return icon to it's orginal location
     }
