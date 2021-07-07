@@ -6,15 +6,16 @@ using UnityEngine.EventSystems;
 public class DragDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, IEndDragHandler, IDragHandler, IDropHandler
 {
     protected RectTransform rectTransform;
-    protected Vector3 origin;
+    protected Vector3 originPos;
     protected CanvasGroup canvasGroup;
+    public GameObject building;
 
     [SerializeField] private Canvas canvas; // Used to scale drag incase canvas gets rescaled
     
     private void Awake()
     {
         rectTransform = GetComponent<RectTransform>();
-        origin = rectTransform.position;
+        originPos = rectTransform.position;
         canvasGroup = GetComponent<CanvasGroup>();
     }
 
@@ -26,7 +27,7 @@ public class DragDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, I
     public void OnBeginDrag(PointerEventData eventData)
     {
         canvasGroup.alpha = .6f;
-        canvasGroup.blocksRaycasts = false;
+        canvasGroup.blocksRaycasts = false; // So functions below the icon can use OnDrop
     }
 
     public void OnDrag(PointerEventData eventData)
@@ -37,12 +38,27 @@ public class DragDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, I
     public void OnEndDrag(PointerEventData eventData)
     {
         canvasGroup.alpha = 1f;
+        Vector3 mouseLocation = GetMouseWorldPosition();
+        Instantiate(building, mouseLocation, Quaternion.identity);
         canvasGroup.blocksRaycasts = true;
-        rectTransform.position = origin;
+        rectTransform.position = originPos; // Return icon to it's orginal location
     }
 
     public void OnDrop(PointerEventData eventData)
     {
         
+    }
+
+    Vector3 GetMouseWorldPosition()
+    {
+        Vector3 vec = GetMouseWorldPositionWithZ(Input.mousePosition, Camera.main);
+        vec.z = 0f;
+        return vec;
+    }
+
+    Vector3 GetMouseWorldPositionWithZ(Vector3 screenPosition, Camera worldCamera)
+    {
+        Vector3 worldPosition = worldCamera.ScreenToWorldPoint(screenPosition);
+        return worldPosition;
     }
 }
