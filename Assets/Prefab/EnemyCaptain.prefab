@@ -294,9 +294,9 @@ MonoBehaviour:
   m_HandleRect: {fileID: 0}
   m_Direction: 0
   m_MinValue: 0
-  m_MaxValue: 10
+  m_MaxValue: 5
   m_WholeNumbers: 1
-  m_Value: 10
+  m_Value: 5
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -391,7 +391,7 @@ GameObject:
   - component: {fileID: 7696756203649312706}
   - component: {fileID: 3758134372161762527}
   m_Layer: 0
-  m_Name: Enemy
+  m_Name: EnemyCaptain
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -472,11 +472,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d1930c05afdacc4d968199fbd866cf8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 5
-  initHealth: 5
+  maxHealth: 10
+  initHealth: 10
   hpBar: {fileID: 7696756203649312706}
   isBoss: 0
-  evadeChance: 10
+  evadeChance: 20
 --- !u!114 &4010992429736461696
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -493,7 +493,7 @@ MonoBehaviour:
   snowballPrefab: {fileID: 8879343400483187670, guid: 8165d44a9b9b9cb49b273cc83ec35b29, type: 3}
   bulletForce: 20
   rb: {fileID: 1668153353051426471}
-  fireRate: 1
+  fireRate: 0.8
   targetRange: 5
 --- !u!114 &7696756203649312706
 MonoBehaviour:
@@ -550,7 +550,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 1
   m_Sprite: {fileID: 7482667652216324306, guid: bbc28000756392842b3ed29d00a73f88, type: 3}
-  m_Color: {r: 1, g: 0.2971698, b: 0.2971698, a: 1}
+  m_Color: {r: 1, g: 0, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
