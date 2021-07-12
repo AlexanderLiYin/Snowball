@@ -16,12 +16,9 @@ public class Building : MonoBehaviour
     public void decHealth(int dmg)
     {
         health -= dmg;
-        // HUD.HP(health);
         if (health <= 0)
         {
-            print("Building health is 0");
             Destroy(gameObject);
-            // FindObjectOfType<GameManager>().Lose();
         }
     }
 }

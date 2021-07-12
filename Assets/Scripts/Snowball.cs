@@ -25,7 +25,6 @@ public class Snowball : MonoBehaviour
             Building temp;
             temp = col.gameObject.GetComponent<Building>();
             temp.decHealth(1);
-            print("Hit building");
             Destroy(gameObject);
         }
         Destroy(gameObject);
