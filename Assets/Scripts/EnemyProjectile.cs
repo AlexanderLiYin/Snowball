@@ -13,6 +13,13 @@ public class EnemyProjectile : MonoBehaviour
             temp.decHealth(1);
             Destroy(gameObject);
         }
+        else if (col.gameObject.tag == "Building")
+        {
+            Building temp;
+            temp = col.gameObject.GetComponent<Building>();
+            temp.decHealth(1);
+            Destroy(gameObject);
+        }
     }
     void OnCollisionEnter2D(Collision2D col)
     {
