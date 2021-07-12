@@ -4,6 +4,16 @@ using UnityEngine;
 
 public class EnemyProjectile : MonoBehaviour
 {
+    void OnTriggerEnter2D(Collider2D col)
+    {
+        if (col.gameObject.tag == "Player")
+        {
+            PlayerHealth temp;
+            temp = col.gameObject.GetComponent<PlayerHealth>();
+            temp.decHealth(1);
+            Destroy(gameObject);
+        }
+    }
     void OnCollisionEnter2D(Collision2D col)
     {
         if (col.gameObject.tag == "Player")
