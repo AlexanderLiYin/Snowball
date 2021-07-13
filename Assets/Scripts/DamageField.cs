@@ -5,6 +5,24 @@ using UnityEngine;
 public class DamageField : MonoBehaviour
 {
     public int damage;
+    public float duration = 1;
+
+    void FixedUpdate()
+    {
+        if (duration > 0)
+        {
+            duration -= Time.deltaTime;
+        }
+        else
+        {
+            duration = 0;
+        }
+
+        if (duration == 0)
+        {
+            Destroy(gameObject);
+        }
+    }
 
     void OnTriggerEnter2D(Collider2D col)
     {
