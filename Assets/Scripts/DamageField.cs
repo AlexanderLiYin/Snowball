@@ -5,7 +5,8 @@ using UnityEngine;
 public class DamageField : MonoBehaviour
 {
     public int damage;
-    public float duration = 1;
+    public float duration = 2;
+    public float delay = 1;
 
     void FixedUpdate()
     {
@@ -24,29 +25,32 @@ public class DamageField : MonoBehaviour
         }
     }
 
-    void OnTriggerEnter2D(Collider2D col)
+    void OnTriggerStay2D(Collider2D col)
     {
-        if (col.gameObject.tag == "Enemy")
+        if (delay > duration)
         {
-            EnemyHealth temp;
-            temp = col.gameObject.GetComponent<EnemyHealth>();
-            temp.decHealth(damage);
+            if (col.gameObject.tag == "Enemy")
+            {
+                EnemyHealth temp;
+                temp = col.gameObject.GetComponent<EnemyHealth>();
+                temp.decHealth(damage);
+                Destroy(gameObject);
+            }
+            else if (col.gameObject.tag == "Player")
+            {
+                PlayerHealth temp;
+                temp = col.gameObject.GetComponent<PlayerHealth>();
+                temp.decHealth(damage);
+                Destroy(gameObject);
+            }
+            else if (col.gameObject.tag == "Building")
+            {
+                Building temp;
+                temp = col.gameObject.GetComponent<Building>();
+                temp.decHealth(damage);
+                Destroy(gameObject);
+            }
             Destroy(gameObject);
         }
-        else if (col.gameObject.tag == "Player")
-        {
-            PlayerHealth temp;
-            temp = col.gameObject.GetComponent<PlayerHealth>();
-            temp.decHealth(damage);
-            Destroy(gameObject);
-        }
-        else if (col.gameObject.tag == "Building")
-        {
-            Building temp;
-            temp = col.gameObject.GetComponent<Building>();
-            temp.decHealth(damage);
-            Destroy(gameObject);
-        }
-        Destroy(gameObject);
     }
 }

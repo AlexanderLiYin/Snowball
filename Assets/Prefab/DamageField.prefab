@@ -97,7 +97,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 5
-  duration: 0
+  duration: 2
+  delay: 1
 --- !u!58 &7758827657761609810
 CircleCollider2D:
   m_ObjectHideFlags: 0
