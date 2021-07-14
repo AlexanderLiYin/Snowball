@@ -7,13 +7,19 @@ public class PlayerAttack : MonoBehaviour
     public Transform firePoint;
     public GameObject snowballPrefab;
     public float bulletForce = 20f;
+    float attackTime = 0;
+    public float attackRate = 2; // attacks per a second
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetButtonDown("Fire1") && Time.timeScale != 0)
+        if (Time.time >= attackTime)
         {
-            Attack();
+            if (Input.GetButtonDown("Fire1") && Time.timeScale != 0)
+            {
+                Attack();
+                attackTime = Time.time + 1f / attackRate;
+            }
         }
     }
 
