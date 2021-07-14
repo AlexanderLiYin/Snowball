@@ -37,4 +37,15 @@ public class EnergyDisplay : MonoBehaviour
     {
         display.SetText(((int)energy).ToString());
     }
+
+    public bool decEnergy(int cost)
+    {
+        if (cost > energy)
+            return false;
+        else
+        {
+            energy = energy - cost;
+            return true;
+        }
+    }
 }

@@ -522,6 +522,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BuildMenu
       objectReference: {fileID: 0}
+    - target: {fileID: 6263355491690005978, guid: 82f3759f6611e4c45a9905d4401875b6, type: 3}
+      propertyPath: initEnergy
+      value: 100
+      objectReference: {fileID: 0}
     - target: {fileID: 8516547715247249190, guid: 82f3759f6611e4c45a9905d4401875b6, type: 3}
       propertyPath: maxEnergy
       value: 60

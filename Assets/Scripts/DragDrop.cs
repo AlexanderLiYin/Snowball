@@ -6,11 +6,14 @@ using UnityEngine.UI;
 
 public class DragDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, IEndDragHandler, IDragHandler, IDropHandler
 {
-    protected RectTransform rectTransform;
-    protected Vector3 originPos;
-    protected CanvasGroup canvasGroup;
-    public GameObject building;
+    RectTransform rectTransform;
+    Vector3 originPos;
+    CanvasGroup canvasGroup;
     Color color;
+
+    public GameObject building;
+    public EnergyDisplay energy;
+    public int cost = 40;
 
     [SerializeField] private Canvas canvas; // Used to scale drag incase canvas gets rescaled
     
@@ -50,7 +53,7 @@ public class DragDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, I
     {
         canvasGroup.alpha = 1f;
         Vector3 mouseLocation = GetMouseWorldPosition();
-        if(CanSpawnBuilding(building,mouseLocation))
+        if(CanSpawnBuilding(building,mouseLocation) && energy.decEnergy(cost))
             Instantiate(building, mouseLocation, Quaternion.identity);
 
         canvasGroup.blocksRaycasts = true;

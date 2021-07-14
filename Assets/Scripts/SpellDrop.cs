@@ -6,11 +6,13 @@ using UnityEngine.UI;
 
 public class SpellDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, IEndDragHandler, IDragHandler, IDropHandler
 {
-    protected RectTransform rectTransform;
-    protected Vector3 originPos;
-    protected CanvasGroup canvasGroup;
-    public GameObject spell;
+    RectTransform rectTransform;
+    Vector3 originPos;
+    CanvasGroup canvasGroup;
 
+    public GameObject spell;
+    public EnergyDisplay energy;
+    public int cost = 40;
     [SerializeField] private Canvas canvas; // Used to scale drag incase canvas gets rescaled
 
     private void Awake()
@@ -41,7 +43,8 @@ public class SpellDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, 
     {
         canvasGroup.alpha = 1f;
         Vector3 mouseLocation = GetMouseWorldPosition();
-        Instantiate(spell, mouseLocation, Quaternion.identity);
+        if(energy.decEnergy(cost))
+            Instantiate(spell, mouseLocation, Quaternion.identity);
         canvasGroup.blocksRaycasts = true;
         rectTransform.position = originPos; // Return icon to it's orginal location
     }
