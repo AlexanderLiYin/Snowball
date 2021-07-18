@@ -490,7 +490,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   firePoint: {fileID: 7943633398234154160}
-  snowballPrefab: {fileID: 8879343400483187670, guid: 8165d44a9b9b9cb49b273cc83ec35b29, type: 3}
+  snowballPrefab: {fileID: 266621548741111463, guid: bc854ca4a62529e4fa3574c4d03c5b1d, type: 3}
   bulletForce: 20
   rb: {fileID: 1668153353051426471}
   fireRate: 0.8
