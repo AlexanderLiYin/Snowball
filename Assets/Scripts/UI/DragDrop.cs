@@ -43,7 +43,6 @@ public class DragDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, I
         if (!CanSpawnBuilding(building, mouseLocation))
         {
             gameObject.GetComponent<Image>().color = new Color(1, 0, 0, 1);
-            print("Is being called");
         }
         else
             gameObject.GetComponent<Image>().color = color;
