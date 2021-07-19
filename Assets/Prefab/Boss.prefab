@@ -73,6 +73,7 @@ MonoBehaviour:
   bulletForce: 20
   rb: {fileID: 6122830137644544597}
   fireRate: 1
+  cc: {fileID: 1445643280084506788}
 --- !u!212 &1333526893918704354
 SpriteRenderer:
   m_ObjectHideFlags: 0
