@@ -30,7 +30,6 @@ public class NPCStateMachine : MonoBehaviour
         switch(state)
         {
             case State.idle:
-                print("Idle state");
                 break;
 
             case State.attack:
