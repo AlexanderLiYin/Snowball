@@ -335,7 +335,7 @@ PrefabInstance:
       objectReference: {fileID: 351370259}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3b4c23d0ab299a848bdebd67880e652e, type: 3}
---- !u!1001 &1789115594
+--- !u!1001 &1820285873
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -344,15 +344,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1399708059379954944, guid: 82f3759f6611e4c45a9905d4401875b6, type: 3}
       propertyPath: m_Name
-      value: BuildMenu (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 6263355491690005978, guid: 82f3759f6611e4c45a9905d4401875b6, type: 3}
-      propertyPath: initEnergy
-      value: 100
-      objectReference: {fileID: 0}
-    - target: {fileID: 8516547715247249190, guid: 82f3759f6611e4c45a9905d4401875b6, type: 3}
-      propertyPath: maxEnergy
-      value: 60
+      value: BuildMenu
       objectReference: {fileID: 0}
     - target: {fileID: 8775257647295536739, guid: 82f3759f6611e4c45a9905d4401875b6, type: 3}
       propertyPath: m_RootOrder
