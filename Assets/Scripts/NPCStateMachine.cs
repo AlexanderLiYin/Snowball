@@ -46,20 +46,23 @@ public class NPCStateMachine : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D col)
     {
-        if (gameObject.tag == "Helper")
+        if (!col.isTrigger)
         {
-            if (col.gameObject.tag == "Enemy")
+            if (gameObject.tag == "Helper")
             {
-                target = col.gameObject;
-                state = State.attack;
+                if (col.gameObject.tag == "Enemy")
+                {
+                    target = col.gameObject;
+                    state = State.attack;
+                }
             }
-        }
-        else if (gameObject.tag == "Enemy")
-        {
-            if (col.gameObject.tag == "Player" || col.gameObject.tag == "Helper")
+            else if (gameObject.tag == "Enemy")
             {
-                target = col.gameObject;
-                state = State.attack;
+                if (col.gameObject.tag == "Player" || col.gameObject.tag == "Helper")
+                {
+                    target = col.gameObject;
+                    state = State.attack;
+                }
             }
         }
     }
