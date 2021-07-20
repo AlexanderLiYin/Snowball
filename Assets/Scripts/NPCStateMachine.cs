@@ -10,9 +10,12 @@ public class NPCStateMachine : MonoBehaviour
     public float fireRate = 1;
     public Rigidbody2D rb;
     public CircleCollider2D cc;
+    public GameObject waypoint;
+    public float moveSpeed = 5f;
+
     float attackRange;
-    enum State {idle, attack}
-    State state;
+    public enum State {idle, attack, move}
+    public State state;
     float shootTime = 0;
     GameObject player;
     // public List<Transform> enemies;
@@ -34,6 +37,10 @@ public class NPCStateMachine : MonoBehaviour
 
             case State.attack:
                 Attack();
+                break;
+
+            case State.move:
+                Move();
                 break;
         }
     }
@@ -58,7 +65,7 @@ public class NPCStateMachine : MonoBehaviour
         }
     }
 
-    public void Attack()
+    void Attack()
     {
         if (Vector2.Distance(transform.position, player.transform.position) < attackRange)
         {
@@ -75,5 +82,10 @@ public class NPCStateMachine : MonoBehaviour
                 shootTime = Time.time + fireRate; //Reset attack cooldown
             }
         }
+    }
+
+    void Move()
+    {
+        transform.position = Vector3.MoveTowards(transform.position, waypoint.transform.position, Time.deltaTime * moveSpeed);
     }
 }
