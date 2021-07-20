@@ -10,7 +10,7 @@ public class NPCStateMachine : MonoBehaviour
     public float fireRate = 1;
     public Rigidbody2D rb;
     public CircleCollider2D cc;
-    float range;
+    float attackRange;
     enum State {idle, attack}
     State state;
     float shootTime = 0;
@@ -21,7 +21,7 @@ public class NPCStateMachine : MonoBehaviour
     void Start()
     {
         state = State.idle;
-        range = cc.radius;
+        attackRange = cc.radius;
     }
 
     // Update is called once per frame
@@ -60,7 +60,7 @@ public class NPCStateMachine : MonoBehaviour
 
     public void Attack()
     {
-        if (Vector2.Distance(transform.position, player.transform.position) < range)
+        if (Vector2.Distance(transform.position, player.transform.position) < attackRange)
         {
             Rigidbody2D pRB = player.GetComponent<Rigidbody2D>(); // Get player rigidbody
             Vector2 lookDir = pRB.position - rb.position; // get direction from enemy to player
