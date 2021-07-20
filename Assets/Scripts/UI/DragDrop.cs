@@ -80,7 +80,8 @@ public class DragDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, I
     bool CanSpawnBuilding(GameObject build, Vector3 position)
     {
         BoxCollider2D buildingBoxCollider = build.GetComponent<BoxCollider2D>();
-        if (Physics2D.OverlapBox(position + (Vector3)buildingBoxCollider.offset, buildingBoxCollider.size, 0))
+        Collider2D col;
+        if (col = Physics2D.OverlapBox(position + (Vector3)buildingBoxCollider.offset, buildingBoxCollider.size, 0))
             return false;
         else return true;
     }
