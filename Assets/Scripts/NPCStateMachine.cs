@@ -23,7 +23,6 @@ public class NPCStateMachine : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        state = State.idle;
         attackRange = cc.radius;
     }
 
