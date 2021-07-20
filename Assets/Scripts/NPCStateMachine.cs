@@ -17,7 +17,7 @@ public class NPCStateMachine : MonoBehaviour
     public enum State {idle, attack, move}
     public State state;
     float shootTime = 0;
-    GameObject player;
+    GameObject target;
     // public List<Transform> enemies;
 
     // Start is called before the first frame update
@@ -46,10 +46,10 @@ public class NPCStateMachine : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D col)
     {
-        if (col.gameObject.tag == "Player")
+        if (col.gameObject.tag == "Player" || col.gameObject.tag == "Helper")
         {
             // Get a referance to the player and switch states
-            player = col.gameObject;
+            target = col.gameObject;
             state = State.attack;
         }
     }
@@ -57,7 +57,7 @@ public class NPCStateMachine : MonoBehaviour
     // Remove player from Check to see if the enemy list is empty, if it is then return to idle. If not, switch target to another enemy.
     void OnTriggerExit2D(Collider2D col)
     {
-        if (col.gameObject.tag == "Player")
+        if (col.gameObject.tag == "Player" || col.gameObject.tag == "Helper")
         {
             state = State.idle;
             //enemies.Remove(col.gameObject);
@@ -66,9 +66,9 @@ public class NPCStateMachine : MonoBehaviour
 
     void Attack()
     {
-        if (Vector2.Distance(transform.position, player.transform.position) < attackRange)
+        if (Vector2.Distance(transform.position, target.transform.position) < attackRange)
         {
-            Rigidbody2D pRB = player.GetComponent<Rigidbody2D>(); // Get player rigidbody
+            Rigidbody2D pRB = target.GetComponent<Rigidbody2D>(); // Get player rigidbody
             Vector2 lookDir = pRB.position - rb.position; // get direction from enemy to player
             float angle = Mathf.Atan2(lookDir.y, lookDir.x) * Mathf.Rad2Deg - 90f; // Get the angle
             rb.rotation = angle; //Rotate the enemy to face the player
