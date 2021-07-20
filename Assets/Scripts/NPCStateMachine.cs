@@ -11,7 +11,7 @@ public class NPCStateMachine : MonoBehaviour
     public Rigidbody2D rb;
     public CircleCollider2D cc;
     public GameObject waypoint;
-    public float moveSpeed = 5f;
+    public float moveSpeed = 4f;
 
     float attackRange;
     public enum State {idle, attack, move}
@@ -46,28 +46,39 @@ public class NPCStateMachine : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D col)
     {
-        if (col.gameObject.tag == "Player" || col.gameObject.tag == "Helper")
+        if (gameObject.tag == "Helper")
         {
-            // Get a referance to the player and switch states
-            target = col.gameObject;
-            state = State.attack;
+            if (col.gameObject.tag == "Enemy")
+            {
+                target = col.gameObject;
+                state = State.attack;
+            }
+        }
+        else if (gameObject.tag == "Enemy")
+        {
+            if (col.gameObject.tag == "Player" || col.gameObject.tag == "Helper")
+            {
+                target = col.gameObject;
+                state = State.attack;
+            }
         }
     }
 
     // Remove player from Check to see if the enemy list is empty, if it is then return to idle. If not, switch target to another enemy.
     void OnTriggerExit2D(Collider2D col)
     {
-        if (col.gameObject.tag == "Player" || col.gameObject.tag == "Helper")
+        if (col.gameObject == target)
         {
             state = State.idle;
+            target = null;
             //enemies.Remove(col.gameObject);
         }
     }
 
     void Attack()
     {
-        if (Vector2.Distance(transform.position, target.transform.position) < attackRange)
-        {
+        //if (Vector2.Distance(transform.position, target.transform.position) < attackRange)
+        //{
             Rigidbody2D pRB = target.GetComponent<Rigidbody2D>(); // Get player rigidbody
             Vector2 lookDir = pRB.position - rb.position; // get direction from enemy to player
             float angle = Mathf.Atan2(lookDir.y, lookDir.x) * Mathf.Rad2Deg - 90f; // Get the angle
@@ -80,7 +91,7 @@ public class NPCStateMachine : MonoBehaviour
                 rb.AddForce(firePoint.up * bulletForce, ForceMode2D.Impulse); // Give it force
                 shootTime = Time.time + fireRate; //Reset attack cooldown
             }
-        }
+        //}
     }
 
     void Move()

@@ -187,7 +187,7 @@ MonoBehaviour:
   rb: {fileID: 7057643775995581326}
   cc: {fileID: 1727845608991273527}
   waypoint: {fileID: 0}
-  moveSpeed: 5
+  moveSpeed: 4
   state: 0
 --- !u!58 &1727845608991273527
 CircleCollider2D:
