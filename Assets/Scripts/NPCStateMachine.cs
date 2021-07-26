@@ -12,21 +12,19 @@ public class NPCStateMachine : MonoBehaviour
     public CircleCollider2D cc;
     public GameObject waypoint;
     public float moveSpeed = 4f;
-
+    public float followRange = 3;
+    
     float attackRange;
     public enum State {idle, attack, move}
     public State state;
     float shootTime = 0;
     List<GameObject> target = new List<GameObject>();
-    // public List<Transform> enemies;
 
-    // Start is called before the first frame update
     void Start()
     {
         attackRange = cc.radius;
     }
 
-    // Update is called once per frame
     void Update()
     {
         switch(state)
@@ -97,6 +95,7 @@ public class NPCStateMachine : MonoBehaviour
 
     void Move()
     {
-        transform.position = Vector3.MoveTowards(transform.position, waypoint.transform.position, Time.deltaTime * moveSpeed);
+        if(Vector3.Distance(transform.position, waypoint.transform.position) > followRange)
+            transform.position = Vector3.MoveTowards(transform.position, waypoint.transform.position, Time.deltaTime * moveSpeed);
     }
 }
