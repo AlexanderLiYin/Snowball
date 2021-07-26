@@ -17,7 +17,7 @@ public class NPCStateMachine : MonoBehaviour
     public enum State {idle, attack, move}
     public State state;
     float shootTime = 0;
-    GameObject target;
+    List<GameObject> target = new List<GameObject>();
     // public List<Transform> enemies;
 
     // Start is called before the first frame update
@@ -52,7 +52,7 @@ public class NPCStateMachine : MonoBehaviour
             {
                 if (col.gameObject.tag == "Enemy")
                 {
-                    target = col.gameObject;
+                    target.Add(col.gameObject);
                     state = State.attack;
                 }
             }
@@ -60,7 +60,7 @@ public class NPCStateMachine : MonoBehaviour
             {
                 if (col.gameObject.tag == "Player" || col.gameObject.tag == "Helper")
                 {
-                    target = col.gameObject;
+                    target.Add(col.gameObject);
                     state = State.attack;
                 }
             }
@@ -70,31 +70,29 @@ public class NPCStateMachine : MonoBehaviour
     // Remove player from Check to see if the enemy list is empty, if it is then return to idle. If not, switch target to another enemy.
     void OnTriggerExit2D(Collider2D col)
     {
-        if (col.gameObject == target)
+        if (target.Contains(col.gameObject))
         {
-            state = State.idle;
-            target = null;
-            //enemies.Remove(col.gameObject);
+            target.Remove(col.gameObject);
+            if(target.Count == 0)
+                state = State.idle;
         }
     }
 
     void Attack()
     {
-        //if (Vector2.Distance(transform.position, target.transform.position) < attackRange)
-        //{
-            Rigidbody2D pRB = target.GetComponent<Rigidbody2D>(); // Get player rigidbody
-            Vector2 lookDir = pRB.position - rb.position; // get direction from enemy to player
-            float angle = Mathf.Atan2(lookDir.y, lookDir.x) * Mathf.Rad2Deg - 90f; // Get the angle
-            rb.rotation = angle; //Rotate the enemy to face the player
 
-            if (Time.time > shootTime) //Attack cooldown
-            {
-                GameObject snowball = Instantiate(snowballPrefab, firePoint.position, firePoint.rotation); //Instatiate snowball
-                Rigidbody2D rb = snowball.GetComponent<Rigidbody2D>(); // Get snowball rigid body
-                rb.AddForce(firePoint.up * bulletForce, ForceMode2D.Impulse); // Give it force
-                shootTime = Time.time + fireRate; //Reset attack cooldown
-            }
-        //}
+        Rigidbody2D pRB = target[0].GetComponent<Rigidbody2D>(); // Get player rigidbody
+        Vector2 lookDir = pRB.position - rb.position; // get direction from enemy to player
+        float angle = Mathf.Atan2(lookDir.y, lookDir.x) * Mathf.Rad2Deg - 90f; // Get the angle
+        rb.rotation = angle; //Rotate the enemy to face the player
+
+        if (Time.time > shootTime) //Attack cooldown
+        {
+            GameObject snowball = Instantiate(snowballPrefab, firePoint.position, firePoint.rotation); //Instatiate snowball
+            Rigidbody2D rb = snowball.GetComponent<Rigidbody2D>(); // Get snowball rigid body
+            rb.AddForce(firePoint.up * bulletForce, ForceMode2D.Impulse); // Give it force
+            shootTime = Time.time + fireRate; //Reset attack cooldown
+        }
     }
 
     void Move()
