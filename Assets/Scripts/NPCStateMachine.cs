@@ -23,11 +23,23 @@ public class NPCStateMachine : MonoBehaviour
     void Start()
     {
         attackRange = cc.radius;
+        if(gameObject.tag == "Helper")
+        {
+            waypoint = GameObject.FindGameObjectWithTag("Player");
+        }
     }
 
     void Update()
     {
-        switch(state)
+        if (Input.GetKeyDown(KeyCode.F) && Time.timeScale != 0 && state != State.attack && gameObject.tag == "Helper")
+        {
+            state = State.move;
+        }
+        if (Input.GetKeyDown(KeyCode.R) && Time.timeScale != 0 && state != State.attack && gameObject.tag == "Helper")
+        {
+            state = State.idle;
+        }
+        switch (state)
         {
             case State.idle:
                 break;

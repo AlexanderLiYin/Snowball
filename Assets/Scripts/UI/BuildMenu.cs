@@ -9,7 +9,7 @@ public class BuildMenu : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.B))
+        if (Input.GetKeyDown(KeyCode.B) && Time.timeScale != 0)
         {
             if (isPaused)
             {
