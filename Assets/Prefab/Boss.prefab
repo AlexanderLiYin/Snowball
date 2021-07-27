@@ -101,7 +101,7 @@ MonoBehaviour:
   firePoint: {fileID: 5388498142334315911}
   snowballPrefab: {fileID: 266621548741111463, guid: bc854ca4a62529e4fa3574c4d03c5b1d, type: 3}
   bulletForce: 20
-  fireRate: 1
+  fireRate: 0.7
   rb: {fileID: 6122830137644544597}
   cc: {fileID: 7302942361871286065}
   waypoint: {fileID: 0}
@@ -236,7 +236,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 7
+  m_Radius: 8
 --- !u!1 &3847900150946833993
 GameObject:
   m_ObjectHideFlags: 0
