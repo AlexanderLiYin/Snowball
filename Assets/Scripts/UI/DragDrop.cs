@@ -55,6 +55,7 @@ public class DragDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, I
         if(CanSpawnBuilding(building,mouseLocation) && energy.decEnergy(cost))
             Instantiate(building, mouseLocation, Quaternion.identity);
 
+        gameObject.GetComponent<Image>().color = color;
         canvasGroup.blocksRaycasts = true;
         rectTransform.position = originPos; // Return icon to it's orginal location
     }
