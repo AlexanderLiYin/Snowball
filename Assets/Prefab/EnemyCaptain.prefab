@@ -387,9 +387,9 @@ GameObject:
   - component: {fileID: 1668153353051426471}
   - component: {fileID: 5522054860858130485}
   - component: {fileID: -4157268471369106637}
-  - component: {fileID: 4010992429736461696}
   - component: {fileID: 7696756203649312706}
   - component: {fileID: 3758134372161762527}
+  - component: {fileID: 16857631302143568}
   m_Layer: 0
   m_Name: EnemyCaptain
   m_TagString: Enemy
@@ -410,6 +410,7 @@ Transform:
   m_Children:
   - {fileID: 7943633398234154160}
   - {fileID: 255060751642711025}
+  - {fileID: 7228493520377659342}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -477,24 +478,6 @@ MonoBehaviour:
   hpBar: {fileID: 7696756203649312706}
   isBoss: 0
   evadeChance: 20
---- !u!114 &4010992429736461696
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7840346690106103932}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 82fe551ca4861f845a83872457d7c717, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  firePoint: {fileID: 7943633398234154160}
-  snowballPrefab: {fileID: 266621548741111463, guid: bc854ca4a62529e4fa3574c4d03c5b1d, type: 3}
-  bulletForce: 20
-  rb: {fileID: 1668153353051426471}
-  fireRate: 0.8
-  targetRange: 5
 --- !u!114 &7696756203649312706
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -560,6 +543,75 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &16857631302143568
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7840346690106103932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0be47696da34dfb41bf91fe5b7672ec5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  firePoint: {fileID: 7943633398234154160}
+  snowballPrefab: {fileID: 266621548741111463, guid: bc854ca4a62529e4fa3574c4d03c5b1d, type: 3}
+  bulletForce: 20
+  fireRate: 1
+  rb: {fileID: 1668153353051426471}
+  cc: {fileID: 1241655522307419608}
+  waypoint: {fileID: 0}
+  moveSpeed: 4
+  followRange: 3
+  state: 0
+--- !u!1 &7974229605225199432
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7228493520377659342}
+  - component: {fileID: 1241655522307419608}
+  m_Layer: 0
+  m_Name: AttackRange
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7228493520377659342
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7974229605225199432}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6430139493646420943}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!58 &1241655522307419608
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7974229605225199432}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 6
 --- !u!1 &9124570924399999831
 GameObject:
   m_ObjectHideFlags: 0

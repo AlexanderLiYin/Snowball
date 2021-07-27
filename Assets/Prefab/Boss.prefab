@@ -106,6 +106,7 @@ MonoBehaviour:
   cc: {fileID: 7302942361871286065}
   waypoint: {fileID: 0}
   moveSpeed: 4
+  followRange: 3
   state: 0
 --- !u!114 &3028108978866356284
 MonoBehaviour:
@@ -119,10 +120,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d1930c05afdacc4d968199fbd866cf8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 10
-  initHealth: 10
+  maxHealth: 15
+  initHealth: 15
   hpBar: {fileID: 8168894531796937229}
-  isBoss: 0
+  isBoss: 1
   evadeChance: 10
 --- !u!114 &8168894531796937229
 MonoBehaviour:
@@ -235,7 +236,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 5
+  m_Radius: 7
 --- !u!1 &3847900150946833993
 GameObject:
   m_ObjectHideFlags: 0
@@ -355,9 +356,9 @@ MonoBehaviour:
   m_HandleRect: {fileID: 0}
   m_Direction: 0
   m_MinValue: 0
-  m_MaxValue: 10
+  m_MaxValue: 15
   m_WholeNumbers: 1
-  m_Value: 10
+  m_Value: 15
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
