@@ -83,6 +83,6 @@ public class HUDScript : MonoBehaviour
     {
         loseScreen.SetActive(false);
         Time.timeScale = 1f;
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(0);
     }
 }

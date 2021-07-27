@@ -41,6 +41,6 @@ public class PauseMenu : MonoBehaviour
     {
         // Need to unpause before returning to main menu, else if scene is loaded again the game will still be paused.
         Resume();
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(0);
     }
 }

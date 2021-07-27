@@ -514,7 +514,7 @@ MonoBehaviour:
   bulletForce: 20
   rb: {fileID: 8885144729001352115}
   fireRate: 2
-  targetRange: 6
+  targetRange: 8
 --- !u!1 &9065197347748960028
 GameObject:
   m_ObjectHideFlags: 0

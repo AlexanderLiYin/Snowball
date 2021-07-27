@@ -310,7 +310,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6754724628466823631}
   - component: {fileID: 4376952301907988827}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: AttackRange
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -604,7 +604,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   firePoint: {fileID: 7943633398234154160}
   snowballPrefab: {fileID: 266621548741111463, guid: bc854ca4a62529e4fa3574c4d03c5b1d, type: 3}
-  bulletForce: 15
+  bulletForce: 12
   fireRate: 1
   rb: {fileID: 1668153353051426471}
   cc: {fileID: 4376952301907988827}
