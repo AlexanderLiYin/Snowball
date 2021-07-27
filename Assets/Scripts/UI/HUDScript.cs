@@ -76,7 +76,7 @@ public class HUDScript : MonoBehaviour
     {
         loseScreen.SetActive(false);
         Time.timeScale = 1f;
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(2);
     }
 
     public void MainMenu()

@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MainMenu.unity
     guid: 1948889e0fd7d754fae1c93bf191dcc6
+  - enabled: 1
+    path: Assets/Scenes/First Battlefield.unity
+    guid: 1765e624a865b7e4d9299832f08821b7
   m_configObjects: {}

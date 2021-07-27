@@ -949,7 +949,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   building: {fileID: 6642110596093620324, guid: 2defa7235c167d14cadd734950fd7886, type: 3}
   energy: {fileID: 6263355491690005978}
-  cost: 40
+  cost: 10
   canvas: {fileID: 1195532373589606115}
 --- !u!225 &6896208031230371878
 CanvasGroup:

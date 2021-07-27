@@ -50,7 +50,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c2b0187e681bbe41bf7b7b6368d3ac9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movespeed: 5
+  movespeed: 8
   rb: {fileID: -2331440124487354196}
   cam: {fileID: 0}
 --- !u!114 &-5307754924603403507
