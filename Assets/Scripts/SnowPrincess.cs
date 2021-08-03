@@ -90,7 +90,6 @@ public class SnowPrincess : MonoBehaviour
             }
 
         }
-        print("decHealth");
         health -= dmg;
         HUD.HP(health);
         if (health <= 0)
@@ -102,7 +101,7 @@ public class SnowPrincess : MonoBehaviour
 
     public void incHealth(int hp)
     {
-        if((health + hp) < maxHealth)
+        if((health + hp) > maxHealth)
             health = maxHealth;
         else
             health += hp;

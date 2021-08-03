@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 6603226567442483984}
   - component: {fileID: -2331440124487354196}
   - component: {fileID: -6592994830062129251}
-  - component: {fileID: 1432529314366393492}
+  - component: {fileID: 1236280219063928417}
   m_Layer: 0
   m_Name: SnowPrincess
   m_TagString: Player
@@ -134,7 +134,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &1432529314366393492
+--- !u!114 &1236280219063928417
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -147,7 +147,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   movespeed: 5
-  HUD: {fileID: -5083589696784645381, guid: 07854d1feeed2f44a941ad73f5485765, type: 3}
+  cam: {fileID: 0}
+  HUD: {fileID: 0}
   maxHealth: 10
   initHealth: 10
   evadeChance: 10
