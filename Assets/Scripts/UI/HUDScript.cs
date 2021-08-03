@@ -57,6 +57,7 @@ public class HUDScript : MonoBehaviour
     {
         print("Should adjust value");
         slider.value = health;
+        print(slider.value);
     }
 
     public void Win()
