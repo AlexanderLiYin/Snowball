@@ -4,11 +4,11 @@ using System.Runtime.Serialization.Formatters.Binary;
 
 public static class SaveSystem
 {
-    public static void SavePlayer(PlayerHealth player)
+    public static void SavePlayer(SnowPrincess player)
     {
         BinaryFormatter formatter = new BinaryFormatter();
         
-        string path = Application.persistentDataPath + "/player.fun";
+        string path = Application.persistentDataPath + "/player.save";
         FileStream stream = new FileStream(path, FileMode.Create);
 
         SaveData data = new SaveData(player);
@@ -19,7 +19,7 @@ public static class SaveSystem
 
     public static SaveData LoadPlayer()
     {
-        string path = Application.persistentDataPath + "/player.fun";
+        string path = Application.persistentDataPath + "/player.save";
         if (File.Exists(path))
         {
             BinaryFormatter formatter = new BinaryFormatter();

@@ -5,10 +5,14 @@ using UnityEngine;
 [System.Serializable]
 public class SaveData : MonoBehaviour
 {
-    public int maxHealth;
+    int maxHealth;
+    float moveSpeed;
+    float attackRate;
 
-    public SaveData(PlayerHealth player)
+    public SaveData(SnowPrincess player)
     {
         maxHealth = player.maxHealth;
+        moveSpeed = player.movespeed;
+        attackRate = player.attackRate;
     }
 }
