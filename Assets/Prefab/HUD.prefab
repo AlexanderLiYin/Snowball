@@ -1226,7 +1226,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Timer
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2147,6 +2147,7 @@ MonoBehaviour:
   star1: {fileID: 445475974744478708}
   star2: {fileID: 1057105141931793321}
   star3: {fileID: 5586969576861513032}
+  battle: 0
 --- !u!114 &1161858768014090461
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2307,7 +2308,7 @@ GameObject:
   - component: {fileID: 387180109015570506}
   - component: {fileID: 1935732160528266738}
   m_Layer: 5
-  m_Name: Retry
+  m_Name: Resume
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

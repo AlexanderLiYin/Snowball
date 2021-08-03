@@ -15,23 +15,27 @@ public class HUDScript : MonoBehaviour
     public GameObject star1;
     public GameObject star2;
     public GameObject star3;
-    
+    public bool battle;
+
     void FixedUpdate()
     {
-        if (time > 0)
+        if (battle)
         {
-            time -= Time.deltaTime;
-        }
-        else
-        {
-            time = 0;
-        }
+            if (time > 0)
+            {
+                time -= Time.deltaTime;
+            }
+            else
+            {
+                time = 0;
+            }
 
-        DisplayTime(time);
+            DisplayTime(time);
 
-        if (time == 0)
-        {
-            Lose();
+            if (time == 0)
+            {
+                Lose();
+            }
         }
     }
 
