@@ -8,9 +8,7 @@ public class EnemyProjectile : MonoBehaviour
     {
         if (col.gameObject.tag == "Player")
         {
-            PlayerHealth temp;
-            temp = col.gameObject.GetComponent<PlayerHealth>();
-            temp.decHealth(1);
+            col.gameObject.GetComponent<SnowPrincess>().decHealth(1);
             Destroy(gameObject);
         }
         else if (col.gameObject.tag == "Building")

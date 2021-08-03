@@ -90,6 +90,7 @@ public class SnowPrincess : MonoBehaviour
             }
 
         }
+        print("decHealth");
         health -= dmg;
         HUD.HP(health);
         if (health <= 0)
@@ -97,6 +98,15 @@ public class SnowPrincess : MonoBehaviour
             print("Health is 0");
             FindObjectOfType<GameManager>().Lose();
         }
+    }
+
+    public void incHealth(int hp)
+    {
+        if((health + hp) < maxHealth)
+            health = maxHealth;
+        else
+            health += hp;
+        HUD.HP(health);
     }
 
     void Attack()
