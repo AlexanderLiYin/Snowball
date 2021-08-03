@@ -123,11 +123,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!20 &42555898 stripped
-Camera:
-  m_CorrespondingSourceObject: {fileID: 2634423976656506296, guid: 8b6a572aca44cbe469aae1eaa0aba6e0, type: 3}
-  m_PrefabInstance: {fileID: 408660863}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &135936997
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -202,7 +197,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1942335342410052555, guid: 3b4c23d0ab299a848bdebd67880e652e, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1942335342410052555, guid: 3b4c23d0ab299a848bdebd67880e652e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -255,10 +250,10 @@ PrefabInstance:
     - target: {fileID: 5459714438288331320, guid: 3b4c23d0ab299a848bdebd67880e652e, type: 3}
       propertyPath: cam
       value: 
-      objectReference: {fileID: 42555898}
+      objectReference: {fileID: 1505668334}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3b4c23d0ab299a848bdebd67880e652e, type: 3}
---- !u!1001 &408660863
+--- !u!1001 &1178121257
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -267,7 +262,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2634423976656506183, guid: 8b6a572aca44cbe469aae1eaa0aba6e0, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2634423976656506183, guid: 8b6a572aca44cbe469aae1eaa0aba6e0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -309,10 +304,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2634423976656506297, guid: 8b6a572aca44cbe469aae1eaa0aba6e0, type: 3}
-      propertyPath: target
-      value: 
-      objectReference: {fileID: 2045074602}
     - target: {fileID: 2634423976656506299, guid: 8b6a572aca44cbe469aae1eaa0aba6e0, type: 3}
       propertyPath: m_Name
       value: Main Camera
@@ -391,8 +382,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 215552202bc172e429319fe91c64afdc, type: 3}
---- !u!4 &2045074602 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1942335342410052555, guid: 3b4c23d0ab299a848bdebd67880e652e, type: 3}
-  m_PrefabInstance: {fileID: 256061546}
+--- !u!20 &1505668334 stripped
+Camera:
+  m_CorrespondingSourceObject: {fileID: 2634423976656506296, guid: 8b6a572aca44cbe469aae1eaa0aba6e0, type: 3}
+  m_PrefabInstance: {fileID: 1178121257}
   m_PrefabAsset: {fileID: 0}

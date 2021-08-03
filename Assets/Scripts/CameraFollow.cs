@@ -4,9 +4,14 @@ using UnityEngine;
 
 public class CameraFollow : MonoBehaviour
 {
-    public Transform target;
+    Transform target;
     public Vector3 offset;
     public float followSpeed = 10f;
+
+    void Start()
+    {
+        target = GameObject.Find("SnowPrincess").GetComponent<Transform>();
+    }
 
     void FixedUpdate()
     {
