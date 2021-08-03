@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 6603226567442483984}
   - component: {fileID: -2331440124487354196}
   - component: {fileID: -6592994830062129251}
+  - component: {fileID: 1776667556750905137}
   m_Layer: 0
   m_Name: SnowPrincess
   m_TagString: Player
@@ -184,6 +185,29 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1776667556750905137
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2128756633633359167}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7e5dc5b91f400341a02f0b09766dff1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  movespeed: 5
+  rb: {fileID: 0}
+  cam: {fileID: 0}
+  HUD: {fileID: 0}
+  maxHealth: 0
+  initHealth: 0
+  evadeChance: 10
+  firePoint: {fileID: 0}
+  snowballPrefab: {fileID: 0}
+  bulletForce: 20
+  attackRate: 2
 --- !u!1 &8009827429404495592
 GameObject:
   m_ObjectHideFlags: 0

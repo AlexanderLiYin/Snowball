@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class SnowPrincess : MonoBehaviour
 {
-    //Player movement
+    //Player Movement
     public float movespeed = 5f;
-    public Rigidbody2D rb;
+    Rigidbody2D rb;
     public Camera cam;
 
     Vector2 movement;
@@ -26,6 +26,15 @@ public class SnowPrincess : MonoBehaviour
     public float bulletForce = 20f;
     float attackTime = 0;
     public float attackRate = 2; // attacks per a second
+
+    //Initialize health
+    void Start()
+    {
+        //Get Rigidbody2D
+        rb = gameObject.GetComponent<Rigidbody2D>();
+        health = initHealth;
+        HUD.HP(health);
+    }
 
     void Update()
     {
@@ -52,12 +61,6 @@ public class SnowPrincess : MonoBehaviour
         Vector2 lookDir = mousePos - rb.position;
         float angle = Mathf.Atan2(lookDir.y, lookDir.x) * Mathf.Rad2Deg - 90f;
         rb.rotation = angle;
-    }
-
-    void Start()
-    {
-        health = initHealth;
-        HUD.HP(health);
     }
 
     public void TrenchStatus(bool status)
