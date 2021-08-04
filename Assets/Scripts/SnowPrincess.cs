@@ -15,8 +15,7 @@ public class SnowPrincess : MonoBehaviour
     //Player health
     public HUDScript HUD;
     public int maxHealth = 10;
-    public int initHealth = 10;
-    int health;
+    public int health = 10;
     bool onTrench = false;
     public float evadeChance = 10;
 
@@ -35,7 +34,6 @@ public class SnowPrincess : MonoBehaviour
     {
         //Get Rigidbody2D
         rb = gameObject.GetComponent<Rigidbody2D>();
-        health = initHealth;
         HUD.HP(health);
     }
 
