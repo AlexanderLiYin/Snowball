@@ -60,6 +60,7 @@ public class HUDScript : MonoBehaviour
 
     public void Win()
     {
+        GameObject.Find("SnowPrincess").GetComponent<SnowPrincess>().addCoins(100);
         winScreen.SetActive(true);
         if(time > 60)
             star1.SetActive(true);

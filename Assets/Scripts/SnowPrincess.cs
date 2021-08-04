@@ -27,14 +27,14 @@ public class SnowPrincess : MonoBehaviour
     float attackTime = 0;
     public float attackRate = 2; // attacks per a second
 
+    //Player Stats
+    int coins;
+
     //Initialize health
     void Start()
     {
         //Get Rigidbody2D
         rb = gameObject.GetComponent<Rigidbody2D>();
-
-        //cam = GameObject.Find("MainCamera").GetComponent<Camera>();
-
         health = initHealth;
         HUD.HP(health);
     }
@@ -113,5 +113,10 @@ public class SnowPrincess : MonoBehaviour
         GameObject snowball = Instantiate(snowballPrefab, firePoint.position, firePoint.rotation);
         Rigidbody2D rb = snowball.GetComponent<Rigidbody2D>();
         rb.AddForce(firePoint.up * bulletForce, ForceMode2D.Impulse);
+    }
+
+    public void addCoins(int amount)
+    {
+        coins += amount;
     }
 }
