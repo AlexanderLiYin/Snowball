@@ -5,15 +5,12 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     public HUDScript HUD;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public int scene;
 
     public void Win()
     {
         print("You Win");
+        GameObject.Find("SnowPrincess").GetComponent<SnowPrincess>().addCoins(100);
         HUD.Win();
     }
 
