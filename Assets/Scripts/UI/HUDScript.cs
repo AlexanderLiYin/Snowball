@@ -78,15 +78,19 @@ public class HUDScript : MonoBehaviour
 
     public void Retry()
     {
-        loseScreen.SetActive(false);
         Time.timeScale = 1f;
         SceneManager.LoadScene(2);
     }
 
     public void MainMenu()
     {
-        loseScreen.SetActive(false);
         Time.timeScale = 1f;
         SceneManager.LoadScene(0);
+    }
+
+    public void OverWorld()
+    {
+        Time.timeScale = 1f;
+        SceneManager.LoadScene(3);
     }
 }
