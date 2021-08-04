@@ -28,7 +28,7 @@ public class SnowPrincess : MonoBehaviour
     public float attackRate = 2; // attacks per a second
 
     //Player Stats
-    int coins;
+    public int coins;
 
     //Initialize health
     void Start()

@@ -12,7 +12,6 @@ public static class SaveSystem
         FileStream stream = new FileStream(path, FileMode.Create);
 
         SaveData data = new SaveData(player);
-
         formatter.Serialize(stream, data);
         stream.Close();
     }

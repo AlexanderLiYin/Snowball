@@ -6,11 +6,16 @@ public class GameManager : MonoBehaviour
 {
     public HUDScript HUD;
     public int scene;
-
+    SnowPrincess player;
+    void Start()
+    {
+        player = GameObject.Find("SnowPrincess").GetComponent<SnowPrincess>();
+    }
     public void Win()
     {
         print("You Win");
-        GameObject.Find("SnowPrincess").GetComponent<SnowPrincess>().addCoins(100);
+        player.addCoins(100);
+        SaveSystem.SavePlayer(player);
         HUD.Win();
     }
 

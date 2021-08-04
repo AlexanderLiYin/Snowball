@@ -3,9 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [System.Serializable]
-public class SaveData : MonoBehaviour
+public class SaveData
 {
     int maxHealth;
+    int coins;
     float moveSpeed;
     float attackRate;
 
@@ -14,5 +15,6 @@ public class SaveData : MonoBehaviour
         maxHealth = player.maxHealth;
         moveSpeed = player.movespeed;
         attackRate = player.attackRate;
+        coins = player.coins;
     }
 }
