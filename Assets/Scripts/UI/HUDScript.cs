@@ -16,6 +16,14 @@ public class HUDScript : MonoBehaviour
     public GameObject star2;
     public GameObject star3;
     public bool battle;
+    GameManager manager;
+    int scene;
+
+    void Start()
+    {
+        manager = GameObject.Find("GameManager").GetComponent<GameManager>();
+        scene = manager.scene;
+    }
 
     void FixedUpdate()
     {
@@ -79,7 +87,7 @@ public class HUDScript : MonoBehaviour
     public void Retry()
     {
         Time.timeScale = 1f;
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(scene);
     }
 
     public void MainMenu()

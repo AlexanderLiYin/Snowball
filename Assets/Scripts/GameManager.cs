@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -10,6 +11,7 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         player = GameObject.Find("SnowPrincess").GetComponent<SnowPrincess>();
+        scene = SceneManager.GetActiveScene().buildIndex;
     }
     public void Win()
     {
