@@ -34,6 +34,7 @@ public class SnowPrincess : MonoBehaviour
     {
         //Get Rigidbody2D
         rb = gameObject.GetComponent<Rigidbody2D>();
+        LoadPlayer();
         HUD.HP(health);
     }
 
@@ -116,5 +117,14 @@ public class SnowPrincess : MonoBehaviour
     public void addCoins(int amount)
     {
         coins += amount;
+    }
+
+    public void LoadPlayer()
+    {
+        SaveData data = SaveSystem.LoadPlayer();
+        maxHealth = data.maxHealth;
+        health = data.health;
+        movespeed = data.moveSpeed;
+        attackRate = data.attackRate;
     }
 }

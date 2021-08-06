@@ -5,11 +5,11 @@ using UnityEngine;
 [System.Serializable]
 public class SaveData
 {
-    int maxHealth;
-    int health;
-    int coins;
-    float moveSpeed;
-    float attackRate;
+    public int maxHealth;
+    public int health;
+    public int coins;
+    public float moveSpeed;
+    public float attackRate;
 
     public SaveData(SnowPrincess player)
     {
