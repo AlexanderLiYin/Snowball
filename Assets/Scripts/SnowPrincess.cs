@@ -123,7 +123,6 @@ public class SnowPrincess : MonoBehaviour
     {
         SaveData data = SaveSystem.LoadPlayer();
         maxHealth = data.maxHealth;
-        health = data.health;
         movespeed = data.moveSpeed;
         attackRate = data.attackRate;
     }
