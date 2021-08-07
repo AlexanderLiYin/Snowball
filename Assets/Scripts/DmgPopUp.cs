@@ -2,13 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+
 public class DmgPopUp : MonoBehaviour
 {
     TextMeshPro textMesh;
     public GameObject textPrefab;
-    float moveYSpeed = 20f;
+    float moveYSpeed = 1f;
     float disTime;
-    float disSpeed = 3f;
+    float disSpeed = 1f;
     Color textColor;
 
     public void Create(Vector3 position, int dmg, bool crit)
@@ -23,16 +24,17 @@ public class DmgPopUp : MonoBehaviour
         textMesh = transform.GetComponent<TextMeshPro>();
     }
 
+
     public void Setup(int damageAmount, bool crit)
     {
         textMesh.SetText(damageAmount.ToString());
         if(!crit)
         {
-            textMesh.fontSize = 36;
+            textMesh.fontSize = 8;
         }
         else
         {
-            textMesh.fontSize = 45;
+            textMesh.fontSize = 12;
         }
         textColor = textMesh.color;
         disTime = 1f;

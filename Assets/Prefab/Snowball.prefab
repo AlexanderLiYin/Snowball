@@ -134,3 +134,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57e660c7bcf17cb44ab21c21aebea48a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dmgPopUp: {fileID: 1839706601177356255, guid: 6f246a07a9e37314b838b0aa6b3d08c5, type: 3}

@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Snowball : MonoBehaviour
 {
+    public DmgPopUp dmgPopUp;
     void OnCollisionEnter2D(Collision2D col)
     {
         if (col.gameObject.tag == "Enemy")
@@ -11,6 +12,7 @@ public class Snowball : MonoBehaviour
             EnemyHealth temp;
             temp = col.gameObject.GetComponent<EnemyHealth>();
             temp.decHealth(1);
+            dmgPopUp.Create(transform.position,1,false);
             Destroy(gameObject);
         }
         else if (col.gameObject.tag == "Player")
