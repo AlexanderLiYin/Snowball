@@ -11,11 +11,11 @@ public class DmgPopUp : MonoBehaviour
     float disSpeed = 3f;
     Color textColor;
 
-    public void Create(Vector3 position, int dmg)
+    public void Create(Vector3 position, int dmg, bool crit)
     {
         GameObject obj = Instantiate(textPrefab, position, Quaternion.identity);
         DmgPopUp damagePopUp = obj.GetComponent<DmgPopUp>();
-        damagePopUp.Setup(dmg);
+        damagePopUp.Setup(dmg, crit);
     }
 
     void Awake()
@@ -23,9 +23,17 @@ public class DmgPopUp : MonoBehaviour
         textMesh = transform.GetComponent<TextMeshPro>();
     }
 
-    public void Setup(int damageAmount)
+    public void Setup(int damageAmount, bool crit)
     {
         textMesh.SetText(damageAmount.ToString());
+        if(!crit)
+        {
+            textMesh.fontSize = 36;
+        }
+        else
+        {
+            textMesh.fontSize = 45;
+        }
         textColor = textMesh.color;
         disTime = 1f;
     }
