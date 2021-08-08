@@ -3,12 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public Text nameText;
-public Text dialogueText;
-
 public class DialogueManager : MonoBehaviour
 {
     Queue<string> sentences;
+    public Text nameText;
+    public Text dialogueText;
 
     // Start is called before the first frame update
     void Start()
