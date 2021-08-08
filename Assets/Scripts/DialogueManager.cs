@@ -2,12 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class DialogueManager : MonoBehaviour
 {
     Queue<string> sentences;
-    public Text nameText;
-    public Text dialogueText;
+    public TMP_Text nameText;
+    public TMP_Text dialogueText;
+    public GameObject canvas;
 
     // Start is called before the first frame update
     void Start()
@@ -15,9 +17,18 @@ public class DialogueManager : MonoBehaviour
         sentences = new Queue<string>();
     }
 
+    void Update()
+    {
+        if (Input.GetButtonDown("Fire1"))
+        {
+            DisplayNextSentence();
+        }
+    }
+
     public void StartDialogue(Dialogue dialogue)
     {
-        nameText.text = dialogue.name;
+        //nameText.text = dialogue.name;
+        canvas.SetActive(true);
         sentences.Clear();
 
         foreach(string sentence in dialogue.sentences)
@@ -41,6 +52,6 @@ public class DialogueManager : MonoBehaviour
 
     void EndDialogue()
     {
-        
+        canvas.SetActive(false);
     }
 }
