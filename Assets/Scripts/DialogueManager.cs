@@ -10,11 +10,13 @@ public class DialogueManager : MonoBehaviour
     public TMP_Text nameText;
     public TMP_Text dialogueText;
     public GameObject canvas;
+    SnowPrincess player;
 
     // Start is called before the first frame update
     void Start()
     {
-        sentences = new Queue<string>();
+        sentences = new Queue<string>(); // Creates the queue for the text
+        player = GameObject.Find("SnowPrincess").GetComponent<SnowPrincess>();
     }
 
     void Update()
@@ -35,7 +37,8 @@ public class DialogueManager : MonoBehaviour
         {
             sentences.Enqueue(sentence);
         }
-        DisplayNextSentence();
+        player.canMove = false;
+        DisplayNextSentence(); //Displays the first sentence
     }
 
     public void DisplayNextSentence()
@@ -53,5 +56,6 @@ public class DialogueManager : MonoBehaviour
     void EndDialogue()
     {
         canvas.SetActive(false);
+        player.canMove = true;
     }
 }
