@@ -25,6 +25,7 @@ public class SnowPrincess : MonoBehaviour
     public float bulletForce = 20f;
     float attackTime = 0;
     public float attackRate = 2; // attacks per a second
+    public bool canAttack = true;
 
     //Player Stats
     public int coins;
@@ -46,7 +47,7 @@ public class SnowPrincess : MonoBehaviour
         mousePos = cam.ScreenToWorldPoint(Input.mousePosition);
 
         //Used for attack
-        if (Time.time >= attackTime)
+        if ((Time.time >= attackTime) && canAttack)
         {
             if (Input.GetButtonDown("Fire1") && Time.timeScale != 0)
             {

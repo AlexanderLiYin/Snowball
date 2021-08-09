@@ -7,11 +7,14 @@ public class GameManager : MonoBehaviour
 {
     public HUDScript HUD;
     public int scene;
+    public bool canAttack = true;
+
     SnowPrincess player;
     void Start()
     {
         player = GameObject.Find("SnowPrincess").GetComponent<SnowPrincess>();
         scene = SceneManager.GetActiveScene().buildIndex;
+        player.canAttack = canAttack;
     }
     public void Win()
     {
