@@ -13,7 +13,7 @@ public class DialogueManager : MonoBehaviour
     public GameObject shop;
     SnowPrincess player;
     public bool isShop = false;
-    
+    bool inDialogue = false;
 
     // Start is called before the first frame update
     void Start()
@@ -24,7 +24,7 @@ public class DialogueManager : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetButtonDown("Fire1"))
+        if (inDialogue && Input.GetButtonDown("Fire1"))
         {
             DisplayNextSentence();
         }
@@ -32,6 +32,7 @@ public class DialogueManager : MonoBehaviour
 
     public void StartDialogue(Dialogue dialogue)
     {
+        inDialogue = true;
         nameText.text = dialogue.name;
         canvas.SetActive(true);
         sentences.Clear();
@@ -55,6 +56,7 @@ public class DialogueManager : MonoBehaviour
             }
             else
             {
+                inDialogue = false;
                 canvas.SetActive(false);
                 shop.SetActive(true);
                 return;
@@ -77,6 +79,7 @@ public class DialogueManager : MonoBehaviour
     }
     void EndDialogue()
     {
+        inDialogue = false;
         canvas.SetActive(false);
         player.canMove = true;
     }
