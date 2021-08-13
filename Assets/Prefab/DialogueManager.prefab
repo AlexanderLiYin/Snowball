@@ -130,7 +130,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &5745053386378121854
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1421,7 +1421,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameText: {fileID: 6259785227936485608}
   dialogueText: {fileID: 4172961877192681809}
-  canvas: {fileID: 7449203515004223679}
+  canvas: {fileID: 1199206225820142618}
+  shop: {fileID: 3368779573897288731}
+  isShop: 0
 --- !u!1 &5150128789256656857
 GameObject:
   m_ObjectHideFlags: 0
@@ -1821,7 +1823,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &2086627172101660567
 RectTransform:
   m_ObjectHideFlags: 0

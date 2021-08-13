@@ -10,7 +10,10 @@ public class DialogueManager : MonoBehaviour
     public TMP_Text nameText;
     public TMP_Text dialogueText;
     public GameObject canvas;
+    public GameObject shop;
     SnowPrincess player;
+    public bool isShop = false;
+    
 
     // Start is called before the first frame update
     void Start()
@@ -45,8 +48,17 @@ public class DialogueManager : MonoBehaviour
     {
         if(sentences.Count == 0)
         {
-            EndDialogue();
-            return;
+            if(!isShop)
+            {
+                EndDialogue();
+                return;
+            }
+            else
+            {
+                canvas.SetActive(false);
+                shop.SetActive(true);
+                return;
+            }
         }
 
         string sentence = sentences.Dequeue();
