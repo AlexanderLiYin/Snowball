@@ -336,6 +336,10 @@ PrefabInstance:
       propertyPath: cam
       value: 
       objectReference: {fileID: 1505668334}
+    - target: {fileID: 1236280219063928417, guid: 3b4c23d0ab299a848bdebd67880e652e, type: 3}
+      propertyPath: coins
+      value: 100
+      objectReference: {fileID: 0}
     - target: {fileID: 1432529314366393492, guid: 3b4c23d0ab299a848bdebd67880e652e, type: 3}
       propertyPath: cam
       value: 

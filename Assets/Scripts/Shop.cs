@@ -28,6 +28,21 @@ public class Shop : MonoBehaviour
         }
     }
     
+    public void buyItem(int cost)
+    {
+        if (player.coins >= cost)
+        {
+            player.coins -= cost;
+            coins.text = player.coins.ToString();
+            return;
+        }
+        else
+        {
+            print("Not enought money");
+            return;
+        }
+    }
+
     public void exit()
     {
         gameObject.SetActive(false);
