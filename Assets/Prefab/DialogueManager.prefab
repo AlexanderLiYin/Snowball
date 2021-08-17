@@ -248,7 +248,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
   m_AnchoredPosition: {x: 0, y: 90}
-  m_SizeDelta: {x: 1110, y: 190}
+  m_SizeDelta: {x: 1100, y: 190}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8454123856498361591
 CanvasRenderer:
@@ -1741,7 +1741,6 @@ MonoBehaviour:
   dialogueText: {fileID: 4172961877192681809}
   canvas: {fileID: 1199206225820142618}
   shop: {fileID: 3368779573897288731}
-  isShop: 0
 --- !u!1 &5150128789256656857
 GameObject:
   m_ObjectHideFlags: 0
@@ -2130,7 +2129,7 @@ Canvas:
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
-  m_AdditionalShaderChannelsFlag: 7
+  m_AdditionalShaderChannelsFlag: 31
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
@@ -2209,7 +2208,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: -10}
-  m_SizeDelta: {x: 1080, y: 130}
+  m_SizeDelta: {x: 1060, y: 130}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2977955170590727232
 CanvasRenderer:
