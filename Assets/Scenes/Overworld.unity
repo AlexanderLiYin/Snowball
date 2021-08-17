@@ -176,7 +176,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3249520479057685033, guid: df264ced78ec4fa4aa492c65e7b6e580, type: 3}
       propertyPath: isShop
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3438341526645297341, guid: df264ced78ec4fa4aa492c65e7b6e580, type: 3}
       propertyPath: m_AnchorMax.x
