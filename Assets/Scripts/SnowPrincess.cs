@@ -121,15 +121,16 @@ public class SnowPrincess : MonoBehaviour
 
     public void addCoins(int amount)
     {
-        print("Coins have been added");
         coins += amount;
         print("Coin count is now " + coins);
     }
 
     public bool subCoins(int amount)
     {
+        print(coins);
         if (amount <= coins)
         {
+            print(amount);
             coins -= amount;
             return true;
         }

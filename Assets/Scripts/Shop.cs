@@ -39,9 +39,9 @@ public class Shop : MonoBehaviour
         }
     }
     
-    public void buyItem(int cost)
+    public void buyItem()
     {
-        if(player.subCoins(cost) && (items[item].amount > 0))
+        if(player.subCoins(items[item].cost) && (items[item].amount > 0))
         {
             coins.text = player.getCoins().ToString();
             items[item].amount -= 1;
