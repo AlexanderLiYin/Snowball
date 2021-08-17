@@ -28,12 +28,13 @@ public class SnowPrincess : MonoBehaviour
     public bool canAttack = true;
 
     //Player Stats
-    int coins;
+    public int coins;
 
     //Initialize health
     void Start()
     {
         //Get Rigidbody2D
+        print(coins);
         rb = gameObject.GetComponent<Rigidbody2D>();
         LoadPlayer();
         HUD.HP(health);
@@ -120,7 +121,9 @@ public class SnowPrincess : MonoBehaviour
 
     public void addCoins(int amount)
     {
+        print("Coins have been added");
         coins += amount;
+        print("Coin count is now " + coins);
     }
 
     public bool subCoins(int amount)
@@ -145,5 +148,6 @@ public class SnowPrincess : MonoBehaviour
         maxHealth = data.maxHealth;
         movespeed = data.moveSpeed;
         attackRate = data.attackRate;
+        coins = data.coins;
     }
 }

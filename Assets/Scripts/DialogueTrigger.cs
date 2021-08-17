@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class DialogueTrigger : MonoBehaviour
 {
-    public bool inRange = false;
+    bool inRange = false;
     public Dialogue dialogue;
     public GameObject UI;
 
