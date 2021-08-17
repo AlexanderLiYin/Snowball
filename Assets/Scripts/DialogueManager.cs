@@ -12,7 +12,7 @@ public class DialogueManager : MonoBehaviour
     public GameObject canvas;
     public GameObject shop;
     SnowPrincess player;
-    public bool isShop = false;
+    bool isShop = false;
     bool inDialogue = false;
 
     // Start is called before the first frame update
@@ -30,8 +30,9 @@ public class DialogueManager : MonoBehaviour
         }
     }
 
-    public void StartDialogue(Dialogue dialogue)
+    public void StartDialogue(Dialogue dialogue, bool shop)
     {
+        isShop = shop;
         inDialogue = true;
         nameText.text = dialogue.name;
         canvas.SetActive(true);
