@@ -9,6 +9,7 @@ public class Shop : MonoBehaviour
     SnowPrincess player;
     public TMP_Text coins;
     public TMP_Text descript;
+    public TMP_Text amount;
     public ShopItem[] items;
     int item;
 
@@ -18,6 +19,7 @@ public class Shop : MonoBehaviour
         if(items[0] != null)
         {
             descript.SetText(items[0].description);
+            amount.SetText(items[0].amount.ToString());
             item = 0;
         }
         else
@@ -42,14 +44,21 @@ public class Shop : MonoBehaviour
     
     public void buyItem(int cost)
     {
-        if (player.subCoins(cost))
+        if(player.subCoins(cost) && (items[item].amount > 0))
         {
             coins.text = player.getCoins().ToString();
+            items[item].amount -= 1;
+            amount.SetText(items[item].amount.ToString());
+            return;
+        }
+        else if(items[item].amount == 0)
+        {
+            print("No more in stock");
             return;
         }
         else
         {
-            print("Not enought money");
+            print("Not enough money");
             return;
         }
     }
@@ -59,6 +68,7 @@ public class Shop : MonoBehaviour
         if (items[option] != null)
         {
             descript.SetText(items[option].description);
+            amount.SetText(items[option].amount.ToString());
             item = option;
         }
     }
