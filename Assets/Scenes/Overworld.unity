@@ -544,7 +544,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7187978275990010458, guid: 8358a51e316339741b35b2c0b31ba7ff, type: 3}
       propertyPath: isShop
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9111414172749370280, guid: 8358a51e316339741b35b2c0b31ba7ff, type: 3}
       propertyPath: m_Name
