@@ -17,6 +17,6 @@ public class SaveData
         health = player.health;
         moveSpeed = player.movespeed;
         attackRate = player.attackRate;
-        coins = player.coins;
+        coins = player.getCoins();
     }
 }

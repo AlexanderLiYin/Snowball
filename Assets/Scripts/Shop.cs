@@ -17,7 +17,7 @@ public class Shop : MonoBehaviour
     void OnEnable()
     {
         if(player)
-        coins.text = player.coins.ToString();
+        coins.text = player.getCoins().ToString();
     }
 
     void Update()
@@ -30,10 +30,9 @@ public class Shop : MonoBehaviour
     
     public void buyItem(int cost)
     {
-        if (player.coins >= cost)
+        if (player.subCoins(cost))
         {
-            player.coins -= cost;
-            coins.text = player.coins.ToString();
+            coins.text = player.getCoins().ToString();
             return;
         }
         else

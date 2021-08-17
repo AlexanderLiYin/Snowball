@@ -571,6 +571,10 @@ PrefabInstance:
       value: GameManager
       objectReference: {fileID: 0}
     - target: {fileID: 8508674462129151990, guid: fb1459d45f71efd43adbd3557e6e0be7, type: 3}
+      propertyPath: HUD
+      value: 
+      objectReference: {fileID: 1274205176}
+    - target: {fileID: 8508674462129151990, guid: fb1459d45f71efd43adbd3557e6e0be7, type: 3}
       propertyPath: canAttack
       value: 0
       objectReference: {fileID: 0}

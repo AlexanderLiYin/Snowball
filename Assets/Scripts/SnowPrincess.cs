@@ -28,7 +28,7 @@ public class SnowPrincess : MonoBehaviour
     public bool canAttack = true;
 
     //Player Stats
-    public int coins;
+    int coins;
 
     //Initialize health
     void Start()
@@ -121,6 +121,22 @@ public class SnowPrincess : MonoBehaviour
     public void addCoins(int amount)
     {
         coins += amount;
+    }
+
+    public bool subCoins(int amount)
+    {
+        if (amount <= coins)
+        {
+            coins -= amount;
+            return true;
+        }
+        else
+            return false;
+    }
+
+    public int getCoins()
+    {
+        return coins;
     }
 
     public void LoadPlayer()
