@@ -19,7 +19,7 @@ public class Shop : MonoBehaviour
         if(items[0] != null)
         {
             descript.SetText(items[0].description);
-            amount.SetText(items[0].amount.ToString());
+            amount.SetText("Stock: " + items[0].amount.ToString());
             item = 0;
         }
         else
@@ -48,7 +48,7 @@ public class Shop : MonoBehaviour
         {
             coins.text = player.getCoins().ToString();
             items[item].amount -= 1;
-            amount.SetText(items[item].amount.ToString());
+            amount.SetText("Stock: " + items[item].amount.ToString());
             return;
         }
         else if(items[item].amount == 0)
@@ -68,7 +68,7 @@ public class Shop : MonoBehaviour
         if (items[option] != null)
         {
             descript.SetText(items[option].description);
-            amount.SetText(items[option].amount.ToString());
+            amount.SetText("Stock: " + items[option].amount.ToString());
             item = option;
         }
     }
