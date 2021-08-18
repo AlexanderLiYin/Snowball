@@ -18,17 +18,7 @@ public class Shop : MonoBehaviour
     {
         player = GameObject.Find("SnowPrincess").GetComponent<SnowPrincess>();
         coins.text = player.getCoins().ToString();
-        if (items[0] != null)
-        {
-            descript.SetText(items[0].description);
-            amount.SetText("Stock: " + items[0].amount.ToString());
-            cost.SetText("Cost: " + items[0].cost.ToString());
-            item = 0;
-        }
-        else
-        {
-            descript.SetText("All items have been bought");
-        }
+        changeDescrip(0);
     }
 
     void Update()
@@ -68,6 +58,10 @@ public class Shop : MonoBehaviour
             amount.SetText("Stock: " + items[option].amount.ToString());
             cost.SetText("Cost: " + items[option].cost.ToString());
             item = option;
+        }
+        else
+        {
+            descript.SetText("All items have been bought");
         }
     }
 

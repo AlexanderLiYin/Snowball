@@ -11,6 +11,8 @@ public class SaveData
     public float moveSpeed;
     public float attackRate;
 
+    public List<ShopItem> storage;
+
     public SaveData(SnowPrincess player)
     {
         maxHealth = player.maxHealth;
@@ -18,5 +20,13 @@ public class SaveData
         moveSpeed = player.movespeed;
         attackRate = player.attackRate;
         coins = player.getCoins();
+    }
+
+    public SaveData(ShopItem[] shop)
+    {
+        foreach (ShopItem x in shop)
+        {
+            storage.Add(x);
+        }
     }
 }
