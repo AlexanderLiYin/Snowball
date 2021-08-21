@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 104beb1e2b29e534486af8cff2938394, type: 3}
   m_Name: MaxHealth
   m_EditorClassIdentifier: 
-  itemName: 
-  description: 
-  cost: 0
+  itemName: Max Health Upgrade
+  description: Upgrades player max health by 10
+  cost: 50
   amount: 0
