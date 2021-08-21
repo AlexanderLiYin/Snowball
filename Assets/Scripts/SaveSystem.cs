@@ -16,18 +16,6 @@ public static class SaveSystem
         stream.Close();
     }
 
-    public static void SavePlayer(SnowPrincess player, ShopItem[] shop)
-    {
-        BinaryFormatter formatter = new BinaryFormatter();
-
-        string path = Application.persistentDataPath + "/player.save";
-        FileStream stream = new FileStream(path, FileMode.Create);
-
-        SaveData data = new SaveData(player, shop);
-        formatter.Serialize(stream, data);
-        stream.Close();
-    }
-
     public static SaveData LoadPlayer()
     {
         string path = Application.persistentDataPath + "/player.save";

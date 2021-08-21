@@ -34,7 +34,6 @@ public class SnowPrincess : MonoBehaviour
     void Start()
     {
         //Get Rigidbody2D
-        print(coins);
         rb = gameObject.GetComponent<Rigidbody2D>();
         LoadPlayer();
         HUD.HP(health);

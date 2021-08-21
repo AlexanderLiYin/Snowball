@@ -2,10 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[System.Serializable]
-public class ShopItem
+[CreateAssetMenu(fileName = "NewItem", menuName = "Item")]
+public class ShopItem : ScriptableObject
 {
-    public string name;
+    public string itemName;
     public string description;
     public int cost;
     public int amount;
