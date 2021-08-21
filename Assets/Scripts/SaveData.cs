@@ -29,4 +29,18 @@ public class SaveData
             storage.Add(x);
         }
     }
+
+    public SaveData(SnowPrincess player, ShopItem[] shop)
+    {
+        maxHealth = player.maxHealth;
+        health = player.health;
+        moveSpeed = player.movespeed;
+        attackRate = player.attackRate;
+        coins = player.getCoins();
+
+        foreach (ShopItem x in shop)
+        {
+            storage.Add(x);
+        }
+    }
 }
