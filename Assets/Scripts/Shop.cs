@@ -81,6 +81,7 @@ public class Shop : MonoBehaviour
                 break;
 
             case 1:
+                player.incMaxEnergy(10);
                 break;
 
             case 2:

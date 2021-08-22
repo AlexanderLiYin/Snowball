@@ -205,20 +205,19 @@ public class SnowPrincess : MonoBehaviour
         }
     }
 
-    /*
-    public void incMaxMana(int mana)
+    public void incMaxEnergy(int energy)
     {
-        maxMana += mana;
+        maxEnergy += energy;
+        HUD.DisplayEnergy(energy, maxEnergy);
     }
 
-    public void decMaxMana(int mana)
+    public bool decMaxEnergy(int energy)
     {
-        if ((maxMana - mana) > 0)
+        if ((maxEnergy - energy) > 0)
         {
-            maxMana -= mana;
+            maxEnergy -= energy;
             return true;
         }
         else return false;
     }
-    */
 }
