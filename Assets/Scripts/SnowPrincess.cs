@@ -220,4 +220,20 @@ public class SnowPrincess : MonoBehaviour
         }
         else return false;
     }
+
+    public void incEnergyRecharge(float rate)
+    {
+        energyPerSec += rate;
+    }
+
+    public bool decEnergyRecharge(float rate)
+    {
+        if ((energyPerSec - rate) > 0)
+        {
+            energyPerSec -= rate;
+            return true;
+        }
+        else return false;
+    }
+
 }

@@ -85,6 +85,7 @@ public class Shop : MonoBehaviour
                 break;
 
             case 2:
+                player.incEnergyRecharge(.2f);
                 break;
 
             default:
