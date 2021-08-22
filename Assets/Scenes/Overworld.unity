@@ -204,12 +204,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4796586981620123206, guid: df264ced78ec4fa4aa492c65e7b6e580, type: 3}
       propertyPath: items.Array.size
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4796586981620123206, guid: df264ced78ec4fa4aa492c65e7b6e580, type: 3}
       propertyPath: items.Array.data[0]
       value: 
       objectReference: {fileID: 11400000, guid: 3cd96bbceeaa5f844acaed98f579f5c1, type: 2}
+    - target: {fileID: 4796586981620123206, guid: df264ced78ec4fa4aa492c65e7b6e580, type: 3}
+      propertyPath: items.Array.data[1]
+      value: 
+      objectReference: {fileID: 11400000, guid: d241783872689b24692b3b715cf7e665, type: 2}
+    - target: {fileID: 4796586981620123206, guid: df264ced78ec4fa4aa492c65e7b6e580, type: 3}
+      propertyPath: items.Array.data[2]
+      value: 
+      objectReference: {fileID: 11400000, guid: 5d58e61be63d6a1408bfc9f77f32b2a8, type: 2}
     - target: {fileID: 4889048228020035886, guid: df264ced78ec4fa4aa492c65e7b6e580, type: 3}
       propertyPath: m_Name
       value: DialogueManager

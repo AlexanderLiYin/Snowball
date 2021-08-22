@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: Max Health Upgrade
   description: Upgrades player max health by 10
-  cost: 50
+  cost: 100
   amount: 0

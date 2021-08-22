@@ -33,6 +33,7 @@ public class Shop : MonoBehaviour
     {
         if(player.subCoins(items[item].cost) && (items[item].amount > 0))
         {
+            Upgrade();
             coins.text = player.getCoins().ToString();
             items[item].amount -= 1;
             amount.SetText("Stock: " + items[item].amount.ToString());
@@ -69,5 +70,25 @@ public class Shop : MonoBehaviour
     {
         gameObject.SetActive(false);
         player.canMove = true;
+    }
+
+    void Upgrade()
+    {
+        switch(item)
+        {
+            case 0:
+                player.incMaxHealth(1);
+                break;
+
+            case 1:
+                break;
+
+            case 2:
+                break;
+
+            default:
+                print("Item not found");
+                break;
+        }
     }
 }
