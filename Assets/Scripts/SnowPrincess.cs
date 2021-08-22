@@ -150,4 +150,36 @@ public class SnowPrincess : MonoBehaviour
         attackRate = data.attackRate;
         coins = data.coins;
     }
+
+    public void incMaxHealth(int hp)
+    {
+        maxHealth += hp;
+    }
+
+    public bool decMaxHealth(int hp)
+    {
+        if ((maxHealth - hp) > 0)
+        {
+            maxHealth -= hp;
+            return true;
+        }
+        else return false;
+    }
+
+    /*
+    public void incMaxMana(int mana)
+    {
+        maxMana += mana;
+    }
+
+    public void decMaxMana(int mana)
+    {
+        if ((maxMana - mana) > 0)
+        {
+            maxMana -= mana;
+            return true;
+        }
+        else return false;
+    }
+    */
 }
