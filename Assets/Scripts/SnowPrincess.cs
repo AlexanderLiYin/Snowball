@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class SnowPrincess : MonoBehaviour
 {
@@ -153,6 +154,7 @@ public class SnowPrincess : MonoBehaviour
 
     public void incMaxHealth(int hp)
     {
+        HUD.IncMaxHealth(hp);
         maxHealth += hp;
     }
 

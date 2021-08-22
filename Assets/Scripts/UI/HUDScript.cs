@@ -66,6 +66,11 @@ public class HUDScript : MonoBehaviour
         slider.value = health;
     }
 
+    public void IncMaxHealth(int hp)
+    {
+        slider.maxValue += hp;
+    }
+
     public void Win()
     {
         winScreen.SetActive(true);
