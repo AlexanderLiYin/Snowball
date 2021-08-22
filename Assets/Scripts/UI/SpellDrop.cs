@@ -11,7 +11,7 @@ public class SpellDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, 
     CanvasGroup canvasGroup;
 
     public GameObject spell;
-    public EnergyDisplay energy;
+    public SnowPrincess energy;
     public int cost = 40;
     [SerializeField] private Canvas canvas; // Used to scale drag incase canvas gets rescaled
 

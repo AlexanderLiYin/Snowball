@@ -12,7 +12,7 @@ public class DragDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, I
     Color color;
 
     public GameObject building;
-    public EnergyDisplay energy;
+    public SnowPrincess energy;
     public int cost = 40;
 
     [SerializeField] private Canvas canvas; // Used to scale drag incase canvas gets rescaled

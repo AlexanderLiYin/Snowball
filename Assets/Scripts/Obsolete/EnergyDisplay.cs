@@ -7,6 +7,7 @@ using TMPro;
 public class EnergyDisplay : MonoBehaviour
 {
     public TMP_Text display;
+    /*
     public int initEnergy = 50;
     public int maxEnergy = 120;
     public float energyPerSec = 1;
@@ -32,12 +33,12 @@ public class EnergyDisplay : MonoBehaviour
         }
         DisplayEnergy(energy);
     }
-
-    void DisplayEnergy(float energy)
+    */
+    public void DisplayEnergy(float energy)
     {
         display.SetText(((int)energy).ToString());
     }
-
+    /*
     public bool decEnergy(int cost)
     {
         if (cost > energy)
@@ -48,4 +49,5 @@ public class EnergyDisplay : MonoBehaviour
             return true;
         }
     }
+    */
 }

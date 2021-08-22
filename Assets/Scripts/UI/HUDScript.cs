@@ -19,6 +19,8 @@ public class HUDScript : MonoBehaviour
     GameManager manager;
     int scene;
 
+    public TMP_Text display;
+
     void Start()
     {
         manager = GameObject.Find("GameManager").GetComponent<GameManager>();
@@ -60,7 +62,12 @@ public class HUDScript : MonoBehaviour
 
         timer.text = string.Format("{0:00}:{1:00}", min, sec);
     }
-    
+
+    public void DisplayEnergy(float energy)
+    {
+        display.SetText(((int)energy).ToString());
+    }
+
     public void HP(int health)
     {
         slider.value = health;

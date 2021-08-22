@@ -30,6 +30,13 @@ public class SnowPrincess : MonoBehaviour
 
     //Player Stats
     public int coins;
+    public bool inBattle;
+
+    //Energy
+    public int initEnergy = 50;
+    public int maxEnergy = 120;
+    public float energyPerSec = 1;
+    float energy;
 
     //Initialize health
     void Start()
@@ -38,6 +45,10 @@ public class SnowPrincess : MonoBehaviour
         rb = gameObject.GetComponent<Rigidbody2D>();
         LoadPlayer();
         HUD.HP(health);
+
+        // Display Energy
+        energy = initEnergy;
+        HUD.DisplayEnergy(energy);
     }
 
     void Update()
@@ -61,12 +72,27 @@ public class SnowPrincess : MonoBehaviour
     // Used for moving the player
     void FixedUpdate()
     {
+        // Movement
         if(canMove)
         {
             rb.MovePosition(rb.position + movement * movespeed * Time.fixedDeltaTime);
             Vector2 lookDir = mousePos - rb.position;
             float angle = Mathf.Atan2(lookDir.y, lookDir.x) * Mathf.Rad2Deg - 90f;
             rb.rotation = angle;
+        }
+
+        //Energy Generation
+        if(inBattle)
+        {
+            if (energy < maxEnergy)
+            {
+                energy += Time.deltaTime * energyPerSec;
+            }
+            else
+            {
+                energy = maxEnergy;
+            }
+            HUD.DisplayEnergy(energy);
         }
     }
 
@@ -166,6 +192,17 @@ public class SnowPrincess : MonoBehaviour
             return true;
         }
         else return false;
+    }
+
+    public bool decEnergy(int cost)
+    {
+        if (cost > energy)
+            return false;
+        else
+        {
+            energy = energy - cost;
+            return true;
+        }
     }
 
     /*

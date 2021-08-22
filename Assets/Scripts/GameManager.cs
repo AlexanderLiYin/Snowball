@@ -15,6 +15,9 @@ public class GameManager : MonoBehaviour
         player = GameObject.Find("SnowPrincess").GetComponent<SnowPrincess>();
         scene = SceneManager.GetActiveScene().buildIndex;
         player.canAttack = canAttack;
+        if (scene != 3)
+            player.inBattle = true;
+        else player.inBattle = false;
     }
     public void Win()
     {
