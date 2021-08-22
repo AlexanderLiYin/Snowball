@@ -48,7 +48,7 @@ public class SnowPrincess : MonoBehaviour
 
         // Display Energy
         energy = initEnergy;
-        HUD.DisplayEnergy(energy);
+        HUD.DisplayEnergy(energy,maxEnergy);
     }
 
     void Update()
@@ -92,7 +92,7 @@ public class SnowPrincess : MonoBehaviour
             {
                 energy = maxEnergy;
             }
-            HUD.DisplayEnergy(energy);
+            HUD.DisplayEnergy(energy,maxEnergy);
         }
     }
 

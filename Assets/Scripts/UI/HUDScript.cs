@@ -63,9 +63,9 @@ public class HUDScript : MonoBehaviour
         timer.text = string.Format("{0:00}:{1:00}", min, sec);
     }
 
-    public void DisplayEnergy(float energy)
+    public void DisplayEnergy(float energy, int maxEnergy)
     {
-        display.SetText(((int)energy).ToString());
+        display.SetText(((int)energy).ToString() + "/" + maxEnergy.ToString());
     }
 
     public void HP(int health)
