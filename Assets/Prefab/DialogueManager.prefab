@@ -225,7 +225,7 @@ GameObject:
   - component: {fileID: 7530585989047310510}
   - component: {fileID: 7384026519507608784}
   m_Layer: 5
-  m_Name: Amount
+  m_Name: Stock
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -247,8 +247,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 60, y: -150}
-  m_SizeDelta: {x: 100, y: 30}
+  m_AnchoredPosition: {x: 70, y: -150}
+  m_SizeDelta: {x: 130, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7530585989047310510
 CanvasRenderer:
@@ -1723,18 +1723,9 @@ MonoBehaviour:
   amount: {fileID: 7384026519507608784}
   cost: {fileID: 3279405380097053882}
   items:
-  - name: Max Health
-    description: Increase max health by 1
-    cost: 10
-    amount: 4
-  - name: Mana Regen
-    description: Increase mana regen by .1
-    cost: 100
-    amount: 4
-  - name: Max Mana
-    description: Increase max mana by 10
-    cost: 100
-    amount: 4
+  - {fileID: 11400000, guid: 3cd96bbceeaa5f844acaed98f579f5c1, type: 2}
+  - {fileID: 11400000, guid: d241783872689b24692b3b715cf7e665, type: 2}
+  - {fileID: 11400000, guid: 5d58e61be63d6a1408bfc9f77f32b2a8, type: 2}
 --- !u!1 &4532072931943664952
 GameObject:
   m_ObjectHideFlags: 0
@@ -2085,8 +2076,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -60, y: -150}
-  m_SizeDelta: {x: 100, y: 30}
+  m_AnchoredPosition: {x: -70, y: -150}
+  m_SizeDelta: {x: 130, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7204106741270899406
 CanvasRenderer:
