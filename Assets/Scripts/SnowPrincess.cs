@@ -21,6 +21,7 @@ public class SnowPrincess : MonoBehaviour
     public float evadeChance = 10;
 
     // Player attack
+    public int attack = 1;
     public Transform firePoint;
     public GameObject snowballPrefab;
     public float bulletForce = 20f;
@@ -141,6 +142,7 @@ public class SnowPrincess : MonoBehaviour
     void Attack()
     {
         GameObject snowball = Instantiate(snowballPrefab, firePoint.position, firePoint.rotation);
+        snowball.GetComponent<Snowball>().setDmg(attack);
         Rigidbody2D rb = snowball.GetComponent<Rigidbody2D>();
         rb.AddForce(firePoint.up * bulletForce, ForceMode2D.Impulse);
     }
