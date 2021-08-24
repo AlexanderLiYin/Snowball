@@ -10,6 +10,7 @@ public class SaveData
     public int coins;
     public float moveSpeed;
     public float attackRate;
+    public int attack;
 
     public SaveData(SnowPrincess player)
     {
@@ -17,6 +18,7 @@ public class SaveData
         health = player.health;
         moveSpeed = player.movespeed;
         attackRate = player.attackRate;
-        coins = player.getCoins();
+        coins = player.coins;
+        attack = player.attack;
     }
 }

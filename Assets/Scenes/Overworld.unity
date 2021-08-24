@@ -204,7 +204,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4796586981620123206, guid: df264ced78ec4fa4aa492c65e7b6e580, type: 3}
       propertyPath: items.Array.size
-      value: 3
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4796586981620123206, guid: df264ced78ec4fa4aa492c65e7b6e580, type: 3}
       propertyPath: items.Array.data[0]
@@ -218,6 +218,18 @@ PrefabInstance:
       propertyPath: items.Array.data[2]
       value: 
       objectReference: {fileID: 11400000, guid: 5d58e61be63d6a1408bfc9f77f32b2a8, type: 2}
+    - target: {fileID: 4796586981620123206, guid: df264ced78ec4fa4aa492c65e7b6e580, type: 3}
+      propertyPath: items.Array.data[3]
+      value: 
+      objectReference: {fileID: 11400000, guid: e0d049e51b62b824897979db89e13f82, type: 2}
+    - target: {fileID: 4796586981620123206, guid: df264ced78ec4fa4aa492c65e7b6e580, type: 3}
+      propertyPath: items.Array.data[4]
+      value: 
+      objectReference: {fileID: 11400000, guid: e921d4ca8da7aa448873686cad03f016, type: 2}
+    - target: {fileID: 4796586981620123206, guid: df264ced78ec4fa4aa492c65e7b6e580, type: 3}
+      propertyPath: items.Array.data[5]
+      value: 
+      objectReference: {fileID: 11400000, guid: 66c341e85e5ece84aad0da2e6fb4b745, type: 2}
     - target: {fileID: 4889048228020035886, guid: df264ced78ec4fa4aa492c65e7b6e580, type: 3}
       propertyPath: m_Name
       value: DialogueManager

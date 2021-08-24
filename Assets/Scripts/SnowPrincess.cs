@@ -49,7 +49,7 @@ public class SnowPrincess : MonoBehaviour
 
         // Display Energy
         energy = initEnergy;
-        HUD.DisplayEnergy(energy,maxEnergy);
+        HUD.DisplayEnergy(energy, maxEnergy);
     }
 
     void Update()
@@ -74,7 +74,7 @@ public class SnowPrincess : MonoBehaviour
     void FixedUpdate()
     {
         // Movement
-        if(canMove)
+        if (canMove)
         {
             rb.MovePosition(rb.position + movement * movespeed * Time.fixedDeltaTime);
             Vector2 lookDir = mousePos - rb.position;
@@ -83,7 +83,7 @@ public class SnowPrincess : MonoBehaviour
         }
 
         //Energy Generation
-        if(inBattle)
+        if (inBattle)
         {
             if (energy < maxEnergy)
             {
@@ -93,7 +93,7 @@ public class SnowPrincess : MonoBehaviour
             {
                 energy = maxEnergy;
             }
-            HUD.DisplayEnergy(energy,maxEnergy);
+            HUD.DisplayEnergy(energy, maxEnergy);
         }
     }
 
@@ -132,7 +132,7 @@ public class SnowPrincess : MonoBehaviour
 
     public void incHealth(int hp)
     {
-        if((health + hp) > maxHealth)
+        if ((health + hp) > maxHealth)
             health = maxHealth;
         else
             health += hp;
@@ -166,11 +166,6 @@ public class SnowPrincess : MonoBehaviour
             return false;
     }
 
-    public int getCoins()
-    {
-        return coins;
-    }
-
     public void LoadPlayer()
     {
         SaveData data = SaveSystem.LoadPlayer();
@@ -178,6 +173,7 @@ public class SnowPrincess : MonoBehaviour
         movespeed = data.moveSpeed;
         attackRate = data.attackRate;
         coins = data.coins;
+        attack = data.attack;
     }
 
     public void incMaxHealth(int hp)
@@ -238,4 +234,48 @@ public class SnowPrincess : MonoBehaviour
         else return false;
     }
 
+    public void incAttack(int dmg)
+    {
+        attack += dmg;
+    }
+
+    public bool decAttack(int dmg)
+    {
+        if ((attack - dmg) > 1)
+        {
+            attack -= dmg;
+            return true;
+        }
+        else return false;
+    }
+
+    public void incAtkSpd(float speed)
+    {
+        attackRate += speed;
+    }
+
+    public bool decAtkSpd(float speed)
+    {
+        if ((attackRate - speed) > 0)
+        {
+            attackRate -= speed;
+            return true;
+        }
+        else return false;
+    }
+
+    public void incMoveSpd(float speed)
+    {
+        movespeed += speed;
+    }
+
+    public bool decMoveSpd(float speed)
+    {
+        if ((movespeed - speed) > 0)
+        {
+            movespeed -= speed;
+            return true;
+        }
+        else return false;
+    }
 }

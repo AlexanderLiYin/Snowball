@@ -19,7 +19,7 @@ public class Snowball : MonoBehaviour
             EnemyHealth temp;
             temp = col.gameObject.GetComponent<EnemyHealth>();
             temp.decHealth(dmg);
-            dmgPopUp.Create(transform.position,1,false);
+            dmgPopUp.Create(transform.position,dmg,false);
             Destroy(gameObject);
         }
         else if (col.gameObject.tag == "Player")

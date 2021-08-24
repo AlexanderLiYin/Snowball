@@ -17,7 +17,7 @@ public class Shop : MonoBehaviour
     void Start()
     {
         player = GameObject.Find("SnowPrincess").GetComponent<SnowPrincess>();
-        coins.text = player.getCoins().ToString();
+        coins.text = player.coins.ToString();
         changeDescrip(0);
     }
 
@@ -34,7 +34,7 @@ public class Shop : MonoBehaviour
         if(player.subCoins(items[item].cost) && (items[item].amount > 0))
         {
             Upgrade();
-            coins.text = player.getCoins().ToString();
+            coins.text = player.coins.ToString();
             items[item].amount -= 1;
             amount.SetText("Stock: " + items[item].amount.ToString());
             return;
@@ -86,6 +86,18 @@ public class Shop : MonoBehaviour
 
             case 2:
                 player.incEnergyRecharge(.2f);
+                break;
+
+            case 3:
+                player.incAttack(1);
+                break;
+
+            case 4:
+                player.incAtkSpd(.1f);
+                break;
+
+            case 5:
+                player.incMoveSpd(1);
                 break;
 
             default:
