@@ -69,14 +69,18 @@ public class SnowPrincess : MonoBehaviour
         {
             movement.x = Input.GetAxisRaw("Horizontal");
             movement.y = Input.GetAxisRaw("Vertical");
+            mousePos = cam.ScreenToWorldPoint(Input.mousePosition);
         }
         else
         {
             movement.x = joystick.Horizontal;
             movement.y = joystick.Vertical;
+            if(Input.touchCount > 0)
+            {
+                Touch touch = Input.GetTouch(0);
+                mousePos = Camera.main.ScreenToWorldPoint(touch.position);
+            }
         }
-
-        mousePos = cam.ScreenToWorldPoint(Input.mousePosition);
 
         //Used for attack
         if ((Time.time >= attackTime) && canAttack)
