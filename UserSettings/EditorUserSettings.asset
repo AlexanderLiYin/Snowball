@@ -17,6 +17,9 @@ EditorUserSettings:
     RecentlyUsedScenePath-3:
       value: 22424703114646680e0b0227036c700613050f253e24227e38271427fb
       flags: 0
+    UnityRemoteDevice:
+      value: 56080d05040d50585c5a0a7043255c164045482b287171657f7a4a37e4e1303de0b461efbe6a3e6d
+      flags: 0
     vcSharedLogLevel:
       value: 0d5e400f0650
       flags: 0

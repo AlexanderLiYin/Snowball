@@ -12,6 +12,7 @@ public class SnowPrincess : MonoBehaviour
     Vector2 movement;
     Vector2 mousePos;
     public bool canMove = true;
+    public Joystick joystick;
 
     //Player health
     public HUDScript HUD;
@@ -32,30 +33,45 @@ public class SnowPrincess : MonoBehaviour
     //Player Stats
     public int coins;
     public bool inBattle;
+    bool mobile;
 
     //Energy
     public int initEnergy = 50;
     public int maxEnergy = 120;
     public float energyPerSec = 1;
     float energy;
-
-    //Initialize health
+    
     void Start()
     {
         //Get Rigidbody2D
         rb = gameObject.GetComponent<Rigidbody2D>();
+
+        //Initialize health
         LoadPlayer();
         HUD.HP(health);
 
         // Display Energy
         energy = initEnergy;
         HUD.DisplayEnergy(energy, maxEnergy);
+
+        // Get platform
+        if ((Application.platform == RuntimePlatform.IPhonePlayer) || (Application.platform == RuntimePlatform.Android))
+            mobile = true;
+        else mobile = false;
     }
 
     void Update()
     {
-        movement.x = Input.GetAxisRaw("Horizontal");
-        movement.y = Input.GetAxisRaw("Vertical");
+        if (!mobile)
+        {
+            movement.x = Input.GetAxisRaw("Horizontal");
+            movement.y = Input.GetAxisRaw("Vertical");
+        }
+        else
+        {
+            movement.x = joystick.Horizontal;
+            movement.y = joystick.Vertical;
+        }
 
         mousePos = cam.ScreenToWorldPoint(Input.mousePosition);
 
