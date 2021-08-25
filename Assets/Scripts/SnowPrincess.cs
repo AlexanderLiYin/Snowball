@@ -85,7 +85,7 @@ public class SnowPrincess : MonoBehaviour
         //Used for attack
         if ((Time.time >= attackTime) && canAttack)
         {
-            if (Input.GetButtonDown("Fire1") && Time.timeScale != 0)
+            if ((Input.GetButtonDown("Fire1") || Input.touchCount > 0) && Time.timeScale != 0)
             {
                 Attack();
                 attackTime = Time.time + 1f / attackRate;
