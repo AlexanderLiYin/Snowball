@@ -11,20 +11,34 @@ public class HUDScript : MonoBehaviour
     public GameObject loseScreen;
     public GameObject winScreen;
     public TMP_Text timer;
-    public float time = 600;
+    public TMP_Text display; //Snow Energy Display
     public GameObject star1;
     public GameObject star2;
     public GameObject star3;
-    public bool battle;
+    public GameObject joystick;
     GameManager manager;
-    int scene;
 
-    public TMP_Text display;
+    public bool battle;
+    
+    int scene;
+    bool mobile;
+    public float time = 600;
 
     void Start()
     {
         manager = GameObject.Find("GameManager").GetComponent<GameManager>();
         scene = manager.scene;
+
+        //Check to see if platform is mobile
+        if ((Application.platform == RuntimePlatform.IPhonePlayer) || (Application.platform == RuntimePlatform.Android))
+            mobile = true;
+        else mobile = false;
+
+        if (mobile)
+        {
+            joystick.SetActive(true);
+        }
+        else joystick.SetActive(false);
     }
 
     void FixedUpdate()

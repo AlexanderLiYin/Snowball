@@ -2143,12 +2143,13 @@ MonoBehaviour:
   loseScreen: {fileID: 4738620037063140500}
   winScreen: {fileID: 5782630206689343566}
   timer: {fileID: 8422500760895368203}
-  time: 600
+  display: {fileID: 1963136900064257574}
   star1: {fileID: 445475974744478708}
   star2: {fileID: 1057105141931793321}
   star3: {fileID: 5586969576861513032}
+  joystick: {fileID: 116981448836103791}
   battle: 0
-  display: {fileID: 1963136900064257574}
+  time: 600
 --- !u!114 &1161858768014090461
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3226,8 +3227,17 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 140
       objectReference: {fileID: 0}
+    - target: {fileID: 2929252283123773939, guid: aaa2c939c0359ac4dbce3f49e8b90252, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aaa2c939c0359ac4dbce3f49e8b90252, type: 3}
+--- !u!1 &116981448836103791 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2929252283123773939, guid: aaa2c939c0359ac4dbce3f49e8b90252, type: 3}
+  m_PrefabInstance: {fileID: 2970494955777658780}
+  m_PrefabAsset: {fileID: 0}
 --- !u!224 &116981448836103790 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 2929252283123773938, guid: aaa2c939c0359ac4dbce3f49e8b90252, type: 3}
