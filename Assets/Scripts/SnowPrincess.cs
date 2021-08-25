@@ -12,7 +12,7 @@ public class SnowPrincess : MonoBehaviour
     Vector2 movement;
     Vector2 mousePos;
     public bool canMove = true;
-    public Joystick joystick;
+    Joystick joystick;
 
     //Player health
     public HUDScript HUD;
@@ -58,6 +58,9 @@ public class SnowPrincess : MonoBehaviour
         if ((Application.platform == RuntimePlatform.IPhonePlayer) || (Application.platform == RuntimePlatform.Android))
             mobile = true;
         else mobile = false;
+
+        if (mobile)
+            joystick = HUD.joystick.GetComponent<FixedJoystick>();
     }
 
     void Update()
