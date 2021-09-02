@@ -4,7 +4,15 @@ using UnityEngine;
 
 public class EnemyProjectile : MonoBehaviour
 {
-    void OnTriggerEnter2D(Collider2D col)
+    public DmgPopUp dmgPopUp;
+    int dmg = 1;
+
+    public void setDmg(int damage)
+    {
+        dmg = damage;
+    }
+
+    void OnCollisionEnter2D(Collision2D col)
     {
         if (col.gameObject.tag == "Player")
         {
@@ -25,5 +33,6 @@ public class EnemyProjectile : MonoBehaviour
             temp.decHealth(1);
             Destroy(gameObject);
         }
+        Destroy(gameObject);
     }
 }
