@@ -385,7 +385,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 0
-      m_TileSpriteIndex: 0
+      m_TileSpriteIndex: 3
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -414,8 +414,8 @@ Tilemap:
   - first: {x: -4, y: 1, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 3
-      m_TileSpriteIndex: 3
+      m_TileIndex: 2
+      m_TileSpriteIndex: 2
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -447,23 +447,23 @@ Tilemap:
     m_Data: {fileID: 11400000, guid: daf0a1365f12ad044bcbf09de9329f9e, type: 2}
   - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: ff5a3cc8fa176b840bbb11b285cc028a, type: 2}
-  - m_RefCount: 1
+  - m_RefCount: 2
     m_Data: {fileID: 11400000, guid: 97842d911c8460444b1c87534959ccfb, type: 2}
-  - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: a5c912b6e0cf1c34a99f3475af64f3e6, type: 2}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: 41aa29b185ee0bc469007a4801b03948, type: 2}
   - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: 30c78be3f283b494c92fd835718e7c6b, type: 2}
   m_TileSpriteArray:
-  - m_RefCount: 1
-    m_Data: {fileID: 21300320, guid: f9ceb294d386b36408240ad8b81b8e17, type: 3}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   - m_RefCount: 1
     m_Data: {fileID: 21300288, guid: f9ceb294d386b36408240ad8b81b8e17, type: 3}
-  - m_RefCount: 1
+  - m_RefCount: 2
     m_Data: {fileID: 21300256, guid: f9ceb294d386b36408240ad8b81b8e17, type: 3}
   - m_RefCount: 1
-    m_Data: {fileID: 21300224, guid: f9ceb294d386b36408240ad8b81b8e17, type: 3}
+    m_Data: {fileID: 21300320, guid: f9ceb294d386b36408240ad8b81b8e17, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: 21300192, guid: f9ceb294d386b36408240ad8b81b8e17, type: 3}
   - m_RefCount: 1
@@ -773,7 +773,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5929521307320072819, guid: f22d868ba04322144b455f4071d67535, type: 3}
       propertyPath: data.dataString
-      value: UEsDBBQAAAgIAACAn+tlzBF1jAIAAHwFAAALACQAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQF1VE1v2zAM/SuBzuvgZF277LYlaboBbYNmQw9LD4xEx0JkydBHk7TIfy8l27WbbUAAK+Qj+R5J6YVJ7Srk3ti5leLGCGRfByye2YdB57zGPWyMXspnbDEPUvgigiBh7sFLQ/ZhDHOmRG8l/6Y3KoIzMgYtc2PLmdjgxDjvyJyDckgua3yM1mR6GbA9fc7GMeRAp9FlPD3TaZwNjnTkqD3aDtoCW1iNCporKCsUkXIHHrboYQ3TJKZBROLcKCVdw4T5Q5WUTqBygXQQQEggZal8xBcoN4WPLPvBd3nu0DeULBym0lKD6qzsu6m7VoLb1ryeQIVEIDGqU9785T2r3bk15XVbdZjFCr6QfHsPBw7O95raN0/f0w56B2oLa4UPBepbM7cmaEFOb0MMDQ5H0+7vm7BJgXzb2WuqJ8ZQ/X80UcMxad9PlCzX0fXxvDYslUndToNHS3P5QYTTWrgmBVkji98Of8Gmvz+N40pa58nVqNSR3toEG6FslnoW1QQ/MVZjMjekK9Sg/GFBafzpAE98vbInniuIN6Up3vjaC3ASkswdPstOXAuz64bl8Gcoq4WR2i8RLC96+VxhdjfoirvgldTYKYqOW2rixGhdL5/7R9gy2Bx4L8zj3geLU/CQrgBxoi0R/VBqaIrQQam4kElFTP6HVMTfY2xyAVRXJTO7NTpdnnffx7gImyDF+zVnyM9zfpmNsnE+EgCjs9GFEF9g/Wk8HPPs8/CCpXsgNfUc1KJuWjMq2iDdadG08+1jNphbqNK9ExZ2c/lcmt74pc7NkltEfVdneBOLlorQ+yBmQpLMJXovddo99rJiyvAtitVbolVq7GzvLay6LCtWySfjo2XFJun1WrEjO74CUEsDBBQAAAgIAACAn+t1SjZ6bQAAAHgAAAAJACQAbWV0YS5qc29uCgAgAAAAAAABABgAAIA+1d6xnQEAgD7V3rGdAQCAPtXesZ0Bq1YqSy0qzszPU7JSMNEz0jM01VFQSi9KLMgoBooYgjilmSkgdrRSarJJWrK5gZGBZZpRSmKika6RWUqKRWKSsaWhZbKBqaGZUixQfUllQapfYm4qRE9AYklGWmZeSmZeup57UWaKO8hopdhaAFBLAQItABQAAAgIAACAn+tlzBF1jAIAAHwFAAALACQAAAAAAAAAAAAAAAAAAABncmFwaDAuanNvbgoAIAAAAAAAAQAYAACAPtXesZ0BAIA+1d6xnQEAgD7V3rGdAVBLAQItABQAAAgIAACAn+t1SjZ6bQAAAHgAAAAJACQAAAAAAAAAAAAAANkCAABtZXRhLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFQSwUGAAAAAAIAAgC4AAAAkQMAAAAA
+      value: UEsDBBQAAAgIAACAn+vDG0UyiwIAAHwFAAALACQAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQF1VN9v2jAQ/leQn9cpZF079rYBpZvUFo1NfRh9OOwLsXDsyD8KtOJ/39kJJGWbhBRz993d992d/cqkdjVyb+zMSnFnBLLPAxbP7N2gc97iDtZGL+QLHjGPUvgygiBhfoCXhuzDGOZMhd5K/kWvVQRnZAxaFsZWU7HGsXHekbkA5ZBc1vgYrcn0OmA7+lyMYsieTvl1PL3QaZQNDnTkqD3aDnoEHmENKmiuoKpRRModOD+lbWCaxLSISJwbpaRrmTC/r5PSMdQukA4CCAmkLJWP+BLluvQxXT/4oSgc+paShf1EWmpQk5V9NU3XKnCbhtczqJAIJEZNyru/vBeNu7Cmuj1WHWaxgi8l3/yAPQfne03tmydvaQe9BbWBlcLHEvW9mVkTtCCntyGGBof5pPt7EjYukW86e0P1zBjq/48majgk7buxktUqut5fNoaFMqnbafBoaS7fiHBaC9emIGtk8cvhT1j396d13EjrPLlalTrSW5lgI5RNU8+imuDHxmpM5pZ0jRqU388pjT8f4JmvV/bMcwPxprTFW9/xApyFJHOHz7Iz19xsu2E5/B6qem6k9gsEy8tePlea7R268iF4JTV2iqLjnpo4Nlo3y+f+EbYItgDeC/O488HiBDykK0CcaEtEP5QamiJ0UCouZFIRk/8mFfH3FJtcAtVVyczujU6X5833KS7COkjxds0Z8suCX2d5NipyAZBf5FdCfILVh9FwxLOPwyuW7oHU1HNQ86Zp7ahog3SnRdPOHx+zwcxCne6dsLCdyZfK9MYvdWEW3CLqhybDSSxaKkLvg5gKSTIX6L3UaffY65IpwzcolqdEy9TY6c5bWHZZlqyWz8ZHy5KN0+u1ZAd2+ANQSwMEFAAACAgAAICf63VKNnptAAAAeAAAAAkAJABtZXRhLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQGrVipLLSrOzM9TslIw0TPSMzTVUVBKL0osyCgGihiCOKWZKSB2tFJqsklasrmBkYFlmlFKYqKRrpFZSopFYpKxpaFlsoGpoZlSLFB9SWVBql9ibipET0BiSUZaZl5KZl66nntRZoo7yGil2FoAUEsBAi0AFAAACAgAAICf68MbRTKLAgAAfAUAAAsAJAAAAAAAAAAAAAAAAAAAAGdyYXBoMC5qc29uCgAgAAAAAAABABgAAIA+1d6xnQEAgD7V3rGdAQCAPtXesZ0BUEsBAi0AFAAACAgAAICf63VKNnptAAAAeAAAAAkAJAAAAAAAAAAAAAAA2AIAAG1ldGEuanNvbgoAIAAAAAAAAQAYAACAPtXesZ0BAIA+1d6xnQEAgD7V3rGdAVBLBQYAAAAAAgACALgAAACQAwAAAAA=
       objectReference: {fileID: 0}
     - target: {fileID: 7696980394098972194, guid: f22d868ba04322144b455f4071d67535, type: 3}
       propertyPath: m_Name
@@ -934,8 +934,8 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1399684035
-Transform:
+--- !u!224 &1399684035
+RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -948,6 +948,11 @@ Transform:
   m_Father: {fileID: 1175409950}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!483693784 &1399684036
 TilemapRenderer:
   m_ObjectHideFlags: 0
