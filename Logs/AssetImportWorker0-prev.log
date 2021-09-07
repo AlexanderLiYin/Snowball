@@ -15,11 +15,11 @@ D:/Snowball
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-63134
+55906
 Successfully changed project path to: D:/Snowball
 D:/Snowball
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 51.23 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 50.70 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.12f1 (b3b2c6512326)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/Resources/UnitySubsystems
@@ -35,37 +35,37 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56284
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56192
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002089 seconds.
+Registered in 0.002105 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 48.42 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 50.14 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.063 seconds
+- Completed reload, in  1.996 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003802 seconds.
+Registered in 0.003840 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 52.47 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 49.05 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.097 seconds
+- Completed reload, in  1.143 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2383 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 120.9 MB.
+System memory in use before: 121.0 MB.
 System memory in use after: 121.0 MB.
 
 Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 2846.
-Total: 2.462000 ms (FindLiveObjects: 0.230900 ms CreateObjectMapping: 0.109200 ms MarkObjects: 2.000400 ms  DeleteObjects: 0.120600 ms)
+Total: 2.351300 ms (FindLiveObjects: 0.209500 ms CreateObjectMapping: 0.099400 ms MarkObjects: 1.913300 ms  DeleteObjects: 0.128200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -80,71 +80,482 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Prefab/Navigation.prefab
-  artifactKey: Guid(f22d868ba04322144b455f4071d67535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Navigation.prefab using Guid(f22d868ba04322144b455f4071d67535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9aabd802526acb2d70d55e9b5e965468') in 0.052833 seconds 
-  Import took 0.059576 seconds .
+  path: Assets/Scenes/Second Map.unity
+  artifactKey: Guid(fa1837360cf6d5244a310abfd3b67df8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Second Map.unity using Guid(fa1837360cf6d5244a310abfd3b67df8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c026375298198e814144a7aec554b49d') in 0.014791 seconds 
+  Import took 0.018049 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.610664 seconds.
-  path: Assets/Prefab/Navigation.prefab
-  artifactKey: Guid(f22d868ba04322144b455f4071d67535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Navigation.prefab using Guid(f22d868ba04322144b455f4071d67535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a560737bca21a3c2d292d90b15043d07') in 0.004487 seconds 
-  Import took 0.008861 seconds .
+  Time since last request: 13.941659 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7e6c6800dc82608d428ffa6bec043d9') in 0.001865 seconds 
+  Import took 0.005442 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.601926 seconds.
-  path: Assets/Prefab/Navigation.prefab
-  artifactKey: Guid(f22d868ba04322144b455f4071d67535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Navigation.prefab using Guid(f22d868ba04322144b455f4071d67535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '324b0591acf4dbc9334202439ed775b3') in 0.002801 seconds 
-  Import took 0.006880 seconds .
+  Time since last request: 30.223421 seconds.
+  path: Assets/Prefab/Grid.prefab
+  artifactKey: Guid(280f37b4257091048b5fe75745c7ba08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Grid.prefab using Guid(280f37b4257091048b5fe75745c7ba08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88245d6fc7a15afca92dba24f96a2599') in 0.037228 seconds 
+  Import took 0.042192 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.011745 seconds.
-  path: Assets/Prefab/Navigation.prefab
-  artifactKey: Guid(f22d868ba04322144b455f4071d67535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Navigation.prefab using Guid(f22d868ba04322144b455f4071d67535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90385f77d45a2a0d9e93fae89e2b1ab1') in 0.002853 seconds 
-  Import took 0.006844 seconds .
+  Time since last request: 13.840115 seconds.
+  path: Assets/Prefab/Grid.prefab
+  artifactKey: Guid(280f37b4257091048b5fe75745c7ba08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Grid.prefab using Guid(280f37b4257091048b5fe75745c7ba08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58c0a2b963a21fad9f9eb8064c2887dc') in 0.003168 seconds 
+  Import took 0.007364 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.595314 seconds.
-  path: Assets/Prefab/Navigation.prefab
-  artifactKey: Guid(f22d868ba04322144b455f4071d67535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Navigation.prefab using Guid(f22d868ba04322144b455f4071d67535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47c33372141e7784b8c0a1ff786ce188') in 0.004644 seconds 
-  Import took 0.009661 seconds .
+  Time since last request: 66.963537 seconds.
+  path: Assets/Scenes/Second Map.unity
+  artifactKey: Guid(fa1837360cf6d5244a310abfd3b67df8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Second Map.unity using Guid(fa1837360cf6d5244a310abfd3b67df8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ac674e38c1bdf128620fc04bc17f5c6') in 0.005095 seconds 
+  Import took 0.009709 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 131.039477 seconds.
-  path: Assets/Prefab/Enemy.prefab
-  artifactKey: Guid(8bb84a63041016b40a33fadf8e699dbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Enemy.prefab using Guid(8bb84a63041016b40a33fadf8e699dbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdd2f5af16a364485c29022cc377c830') in 0.126630 seconds 
-  Import took 0.130529 seconds .
+  Time since last request: 358.608293 seconds.
+  path: Assets/Prefab/Main Camera.prefab
+  artifactKey: Guid(8b6a572aca44cbe469aae1eaa0aba6e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Main Camera.prefab using Guid(8b6a572aca44cbe469aae1eaa0aba6e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9b966789907ff37c7cd0adb3bab2bb1') in 0.009059 seconds 
+  Import took 0.013296 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.054661 seconds.
+  path: Assets/Prefab/Main Camera.prefab
+  artifactKey: Guid(8b6a572aca44cbe469aae1eaa0aba6e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Main Camera.prefab using Guid(8b6a572aca44cbe469aae1eaa0aba6e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e02974ebb205c6acc75b06ecd8b7bded') in 0.003873 seconds 
+  Import took 0.007561 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 41.696236 seconds.
+  path: Assets/Prefab/Main Camera.prefab
+  artifactKey: Guid(8b6a572aca44cbe469aae1eaa0aba6e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Main Camera.prefab using Guid(8b6a572aca44cbe469aae1eaa0aba6e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'deff9ec631c99aeafa068df31b11f250') in 0.003238 seconds 
+  Import took 0.007680 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.787374 seconds.
+  path: Assets/Prefab/Main Camera.prefab
+  artifactKey: Guid(8b6a572aca44cbe469aae1eaa0aba6e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Main Camera.prefab using Guid(8b6a572aca44cbe469aae1eaa0aba6e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99fa4d1ebe199925aee9297afcbb0298') in 0.002635 seconds 
+  Import took 0.006559 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 89.609977 seconds.
+  path: Assets/Prefab/Main Camera.prefab
+  artifactKey: Guid(8b6a572aca44cbe469aae1eaa0aba6e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Main Camera.prefab using Guid(8b6a572aca44cbe469aae1eaa0aba6e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '740e7d5dda01b1528cc529e50990f56e') in 0.002880 seconds 
+  Import took 0.006719 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 57.911110 seconds.
+  path: Assets/Prefab/Main Camera.prefab
+  artifactKey: Guid(8b6a572aca44cbe469aae1eaa0aba6e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Main Camera.prefab using Guid(8b6a572aca44cbe469aae1eaa0aba6e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f93bd36940818abe99b5e6c84b39dff') in 0.004232 seconds 
+  Import took 0.008229 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 75.756229 seconds.
+  path: Assets/Prefab/Main Camera.prefab
+  artifactKey: Guid(8b6a572aca44cbe469aae1eaa0aba6e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Main Camera.prefab using Guid(8b6a572aca44cbe469aae1eaa0aba6e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca5d2071e15e535a01cec35fb03c94c4') in 0.003698 seconds 
+  Import took 0.007984 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003596 seconds.
+Registered in 0.003612 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.935 seconds
+- Completed reload, in  0.976 seconds
 Platform modules already initialized, skipping
 Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
 Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2363 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 121.7 MB.
-System memory in use after: 121.8 MB.
+System memory in use before: 118.8 MB.
+System memory in use after: 118.9 MB.
 
-Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2857.
-Total: 2.372800 ms (FindLiveObjects: 0.214500 ms CreateObjectMapping: 0.090700 ms MarkObjects: 1.957700 ms  DeleteObjects: 0.109000 ms)
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2850.
+Total: 2.305900 ms (FindLiveObjects: 0.203300 ms CreateObjectMapping: 0.093900 ms MarkObjects: 1.904400 ms  DeleteObjects: 0.103500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003575 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.064 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2363 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 119.0 MB.
+System memory in use after: 119.0 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2854.
+Total: 2.754500 ms (FindLiveObjects: 0.215900 ms CreateObjectMapping: 0.094700 ms MarkObjects: 2.310100 ms  DeleteObjects: 0.132500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003687 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.967 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2363 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 119.0 MB.
+System memory in use after: 119.1 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2858.
+Total: 2.550500 ms (FindLiveObjects: 0.206700 ms CreateObjectMapping: 0.091200 ms MarkObjects: 2.127000 ms  DeleteObjects: 0.124800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003815 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.970 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2363 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 119.0 MB.
+System memory in use after: 119.1 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2862.
+Total: 2.546000 ms (FindLiveObjects: 0.222600 ms CreateObjectMapping: 0.096700 ms MarkObjects: 2.118600 ms  DeleteObjects: 0.107300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003572 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.001 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2363 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 118.9 MB.
+System memory in use after: 119.0 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2866.
+Total: 2.569300 ms (FindLiveObjects: 0.244000 ms CreateObjectMapping: 0.108800 ms MarkObjects: 2.098900 ms  DeleteObjects: 0.116500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003788 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.175 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2363 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 119.0 MB.
+System memory in use after: 119.1 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2870.
+Total: 5.508000 ms (FindLiveObjects: 0.246500 ms CreateObjectMapping: 0.190300 ms MarkObjects: 4.779900 ms  DeleteObjects: 0.288900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003952 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.007 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2363 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 119.0 MB.
+System memory in use after: 119.1 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2874.
+Total: 2.696200 ms (FindLiveObjects: 0.233700 ms CreateObjectMapping: 0.091200 ms MarkObjects: 2.256900 ms  DeleteObjects: 0.113600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003512 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.997 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2363 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 119.0 MB.
+System memory in use after: 119.1 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2878.
+Total: 2.565700 ms (FindLiveObjects: 0.204600 ms CreateObjectMapping: 0.093400 ms MarkObjects: 2.157300 ms  DeleteObjects: 0.109300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003848 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.018 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2363 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 119.1 MB.
+System memory in use after: 119.1 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2882.
+Total: 2.516200 ms (FindLiveObjects: 0.240600 ms CreateObjectMapping: 0.095600 ms MarkObjects: 2.061000 ms  DeleteObjects: 0.118100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003609 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.083 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2363 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 119.0 MB.
+System memory in use after: 119.0 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2886.
+Total: 2.593300 ms (FindLiveObjects: 0.224300 ms CreateObjectMapping: 0.104600 ms MarkObjects: 2.150500 ms  DeleteObjects: 0.112700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003733 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.021 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2363 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 119.1 MB.
+System memory in use after: 119.2 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2890.
+Total: 2.565100 ms (FindLiveObjects: 0.220100 ms CreateObjectMapping: 0.099500 ms MarkObjects: 2.125800 ms  DeleteObjects: 0.118800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003760 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.029 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2363 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 119.1 MB.
+System memory in use after: 119.2 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2894.
+Total: 2.485700 ms (FindLiveObjects: 0.220200 ms CreateObjectMapping: 0.108300 ms MarkObjects: 2.043000 ms  DeleteObjects: 0.113000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -160,144 +571,477 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 4622.591763 seconds.
-  path: Assets/AstarPathfindingProject/Pathfinders
-  artifactKey: Guid(fc074eb9c6f334cef80f820fcc2b1134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AstarPathfindingProject/Pathfinders using Guid(fc074eb9c6f334cef80f820fcc2b1134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '540d9dad14936c1a6978883b29d2082d') in 0.009721 seconds 
-  Import took 0.014155 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.050656 seconds.
-  path: Assets/AstarPathfindingProject/Behaviors
-  artifactKey: Guid(5eeb3c5df5ca840d3ae6b93e6b207d74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AstarPathfindingProject/Behaviors using Guid(5eeb3c5df5ca840d3ae6b93e6b207d74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9034c61ed9d4ce39caff7c4e9f2edb3a') in 0.005912 seconds 
-  Import took 0.009198 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.788614 seconds.
-  path: Assets/AstarPathfindingProject/Core
-  artifactKey: Guid(b6b8abb917bca4ce0ad1b26452b3c58d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AstarPathfindingProject/Core using Guid(b6b8abb917bca4ce0ad1b26452b3c58d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15b9aae0cccd215d6736d1a0fc71d252') in 0.005313 seconds 
-  Import took 0.008866 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.934944 seconds.
-  path: Assets/AstarPathfindingProject/Core/AI
-  artifactKey: Guid(5ab9be352d07b44e68ad7c1a03eef3a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AstarPathfindingProject/Core/AI using Guid(5ab9be352d07b44e68ad7c1a03eef3a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fb9f2ea9339769ae1353d717a46e2db') in 0.005232 seconds 
-  Import took 0.008691 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.251177 seconds.
-  path: Assets/AstarPathfindingProject/Core/AI/AILerp.cs
-  artifactKey: Guid(847a14d4dc9cc43679ab34fc78e0182f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AstarPathfindingProject/Core/AI/AILerp.cs using Guid(847a14d4dc9cc43679ab34fc78e0182f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4669ef06f2d8c375cacfe039304d185') in 0.010340 seconds 
-  Import took 0.014248 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 50.268617 seconds.
-  path: Assets/AstarPathfindingProject/Core/AI/AIBase.cs
-  artifactKey: Guid(a08f67bbe580e4ddfaebd06363c9cc97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AstarPathfindingProject/Core/AI/AIBase.cs using Guid(a08f67bbe580e4ddfaebd06363c9cc97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4eba00012046f07676a00f51b9d27e95') in 0.005252 seconds 
-  Import took 0.012277 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.003996 seconds.
-  path: Assets/AstarPathfindingProject/Core/AI/AIBase.cs
-  artifactKey: Guid(a08f67bbe580e4ddfaebd06363c9cc97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AstarPathfindingProject/Core/AI/AIBase.cs using Guid(a08f67bbe580e4ddfaebd06363c9cc97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4eba00012046f07676a00f51b9d27e95') in 0.001487 seconds 
-  Import took 0.005229 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.022714 seconds.
-  path: Assets/AstarPathfindingProject/Core/AI/AIPath.cs
-  artifactKey: Guid(f6eb1402c17e84a9282a7f0f62eb584f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AstarPathfindingProject/Core/AI/AIPath.cs using Guid(f6eb1402c17e84a9282a7f0f62eb584f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '995b255212d68be510c2ff89ddc75957') in 0.004523 seconds 
-  Import took 0.009600 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002126 seconds.
-  path: Assets/AstarPathfindingProject/Core/AI/AIPath.cs
-  artifactKey: Guid(f6eb1402c17e84a9282a7f0f62eb584f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AstarPathfindingProject/Core/AI/AIPath.cs using Guid(f6eb1402c17e84a9282a7f0f62eb584f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '995b255212d68be510c2ff89ddc75957') in 0.001298 seconds 
-  Import took 0.004958 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 29.342728 seconds.
-  path: Assets/AstarPathfindingProject/Core/AI/RichAI.cs
-  artifactKey: Guid(ce11ea984e202491d9271f53021d8b89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AstarPathfindingProject/Core/AI/RichAI.cs using Guid(ce11ea984e202491d9271f53021d8b89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '762de8972166faa4fb8cb65a04271d8f') in 0.005256 seconds 
-  Import took 0.012542 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.005333 seconds.
-  path: Assets/AstarPathfindingProject/Core/AI/RichAI.cs
-  artifactKey: Guid(ce11ea984e202491d9271f53021d8b89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AstarPathfindingProject/Core/AI/RichAI.cs using Guid(ce11ea984e202491d9271f53021d8b89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '762de8972166faa4fb8cb65a04271d8f') in 0.001669 seconds 
-  Import took 0.006534 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 52.898867 seconds.
-  path: Assets/Prefab/Enemy.prefab
-  artifactKey: Guid(8bb84a63041016b40a33fadf8e699dbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Enemy.prefab using Guid(8bb84a63041016b40a33fadf8e699dbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8f7087b2510f983ac9eca4cccaef2b6') in 0.119973 seconds 
-  Import took 0.123672 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.144414 seconds.
-  path: Assets/Prefab/Enemy.prefab
-  artifactKey: Guid(8bb84a63041016b40a33fadf8e699dbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Enemy.prefab using Guid(8bb84a63041016b40a33fadf8e699dbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0685c4f2edb7edbc68ca1b4c66896e7a') in 0.028464 seconds 
-  Import took 0.032176 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.876922 seconds.
-  path: Assets/Prefab/Enemy.prefab
-  artifactKey: Guid(8bb84a63041016b40a33fadf8e699dbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Enemy.prefab using Guid(8bb84a63041016b40a33fadf8e699dbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83dd5be12d74fbe2d522142b75853e1f') in 0.029493 seconds 
-  Import took 0.033403 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.894455 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79383f3f91ef563e63cd571c706b9de0') in 0.001890 seconds 
-  Import took 0.006931 seconds .
+  Time since last request: 1359.422105 seconds.
+  path: Assets/Prefab/MainCamera.prefab
+  artifactKey: Guid(8b6a572aca44cbe469aae1eaa0aba6e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/MainCamera.prefab using Guid(8b6a572aca44cbe469aae1eaa0aba6e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f22f2350e4e8e387627f587be5ce60ea') in 0.035942 seconds 
+  Import took 0.039519 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003539 seconds.
+Registered in 0.004440 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.002 seconds
+- Completed reload, in  1.055 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2363 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 119.1 MB.
+System memory in use after: 119.2 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2898.
+Total: 2.816500 ms (FindLiveObjects: 0.211100 ms CreateObjectMapping: 0.092300 ms MarkObjects: 2.395900 ms  DeleteObjects: 0.116200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003612 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.021 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2363 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 119.1 MB.
+System memory in use after: 119.2 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2902.
+Total: 2.612000 ms (FindLiveObjects: 0.211700 ms CreateObjectMapping: 0.096700 ms MarkObjects: 2.189200 ms  DeleteObjects: 0.112900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004192 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.051 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2363 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 119.0 MB.
+System memory in use after: 119.1 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2906.
+Total: 2.553400 ms (FindLiveObjects: 0.221600 ms CreateObjectMapping: 0.097500 ms MarkObjects: 2.122800 ms  DeleteObjects: 0.110600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003711 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.121 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2363 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 119.1 MB.
+System memory in use after: 119.2 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2910.
+Total: 2.686200 ms (FindLiveObjects: 0.289500 ms CreateObjectMapping: 0.119400 ms MarkObjects: 2.148700 ms  DeleteObjects: 0.127400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003469 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.053 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2363 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 119.1 MB.
+System memory in use after: 119.2 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2914.
+Total: 2.732300 ms (FindLiveObjects: 0.247700 ms CreateObjectMapping: 0.108600 ms MarkObjects: 2.223600 ms  DeleteObjects: 0.151400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 431.811623 seconds.
+  path: Assets/Scenes/Second Map.unity
+  artifactKey: Guid(fa1837360cf6d5244a310abfd3b67df8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Second Map.unity using Guid(fa1837360cf6d5244a310abfd3b67df8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcd6c60c397ae48808f926fbe5c60ca5') in 0.011840 seconds 
+  Import took 0.018999 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003697 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.063 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2363 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 119.2 MB.
+System memory in use after: 119.2 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2918.
+Total: 2.402500 ms (FindLiveObjects: 0.226500 ms CreateObjectMapping: 0.094900 ms MarkObjects: 1.961400 ms  DeleteObjects: 0.118500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003686 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.199 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2363 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 119.2 MB.
+System memory in use after: 119.2 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2922.
+Total: 2.764200 ms (FindLiveObjects: 0.235200 ms CreateObjectMapping: 0.087400 ms MarkObjects: 2.301300 ms  DeleteObjects: 0.139300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 77.383718 seconds.
+  path: Assets/Prefab/MainCamera.prefab
+  artifactKey: Guid(8b6a572aca44cbe469aae1eaa0aba6e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/MainCamera.prefab using Guid(8b6a572aca44cbe469aae1eaa0aba6e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a64bad07af813ca334d15fbc13234f0') in 0.021669 seconds 
+  Import took 0.025037 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003714 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.072 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2363 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 119.1 MB.
+System memory in use after: 119.1 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2926.
+Total: 2.652900 ms (FindLiveObjects: 0.227500 ms CreateObjectMapping: 0.104700 ms MarkObjects: 2.199200 ms  DeleteObjects: 0.120300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003827 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.076 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2363 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 119.2 MB.
+System memory in use after: 119.3 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2930.
+Total: 2.616300 ms (FindLiveObjects: 0.228900 ms CreateObjectMapping: 0.100600 ms MarkObjects: 2.173100 ms  DeleteObjects: 0.113000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003612 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.083 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2363 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 119.2 MB.
+System memory in use after: 119.3 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2934.
+Total: 2.481300 ms (FindLiveObjects: 0.254900 ms CreateObjectMapping: 0.103600 ms MarkObjects: 2.005600 ms  DeleteObjects: 0.116100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003665 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.161 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2363 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 119.2 MB.
+System memory in use after: 119.3 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2938.
+Total: 2.904500 ms (FindLiveObjects: 0.233100 ms CreateObjectMapping: 0.084300 ms MarkObjects: 2.451000 ms  DeleteObjects: 0.134800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003863 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.109 seconds
 Platform modules already initialized, skipping
 Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
 Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2363 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 121.9 MB.
-System memory in use after: 122.0 MB.
+System memory in use before: 119.2 MB.
+System memory in use after: 119.3 MB.
 
-Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2862.
-Total: 2.624400 ms (FindLiveObjects: 0.229700 ms CreateObjectMapping: 0.097800 ms MarkObjects: 2.177000 ms  DeleteObjects: 0.119100 ms)
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2942.
+Total: 2.851400 ms (FindLiveObjects: 0.480300 ms CreateObjectMapping: 0.114400 ms MarkObjects: 2.145700 ms  DeleteObjects: 0.110300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003595 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.137 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2363 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 119.1 MB.
+System memory in use after: 119.2 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2946.
+Total: 2.548700 ms (FindLiveObjects: 0.282900 ms CreateObjectMapping: 0.099200 ms MarkObjects: 2.032200 ms  DeleteObjects: 0.133200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003577 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.121 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2363 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 119.2 MB.
+System memory in use after: 119.3 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2950.
+Total: 2.359800 ms (FindLiveObjects: 0.224000 ms CreateObjectMapping: 0.087800 ms MarkObjects: 1.930500 ms  DeleteObjects: 0.116200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -313,72 +1057,1119 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 54.494020 seconds.
-  path: Assets/Prefab/Navigation.prefab
-  artifactKey: Guid(f22d868ba04322144b455f4071d67535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Navigation.prefab using Guid(f22d868ba04322144b455f4071d67535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adb24488867b300d4d0e9e7a1f9f6f77') in 0.028688 seconds 
-  Import took 0.035949 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 137.270109 seconds.
-  path: Assets/Prefab/Navigation.prefab
-  artifactKey: Guid(f22d868ba04322144b455f4071d67535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Navigation.prefab using Guid(f22d868ba04322144b455f4071d67535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4ff21e665f47fbbdc84699173bf490c') in 0.003976 seconds 
-  Import took 0.008175 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 41.692995 seconds.
-  path: Assets/Prefab/Navigation.prefab
-  artifactKey: Guid(f22d868ba04322144b455f4071d67535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Navigation.prefab using Guid(f22d868ba04322144b455f4071d67535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a428df1274393f841c0f21abe1a27c89') in 0.002966 seconds 
-  Import took 0.006774 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 17.063818 seconds.
-  path: Assets/Prefab/Navigation.prefab
-  artifactKey: Guid(f22d868ba04322144b455f4071d67535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Navigation.prefab using Guid(f22d868ba04322144b455f4071d67535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c91bf2a82594faac7ee9289f6b5ce921') in 0.002904 seconds 
-  Import took 0.006622 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.048951 seconds.
-  path: Assets/Prefab/Navigation.prefab
-  artifactKey: Guid(f22d868ba04322144b455f4071d67535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Navigation.prefab using Guid(f22d868ba04322144b455f4071d67535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e979e11e001478279d4f1f05fe3c1f4a') in 0.004260 seconds 
-  Import took 0.007841 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.872434 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cea585ce39e8e746c48535e9faf2c484') in 0.002120 seconds 
-  Import took 0.009211 seconds .
+  Time since last request: 531.989218 seconds.
+  path: Assets/2D Hand Painted Tilesets/New Sprite Atlas.spriteatlas
+  artifactKey: Guid(051ea515af0f4494d91d6cce2beb43b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/New Sprite Atlas.spriteatlas using Guid(051ea515af0f4494d91d6cce2beb43b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e63f19e314927368dc77e4ea87bfc7b') in 0.024103 seconds 
+  Import took 0.027973 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003606 seconds.
+Registered in 0.003647 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.961 seconds
+- Completed reload, in  1.124 seconds
 Platform modules already initialized, skipping
 Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
 Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2363 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 122.0 MB.
-System memory in use after: 122.0 MB.
+System memory in use before: 119.2 MB.
+System memory in use after: 119.3 MB.
 
-Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2866.
-Total: 2.292300 ms (FindLiveObjects: 0.221500 ms CreateObjectMapping: 0.102200 ms MarkObjects: 1.862700 ms  DeleteObjects: 0.105000 ms)
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2954.
+Total: 3.001500 ms (FindLiveObjects: 0.253100 ms CreateObjectMapping: 0.095000 ms MarkObjects: 2.515900 ms  DeleteObjects: 0.136400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 71.864823 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Sprites/Tilesets 64x64/Snowland 2 Color 2@64x64.png
+  artifactKey: Guid(f27ace339dd66fe4fbe8617d93af74ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Sprites/Tilesets 64x64/Snowland 2 Color 2@64x64.png using Guid(f27ace339dd66fe4fbe8617d93af74ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bf0ea98fb394da75d82fddc1277b1e5') in 0.551348 seconds 
+  Import took 0.556115 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.348057 seconds.
+  path: Assets/2D Hand Painted Tilesets/New Sprite Atlas.spriteatlas
+  artifactKey: Guid(051ea515af0f4494d91d6cce2beb43b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/New Sprite Atlas.spriteatlas using Guid(051ea515af0f4494d91d6cce2beb43b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57b3129512bf9c922b84e551be524c45') in 0.002728 seconds 
+  Import took 0.006596 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.064237 seconds.
+  path: Assets/2D Hand Painted Tilesets/New Sprite Atlas.spriteatlas
+  artifactKey: Guid(051ea515af0f4494d91d6cce2beb43b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/New Sprite Atlas.spriteatlas using Guid(051ea515af0f4494d91d6cce2beb43b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57b3129512bf9c922b84e551be524c45') in 0.002463 seconds 
+  Import took 0.006319 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.351177 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Sprites/Tilesets 64x64/Snowland 2 Color 3@64x64.png
+  artifactKey: Guid(c99cb9117a6c63e4f89cc06117433fc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Sprites/Tilesets 64x64/Snowland 2 Color 3@64x64.png using Guid(c99cb9117a6c63e4f89cc06117433fc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c4ae1f9d4d813a68a58bd4d0accbde0') in 0.552981 seconds 
+  Import took 0.558710 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Sprites/Tilesets 64x64/Snowland Color 3@64x64.png
+  artifactKey: Guid(c33d3679b8640d743a2dc7df0856a7d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Sprites/Tilesets 64x64/Snowland Color 3@64x64.png using Guid(c33d3679b8640d743a2dc7df0856a7d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6743c65bd1fdbfa63e7f1319153a08f6') in 0.527537 seconds 
+  Import took 0.532542 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Sprites/Tilesets 64x64/Snowland@64x64.png
+  artifactKey: Guid(d1b7beabfc9f9414cb0c3f4483d63d33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Sprites/Tilesets 64x64/Snowland@64x64.png using Guid(d1b7beabfc9f9414cb0c3f4483d63d33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e1801b13a88e6c0349b095caa0366cb') in 0.405034 seconds 
+  Import took 0.409734 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Sprites/Tilesets 64x64/Snowland Color 2@64x64.png
+  artifactKey: Guid(1fa5345a04c90c34a8fbe54408e25a97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Sprites/Tilesets 64x64/Snowland Color 2@64x64.png using Guid(1fa5345a04c90c34a8fbe54408e25a97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db86e4a0d649ce4e093a738aeace0ef1') in 0.452937 seconds 
+  Import took 0.458851 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Sprites/Tilesets 64x64/Snowland 2 Color 3@64x64.png
+  artifactKey: Guid(c99cb9117a6c63e4f89cc06117433fc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Sprites/Tilesets 64x64/Snowland 2 Color 3@64x64.png using Guid(c99cb9117a6c63e4f89cc06117433fc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c4ae1f9d4d813a68a58bd4d0accbde0') in 0.551919 seconds 
+  Import took 0.556514 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Sprites/Tilesets 64x64/Snowland 2@64x64.png
+  artifactKey: Guid(079ccaeccbb60254da0ef6c6378d9d8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Sprites/Tilesets 64x64/Snowland 2@64x64.png using Guid(079ccaeccbb60254da0ef6c6378d9d8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f38fcc66e3b2077e1f4f2b49a22be59') in 0.534659 seconds 
+  Import took 0.539292 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003981 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Sprites/Tilesets 64x64/Snowland 2@64x64.png
+  artifactKey: Guid(079ccaeccbb60254da0ef6c6378d9d8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Sprites/Tilesets 64x64/Snowland 2@64x64.png using Guid(079ccaeccbb60254da0ef6c6378d9d8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f38fcc66e3b2077e1f4f2b49a22be59') in 0.531263 seconds 
+  Import took 0.535908 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003759 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.152 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2363 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 122.6 MB.
+System memory in use after: 122.7 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 2965.
+Total: 2.744300 ms (FindLiveObjects: 0.276300 ms CreateObjectMapping: 0.103100 ms MarkObjects: 2.246800 ms  DeleteObjects: 0.116600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 43.060005 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128
+  artifactKey: Guid(9c056589387520d46b9f0a8d31603043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128 using Guid(9c056589387520d46b9f0a8d31603043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daa10aaa184cc460bbb29ec66cf28d00') in 0.007934 seconds 
+  Import took 0.015192 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.035330 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_0.asset
+  artifactKey: Guid(b17b3caf559060541b0ab7ccaa25056b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_0.asset using Guid(b17b3caf559060541b0ab7ccaa25056b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29b8c74e8b1d5a930683743b8447351b') in 0.100423 seconds 
+  Import took 0.106334 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_13.asset
+  artifactKey: Guid(7f8f38d8c1dc5fd4d87f1665da461b0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_13.asset using Guid(7f8f38d8c1dc5fd4d87f1665da461b0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd313a5cfce4641917eb950708766e588') in 0.033053 seconds 
+  Import took 0.037262 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_16.asset
+  artifactKey: Guid(ba508b9e744c558479ffa3b21daf5f38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_16.asset using Guid(ba508b9e744c558479ffa3b21daf5f38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef4d113ac69072287619b800037927f0') in 0.033739 seconds 
+  Import took 0.039284 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_64.asset
+  artifactKey: Guid(d8009f4308be4bc418bcba6e13d6743c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_64.asset using Guid(d8009f4308be4bc418bcba6e13d6743c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5574c650c6720febd9ac2c60eb041b6b') in 0.033638 seconds 
+  Import took 0.037934 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_70.asset
+  artifactKey: Guid(1de951afe3684dd41855c3ec37a700a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_70.asset using Guid(1de951afe3684dd41855c3ec37a700a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1510ad64b510eacbbb8fbd85d9929e26') in 0.027377 seconds 
+  Import took 0.031525 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_26.asset
+  artifactKey: Guid(1add1d1c4465ae844af527dba90715e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_26.asset using Guid(1add1d1c4465ae844af527dba90715e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e8d0428889bfef86df94639611f760b') in 0.028261 seconds 
+  Import took 0.032724 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_27.asset
+  artifactKey: Guid(7b27f3079e876984e96dab74c9433503) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_27.asset using Guid(7b27f3079e876984e96dab74c9433503) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb53e3ef60107a0acd0786675683b02e') in 0.031483 seconds 
+  Import took 0.035659 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_34.asset
+  artifactKey: Guid(1f1b7b970baed2143a1a42e8974e9501) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_34.asset using Guid(1f1b7b970baed2143a1a42e8974e9501) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe0f99d8dd522cf279579e58c273fc55') in 0.029896 seconds 
+  Import took 0.035451 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_44.asset
+  artifactKey: Guid(3b6752d286723a940acf6be659c5afb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_44.asset using Guid(3b6752d286723a940acf6be659c5afb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '372f8c599b4d65ecddc0757983babb21') in 0.030777 seconds 
+  Import took 0.035046 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_19.asset
+  artifactKey: Guid(a984476bfb65d2646814ddcbf9c6850a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_19.asset using Guid(a984476bfb65d2646814ddcbf9c6850a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3be2a5c4b68cbb747f9e1286a275647d') in 0.028897 seconds 
+  Import took 0.033186 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_30.asset
+  artifactKey: Guid(acf60250f38312a479323a661be2c579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_30.asset using Guid(acf60250f38312a479323a661be2c579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9731c748b2ab2b7b9994a7607f4ebb7b') in 0.027170 seconds 
+  Import took 0.032831 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_57.asset
+  artifactKey: Guid(b8345f04fa5db3642bfa9600b98dddd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_57.asset using Guid(b8345f04fa5db3642bfa9600b98dddd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41580f2192f161223f45f741b6406d6f') in 0.027056 seconds 
+  Import took 0.031569 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_39.asset
+  artifactKey: Guid(aef4b51407c5b9e45a952c87c39794aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_39.asset using Guid(aef4b51407c5b9e45a952c87c39794aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '269f85b46c33eb463e7a436179e1edb6') in 0.031432 seconds 
+  Import took 0.036089 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_71.asset
+  artifactKey: Guid(98e0917be5245334c8189e87cea430f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_71.asset using Guid(98e0917be5245334c8189e87cea430f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daf5c382c5bedf5afb1381ffaef8b64f') in 0.036728 seconds 
+  Import took 0.040912 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_29.asset
+  artifactKey: Guid(e1a4a865fe639c4409f56812131e7a45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_29.asset using Guid(e1a4a865fe639c4409f56812131e7a45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dae8928a243f3393453680457e81c36b') in 0.028449 seconds 
+  Import took 0.032587 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_5.asset
+  artifactKey: Guid(312daf699e5ec4647b3e44e3b696dcd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_5.asset using Guid(312daf699e5ec4647b3e44e3b696dcd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9aa532d2c32ee0c9cb1eb8c19e23aea') in 0.028444 seconds 
+  Import took 0.032651 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_38.asset
+  artifactKey: Guid(ae8f46e353f201b429ad4828b8079fea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_38.asset using Guid(ae8f46e353f201b429ad4828b8079fea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e5d0a2f772b8240e327ac5f6f4f7615') in 0.027873 seconds 
+  Import took 0.032595 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_24.asset
+  artifactKey: Guid(32e355dbd67605a438f850d5ddb32163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_24.asset using Guid(32e355dbd67605a438f850d5ddb32163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8575533102646af19ef9c2190694383c') in 0.028214 seconds 
+  Import took 0.033910 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_79.asset
+  artifactKey: Guid(f107a5d8b46c8354992bcf1be168fd27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_79.asset using Guid(f107a5d8b46c8354992bcf1be168fd27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b47e51f4e3c9677abf3d85f18ccf033') in 0.034687 seconds 
+  Import took 0.039020 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_76.asset
+  artifactKey: Guid(36ec31e9dca8f00468649524ce47dbac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_76.asset using Guid(36ec31e9dca8f00468649524ce47dbac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3aa8576cbe4b96a05e551a4dd52a3f3') in 0.029164 seconds 
+  Import took 0.033658 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_48.asset
+  artifactKey: Guid(d7d0508d401773741b584629daa5a696) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_48.asset using Guid(d7d0508d401773741b584629daa5a696) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1ce4224cdd971e6101dc557e703fbc6') in 0.033894 seconds 
+  Import took 0.038253 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_62.asset
+  artifactKey: Guid(dbeac9f3550d4274480c2c484cb7a24e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_62.asset using Guid(dbeac9f3550d4274480c2c484cb7a24e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93793928b7e475a28d0717741c0b45b7') in 0.031063 seconds 
+  Import took 0.035890 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_33.asset
+  artifactKey: Guid(66692758d07a7834588e44910f4cb9eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_33.asset using Guid(66692758d07a7834588e44910f4cb9eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e69d6caacf89ebd6ed61176c6ecfedd') in 0.028979 seconds 
+  Import took 0.033410 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_59.asset
+  artifactKey: Guid(614946564008d6c4c8571158fa049c47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_59.asset using Guid(614946564008d6c4c8571158fa049c47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab050afd59d24919306af223be539c9f') in 0.034308 seconds 
+  Import took 0.038607 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_69.asset
+  artifactKey: Guid(e226ef2d892e35047bfb9cc60dd38a5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_69.asset using Guid(e226ef2d892e35047bfb9cc60dd38a5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0050e00e3945e438e383326ba8026cd2') in 0.034393 seconds 
+  Import took 0.038716 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_47.asset
+  artifactKey: Guid(5d967fa77900b97489d26e413b2d5085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_47.asset using Guid(5d967fa77900b97489d26e413b2d5085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59b5ade6c675a8d7b7226dc2eca0a4fd') in 0.031501 seconds 
+  Import took 0.035570 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_9.asset
+  artifactKey: Guid(897237542afe5244fa6a8364e8f5d431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_9.asset using Guid(897237542afe5244fa6a8364e8f5d431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61c6b0645bb5360600084281e1890964') in 0.031043 seconds 
+  Import took 0.035356 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_63.asset
+  artifactKey: Guid(072200c5a86e5ae45aecbd82f97c51d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_63.asset using Guid(072200c5a86e5ae45aecbd82f97c51d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '525abd5ac3d3d9a88878df3ccae7ede6') in 0.029425 seconds 
+  Import took 0.035022 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_46.asset
+  artifactKey: Guid(08e89c5a8ef86e3499e8c29273781ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_46.asset using Guid(08e89c5a8ef86e3499e8c29273781ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cba605c7575a70a1a667a884a923b766') in 0.027798 seconds 
+  Import took 0.031910 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_15.asset
+  artifactKey: Guid(7424062e1162ef448b9db39b3d0786b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_15.asset using Guid(7424062e1162ef448b9db39b3d0786b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fd9a96664383d57ac9b7e2b6386f721') in 0.028091 seconds 
+  Import took 0.034133 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_28.asset
+  artifactKey: Guid(8178d355f0a0c0a4d944e76e309f5cb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_28.asset using Guid(8178d355f0a0c0a4d944e76e309f5cb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26deb3926d65e4cdcb5a00319cbadb79') in 0.034619 seconds 
+  Import took 0.038975 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_22.asset
+  artifactKey: Guid(5ec5eeb79e8d9374585aeb76fb92e9e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_22.asset using Guid(5ec5eeb79e8d9374585aeb76fb92e9e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b219d849f0a8fea21516e93f69e3ec3') in 0.032869 seconds 
+  Import took 0.037482 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_12.asset
+  artifactKey: Guid(d01397896a589a747a541378130b7bd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_12.asset using Guid(d01397896a589a747a541378130b7bd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd474f7e0cc655e76ba866c04a876a810') in 0.030542 seconds 
+  Import took 0.035080 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_77.asset
+  artifactKey: Guid(4a88597c6f7028341946bbefd9875f33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_77.asset using Guid(4a88597c6f7028341946bbefd9875f33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3954576f99fcec24811957ab6dde9312') in 0.028492 seconds 
+  Import took 0.033250 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_41.asset
+  artifactKey: Guid(97e7a3f273a74cd479ec54356fab94d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_41.asset using Guid(97e7a3f273a74cd479ec54356fab94d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1f7390f5c520deac8a6c0e5ad12e64b') in 0.029269 seconds 
+  Import took 0.033626 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_60.asset
+  artifactKey: Guid(9b556d6f74725b34bbd2758155906b4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_60.asset using Guid(9b556d6f74725b34bbd2758155906b4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff288d02d9ce30efcfa04e0f89476c52') in 0.027659 seconds 
+  Import took 0.032255 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_67.asset
+  artifactKey: Guid(46a66730d552b224093a629eb7a245fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_67.asset using Guid(46a66730d552b224093a629eb7a245fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be68b01333b5337a3b7d45da4e2b9a11') in 0.034645 seconds 
+  Import took 0.040344 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_50.asset
+  artifactKey: Guid(d1115335795b6b443bc9a84384c6f7a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_50.asset using Guid(d1115335795b6b443bc9a84384c6f7a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64e9298529e57ad43679a368036ea720') in 0.027750 seconds 
+  Import took 0.032150 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_40.asset
+  artifactKey: Guid(269079d8fd67afd43b298eb8e7db195b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_40.asset using Guid(269079d8fd67afd43b298eb8e7db195b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ded339f3b6f5e935983e3c1da27a800a') in 0.028311 seconds 
+  Import took 0.032720 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_2.asset
+  artifactKey: Guid(63c525bf3a8876c49b7d39739edd3a69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_2.asset using Guid(63c525bf3a8876c49b7d39739edd3a69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf926a75afd1449471198f88e94a9fee') in 0.029090 seconds 
+  Import took 0.033990 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_25.asset
+  artifactKey: Guid(2b9cab527befa994f84aa737f8aedde5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_25.asset using Guid(2b9cab527befa994f84aa737f8aedde5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e31f659721fdce8f699fc25a83396db') in 0.028564 seconds 
+  Import took 0.032871 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_54.asset
+  artifactKey: Guid(b41ded9bef4f98348b03425f94fea864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_54.asset using Guid(b41ded9bef4f98348b03425f94fea864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22befe5e6826b60b2b31cb70bb31d1c2') in 0.028007 seconds 
+  Import took 0.033921 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_32.asset
+  artifactKey: Guid(60a519bc637d4ae41840a753379bc324) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_32.asset using Guid(60a519bc637d4ae41840a753379bc324) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '679587f1993d47db8ab3fb5db2045051') in 0.034633 seconds 
+  Import took 0.039154 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_11.asset
+  artifactKey: Guid(5b1a8e10c1034e846a7ca2aa09fd1fea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_11.asset using Guid(5b1a8e10c1034e846a7ca2aa09fd1fea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f317ad924bf1d3dd0a392141bfc6b0c3') in 0.030244 seconds 
+  Import took 0.034279 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_31.asset
+  artifactKey: Guid(4b700ed1fe9efc94585de625dc22ed82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_31.asset using Guid(4b700ed1fe9efc94585de625dc22ed82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01fe64d7f769ffb9545aedf8bc1638d2') in 0.029619 seconds 
+  Import took 0.033717 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_42.asset
+  artifactKey: Guid(999d87b00eb258b4585016f2ab0d50fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_42.asset using Guid(999d87b00eb258b4585016f2ab0d50fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f16a77b0814e483d9a1455e124f780c2') in 0.029095 seconds 
+  Import took 0.034735 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_23.asset
+  artifactKey: Guid(fb70c665044461145a54a6a5741ec4e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_23.asset using Guid(fb70c665044461145a54a6a5741ec4e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd6acb741979dff29568870d96aa2f99') in 0.029882 seconds 
+  Import took 0.034687 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_72.asset
+  artifactKey: Guid(9d0db8eeeea6fa8478c54a0bdd2171e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_72.asset using Guid(9d0db8eeeea6fa8478c54a0bdd2171e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3157daa2797554676f4c0e259b68cc02') in 0.030745 seconds 
+  Import took 0.035198 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_66.asset
+  artifactKey: Guid(e7acf3c98d4f4bf49bab22b1d6e8f797) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_66.asset using Guid(e7acf3c98d4f4bf49bab22b1d6e8f797) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '564912935740cc79857302f79487e4a7') in 0.033748 seconds 
+  Import took 0.038148 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_52.asset
+  artifactKey: Guid(4984069764b3da14db1c3db07579e915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_52.asset using Guid(4984069764b3da14db1c3db07579e915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '743a27c32d43ef9e1caa6715c413a700') in 0.029228 seconds 
+  Import took 0.033322 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_7.asset
+  artifactKey: Guid(ddd2bda0f11e8f942adb28110fe55d81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_7.asset using Guid(ddd2bda0f11e8f942adb28110fe55d81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0f5a18634b15e56d9d25c466852d928') in 0.030413 seconds 
+  Import took 0.036017 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_14.asset
+  artifactKey: Guid(efe5772a5cf26624faa289f60aae7b64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_14.asset using Guid(efe5772a5cf26624faa289f60aae7b64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edc764a73b19bdf8bd734dac1fd6abf8') in 0.028289 seconds 
+  Import took 0.032516 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_37.asset
+  artifactKey: Guid(915c4c24a028d85448c096df3d3860c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_37.asset using Guid(915c4c24a028d85448c096df3d3860c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aac3a397d81fd5436cc1eaab6d7b1add') in 0.027823 seconds 
+  Import took 0.031847 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_73.asset
+  artifactKey: Guid(b2bc026f8e7e113488bd88f26712ed54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_73.asset using Guid(b2bc026f8e7e113488bd88f26712ed54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37217d78da5f6c5c85118e2fe61e53be') in 0.029949 seconds 
+  Import took 0.034020 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_8.asset
+  artifactKey: Guid(162bc5f202bc2984fa9e82847860c63e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_8.asset using Guid(162bc5f202bc2984fa9e82847860c63e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48ac6bb99d046d69cd2ce0666959c7f0') in 0.031811 seconds 
+  Import took 0.037461 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_68.asset
+  artifactKey: Guid(0885f5790dc3c2745a990f560f4ba2f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_68.asset using Guid(0885f5790dc3c2745a990f560f4ba2f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9751dcea6ad720c36f186a45b0ed807e') in 0.028565 seconds 
+  Import took 0.032786 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_78.asset
+  artifactKey: Guid(7ccd2790bc1ff164f999f7a1ba8127ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_78.asset using Guid(7ccd2790bc1ff164f999f7a1ba8127ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8552c6ba8c117d6eaa20244e58475c3') in 0.027972 seconds 
+  Import took 0.033537 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_1.asset
+  artifactKey: Guid(9e8b7aafdccfa56478db8339288599af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_1.asset using Guid(9e8b7aafdccfa56478db8339288599af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd561de004a6f75f33ecd285c6f6d0bd1') in 0.031829 seconds 
+  Import took 0.036244 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_49.asset
+  artifactKey: Guid(3b9650530b2260d4198df6a3d62c347e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_49.asset using Guid(3b9650530b2260d4198df6a3d62c347e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c948f19eea1048e7d5bd91b16a7acb94') in 0.030763 seconds 
+  Import took 0.035162 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_36.asset
+  artifactKey: Guid(563084ead188a5948be6faa7f82b7a2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_36.asset using Guid(563084ead188a5948be6faa7f82b7a2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '331bd7f879ab2fabd68634f3f9a297fc') in 0.031356 seconds 
+  Import took 0.036031 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_20.asset
+  artifactKey: Guid(6fc33cde3f5f3fd488ad653f2254bb57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_20.asset using Guid(6fc33cde3f5f3fd488ad653f2254bb57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf105c77a467d1c97600518b7141e7bf') in 0.037625 seconds 
+  Import took 0.042265 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_45.asset
+  artifactKey: Guid(b62c1fc08ced061468d4b817d5af5153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_45.asset using Guid(b62c1fc08ced061468d4b817d5af5153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c9081bcc6a5e39266a10ee8156d033d') in 0.034353 seconds 
+  Import took 0.038629 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_18.asset
+  artifactKey: Guid(58618aae9ad304a4e8240bf283109782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_18.asset using Guid(58618aae9ad304a4e8240bf283109782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b4036624091fc46889e595fdc2ac327') in 0.028285 seconds 
+  Import took 0.032519 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_55.asset
+  artifactKey: Guid(3b65fa68a373c97498a4ae624a541816) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_55.asset using Guid(3b65fa68a373c97498a4ae624a541816) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '469a93533ee2211db378acac97fccd89') in 0.028629 seconds 
+  Import took 0.033514 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_4.asset
+  artifactKey: Guid(0ce2cbc7f2fd39449b90d3f021492714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_4.asset using Guid(0ce2cbc7f2fd39449b90d3f021492714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4699161fc8c7dad46a58a3db4f7ffe80') in 0.030486 seconds 
+  Import took 0.034799 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_58.asset
+  artifactKey: Guid(ca224ac071c1f4f40a62985606faed7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_58.asset using Guid(ca224ac071c1f4f40a62985606faed7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd14eed5ac46accd56c74e96a64b923af') in 0.028294 seconds 
+  Import took 0.034078 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_61.asset
+  artifactKey: Guid(dae6ca5ae5454b74a8e1837cace086c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_61.asset using Guid(dae6ca5ae5454b74a8e1837cace086c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b6de1d1aaa7fed942d21cc0b7c0a43d') in 0.032276 seconds 
+  Import took 0.036808 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_53.asset
+  artifactKey: Guid(dddec9e49cc225d4d82a5e4fa86b20ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_53.asset using Guid(dddec9e49cc225d4d82a5e4fa86b20ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09fed5f6d09ce697bb804b4366866d26') in 0.031091 seconds 
+  Import took 0.035503 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_51.asset
+  artifactKey: Guid(639fec3b4fb89c44492f62d3165af4c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_51.asset using Guid(639fec3b4fb89c44492f62d3165af4c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4565c08778ad4e70cb94a46ee8a21d6c') in 0.031332 seconds 
+  Import took 0.036279 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_35.asset
+  artifactKey: Guid(12621fbbbb41789429d4965c7b03efda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_35.asset using Guid(12621fbbbb41789429d4965c7b03efda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82d1b3917afb45c11aaeb77e8e1e3ec7') in 0.028003 seconds 
+  Import took 0.032579 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_43.asset
+  artifactKey: Guid(d78ea4be6fe1f264c8266281a3e9bc94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_43.asset using Guid(d78ea4be6fe1f264c8266281a3e9bc94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fffa7b437332bb849c8a428c10735871') in 0.028010 seconds 
+  Import took 0.032667 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_21.asset
+  artifactKey: Guid(fac1526a6a65e5546a2715068e204495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_21.asset using Guid(fac1526a6a65e5546a2715068e204495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0013f67996b301ee5fe79aa6517a825') in 0.030149 seconds 
+  Import took 0.034795 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_56.asset
+  artifactKey: Guid(da7b87658391c5f4886ff969cbffe5b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_56.asset using Guid(da7b87658391c5f4886ff969cbffe5b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0aa39f4ce97db00cea70dc126d584178') in 0.032001 seconds 
+  Import took 0.036222 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_65.asset
+  artifactKey: Guid(8eb04dfa897e5b444a124014012a14f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_65.asset using Guid(8eb04dfa897e5b444a124014012a14f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca10d1099fbf2c3b9de52813941198c6') in 0.028560 seconds 
+  Import took 0.032650 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_75.asset
+  artifactKey: Guid(e71119d3fdfc9ce46b6fb996d007a7b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_75.asset using Guid(e71119d3fdfc9ce46b6fb996d007a7b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1180acbc6e17884931036dd6e252d8c') in 0.028689 seconds 
+  Import took 0.032788 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_3.asset
+  artifactKey: Guid(aef58d1483e4b104b9e4253da3f963c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_3.asset using Guid(aef58d1483e4b104b9e4253da3f963c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '238a8d705f0bfa93582fa026105f1304') in 0.030893 seconds 
+  Import took 0.036527 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_74.asset
+  artifactKey: Guid(676bcf6e735407b458e49216ffdcec78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_74.asset using Guid(676bcf6e735407b458e49216ffdcec78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '807a6d2597c54922d1a17172a904b80b') in 0.031362 seconds 
+  Import took 0.035470 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_6.asset
+  artifactKey: Guid(b5ec769ce09482344826561917bf30c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_6.asset using Guid(b5ec769ce09482344826561917bf30c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dd574cf795401d705c41a8545639261') in 0.033608 seconds 
+  Import took 0.037596 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_17.asset
+  artifactKey: Guid(bbb23f2c4fe48cf42afc0ee6bddfe9c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_17.asset using Guid(bbb23f2c4fe48cf42afc0ee6bddfe9c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b95118fa119768ea0447772b3547154') in 0.031154 seconds 
+  Import took 0.035286 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_10.asset
+  artifactKey: Guid(687631674f51033449fe477515074bbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_10.asset using Guid(687631674f51033449fe477515074bbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75fdae6fc6ffff04fa33b47083b3808f') in 0.028690 seconds 
+  Import took 0.032940 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.604075 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Sprites
+  artifactKey: Guid(48efe78c50dbbf9468396e8ea2836e13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Sprites using Guid(48efe78c50dbbf9468396e8ea2836e13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd6aa09612240e63bc2a46a1edd600cc') in 0.006422 seconds 
+  Import took 0.010068 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.681431 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Sprites/Tilesets 128x128
+  artifactKey: Guid(026cfeb211f805048ab607add7a1282d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Sprites/Tilesets 128x128 using Guid(026cfeb211f805048ab607add7a1282d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a03899f438ca67a073276ce21fd82c0') in 0.005840 seconds 
+  Import took 0.009761 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.375371 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Sprites/Tilesets 64x64
+  artifactKey: Guid(1904ddac6cf754649bbd1351f7daaf17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Sprites/Tilesets 64x64 using Guid(1904ddac6cf754649bbd1351f7daaf17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41edc10b9995212912bed0ea40a2b12b') in 0.005261 seconds 
+  Import took 0.008832 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001024 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Sprites/Tilesets 64x64
+  artifactKey: Guid(1904ddac6cf754649bbd1351f7daaf17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Sprites/Tilesets 64x64 using Guid(1904ddac6cf754649bbd1351f7daaf17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41edc10b9995212912bed0ea40a2b12b') in 0.001323 seconds 
+  Import took 0.004814 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.940185 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Sprites/Tilesets 128x128/Snowland 2 Color 2@128x128.png
+  artifactKey: Guid(fcfc47076ba79c44eae3bfb54445030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Sprites/Tilesets 128x128/Snowland 2 Color 2@128x128.png using Guid(fcfc47076ba79c44eae3bfb54445030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6019fd16f378b5d76ea06f88f54433c5') in 0.654851 seconds 
+  Import took 0.660085 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Sprites/Tilesets 128x128/Snowland Color 3@128x128.png
+  artifactKey: Guid(db34b3594dc834a458067a6767991fb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Sprites/Tilesets 128x128/Snowland Color 3@128x128.png using Guid(db34b3594dc834a458067a6767991fb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5257c0d666864ba88ef10e1e80de19e') in 0.698390 seconds 
+  Import took 0.703497 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Sprites/Tilesets 128x128/Snowland@128x128.png
+  artifactKey: Guid(f9ceb294d386b36408240ad8b81b8e17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Sprites/Tilesets 128x128/Snowland@128x128.png using Guid(f9ceb294d386b36408240ad8b81b8e17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d1caf765dd05233f42b7e32c12da43f') in 0.673408 seconds 
+  Import took 0.678556 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Sprites/Tilesets 128x128/Snowland Color 2@128x128.png
+  artifactKey: Guid(0c97fcbf2a4cf9f4f92421253c124a58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Sprites/Tilesets 128x128/Snowland Color 2@128x128.png using Guid(0c97fcbf2a4cf9f4f92421253c124a58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00bf76860c8ee52eebeb25304ca57dc1') in 0.699172 seconds 
+  Import took 0.704762 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Sprites/Tilesets 128x128/Snowland 2@128x128.png
+  artifactKey: Guid(83aea5ebccc40fa4981460fda6f7f43f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Sprites/Tilesets 128x128/Snowland 2@128x128.png using Guid(83aea5ebccc40fa4981460fda6f7f43f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2f8353ed1b73a268fe4d7c588dc9592') in 0.626870 seconds 
+  Import took 0.632122 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Sprites/Tilesets 128x128/Snowland 2 Color 3@128x128.png
+  artifactKey: Guid(685bde17c8fc55045b81b7f759547aac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Sprites/Tilesets 128x128/Snowland 2 Color 3@128x128.png using Guid(685bde17c8fc55045b81b7f759547aac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78c7f26465ac69d98e2e8a904fd02da3') in 0.654035 seconds 
+  Import took 0.659201 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.250315 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Sprites/Tilesets 128x128/SnowLandAtlas.spriteatlas
+  artifactKey: Guid(0bde8ec491f254d47b1ddaafb1038ea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Sprites/Tilesets 128x128/SnowLandAtlas.spriteatlas using Guid(0bde8ec491f254d47b1ddaafb1038ea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b9a12b811eb813722d0b49eec77167a') in 0.005470 seconds 
+  Import took 0.012938 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004907 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Sprites/Tilesets 128x128/SnowLandAtlas.spriteatlas
+  artifactKey: Guid(0bde8ec491f254d47b1ddaafb1038ea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Sprites/Tilesets 128x128/SnowLandAtlas.spriteatlas using Guid(0bde8ec491f254d47b1ddaafb1038ea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b9a12b811eb813722d0b49eec77167a') in 0.002181 seconds 
+  Import took 0.006681 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 56.603821 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Sprites/Tilesets 128x128/SnowLandAtlas.spriteatlas
+  artifactKey: Guid(0bde8ec491f254d47b1ddaafb1038ea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Sprites/Tilesets 128x128/SnowLandAtlas.spriteatlas using Guid(0bde8ec491f254d47b1ddaafb1038ea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f9225eee390ea38dac361a5b649c13c') in 0.012786 seconds 
+  Import took 0.017060 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.048325 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Sprites/Tilesets 128x128/SnowLandAtlas.spriteatlas
+  artifactKey: Guid(0bde8ec491f254d47b1ddaafb1038ea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Sprites/Tilesets 128x128/SnowLandAtlas.spriteatlas using Guid(0bde8ec491f254d47b1ddaafb1038ea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f9225eee390ea38dac361a5b649c13c') in 0.009557 seconds 
+  Import took 0.013763 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.516634 seconds.
+  path: Assets/Scenes/Second Map.unity
+  artifactKey: Guid(fa1837360cf6d5244a310abfd3b67df8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Second Map.unity using Guid(fa1837360cf6d5244a310abfd3b67df8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34b7c17f57b4c72c3578ed1e1c94a390') in 0.005889 seconds 
+  Import took 0.009807 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004933 seconds.
+  path: Assets/Scenes/Second Map.unity
+  artifactKey: Guid(fa1837360cf6d5244a310abfd3b67df8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Second Map.unity using Guid(fa1837360cf6d5244a310abfd3b67df8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34b7c17f57b4c72c3578ed1e1c94a390') in 0.001625 seconds 
+  Import took 0.005418 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003592 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.159 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2363 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 124.1 MB.
+System memory in use after: 124.1 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2973.
+Total: 2.437300 ms (FindLiveObjects: 0.258100 ms CreateObjectMapping: 0.112000 ms MarkObjects: 1.956600 ms  DeleteObjects: 0.109800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004169 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.268 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2363 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 124.0 MB.
+System memory in use after: 124.1 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2977.
+Total: 2.944800 ms (FindLiveObjects: 0.254900 ms CreateObjectMapping: 0.100100 ms MarkObjects: 2.473400 ms  DeleteObjects: 0.115500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004034 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.134 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2363 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 124.1 MB.
+System memory in use after: 124.2 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2981.
+Total: 2.619100 ms (FindLiveObjects: 0.239600 ms CreateObjectMapping: 0.115100 ms MarkObjects: 2.152000 ms  DeleteObjects: 0.111300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003565 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.136 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2363 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 124.1 MB.
+System memory in use after: 124.2 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2985.
+Total: 2.564200 ms (FindLiveObjects: 0.253200 ms CreateObjectMapping: 0.092200 ms MarkObjects: 2.108500 ms  DeleteObjects: 0.109500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003493 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.165 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2363 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 124.1 MB.
+System memory in use after: 124.2 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2989.
+Total: 2.860700 ms (FindLiveObjects: 0.287100 ms CreateObjectMapping: 0.091200 ms MarkObjects: 2.361300 ms  DeleteObjects: 0.120200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003515 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.150 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2363 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 124.1 MB.
+System memory in use after: 124.2 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2993.
+Total: 2.248700 ms (FindLiveObjects: 0.241800 ms CreateObjectMapping: 0.103200 ms MarkObjects: 1.787700 ms  DeleteObjects: 0.115000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
