@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
-    public HUDScript HUD;
+    HUDScript HUD;
     public int scene;
     public bool canAttack = true;
 
@@ -13,6 +13,7 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         player = GameObject.Find("SnowPrincess").GetComponent<SnowPrincess>();
+        HUD = GameObject.Find("HUD").GetComponent<HUDScript>();
         scene = SceneManager.GetActiveScene().buildIndex;
         player.canAttack = canAttack;
         if (scene != 3)
