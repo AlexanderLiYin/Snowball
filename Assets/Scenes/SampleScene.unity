@@ -773,7 +773,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5929521307320072819, guid: f22d868ba04322144b455f4071d67535, type: 3}
       propertyPath: showGraphs
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5929521307320072819, guid: f22d868ba04322144b455f4071d67535, type: 3}
+      propertyPath: threadCount
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 5929521307320072819, guid: f22d868ba04322144b455f4071d67535, type: 3}
       propertyPath: data.dataString
