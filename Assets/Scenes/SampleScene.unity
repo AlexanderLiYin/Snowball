@@ -772,6 +772,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5929521307320072819, guid: f22d868ba04322144b455f4071d67535, type: 3}
+      propertyPath: showGraphs
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5929521307320072819, guid: f22d868ba04322144b455f4071d67535, type: 3}
       propertyPath: data.dataString
       value: UEsDBBQAAAgIAACAn+vDG0UyiwIAAHwFAAALACQAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQF1VN9v2jAQ/leQn9cpZF079rYBpZvUFo1NfRh9OOwLsXDsyD8KtOJ/39kJJGWbhBRz993d992d/cqkdjVyb+zMSnFnBLLPAxbP7N2gc97iDtZGL+QLHjGPUvgygiBhfoCXhuzDGOZMhd5K/kWvVQRnZAxaFsZWU7HGsXHekbkA5ZBc1vgYrcn0OmA7+lyMYsieTvl1PL3QaZQNDnTkqD3aDnoEHmENKmiuoKpRRModOD+lbWCaxLSISJwbpaRrmTC/r5PSMdQukA4CCAmkLJWP+BLluvQxXT/4oSgc+paShf1EWmpQk5V9NU3XKnCbhtczqJAIJEZNyru/vBeNu7Cmuj1WHWaxgi8l3/yAPQfne03tmydvaQe9BbWBlcLHEvW9mVkTtCCntyGGBof5pPt7EjYukW86e0P1zBjq/48majgk7buxktUqut5fNoaFMqnbafBoaS7fiHBaC9emIGtk8cvhT1j396d13EjrPLlalTrSW5lgI5RNU8+imuDHxmpM5pZ0jRqU388pjT8f4JmvV/bMcwPxprTFW9/xApyFJHOHz7Iz19xsu2E5/B6qem6k9gsEy8tePlea7R268iF4JTV2iqLjnpo4Nlo3y+f+EbYItgDeC/O488HiBDykK0CcaEtEP5QamiJ0UCouZFIRk/8mFfH3FJtcAtVVyczujU6X5833KS7COkjxds0Z8suCX2d5NipyAZBf5FdCfILVh9FwxLOPwyuW7oHU1HNQ86Zp7ahog3SnRdPOHx+zwcxCne6dsLCdyZfK9MYvdWEW3CLqhybDSSxaKkLvg5gKSTIX6L3UaffY65IpwzcolqdEy9TY6c5bWHZZlqyWz8ZHy5KN0+u1ZAd2+ANQSwMEFAAACAgAAICf63VKNnptAAAAeAAAAAkAJABtZXRhLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQGrVipLLSrOzM9TslIw0TPSMzTVUVBKL0osyCgGihiCOKWZKSB2tFJqsklasrmBkYFlmlFKYqKRrpFZSopFYpKxpaFlsoGpoZlSLFB9SWVBql9ibipET0BiSUZaZl5KZl66nntRZoo7yGil2FoAUEsBAi0AFAAACAgAAICf68MbRTKLAgAAfAUAAAsAJAAAAAAAAAAAAAAAAAAAAGdyYXBoMC5qc29uCgAgAAAAAAABABgAAIA+1d6xnQEAgD7V3rGdAQCAPtXesZ0BUEsBAi0AFAAACAgAAICf63VKNnptAAAAeAAAAAkAJAAAAAAAAAAAAAAA2AIAAG1ldGEuanNvbgoAIAAAAAAAAQAYAACAPtXesZ0BAIA+1d6xnQEAgD7V3rGdAVBLBQYAAAAAAgACALgAAACQAwAAAAA=
       objectReference: {fileID: 0}
@@ -1372,7 +1376,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1668153353051426471, guid: 8bb84a63041016b40a33fadf8e699dbd, type: 3}
       propertyPath: m_BodyType
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1668153353051426471, guid: 8bb84a63041016b40a33fadf8e699dbd, type: 3}
       propertyPath: m_Material
