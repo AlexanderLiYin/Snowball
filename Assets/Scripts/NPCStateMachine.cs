@@ -23,10 +23,12 @@ public class NPCStateMachine : MonoBehaviour
     void Start()
     {
         attackRange = cc.radius;
-        if(gameObject.tag == "Helper")
+        waypoint = GameObject.FindGameObjectWithTag("Player");
+        /*
+        if (gameObject.tag == "Helper")
         {
             waypoint = GameObject.FindGameObjectWithTag("Player");
-        }
+        }*/
     }
 
     void Update()
@@ -84,7 +86,7 @@ public class NPCStateMachine : MonoBehaviour
         {
             target.Remove(col.gameObject);
             if(target.Count == 0)
-                state = State.idle;
+                state = State.move;
         }
     }
 
