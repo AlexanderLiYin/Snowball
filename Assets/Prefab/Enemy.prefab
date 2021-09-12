@@ -616,6 +616,7 @@ MonoBehaviour:
   moveSpeed: 4
   followRange: 3
   state: 0
+  ai: {fileID: 3702019493208512654}
 --- !u!114 &5965517550821621697
 MonoBehaviour:
   m_ObjectHideFlags: 0

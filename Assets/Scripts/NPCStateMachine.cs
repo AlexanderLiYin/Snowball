@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Pathfinding;
 
 public class NPCStateMachine : MonoBehaviour
 {
@@ -20,10 +21,14 @@ public class NPCStateMachine : MonoBehaviour
     float shootTime = 0;
     List<GameObject> target = new List<GameObject>();
 
+    public AILerp ai;
+
     void Start()
     {
         attackRange = cc.radius;
         waypoint = GameObject.FindGameObjectWithTag("Player");
+        ai.canMove = false;
+        ai.canSearch = false;
         /*
         if (gameObject.tag == "Helper")
         {
@@ -109,7 +114,12 @@ public class NPCStateMachine : MonoBehaviour
 
     void Move()
     {
+        ai.canSearch = true;
+        ai.canMove = true;
+        
+        /*
         if(Vector3.Distance(transform.position, waypoint.transform.position) > followRange)
             transform.position = Vector3.MoveTowards(transform.position, waypoint.transform.position, Time.deltaTime * moveSpeed);
+        */
     }
 }
