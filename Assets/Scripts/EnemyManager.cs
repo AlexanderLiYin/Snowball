@@ -6,6 +6,7 @@ using UnityEngine;
 public class EnemyManager : MonoBehaviour
 {
     public EnemyHealth[] hp;
+    public event Action OnDmgTaken;
 
     // Start is called before the first frame update
     void Start()
@@ -18,6 +19,6 @@ public class EnemyManager : MonoBehaviour
 
     void Alert(GameObject caller)
     {
-        print(caller);
+        OnDmgTaken.Invoke();
     }
 }

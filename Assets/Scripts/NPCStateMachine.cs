@@ -22,7 +22,7 @@ public class NPCStateMachine : MonoBehaviour
     List<GameObject> target = new List<GameObject>();
 
     public AILerp ai;
-    EnemyHealth hp;
+    EnemyManager manager;
 
     void Start()
     {
@@ -30,11 +30,11 @@ public class NPCStateMachine : MonoBehaviour
         ai.canMove = false;
         ai.canSearch = false;
 
-        hp = GetComponent<EnemyHealth>();
-        hp.OnDmgTaken += Alert;
+        manager = GameObject.Find("EnemyManager").GetComponent<EnemyManager>();
+        manager.OnDmgTaken += Alert;
     }
 
-    void Alert(GameObject caller)
+    void Alert()
     {
         Move();
         print("Moving");
