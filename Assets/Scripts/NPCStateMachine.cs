@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -11,7 +12,7 @@ public class NPCStateMachine : MonoBehaviour
     public float fireRate = 1;
     public Rigidbody2D rb;
     public CircleCollider2D cc;
-    public GameObject waypoint;
+    //public GameObject waypoint; Obsolete
     public float moveSpeed = 4f;
     public float followRange = 3;
     
@@ -22,18 +23,22 @@ public class NPCStateMachine : MonoBehaviour
     List<GameObject> target = new List<GameObject>();
 
     public AILerp ai;
+    EnemyHealth hp;
 
     void Start()
     {
         attackRange = cc.radius;
-        waypoint = GameObject.FindGameObjectWithTag("Player");
+        //waypoint = GameObject.FindGameObjectWithTag("Player");
         ai.canMove = false;
         ai.canSearch = false;
-        /*
-        if (gameObject.tag == "Helper")
-        {
-            waypoint = GameObject.FindGameObjectWithTag("Player");
-        }*/
+
+        hp = GetComponent<EnemyHealth>();
+        hp.OnDmgTaken += Alert;
+    }
+
+    void Alert(object sender,EventArgs e)
+    {
+        print("Alert");
     }
 
     void Update()
@@ -97,7 +102,6 @@ public class NPCStateMachine : MonoBehaviour
 
     void Attack()
     {
-
         Rigidbody2D pRB = target[0].GetComponent<Rigidbody2D>(); // Get player rigidbody
         Vector2 lookDir = pRB.position - rb.position; // get direction from enemy to player
         float angle = Mathf.Atan2(lookDir.y, lookDir.x) * Mathf.Rad2Deg - 90f; // Get the angle
@@ -116,10 +120,5 @@ public class NPCStateMachine : MonoBehaviour
     {
         ai.canSearch = true;
         ai.canMove = true;
-        
-        /*
-        if(Vector3.Distance(transform.position, waypoint.transform.position) > followRange)
-            transform.position = Vector3.MoveTowards(transform.position, waypoint.transform.position, Time.deltaTime * moveSpeed);
-        */
     }
 }

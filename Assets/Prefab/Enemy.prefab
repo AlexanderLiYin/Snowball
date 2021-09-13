@@ -612,7 +612,6 @@ MonoBehaviour:
   fireRate: 1
   rb: {fileID: 1668153353051426471}
   cc: {fileID: 4376952301907988827}
-  waypoint: {fileID: 0}
   moveSpeed: 4
   followRange: 3
   state: 0

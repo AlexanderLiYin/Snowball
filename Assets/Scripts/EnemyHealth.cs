@@ -11,25 +11,19 @@ public class EnemyHealth : MonoBehaviour
     public HealthBar hpBar;
     public bool isBoss;
 
-    public event EventHandler OnDmgTaken;
     bool onTrench = false;
     public float evadeChance = 10;
+    public event EventHandler OnDmgTaken;
 
     // Start is called before the first frame update
     void Start()
     {
         health = initHealth;
-        OnDmgTaken += Alert;
-    }
-
-    void Alert(object sender, EventArgs e)
-    {
-        print("Alert!");
     }
 
     public void decHealth(int dmg)
     {
-        OnDmgTaken(this,EventArgs.Empty);
+        OnDmgTaken?.Invoke(this, EventArgs.Empty);
         if (onTrench)
         {
             if (evadeChance > UnityEngine.Random.Range(0, 99))
