@@ -36,12 +36,8 @@ public class NPCStateMachine : MonoBehaviour
 
     void Alert(GameObject caller)
     {
-        //float distance = Vector2.Distance(caller.transform.position, this.transform.position);
-        //if (distance < 20)
-        //{
-            Move();
-            //print(caller);
-        //}
+        Move();
+        print("Moving");
     }
 
     void Update()
