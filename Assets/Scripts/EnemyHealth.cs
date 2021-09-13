@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -10,6 +11,7 @@ public class EnemyHealth : MonoBehaviour
     public HealthBar hpBar;
     public bool isBoss;
 
+    public event EventHandler OnDmgTaken;
     bool onTrench = false;
     public float evadeChance = 10;
 
@@ -17,13 +19,20 @@ public class EnemyHealth : MonoBehaviour
     void Start()
     {
         health = initHealth;
+        OnDmgTaken += Alert;
+    }
+
+    void Alert(object sender, EventArgs e)
+    {
+        print("Alert!");
     }
 
     public void decHealth(int dmg)
     {
+        OnDmgTaken(this,EventArgs.Empty);
         if (onTrench)
         {
-            if (evadeChance > Random.Range(0, 99))
+            if (evadeChance > UnityEngine.Random.Range(0, 99))
             {
                 print("Miss");
                 return;
