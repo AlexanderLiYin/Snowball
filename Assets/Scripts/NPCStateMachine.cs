@@ -23,6 +23,7 @@ public class NPCStateMachine : MonoBehaviour
 
     public AILerp ai;
     EnemyManager manager;
+    public int groupNum;
 
     void Start()
     {
@@ -34,10 +35,10 @@ public class NPCStateMachine : MonoBehaviour
         manager.OnDmgTaken += Alert;
     }
 
-    void Alert()
+    void Alert(int group)
     {
+        if(groupNum == group)
         Move();
-        print("Moving");
     }
 
     void Update()
