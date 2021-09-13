@@ -36,9 +36,15 @@ public class NPCStateMachine : MonoBehaviour
         hp.OnDmgTaken += Alert;
     }
 
-    void Alert(object sender,EventArgs e)
+    void Alert(GameObject caller)
     {
-        print("Alert");
+        float distance = Vector2.Distance(caller.transform.position, this.transform.position);
+        if (distance < 20)
+        {
+            Move();
+            print(caller);
+        }
+            
     }
 
     void Update()

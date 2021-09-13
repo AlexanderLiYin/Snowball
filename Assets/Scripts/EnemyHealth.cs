@@ -13,7 +13,7 @@ public class EnemyHealth : MonoBehaviour
 
     bool onTrench = false;
     public float evadeChance = 10;
-    public event EventHandler OnDmgTaken;
+    public event Action<GameObject> OnDmgTaken;
 
     // Start is called before the first frame update
     void Start()
@@ -23,7 +23,7 @@ public class EnemyHealth : MonoBehaviour
 
     public void decHealth(int dmg)
     {
-        OnDmgTaken?.Invoke(this, EventArgs.Empty);
+        OnDmgTaken?.Invoke(gameObject);
         if (onTrench)
         {
             if (evadeChance > UnityEngine.Random.Range(0, 99))
