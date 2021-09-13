@@ -23,7 +23,7 @@ public class EnemyHealth : MonoBehaviour
 
     public void decHealth(int dmg)
     {
-        OnDmgTaken?.Invoke(gameObject);
+        OnDmgTaken.Invoke(gameObject);
         if (onTrench)
         {
             if (evadeChance > UnityEngine.Random.Range(0, 99))
@@ -31,7 +31,6 @@ public class EnemyHealth : MonoBehaviour
                 print("Miss");
                 return;
             }
-
         }
         health -= dmg;
         hpBar.HP(health);

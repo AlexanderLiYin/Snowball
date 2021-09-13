@@ -12,7 +12,6 @@ public class NPCStateMachine : MonoBehaviour
     public float fireRate = 1;
     public Rigidbody2D rb;
     public CircleCollider2D cc;
-    //public GameObject waypoint; Obsolete
     public float moveSpeed = 4f;
     public float followRange = 3;
     
@@ -28,7 +27,6 @@ public class NPCStateMachine : MonoBehaviour
     void Start()
     {
         attackRange = cc.radius;
-        //waypoint = GameObject.FindGameObjectWithTag("Player");
         ai.canMove = false;
         ai.canSearch = false;
 
@@ -38,13 +36,12 @@ public class NPCStateMachine : MonoBehaviour
 
     void Alert(GameObject caller)
     {
-        float distance = Vector2.Distance(caller.transform.position, this.transform.position);
-        if (distance < 20)
-        {
+        //float distance = Vector2.Distance(caller.transform.position, this.transform.position);
+        //if (distance < 20)
+        //{
             Move();
-            print(caller);
-        }
-            
+            //print(caller);
+        //}
     }
 
     void Update()
