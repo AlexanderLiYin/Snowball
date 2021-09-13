@@ -5,12 +5,15 @@ using UnityEngine;
 
 public class EnemyManager : MonoBehaviour
 {
-    public EnemyHealth hp;
+    public EnemyHealth[] hp;
 
     // Start is called before the first frame update
     void Start()
     {
-        hp.OnDmgTaken += Alert; //Add the function to the event else it won't be called
+        foreach(EnemyHealth enemy in hp)
+        {
+            enemy.OnDmgTaken += Alert; //Add the function to the event else it won't be called
+        }
     }
 
     void Alert(GameObject caller)
