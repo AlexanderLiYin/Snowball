@@ -110,6 +110,7 @@ public class HUDScript : MonoBehaviour
         Time.timeScale = 0f;
     }
 
+    //All menus that change scene unpause the game
     public void Retry()
     {
         Time.timeScale = 1f;

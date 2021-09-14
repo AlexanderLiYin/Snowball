@@ -6,10 +6,12 @@ public class SavePoint : MonoBehaviour
 {
     bool inRange = false;
     SnowPrincess player;
+    Notification hud;
 
     void Start()
     {
         player = GameObject.Find("SnowPrincess").GetComponent<SnowPrincess>();
+        hud = GameObject.Find("HUD").GetComponent<Notification>();
     }
 
     void Update()
@@ -17,6 +19,7 @@ public class SavePoint : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.E) && inRange)
         {
             SaveSystem.SavePlayer(player);
+            hud.Notify("Game Saved");
             print("Game Saved");
         }
             
