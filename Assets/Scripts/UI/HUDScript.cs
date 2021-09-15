@@ -27,7 +27,7 @@ public class HUDScript : MonoBehaviour
     void Start()
     {
         manager = GameObject.Find("GameManager").GetComponent<GameManager>();
-        scene = manager.scene;
+        scene = manager.scene; //Get the scene number
 
         //Check to see if platform is mobile
         if ((Application.platform == RuntimePlatform.IPhonePlayer) || (Application.platform == RuntimePlatform.Android))
