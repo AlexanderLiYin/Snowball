@@ -7,11 +7,12 @@ public class Chest : MonoBehaviour
     public int coins;
     bool opened = false;
     bool inRange = false;
+    Notification hud;
 
     //Will later need to save the state of chests
     void Start()
     {
-
+        hud = GameObject.Find("HUD").GetComponent<Notification>();
     }
 
     void Update()
@@ -30,6 +31,7 @@ public class Chest : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D col)
     {
+        hud.Notify("E to Interact");
         inRange = true;
     }
 

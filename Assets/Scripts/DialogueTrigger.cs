@@ -8,6 +8,12 @@ public class DialogueTrigger : MonoBehaviour
     public bool isShop;
     public Dialogue dialogue;
     public GameObject UI;
+    Notification hud;
+
+    void Start()
+    {
+        hud = GameObject.Find("HUD").GetComponent<Notification>();
+    }
 
     void Update()
     {
@@ -17,6 +23,7 @@ public class DialogueTrigger : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D col)
     {
+        hud.Notify("E to Interact");
         inRange = true;
     }
 
