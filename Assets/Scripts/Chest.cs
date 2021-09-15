@@ -22,10 +22,11 @@ public class Chest : MonoBehaviour
             if (!opened)
             {
                 FindObjectOfType<SnowPrincess>().addCoins(coins);
+                hud.Notify(coins + " coins added");
                 opened = true;
             }
             else
-                print("Chest has already been openned");
+                hud.Notify("Chest has already been opened.");
         }
     }
 
