@@ -34,6 +34,7 @@ public class Notification : MonoBehaviour
 
     public void Notify(string message)
     {
+        print("Notify called");
         notice.text = message;
         image.SetActive(true);
         active = true;

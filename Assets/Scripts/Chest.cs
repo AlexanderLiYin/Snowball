@@ -32,8 +32,11 @@ public class Chest : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D col)
     {
-        hud.Notify("E to Interact");
-        inRange = true;
+        if (col.gameObject.tag == "Player")
+        {
+            hud.Notify("E to Interact");
+            inRange = true;
+        }
     }
 
     void OnTriggerExit2D(Collider2D col)
