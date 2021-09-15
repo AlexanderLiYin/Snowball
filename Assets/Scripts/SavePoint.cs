@@ -20,13 +20,13 @@ public class SavePoint : MonoBehaviour
         {
             SaveSystem.SavePlayer(player);
             hud.Notify("Game Saved");
-            print("Game Saved");
         }
             
     }
 
     void OnTriggerEnter2D(Collider2D col)
     {
+        hud.Notify("E to Interact");
         inRange = true;
     }
 
