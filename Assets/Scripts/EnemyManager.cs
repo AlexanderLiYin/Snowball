@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class EnemyManager : MonoBehaviour
 {
-    public EnemyHealth[] enemyList; //Stores the enemy health of all enemies
+    public List<EnemyHealth> enemyList = new List<EnemyHealth>(); //Stores the enemy health of all enemies
     public List<Chest> chests = new List<Chest>(); //List of chests
     List<int> groupsWithChests = new List<int>(); //List groups with a hidden chest
     public event Action<int> OnDmgTaken; //This is considered a different event then the one the Enemy Health Invoked
@@ -29,22 +29,21 @@ public class EnemyManager : MonoBehaviour
         OnDmgTaken.Invoke(group); //An enemy has taken damage, so tell every other enemy to check if they are in the same group.
     }
 
-    void ChestSpawn(int group)
+    void ChestSpawn(EnemyHealth recentEnemy)
     {
-        if (groupsWithChests.Contains(group)) //Check to see if the group has a chest that can be spawned
+        enemyList.Remove(recentEnemy); //Remove enemy from list upon destruction
+        if (groupsWithChests.Contains(recentEnemy.group)) //Check to see if the group has a chest that can be spawned
         {
             int remaining = 0;
             foreach (EnemyHealth enemy in enemyList) 
             {
-                if (enemy.group == group)
+                if (enemy.group == recentEnemy.group)
                 {
-                    print(remaining);
                     remaining++;
                 }   
             }
-            print(remaining);
             if(remaining == 0)
-                chests[groupsWithChests.IndexOf(group)].gameObject.SetActive(true); //Activate chest
+                chests[groupsWithChests.IndexOf(recentEnemy.group)].gameObject.SetActive(true); //Activate chest
             return;
         }    
     }

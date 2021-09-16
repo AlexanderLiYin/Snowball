@@ -14,7 +14,7 @@ public class EnemyHealth : MonoBehaviour
     bool onTrench = false;
     public float evadeChance = 10;
     public event Action<int> OnDmgTaken;
-    public event Action<int> OnDefeat;
+    public event Action<EnemyHealth> OnDefeat;
     public int group;
 
     // Start is called before the first frame update
@@ -42,7 +42,7 @@ public class EnemyHealth : MonoBehaviour
             {
                 FindObjectOfType<GameManager>().Win();
             }
-            OnDefeat.Invoke(group);
+            OnDefeat.Invoke(this);
             Destroy(gameObject);
         }
     }
