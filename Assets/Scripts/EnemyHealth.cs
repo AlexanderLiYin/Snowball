@@ -14,6 +14,7 @@ public class EnemyHealth : MonoBehaviour
     bool onTrench = false;
     public float evadeChance = 10;
     public event Action<int> OnDmgTaken;
+    public event Action<int> OnDefeat;
     public int group;
 
     // Start is called before the first frame update
@@ -24,7 +25,7 @@ public class EnemyHealth : MonoBehaviour
 
     public void decHealth(int dmg)
     {
-        OnDmgTaken.Invoke(group);
+        OnDmgTaken.Invoke(group); //Tell the game manager that an enemy has taken damage
         if (onTrench)
         {
             if (evadeChance > UnityEngine.Random.Range(0, 99))
@@ -41,6 +42,7 @@ public class EnemyHealth : MonoBehaviour
             {
                 FindObjectOfType<GameManager>().Win();
             }
+            OnDefeat.Invoke(group);
             Destroy(gameObject);
         }
     }

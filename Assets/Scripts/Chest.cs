@@ -5,6 +5,8 @@ using UnityEngine;
 public class Chest : MonoBehaviour
 {
     public int coins;
+    [Tooltip("Negative 1 if not in any group")]
+    public int group = -1; //Negative 1 if not in any group
     bool opened = false;
     bool inRange = false;
     Notification hud;

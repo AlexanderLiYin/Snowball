@@ -32,7 +32,7 @@ public class NPCStateMachine : MonoBehaviour
         ai.canSearch = false;
 
         manager = GameObject.Find("EnemyManager").GetComponent<EnemyManager>();
-        manager.OnDmgTaken += Alert;
+        manager.OnDmgTaken += Alert; //NPC state machine listens for the enemy manager's alert event.
     }
 
     void Alert(int group)
