@@ -78,6 +78,7 @@ public class DialogueManager : MonoBehaviour
             yield return new WaitForSeconds(.05f);
         }
     }
+
     void EndDialogue()
     {
         inDialogue = false;

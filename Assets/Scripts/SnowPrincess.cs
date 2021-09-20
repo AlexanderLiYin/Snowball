@@ -93,6 +93,16 @@ public class SnowPrincess : MonoBehaviour
         }
     }
 
+    public void DisableMovement()
+    {
+        canMove = false;
+    }
+
+    public void EnableMovement()
+    {
+        canMove = true;
+    }
+
     // Used for moving the player
     void FixedUpdate()
     {
