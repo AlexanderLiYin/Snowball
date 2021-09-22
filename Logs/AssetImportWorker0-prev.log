@@ -15,11 +15,11 @@ D:/Snowball
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59401
+60920
 Successfully changed project path to: D:/Snowball
 D:/Snowball
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 82.45 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 90.23 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.12f1 (b3b2c6512326)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/Resources/UnitySubsystems
@@ -35,37 +35,37 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56552
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56644
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002207 seconds.
+Registered in 0.002194 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 86.36 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 85.94 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.045 seconds
+- Completed reload, in  2.179 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004161 seconds.
+Registered in 0.004241 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 83.29 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 87.62 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.197 seconds
+- Completed reload, in  1.297 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.95 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3342 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 152.9 MB.
 System memory in use after: 152.9 MB.
 
 Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 3807.
-Total: 2.901800 ms (FindLiveObjects: 0.318600 ms CreateObjectMapping: 0.146000 ms MarkObjects: 2.292900 ms  DeleteObjects: 0.143200 ms)
+Total: 2.757300 ms (FindLiveObjects: 0.319600 ms CreateObjectMapping: 0.196400 ms MarkObjects: 2.079700 ms  DeleteObjects: 0.160300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -80,41 +80,71 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Dialogue/Dialogue Database.asset
-  artifactKey: Guid(138c68488e73f4040a95b3362d2b6d4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dialogue/Dialogue Database.asset using Guid(138c68488e73f4040a95b3362d2b6d4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67e965eb0d5dd8f1e2dc5845a25df616') in 0.048124 seconds 
-  Import took 0.053887 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.221855 seconds.
-  path: Assets/Dialogue
-  artifactKey: Guid(83a6e56dfd8fb2042b1f8fb7ab7b557f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dialogue using Guid(83a6e56dfd8fb2042b1f8fb7ab7b557f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ed1f4e3bb95d0bdc1688c7e8cdab0d9') in 0.006718 seconds 
-  Import took 0.015362 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 614.351459 seconds.
-  path: Assets/Dialogue/Dialogue Database (Auto-Backup).asset
-  artifactKey: Guid(c71d0ee6810f9e74d881ed65e4867617) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dialogue/Dialogue Database (Auto-Backup).asset using Guid(c71d0ee6810f9e74d881ed65e4867617) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '833b482ca31b7128665d785de54f956a') in 0.008204 seconds 
-  Import took 0.014813 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000334 seconds.
-  path: Assets/Dialogue/Dialogue Database.asset
-  artifactKey: Guid(138c68488e73f4040a95b3362d2b6d4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dialogue/Dialogue Database.asset using Guid(138c68488e73f4040a95b3362d2b6d4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9993e36327176eb1ba2596e7f3a7670c') in 0.002313 seconds 
-  Import took 0.008103 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 599.953966 seconds.
   path: Assets/Dialogue/Dialogue Database (Auto-Backup).asset
   artifactKey: Guid(c4c1be47f60d6334f848772dc238bc90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dialogue/Dialogue Database (Auto-Backup).asset using Guid(c4c1be47f60d6334f848772dc238bc90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63204592e7c581337fb9d79f0c9a44ba') in 0.002607 seconds 
-  Import took 0.009943 seconds .
+Start importing Assets/Dialogue/Dialogue Database (Auto-Backup).asset using Guid(c4c1be47f60d6334f848772dc238bc90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e3de861702e5b247e23413fb5db3b0e') in 0.051875 seconds 
+  Import took 0.057467 seconds .
 
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+========================================================================
+Received Import Request.
+  Time since last request: 31.904820 seconds.
+  path: Assets/Scenes/Overworld.unity
+  artifactKey: Guid(9a3fbe926f903ce4dbf8bd38a6de7471) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Overworld.unity using Guid(9a3fbe926f903ce4dbf8bd38a6de7471) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e109fa3ca2104c4d7259f0fd964ff49') in 0.012321 seconds 
+  Import took 0.018926 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 369.811559 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Demo/Data/Demo Database.asset
+  artifactKey: Guid(c1cc03cd82f6cdb40afbc0575be25564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Demo/Data/Demo Database.asset using Guid(c1cc03cd82f6cdb40afbc0575be25564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '295e3a53e5cd53118900de13d3cd2818') in 0.015027 seconds 
+  Import took 0.022905 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000653 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Demo/Data/Demo Database.asset
+  artifactKey: Guid(c1cc03cd82f6cdb40afbc0575be25564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Demo/Data/Demo Database.asset using Guid(c1cc03cd82f6cdb40afbc0575be25564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '295e3a53e5cd53118900de13d3cd2818') in 0.010806 seconds 
+  Import took 0.018240 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 158.864194 seconds.
+  path: Assets/Scenes/Bedroom.unity
+  artifactKey: Guid(36344cf5c40642048acc4263cc4a148b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Bedroom.unity using Guid(36344cf5c40642048acc4263cc4a148b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '342ce1d28eeb5f335d7712d6702e73b3') in 0.007755 seconds 
+  Import took 0.015222 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003968 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.017 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.05 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3318 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 151.0 MB.
+System memory in use after: 151.1 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 3811.
+Total: 3.269700 ms (FindLiveObjects: 0.428800 ms CreateObjectMapping: 0.263700 ms MarkObjects: 2.420400 ms  DeleteObjects: 0.155300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
