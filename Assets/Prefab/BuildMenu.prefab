@@ -18,7 +18,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &4613146596800181419
 RectTransform:
   m_ObjectHideFlags: 0
@@ -218,7 +218,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1399708059379954944}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 281943b3b73ca1e4fa187d1fe6467cda, type: 3}
   m_Name: 
@@ -326,7 +326,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spell: {fileID: 2132276877330214242, guid: 69d3786c523bb3d4087c11879f02d042, type: 3}
-  energy: {fileID: 0}
   cost: 40
   canvas: {fileID: 1195532373589606115}
 --- !u!1 &3739496883706508164
@@ -419,7 +418,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   building: {fileID: 3720744756159945005, guid: 6fc3ac99616a3654690660799aee8c3a, type: 3}
-  energy: {fileID: 0}
   cost: 40
   canvas: {fileID: 1195532373589606115}
 --- !u!225 &2481597435914092903
@@ -536,7 +534,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   building: {fileID: 1197607032409460252, guid: a71aca8bcba57cc44bc3ae3d81928a0d, type: 3}
-  energy: {fileID: 0}
   cost: 40
   canvas: {fileID: 1195532373589606115}
 --- !u!1 &9217837476540723764
@@ -629,7 +626,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   building: {fileID: 6642110596093620324, guid: 2defa7235c167d14cadd734950fd7886, type: 3}
-  energy: {fileID: 0}
   cost: 10
   canvas: {fileID: 1195532373589606115}
 --- !u!225 &6896208031230371878
