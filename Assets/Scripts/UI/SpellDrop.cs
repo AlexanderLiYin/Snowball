@@ -11,7 +11,7 @@ public class SpellDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, 
     CanvasGroup canvasGroup;
 
     public GameObject spell;
-    public SnowPrincess energy;
+    SnowPrincess energy;
     public int cost = 40;
     [SerializeField] private Canvas canvas; // Used to scale drag incase canvas gets rescaled
 
@@ -20,6 +20,7 @@ public class SpellDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, 
         rectTransform = GetComponent<RectTransform>();
         originPos = rectTransform.position;
         canvasGroup = GetComponent<CanvasGroup>();
+        energy = GameObject.Find("SnowPrincess").GetComponent<SnowPrincess>();
     }
 
     public void OnPointerDown(PointerEventData eventData)
