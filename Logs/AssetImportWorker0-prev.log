@@ -1,0 +1,342 @@
+Using pre-set license
+Built from '2020.3/release' branch; Version is '2020.3.12f1 (b3b2c6512326) revision 11776710'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19042.1165; Version 2009; 64bit' Language: 'en' Physical Memory: 16263 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.12f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Snowball
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+64699
+Successfully changed project path to: D:/Snowball
+D:/Snowball
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 82.27 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.12f1 (b3b2c6512326)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Snowball/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1060 (ID=0x1c20)
+    Vendor:   
+    VRAM:     6052 MB
+    Driver:   27.21.14.6280
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56920
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002112 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 79.68 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.064 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004020 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 78.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.210 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3342 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 152.9 MB.
+System memory in use after: 153.0 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 3807.
+Total: 2.641100 ms (FindLiveObjects: 0.287900 ms CreateObjectMapping: 0.193600 ms MarkObjects: 2.013200 ms  DeleteObjects: 0.145500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Prefab/DialogueManager.prefab
+  artifactKey: Guid(df264ced78ec4fa4aa492c65e7b6e580) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/DialogueManager.prefab using Guid(df264ced78ec4fa4aa492c65e7b6e580) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9116760932c123ff60698137de0780f') in 0.143061 seconds 
+  Import took 0.148488 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2019.454624 seconds.
+  path: Assets/Prefab/HealingPool.prefab
+  artifactKey: Guid(faaaea8c443123144b5b8f51d4691eee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/HealingPool.prefab using Guid(faaaea8c443123144b5b8f51d4691eee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d86e03c1e8f9c3b36f4506ad5e34df4') in 0.059503 seconds 
+  Import took 0.065378 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 34.833286 seconds.
+  path: Assets/Prefab/HealingPool.prefab
+  artifactKey: Guid(faaaea8c443123144b5b8f51d4691eee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/HealingPool.prefab using Guid(faaaea8c443123144b5b8f51d4691eee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3e725b450ada53576ab636543052fae') in 0.009227 seconds 
+  Import took 0.014843 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.007531 seconds.
+  path: Assets/Prefab/HealingPool.prefab
+  artifactKey: Guid(faaaea8c443123144b5b8f51d4691eee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/HealingPool.prefab using Guid(faaaea8c443123144b5b8f51d4691eee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cceecc7a67a2db0dedeab287d86639f') in 0.059549 seconds 
+  Import took 0.066859 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.946398 seconds.
+  path: Assets/Prefab/HealingPool.prefab
+  artifactKey: Guid(faaaea8c443123144b5b8f51d4691eee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/HealingPool.prefab using Guid(faaaea8c443123144b5b8f51d4691eee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3f202d607622de45bfa2a18f59ff61b') in 0.027608 seconds 
+  Import took 0.034153 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.573427 seconds.
+  path: Assets/Prefab/HealingPool.prefab
+  artifactKey: Guid(faaaea8c443123144b5b8f51d4691eee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/HealingPool.prefab using Guid(faaaea8c443123144b5b8f51d4691eee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4d93c81525a003129da1dbcb31252f4') in 0.021456 seconds 
+  Import took 0.027511 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.381820 seconds.
+  path: Assets/Prefab/HealingPool.prefab
+  artifactKey: Guid(faaaea8c443123144b5b8f51d4691eee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/HealingPool.prefab using Guid(faaaea8c443123144b5b8f51d4691eee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24333b555553123fe8fc3717ddc52114') in 0.023090 seconds 
+  Import took 0.030128 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.511987 seconds.
+  path: Assets/Prefab/HealingPool.prefab
+  artifactKey: Guid(faaaea8c443123144b5b8f51d4691eee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/HealingPool.prefab using Guid(faaaea8c443123144b5b8f51d4691eee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9606b537154430af3b277adf9e739bb4') in 0.034145 seconds 
+  Import took 0.040839 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 55.989567 seconds.
+  path: Assets/Prefab/HealingPool.prefab
+  artifactKey: Guid(faaaea8c443123144b5b8f51d4691eee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/HealingPool.prefab using Guid(faaaea8c443123144b5b8f51d4691eee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8da94cd938ea4c616ceb3e3f4bc4b14a') in 0.019445 seconds 
+  Import took 0.026287 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.370997 seconds.
+  path: Assets/Prefab/HealingPool.prefab
+  artifactKey: Guid(faaaea8c443123144b5b8f51d4691eee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/HealingPool.prefab using Guid(faaaea8c443123144b5b8f51d4691eee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dd23068c38fa668c7aa4a308208cebf') in 0.019746 seconds 
+  Import took 0.025929 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.379329 seconds.
+  path: Assets/Prefab/HealingPool.prefab
+  artifactKey: Guid(faaaea8c443123144b5b8f51d4691eee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/HealingPool.prefab using Guid(faaaea8c443123144b5b8f51d4691eee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '658e843a3ba3a86cc19f9d1623ccad71') in 0.017690 seconds 
+  Import took 0.023949 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.379103 seconds.
+  path: Assets/Prefab/HealingPool.prefab
+  artifactKey: Guid(faaaea8c443123144b5b8f51d4691eee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/HealingPool.prefab using Guid(faaaea8c443123144b5b8f51d4691eee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d4355ddac07b7446b15b9b16b7f4d0b') in 0.020044 seconds 
+  Import took 0.026563 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.789341 seconds.
+  path: Assets/Prefab/HealingPool.prefab
+  artifactKey: Guid(faaaea8c443123144b5b8f51d4691eee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/HealingPool.prefab using Guid(faaaea8c443123144b5b8f51d4691eee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97cca26b3fdb9b5e333208cfda81b2d9') in 0.019708 seconds 
+  Import took 0.026184 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.907745 seconds.
+  path: Assets/Prefab/HealingPool.prefab
+  artifactKey: Guid(faaaea8c443123144b5b8f51d4691eee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/HealingPool.prefab using Guid(faaaea8c443123144b5b8f51d4691eee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f32396b8610f38770dddb645a1b8dd33') in 0.018449 seconds 
+  Import took 0.024913 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.168663 seconds.
+  path: Assets/Prefab/HealingPool.prefab
+  artifactKey: Guid(faaaea8c443123144b5b8f51d4691eee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/HealingPool.prefab using Guid(faaaea8c443123144b5b8f51d4691eee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1893e7f0b1e0e0fee0fad50942b8b3a') in 0.034993 seconds 
+  Import took 0.041219 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.974254 seconds.
+  path: Assets/Prefab/HealingPool.prefab
+  artifactKey: Guid(faaaea8c443123144b5b8f51d4691eee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/HealingPool.prefab using Guid(faaaea8c443123144b5b8f51d4691eee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf39b7a0b59722feb0bc498ccbfa78a4') in 0.008692 seconds 
+  Import took 0.014061 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.400773 seconds.
+  path: Assets/Prefab/HealingPool.prefab
+  artifactKey: Guid(faaaea8c443123144b5b8f51d4691eee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/HealingPool.prefab using Guid(faaaea8c443123144b5b8f51d4691eee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da9ac19b577a895d437ba969802d6c96') in 0.007107 seconds 
+  Import took 0.012809 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.264333 seconds.
+  path: Assets/Prefab/HealingPool.prefab
+  artifactKey: Guid(faaaea8c443123144b5b8f51d4691eee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/HealingPool.prefab using Guid(faaaea8c443123144b5b8f51d4691eee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca1a2500a5540ab4344fe3b96a327445') in 0.006995 seconds 
+  Import took 0.013793 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.995014 seconds.
+  path: Assets/Prefab/HealingPool.prefab
+  artifactKey: Guid(faaaea8c443123144b5b8f51d4691eee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/HealingPool.prefab using Guid(faaaea8c443123144b5b8f51d4691eee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dc3bd924b46f0bc33356e732c9524a5') in 0.005871 seconds 
+  Import took 0.011713 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.034873 seconds.
+  path: Assets/Prefab/HealingPool.prefab
+  artifactKey: Guid(faaaea8c443123144b5b8f51d4691eee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/HealingPool.prefab using Guid(faaaea8c443123144b5b8f51d4691eee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72dfb4302a4b1070d91449d964f0a9a4') in 0.005755 seconds 
+  Import took 0.011080 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.697740 seconds.
+  path: Assets/Prefab/HealingPool.prefab
+  artifactKey: Guid(faaaea8c443123144b5b8f51d4691eee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/HealingPool.prefab using Guid(faaaea8c443123144b5b8f51d4691eee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fac51b75f62d7be2793ec7fbc7f99207') in 0.023589 seconds 
+  Import took 0.029861 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.598579 seconds.
+  path: Assets/Prefab/HealingPool.prefab
+  artifactKey: Guid(faaaea8c443123144b5b8f51d4691eee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/HealingPool.prefab using Guid(faaaea8c443123144b5b8f51d4691eee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a5b2e39d46bc1895d7b355ce90da4f5') in 0.022032 seconds 
+  Import took 0.028192 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.795213 seconds.
+  path: Assets/Prefab/HealingPool.prefab
+  artifactKey: Guid(faaaea8c443123144b5b8f51d4691eee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/HealingPool.prefab using Guid(faaaea8c443123144b5b8f51d4691eee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ee8f10b415d0d4d751ede600914ff16') in 0.019229 seconds 
+  Import took 0.025944 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.573593 seconds.
+  path: Assets/Prefab/HealingPool.prefab
+  artifactKey: Guid(faaaea8c443123144b5b8f51d4691eee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/HealingPool.prefab using Guid(faaaea8c443123144b5b8f51d4691eee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5118914c986be4721c4a899cc3a97b85') in 0.018677 seconds 
+  Import took 0.024902 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.377739 seconds.
+  path: Assets/Prefab/HealingPool.prefab
+  artifactKey: Guid(faaaea8c443123144b5b8f51d4691eee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/HealingPool.prefab using Guid(faaaea8c443123144b5b8f51d4691eee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae29f6bb9eccf628f710470079166b07') in 0.017776 seconds 
+  Import took 0.024279 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003739 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.71 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.002 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.71 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3318 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 155.9 MB.
+System memory in use after: 156.0 MB.
+
+Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 3818.
+Total: 2.708800 ms (FindLiveObjects: 0.311000 ms CreateObjectMapping: 0.163300 ms MarkObjects: 2.094200 ms  DeleteObjects: 0.139300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003994 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.998 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.98 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3318 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 154.8 MB.
+System memory in use after: 154.9 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 3822.
+Total: 5.135700 ms (FindLiveObjects: 0.384200 ms CreateObjectMapping: 0.354000 ms MarkObjects: 4.086200 ms  DeleteObjects: 0.309200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
