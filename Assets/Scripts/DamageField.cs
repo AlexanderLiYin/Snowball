@@ -38,8 +38,8 @@ public class DamageField : MonoBehaviour
             }
             else if (col.gameObject.tag == "Player")
             {
-                PlayerHealth temp;
-                temp = col.gameObject.GetComponent<PlayerHealth>();
+                SnowPrincess temp;
+                temp = col.gameObject.GetComponent<SnowPrincess>();
                 temp.decHealth(damage);
                 Destroy(gameObject);
             }
