@@ -27,8 +27,8 @@ public class DamageField : MonoBehaviour
 
     void OnTriggerStay2D(Collider2D col)
     {
-        if (delay > duration)
-        {
+        //if (delay > duration)
+        //{
             if (col.gameObject.tag == "Enemy")
             {
                 EnemyHealth temp;
@@ -51,6 +51,6 @@ public class DamageField : MonoBehaviour
                 Destroy(gameObject);
             }
             Destroy(gameObject);
-        }
+        //}
     }
 }
