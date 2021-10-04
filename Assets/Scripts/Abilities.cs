@@ -7,6 +7,7 @@ public class Abilities : MonoBehaviour
     public GameObject targetCircle;
     public GameObject rangeCircle;
     public Transform player;
+    public SnowPrincess princess;
 
     Vector2 Position;
     bool active = false;
@@ -25,12 +26,14 @@ public class Abilities : MonoBehaviour
             targetCircle.SetActive(true);
             rangeCircle.SetActive(true);
             active = true;
+            princess.canAttack = false;
         }
-        else if(Input.GetKeyDown(KeyCode.Alpha1) || Input.GetButton("Fire1"))
+        else if(Input.GetKeyDown(KeyCode.Alpha1))
         {
             targetCircle.SetActive(false);
             rangeCircle.SetActive(false);
             active = false;
+            princess.canAttack = true;
         }
     }
 }
