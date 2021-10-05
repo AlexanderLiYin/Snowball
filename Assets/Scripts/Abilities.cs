@@ -7,13 +7,12 @@ public class Abilities : MonoBehaviour
     public GameObject targetCircle;
     public GameObject rangeCircle;
     public Transform player;
-    public float maxDistance = 10;
+    public float maxDistance = 5;
     public SnowPrincess princess;
 
     Vector2 position;
     Vector2 posUp;
     bool active = false;
-
     // Start is called before the first frame update
     void Start()
     {
@@ -23,6 +22,7 @@ public class Abilities : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //Disable/enable ability indicators
         if(!active && Input.GetKeyDown(KeyCode.Alpha1))
         {
             targetCircle.SetActive(true);
