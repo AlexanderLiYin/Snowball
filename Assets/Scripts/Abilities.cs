@@ -7,10 +7,11 @@ public class Abilities : MonoBehaviour
     public GameObject targetCircle;
     public GameObject rangeCircle;
     public Transform player;
-    public float maxDistance;
+    public float maxDistance = 10;
     public SnowPrincess princess;
 
-    Vector2 Position;
+    Vector2 position;
+    Vector2 posUp;
     bool active = false;
 
     // Start is called before the first frame update
@@ -36,5 +37,24 @@ public class Abilities : MonoBehaviour
             active = false;
             princess.canAttack = true;
         }
+
+        RaycastHit hit;
+        Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+
+        if(Physics.Raycast(ray, out hit,Mathf.Infinity))
+        {
+            if (hit.collider.gameObject != this.gameObject)
+            {
+                posUp = new Vector2(hit.point.x, 10f);
+                position = hit.point;
+            }
+        }
+
+        var hitPosDir = (hit.point - transform.position).normalized;
+        float distance = Vector2.Distance(hit.point, transform.position);
+        distance = Mathf.Min(distance, maxDistance);
+
+        var newHitPos = transform.position + hitPosDir * distance;
+        targetCircle.transform.position = (newHitPos);
     }
 }

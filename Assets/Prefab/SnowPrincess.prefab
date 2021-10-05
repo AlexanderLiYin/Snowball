@@ -182,6 +182,7 @@ MonoBehaviour:
   targetCircle: {fileID: 8439627560709690395}
   rangeCircle: {fileID: 9026501913739295224}
   player: {fileID: 1942335342410052555}
+  maxDistance: 10
   princess: {fileID: 1236280219063928417}
 --- !u!1 &8009827429404495592
 GameObject:
@@ -407,11 +408,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4633531919852154, guid: ed012faeeab108a4b95c3665e172378c, type: 3}
       propertyPath: m_LocalScale.x
-      value: 2
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4633531919852154, guid: ed012faeeab108a4b95c3665e172378c, type: 3}
       propertyPath: m_LocalScale.y
-      value: 2
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4633531919852154, guid: ed012faeeab108a4b95c3665e172378c, type: 3}
       propertyPath: m_LocalPosition.x
