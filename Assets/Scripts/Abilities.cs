@@ -7,6 +7,7 @@ public class Abilities : MonoBehaviour
     public GameObject targetCircle;
     public GameObject rangeCircle;
     public Transform player;
+    public float maxDistance;
     public SnowPrincess princess;
 
     Vector2 Position;
