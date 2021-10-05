@@ -38,6 +38,9 @@ public class Abilities : MonoBehaviour
             princess.canAttack = true;
         }
 
+        Vector2 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        Vector2 lookDir = (mousePos - (Vector2)player.position).normalized;
+
         RaycastHit hit;
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
 
@@ -54,7 +57,7 @@ public class Abilities : MonoBehaviour
         float distance = Vector2.Distance(hit.point, transform.position);
         distance = Mathf.Min(distance, maxDistance);
 
-        var newHitPos = transform.position + hitPosDir * distance;
+        var newHitPos = (Vector2)transform.position + (lookDir * distance);
         targetCircle.transform.position = (newHitPos);
     }
 }
