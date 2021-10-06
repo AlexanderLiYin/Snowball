@@ -53,6 +53,7 @@ public class DamageField : MonoBehaviour
             EnemyHealth temp;
             temp = col.gameObject.GetComponent<EnemyHealth>();
             temp.decHealth(damage);
+            active = false;
             ability.Disable();
         }
         else if (col.gameObject.tag == "Player")
@@ -60,6 +61,7 @@ public class DamageField : MonoBehaviour
             SnowPrincess temp;
             temp = col.gameObject.GetComponent<SnowPrincess>();
             temp.decHealth(damage);
+            active = false;
             ability.Disable();
         }
     }
