@@ -266,6 +266,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!58 &1769044910693712059
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8439627560709690395}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.5
 --- !u!114 &8850986332227457647
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -278,9 +294,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb2112e4f9b937e46a1b896964500e03, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 5
+  damage: 1
   duration: 1
   delay: 0
+  ability: {fileID: 4843992693256272619}
 --- !u!1 &8620116525174297902
 GameObject:
   m_ObjectHideFlags: 0
@@ -387,10 +404,19 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2100000, guid: 9503ca28640ee6f459c676d095df7ab0, type: 2}
     - target: {fileID: 64931179375601246, guid: ed012faeeab108a4b95c3665e172378c, type: 3}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 64931179375601246, guid: ed012faeeab108a4b95c3665e172378c, type: 3}
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 64931179375601246, guid: ed012faeeab108a4b95c3665e172378c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 64931179375601246, guid: ed012faeeab108a4b95c3665e172378c, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: ed012faeeab108a4b95c3665e172378c, type: 3}
 --- !u!1 &8439627560709690395 stripped
 GameObject:

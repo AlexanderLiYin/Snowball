@@ -7,10 +7,15 @@ public class DamageField : MonoBehaviour
     public int damage;
     public float duration = 2;
     public float delay = 1;
-    bool activate = false;
+    public Abilities ability;
+    bool active = false;
 
-    void FixedUpdate()
+    void Update()
     {
+        if(Input.GetButtonDown("Fire1"))
+        {
+            active = true;
+        }
         /*
         if (duration > 0)
         {
@@ -30,9 +35,13 @@ public class DamageField : MonoBehaviour
 
     void OnTriggerStay2D(Collider2D col)
     {
+        if(active == true)
+        {
+            Damage(col);
+        }
         //if (delay > duration)
         //{
-        Damage(col);
+        
             //Destroy(gameObject);
         //}
     }
@@ -44,14 +53,14 @@ public class DamageField : MonoBehaviour
             EnemyHealth temp;
             temp = col.gameObject.GetComponent<EnemyHealth>();
             temp.decHealth(damage);
-            Destroy(gameObject);
+            ability.Disable();
         }
         else if (col.gameObject.tag == "Player")
         {
             SnowPrincess temp;
             temp = col.gameObject.GetComponent<SnowPrincess>();
             temp.decHealth(damage);
-            Destroy(gameObject);
+            ability.Disable();
         }
     }
 }
