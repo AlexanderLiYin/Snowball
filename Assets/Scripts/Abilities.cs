@@ -16,26 +16,20 @@ public class Abilities : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
         //Disable/enable ability indicators
-        if(!active && Input.GetKeyDown(KeyCode.Alpha1))
+        if (!active && Input.GetKeyDown(KeyCode.Alpha1))
         {
-            targetCircle.SetActive(true);
-            rangeCircle.SetActive(true);
-            active = true;
-            princess.canAttack = false;
+            Enable();
         }
-        else if(Input.GetKeyDown(KeyCode.Alpha1))
+        else if (Input.GetKeyDown(KeyCode.Alpha1))
         {
-            targetCircle.SetActive(false);
-            rangeCircle.SetActive(false);
-            active = false;
-            princess.canAttack = true;
+            Disable();
         }
 
         Vector2 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
@@ -44,7 +38,7 @@ public class Abilities : MonoBehaviour
         RaycastHit hit;
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
 
-        if(Physics.Raycast(ray, out hit,Mathf.Infinity))
+        if (Physics.Raycast(ray, out hit, Mathf.Infinity))
         {
             if (hit.collider.gameObject != this.gameObject)
             {
@@ -59,5 +53,21 @@ public class Abilities : MonoBehaviour
 
         var newHitPos = (Vector2)transform.position + (lookDir * distance);
         targetCircle.transform.position = (newHitPos);
+    }
+
+    public void Enable()
+    {
+        targetCircle.SetActive(true);
+        rangeCircle.SetActive(true);
+        active = true;
+        princess.canAttack = false;
+    }
+
+    public void Disable()
+    {
+        targetCircle.SetActive(false);
+        rangeCircle.SetActive(false);
+        active = false;
+        princess.canAttack = true;
     }
 }

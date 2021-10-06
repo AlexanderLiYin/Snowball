@@ -7,9 +7,11 @@ public class DamageField : MonoBehaviour
     public int damage;
     public float duration = 2;
     public float delay = 1;
+    bool activate = false;
 
     void FixedUpdate()
     {
+        /*
         if (duration > 0)
         {
             duration -= Time.deltaTime;
@@ -21,36 +23,35 @@ public class DamageField : MonoBehaviour
 
         if (duration == 0)
         {
-            Destroy(gameObject);
+            //Destroy(gameObject);
         }
+        */
     }
 
     void OnTriggerStay2D(Collider2D col)
     {
         //if (delay > duration)
         //{
-            if (col.gameObject.tag == "Enemy")
-            {
-                EnemyHealth temp;
-                temp = col.gameObject.GetComponent<EnemyHealth>();
-                temp.decHealth(damage);
-                Destroy(gameObject);
-            }
-            else if (col.gameObject.tag == "Player")
-            {
-                SnowPrincess temp;
-                temp = col.gameObject.GetComponent<SnowPrincess>();
-                temp.decHealth(damage);
-                Destroy(gameObject);
-            }
-            else if (col.gameObject.tag == "Building")
-            {
-                Building temp;
-                temp = col.gameObject.GetComponent<Building>();
-                temp.decHealth(damage);
-                Destroy(gameObject);
-            }
-            Destroy(gameObject);
+        Damage(col);
+            //Destroy(gameObject);
         //}
+    }
+
+    void Damage(Collider2D col)
+    {
+        if (col.gameObject.tag == "Enemy")
+        {
+            EnemyHealth temp;
+            temp = col.gameObject.GetComponent<EnemyHealth>();
+            temp.decHealth(damage);
+            Destroy(gameObject);
+        }
+        else if (col.gameObject.tag == "Player")
+        {
+            SnowPrincess temp;
+            temp = col.gameObject.GetComponent<SnowPrincess>();
+            temp.decHealth(damage);
+            Destroy(gameObject);
+        }
     }
 }
