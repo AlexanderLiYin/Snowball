@@ -86,6 +86,7 @@ public class Abilities : MonoBehaviour
         {
             isCooldown = true;
             abilityImage1.fillAmount = 0;
+            //Disable();
         }
 
         if(isCooldown)
