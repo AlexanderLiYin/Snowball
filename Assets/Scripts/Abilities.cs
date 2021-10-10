@@ -24,7 +24,7 @@ public class Abilities : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        abilityImage1.fillAmount = 0;
+        abilityImage1.fillAmount = 1;
     }
 
     // Update is called once per frame
@@ -85,16 +85,16 @@ public class Abilities : MonoBehaviour
         if(Input.GetKey(ability1) && isCooldown == false)
         {
             isCooldown = true;
-            abilityImage1.fillAmount = 1;
+            abilityImage1.fillAmount = 0;
         }
 
         if(isCooldown)
         {
-            abilityImage1.fillAmount -= 1 / cooldown1 * Time.deltaTime;
+            abilityImage1.fillAmount += 1 / cooldown1 * Time.deltaTime;
 
-            if(abilityImage1.fillAmount <= 0)
+            if(abilityImage1.fillAmount >= 1)
             {
-                abilityImage1.fillAmount = 0;
+                abilityImage1.fillAmount = 1;
                 isCooldown = false;
             }
         }
