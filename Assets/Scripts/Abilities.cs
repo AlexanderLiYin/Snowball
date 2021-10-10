@@ -82,7 +82,7 @@ public class Abilities : MonoBehaviour
 
     void Ability1()
     {
-        if(Input.GetKey(ability1) && isCooldown == false)
+        if(Input.GetButtonDown("Fire1") && isCooldown == false)
         {
             isCooldown = true;
             abilityImage1.fillAmount = 0;
