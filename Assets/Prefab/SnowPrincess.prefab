@@ -179,6 +179,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80ca8dc05c6972c4e9852aa85543dfab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  abilityImage1: {fileID: 0}
+  cooldown1: 5
+  ability1: 0
   targetCircle: {fileID: 8439627560709690395}
   rangeCircle: {fileID: 9026501913739295224}
   player: {fileID: 1942335342410052555}
@@ -294,7 +297,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb2112e4f9b937e46a1b896964500e03, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 1
+  damage: 3
   duration: 1
   delay: 0
   ability: {fileID: 4843992693256272619}
