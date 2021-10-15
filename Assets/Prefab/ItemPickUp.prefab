@@ -128,7 +128,7 @@ MonoBehaviour:
     m_ItemAmount:
       m_Amount: 0
       m_Item:
-        m_ID: 4027318279
+        m_ID: 887986533
         m_Name: 
         m_ItemDefinitionID: 0
         m_ItemDefinition: {fileID: 0}
@@ -165,7 +165,7 @@ MonoBehaviour:
   m_DeactivateOnInteract: 1
   m_ScheduleReactivationTime: -1
   m_SelectIndicators:
-  - {fileID: 0}
+  - {fileID: 4421068136347547829}
   m_OnPickupSuccess:
     m_PersistentCalls:
       m_Calls: []
