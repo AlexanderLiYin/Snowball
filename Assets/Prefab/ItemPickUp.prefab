@@ -13,7 +13,6 @@ GameObject:
   - component: {fileID: 8520834793367769274}
   - component: {fileID: 3090056078776006404}
   - component: {fileID: 702834943377776500}
-  - component: {fileID: 1461536475253374155}
   - component: {fileID: 7222818330016978773}
   m_Layer: 0
   m_Name: ItemPickUp
@@ -126,30 +125,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_ItemInfo:
     m_ItemAmount:
-      m_Amount: 0
+      m_Amount: 1
       m_Item:
-        m_ID: 887986533
-        m_Name: 
-        m_ItemDefinitionID: 0
-        m_ItemDefinition: {fileID: 0}
+        m_ID: 1182965243
+        m_Name: Bomb
+        m_ItemDefinitionID: 3307665372
+        m_ItemDefinition: {fileID: 11400000, guid: d85944e1f4a2166469150d4073c7ddab, type: 2}
         m_ItemAttributeCollection:
           m_AttributeCollectionData: []
---- !u!114 &1461536475253374155
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4421068136347547829}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2ce023a631714115a69fbc9c3288b791, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_PrefabAttributeName: 
-  m_ItemPrefabVisualizerParent: {fileID: 0}
-  m_DefaultVisualPrefab: {fileID: 0}
-  m_ItemView: {fileID: 0}
 --- !u!114 &7222818330016978773
 MonoBehaviour:
   m_ObjectHideFlags: 0
