@@ -20,8 +20,8 @@ MonoBehaviour:
   m_ItemActionCollection:
     m_ItemActionsData:
     - m_ObjectType: Opsive.UltimateInventorySystem.Demo.ItemActions.DemoThrowItemAction
-      m_ValueHashes: 0d00eb25c438b4f1
-      m_ValuePositions: 0000000005000000
-      m_Values: 5468726f77cdcccc3e
+      m_ValueHashes: 0d00eb25c438b4f1f59845bc
+      m_ValuePositions: 000000000500000009000000
+      m_Values: 5468726f77cdcccc3e44656d6f5468726f77
       m_UnityObjects: []
       m_Version: 3.1
