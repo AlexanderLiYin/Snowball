@@ -14,6 +14,14 @@ GameObject:
   - component: {fileID: 1236280219063928417}
   - component: {fileID: 6603226567442483984}
   - component: {fileID: 4843992693256272619}
+  - component: {fileID: 1302169121}
+  - component: {fileID: 1302169122}
+  - component: {fileID: 1302169123}
+  - component: {fileID: 1302169124}
+  - component: {fileID: 1302169125}
+  - component: {fileID: 1302169126}
+  - component: {fileID: 1302169127}
+  - component: {fileID: 1302169128}
   m_Layer: 0
   m_Name: SnowPrincess
   m_TagString: Player
@@ -111,7 +119,7 @@ MonoBehaviour:
   bulletForce: 20
   attackRate: 2
   canAttack: 1
-  coins: 0
+  coins: 100
   inBattle: 0
   initEnergy: 50
   maxEnergy: 120
@@ -179,11 +187,172 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80ca8dc05c6972c4e9852aa85543dfab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  abilityImage1: {fileID: 0}
+  cooldown1: 5
+  ability1: 0
   targetCircle: {fileID: 8439627560709690395}
   rangeCircle: {fileID: 9026501913739295224}
   player: {fileID: 1942335342410052555}
   maxDistance: 5
   princess: {fileID: 1236280219063928417}
+--- !u!114 &1302169121
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2128756633633359167}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26ca2b4fcf8a4993b85339717e172c22, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Inventory: {fileID: 0}
+  m_InteractableIndicator: {fileID: 0}
+  m_AutoInteract: 0
+  m_Input:
+    m_InputType: 2
+    m_InputName: Action
+    m_LongPressDuration: 0.5
+    m_WaitForLongPressRelease: 0
+--- !u!114 &1302169122
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2128756633633359167}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9dc8f34ad158de14aa7ec08654f6e04b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_CurrencyAmount:
+    m_CurrencyAmountData:
+      m_ObjectType: 
+      m_ValueHashes: 
+      m_ValuePositions: 
+      m_Values: 
+      m_UnityObjects: []
+      m_Version: 
+--- !u!114 &1302169123
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2128756633633359167}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c9c18933a275014f9b208ad09865ec5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_HorizontalLookInputName: Mouse X
+  m_VerticalLookInputName: Mouse Y
+  m_LookVectorMode: 0
+  m_LookSensitivity: {x: 2, y: 2}
+  m_LookSensitivityMultiplier: 1
+  m_SmoothLookSteps: 20
+  m_SmoothLookWeight: 0.5
+  m_SmoothExponent: 1.05
+  m_LookAccelerationThreshold: 0.4
+  m_ControllerConnectedCheckRate: 1
+  m_EnableGamplayInputEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ForceInput: 0
+  m_DisableCursor: 0
+  m_EnableCursorWithEscape: 0
+  m_PreventLookVectorChanges: 1
+  m_JoystickUpThreshold: 1
+--- !u!114 &1302169124
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2128756633633359167}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f05d9b00a10345299e7d28cf4896ce37, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_InventoryInput: {fileID: 1302169123}
+--- !u!114 &1302169125
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2128756633633359167}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7540d24761b4f024d8d8a6014f93d9f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ItemCollectionRestrictionObjects: []
+  m_ItemCollectionData:
+  - m_ObjectType: Opsive.UltimateInventorySystem.Core.InventoryCollections.ItemCollection
+    m_ValueHashes: 0d00eb25b769d11d5030ac3edb08b6c93edd1331719c8809
+    m_ValuePositions: 000000001100000011000000150000001600000016000000
+    m_Values: 4e65774974656d436f6c6c656374696f6e010000000000000000
+    m_UnityObjects: []
+    m_Version: 3.1
+  - m_ObjectType: Opsive.UltimateInventorySystem.Core.InventoryCollections.ItemCollection
+    m_ValueHashes: 0d00eb25b769d11d5030ac3edb08b6c93edd1331719c8809
+    m_ValuePositions: 0000000008000000080000000c0000000d0000000d000000
+    m_Values: 4571756970706564000000000000000000
+    m_UnityObjects: []
+    m_Version: 3.1
+--- !u!114 &1302169126
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2128756633633359167}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd5036dbda0a419a9cce2a63da507b63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ID: 1
+--- !u!114 &1302169127
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2128756633633359167}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fb4bf8482eb7ce46b52ccb09e7bea9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Key: 
+  m_SaveOnApplicationQuit: 0
+  m_SaveOnDestroy: 0
+  m_LoadOnStart: 0
+  m_CurrencyOwner: {fileID: 0}
+  m_Additive: 0
+--- !u!114 &1302169128
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2128756633633359167}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64aad295103c33b428b4540f579aca10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Key: 
+  m_SaveOnApplicationQuit: 0
+  m_SaveOnDestroy: 0
+  m_LoadOnStart: 0
+  m_Inventory: {fileID: 0}
+  m_Additive: 0
 --- !u!1 &8009827429404495592
 GameObject:
   m_ObjectHideFlags: 0

@@ -754,6 +754,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1302169125, guid: 3b4c23d0ab299a848bdebd67880e652e, type: 3}
+      propertyPath: m_ItemCollectionData.Array.data[1].m_ObjectType
+      value: Opsive.UltimateInventorySystem.Core.InventoryCollections.ItemCollection
+      objectReference: {fileID: 0}
+    - target: {fileID: 1302169125, guid: 3b4c23d0ab299a848bdebd67880e652e, type: 3}
+      propertyPath: m_ItemCollectionData.Array.data[1].m_Values.Array.size
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 1302169125, guid: 3b4c23d0ab299a848bdebd67880e652e, type: 3}
+      propertyPath: m_ItemCollectionData.Array.data[1].m_ValueHashes.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1302169125, guid: 3b4c23d0ab299a848bdebd67880e652e, type: 3}
+      propertyPath: m_ItemCollectionData.Array.data[1].m_UnityObjects.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1302169125, guid: 3b4c23d0ab299a848bdebd67880e652e, type: 3}
+      propertyPath: m_ItemCollectionData.Array.data[1].m_ValuePositions.Array.size
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 1236280219063928417, guid: 3b4c23d0ab299a848bdebd67880e652e, type: 3}
       propertyPath: HUD
       value: 
