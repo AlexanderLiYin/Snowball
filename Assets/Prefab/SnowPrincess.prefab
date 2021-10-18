@@ -290,19 +290,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7540d24761b4f024d8d8a6014f93d9f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_ItemCollectionRestrictionObjects:
-  - {fileID: 11400000, guid: 32e466996b950544caba7d21a89a27b6, type: 2}
+  m_ItemCollectionRestrictionObjects: []
   m_ItemCollectionData:
   - m_ObjectType: Opsive.UltimateInventorySystem.Core.InventoryCollections.ItemCollection
     m_ValueHashes: 0d00eb25b769d11d5030ac3edb08b6c93edd1331719c8809
-    m_ValuePositions: 000000000400000004000000080000000900000009000000
-    m_Values: 4d61696e010000000000000000
+    m_ValuePositions: 000000001100000011000000150000001600000016000000
+    m_Values: 4e65774974656d436f6c6c656374696f6e010000000000000000
     m_UnityObjects: []
     m_Version: 3.1
   - m_ObjectType: Opsive.UltimateInventorySystem.Core.InventoryCollections.ItemCollection
     m_ValueHashes: 0d00eb25b769d11d5030ac3edb08b6c93edd1331719c8809
     m_ValuePositions: 0000000008000000080000000c0000000d0000000d000000
-    m_Values: 4571756970706564030000000000000000
+    m_Values: 4571756970706564000000000000000000
     m_UnityObjects: []
     m_Version: 3.1
 --- !u!114 &1302169126
