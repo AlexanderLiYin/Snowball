@@ -12,6 +12,7 @@ public class HUDScript : MonoBehaviour
     public GameObject winScreen;
     public TMP_Text timer;
     public TMP_Text display; //Snow Energy Display
+    public TMP_Text hpText; //HP bar display
     public GameObject star1;
     public GameObject star2;
     public GameObject star3;
@@ -80,6 +81,11 @@ public class HUDScript : MonoBehaviour
     public void DisplayEnergy(float energy, int maxEnergy)
     {
         display.SetText(((int)energy).ToString() + "/" + maxEnergy.ToString());
+    }
+
+    public void DisplayHP(float hp, int maxHP)
+    {
+        hpText.SetText(((int)hp).ToString() + "/" + maxHP.ToString());
     }
 
     public void HP(int health)

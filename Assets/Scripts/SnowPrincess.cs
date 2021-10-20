@@ -156,6 +156,7 @@ public class SnowPrincess : MonoBehaviour
         }
         health -= dmg;
         HUD.HP(health);
+        HUD.DisplayHP(health, maxHealth);
         if (health <= 0)
         {
             print("Health is 0");
@@ -170,6 +171,7 @@ public class SnowPrincess : MonoBehaviour
         else
             health += hp;
         HUD.HP(health);
+        HUD.DisplayHP(health, maxHealth);
     }
 
     void Attack()
@@ -212,6 +214,7 @@ public class SnowPrincess : MonoBehaviour
     public void incMaxHealth(int hp)
     {
         HUD.IncMaxHealth(hp);
+        HUD.DisplayHP(health, maxHealth);
         maxHealth += hp;
     }
 
@@ -219,6 +222,7 @@ public class SnowPrincess : MonoBehaviour
     {
         if ((maxHealth - hp) > 0)
         {
+            HUD.DisplayHP(health, maxHealth);
             maxHealth -= hp;
             return true;
         }
