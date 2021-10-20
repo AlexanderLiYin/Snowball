@@ -298,11 +298,12 @@ MonoBehaviour:
     m_Values: 4e65774974656d436f6c6c656374696f6e010000000000000000
     m_UnityObjects: []
     m_Version: 3.1
-  - m_ObjectType: Opsive.UltimateInventorySystem.Core.InventoryCollections.ItemCollection
-    m_ValueHashes: 0d00eb25b769d11d5030ac3edb08b6c93edd1331719c8809
-    m_ValuePositions: 0000000008000000080000000c0000000d0000000d000000
-    m_Values: 4571756970706564000000000000000000
-    m_UnityObjects: []
+  - m_ObjectType: Opsive.UltimateInventorySystem.Core.InventoryCollections.ItemSlotCollection
+    m_ValueHashes: 0d00eb25b769d11d5030ac3edb08b6c93edd1331719c88096ea76198ae473e86
+    m_ValuePositions: 0000000008000000080000000c0000000d0000000d0000001100000015000000
+    m_Values: 45717569707065640300000000000000000000000000
+    m_UnityObjects:
+    - {fileID: 11400000, guid: 015a81d8bf27bff46a8a2dbf3899169a, type: 2}
     m_Version: 3.1
 --- !u!114 &1302169126
 MonoBehaviour:
