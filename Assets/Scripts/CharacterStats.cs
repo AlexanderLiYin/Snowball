@@ -27,6 +27,7 @@ public class CharacterStats : MonoBehaviour
         //m_MaxHpValueText.text = m_CharacterStats.MaxHp.ToString();
         m_MaxHpValueText.text = player.maxHealth.ToString();
         //m_AttackValueText.text = m_CharacterStats.Attack.ToString();
+        m_AttackValueText.text = player.attack.ToString();
         //m_DefenseValueText.text = m_CharacterStats.Defense.ToString();
     }
 }
