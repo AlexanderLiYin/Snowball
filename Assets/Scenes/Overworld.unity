@@ -2721,9 +2721,16 @@ MonoBehaviour:
     m_Purpose: 3
   m_EquipablePrefabAttributeName: EquipmentPrefab
   m_UsableItemPrefabAttributeName: UsableItemPrefab
-  m_ItemSlotSet: {fileID: 0}
-  m_Slots: []
-  m_MainRootNode: {fileID: 0}
+  m_ItemSlotSet: {fileID: 11400000, guid: 015a81d8bf27bff46a8a2dbf3899169a, type: 2}
+  m_Slots:
+  - m_Name: 
+    m_Category:
+      m_Name: 
+      m_ItemCategory: {fileID: 0}
+    m_IsSkinnedEquipment: 0
+    m_Transform: {fileID: 0}
+    m_ItemObject: {fileID: 0}
+    m_HideWhenWearingEquipment: []
 --- !u!114 &1497758507 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1302169125, guid: 3b4c23d0ab299a848bdebd67880e652e, type: 3}
