@@ -2731,6 +2731,30 @@ MonoBehaviour:
     m_Transform: {fileID: 0}
     m_ItemObject: {fileID: 0}
     m_HideWhenWearingEquipment: []
+  - m_Name: 
+    m_Category:
+      m_Name: 
+      m_ItemCategory: {fileID: 0}
+    m_IsSkinnedEquipment: 0
+    m_Transform: {fileID: 0}
+    m_ItemObject: {fileID: 0}
+    m_HideWhenWearingEquipment: []
+  - m_Name: 
+    m_Category:
+      m_Name: 
+      m_ItemCategory: {fileID: 0}
+    m_IsSkinnedEquipment: 0
+    m_Transform: {fileID: 0}
+    m_ItemObject: {fileID: 0}
+    m_HideWhenWearingEquipment: []
+  - m_Name: 
+    m_Category:
+      m_Name: 
+      m_ItemCategory: {fileID: 0}
+    m_IsSkinnedEquipment: 0
+    m_Transform: {fileID: 0}
+    m_ItemObject: {fileID: 0}
+    m_HideWhenWearingEquipment: []
 --- !u!114 &1497758507 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1302169125, guid: 3b4c23d0ab299a848bdebd67880e652e, type: 3}
