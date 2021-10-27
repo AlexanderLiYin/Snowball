@@ -35,9 +35,6 @@ namespace Opsive.UltimateInventorySystem.Equipping
         [SerializeField] protected ItemObjectSlot[] m_Slots;
 
         protected ItemSlotCollection m_EquipmentItemCollection;
-        protected Transform[] m_Bones;
-        protected HashSet<Transform> m_BonesHashSet;
-        protected Dictionary<string, Transform> m_BonesDictionary;
 
         public ItemSlotSet ItemSlotSet
         {
