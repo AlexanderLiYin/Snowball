@@ -369,6 +369,7 @@ namespace Opsive.UltimateInventorySystem.Equipping
         /// <param name="index">The slot.</param>
         public virtual void UnEquip(int index)
         {
+            /*
             var itemObject = m_Slots[index].ItemObject;
 
             m_Slots[index].SetItemObject(null);
@@ -381,28 +382,9 @@ namespace Opsive.UltimateInventorySystem.Equipping
             {
                 Destroy(itemObject.gameObject);
             }
-
+            */
+            //Like previously, I'm not using any item objects but I'm quite confident that the unequip function is necessary.
             EventHandler.ExecuteEvent(this, EventNames.c_Equipper_OnChange);
-        }
-
-        /// <summary>
-        /// Return the Item Object to the pool.
-        /// </summary>
-        /// <param name="itemObject">The itemObject to return.</param>
-        protected virtual void ReturnItemObjectToPool(ItemObject itemObject)
-        {
-            // The skinned mesh bones will stay linked to the character, since the pool is a sub the item will never to bound to other characters.
-
-            // The itemObject could have children that are pooled object such as the equipment model.
-            for (int i = itemObject.transform.childCount - 1; i >= 0; i--)
-            {
-                var child = itemObject.transform.GetChild(i);
-                if ((ObjectPoolBase.IsPooledObject(child.gameObject) == false)) { continue; }
-
-                ObjectPoolBase.Destroy(child.gameObject);
-            }
-
-            ObjectPoolBase.Destroy(itemObject.gameObject);
         }
 
         /// <summary>
