@@ -187,35 +187,6 @@ namespace Opsive.UltimateInventorySystem.Equipping
         }
 
         /// <summary>
-        /// Check if the slot has an item equipped already.
-        /// </summary>
-        /// <param name="index">The slot.</param>
-        /// <returns>True if an item is equipped in that slot.</returns>
-        public bool IsEquipped(int index)
-        {
-            if (m_Slots[index].ItemObject == null) { return false; }
-            return m_Slots[index].ItemObject.Item != null;
-        }
-
-        /// <summary>
-        /// Get the item Object slot by name.
-        /// </summary>
-        /// <param name="slotName">The slot name.</param>
-        /// <returns>The item Object slot.</returns>
-        public virtual ItemObjectSlot GetItemObjectSlot(string slotName)
-        {
-            for (int i = 0; i < m_Slots.Length; i++)
-            {
-                if (m_Slots[i].Name == slotName)
-                {
-                    return m_Slots[i];
-                }
-            }
-
-            return null;
-        }
-
-        /// <summary>
         /// Get the item equipped in the slot provided.
         /// </summary>
         /// <param name="index">The slot.</param>
