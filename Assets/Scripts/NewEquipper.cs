@@ -120,6 +120,7 @@ namespace Opsive.UltimateInventorySystem.Equipping
         /// <returns>Return true only if the item equipped successfully.</returns>
         public virtual bool Equip(Item item)
         {
+            /*
             //Check for available empty slots.
             for (int i = 0; i < m_Slots.Length; i++)
             {
@@ -138,6 +139,9 @@ namespace Opsive.UltimateInventorySystem.Equipping
             }
 
             return false;
+            */
+            //I can't remove this function because the IEqipper parent class requires it, but since I don't need to check for slots I'll just return true.
+            return true;
         }
 
         /// <summary>
@@ -148,13 +152,15 @@ namespace Opsive.UltimateInventorySystem.Equipping
         /// <returns>True if equipped successfully.</returns>
         public virtual bool Equip(Item item, int index)
         {
+            /*
             var slot = m_Slots[index];
 
             if (slot.Category != null && slot.Category.InherentlyContains(item) == false) { return false; }
             var itemObject = CreateItemObject(item);
 
             slot.SetItemObject(itemObject);
-
+            */
+            //Like the equipe function above, I don't need slots but I think I need the event handler to execute the event so I'll keep that.
             EventHandler.ExecuteEvent(this, EventNames.c_Equipper_OnChange);
 
             return true;
@@ -397,74 +403,6 @@ namespace Opsive.UltimateInventorySystem.Equipping
             }
 
             ObjectPoolBase.Destroy(itemObject.gameObject);
-        }
-
-        /// <summary>
-        /// Create an item Object from a pool.
-        /// </summary>
-        /// <param name="item">The item.</param>
-        /// <returns>The ItemObject.</returns>
-        public virtual ItemObject CreateItemObject(Item item)
-        {
-            if (item.TryGetAttributeValue(m_EquipablePrefabAttributeName, out GameObject itemPrefab) == false)
-            {
-                Debug.LogError($"Prefab Attribute is undefined for Attribute {m_EquipablePrefabAttributeName}.", gameObject);
-                return null;
-            }
-
-            if (itemPrefab == null)
-            {
-                Debug.LogError($"Prefab Attribute value is null for Attribute {m_EquipablePrefabAttributeName}.", gameObject);
-                return null;
-            }
-
-            if (item.TryGetAttributeValue(m_UsableItemPrefabAttributeName, out GameObject usablePrefab) == false)
-            {
-                return CreateItemObjectInternal(item, itemPrefab);
-            }
-
-            var usableItemGameObject = CreateItemObjectInternal(item, usablePrefab);
-
-            if (usableItemGameObject == null)
-            {
-                Debug.LogError($"The Usable Item GameObject is null for Attribute {m_UsableItemPrefabAttributeName}.");
-                return null;
-            }
-
-            var characterID = gameObject.GetInstanceID();
-            var equipmentGameObject = ObjectPoolBase.Instantiate(itemPrefab, characterID, usableItemGameObject.transform);
-            equipmentGameObject.transform.localPosition = Vector3.zero;
-            equipmentGameObject.transform.localRotation = Quaternion.identity;
-            equipmentGameObject.transform.localScale = itemPrefab.transform.localScale;
-
-            return usableItemGameObject;
-        }
-
-        /// <summary>
-        /// Create an ItemObject.
-        /// </summary>
-        /// <param name="item">The item.</param>
-        /// <param name="itemPrefab">The ItemObjectPrefab.</param>
-        /// <returns>The item Object.</returns>
-        protected virtual ItemObject CreateItemObjectInternal(Item item, GameObject itemPrefab)
-        {
-            if (itemPrefab == null)
-            {
-                Debug.LogWarning("The item prefab is null.");
-                return null;
-            }
-
-            var characterID = gameObject.GetInstanceID();
-            var itemGameObject = ObjectPoolBase.Instantiate(itemPrefab, characterID);
-
-            var itemObject = itemGameObject.GetComponent<ItemObject>();
-            if (itemObject == null)
-            {
-                itemObject = itemGameObject.AddComponent<ItemObject>();
-            }
-
-            itemObject.SetItem(item);
-            return itemObject;
         }
 
         /// <summary>
