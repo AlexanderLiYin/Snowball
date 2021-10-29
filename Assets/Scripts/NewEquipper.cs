@@ -34,6 +34,9 @@ namespace Opsive.UltimateInventorySystem.Equipping
         [Tooltip("The item object slots which holds the equipped item.")]
         [SerializeField] protected ItemObjectSlot[] m_Slots;
 
+        [Tooltip("The item object slots which holds the equipped item.")]
+        [SerializeField] protected Item[] Items;
+
         protected ItemSlotCollection m_EquipmentItemCollection;
 
         public ItemSlotSet ItemSlotSet
@@ -165,25 +168,6 @@ namespace Opsive.UltimateInventorySystem.Equipping
             EventHandler.ExecuteEvent(this, EventNames.c_Equipper_OnChange);
 
             return true;
-        }
-
-        /// <summary>
-        /// Check if the item is equipped.
-        /// </summary>
-        /// <param name="item">The item.</param>
-        /// <returns>True if equipped.</returns>
-        public bool IsEquipped(Item item)
-        {
-            if (item == null) { return false; }
-            for (int i = 0; i < m_Slots.Length; i++)
-            {
-                if (m_Slots[i].ItemObject == null) { continue; }
-                if (m_Slots[i].ItemObject.Item != item) { continue; }
-
-                return true;
-            }
-
-            return false;
         }
 
         /// <summary>
