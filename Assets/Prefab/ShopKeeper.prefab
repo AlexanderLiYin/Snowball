@@ -86,6 +86,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 445098517840271817, guid: 8358a51e316339741b35b2c0b31ba7ff, type: 3}
+      propertyPath: m_OnInteract.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 445098517840271817, guid: 8358a51e316339741b35b2c0b31ba7ff, type: 3}
       propertyPath: m_OnInteract.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: OnUse
       objectReference: {fileID: 0}
@@ -145,7 +149,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: ShopKeeper
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8305045490251404716, guid: 8358a51e316339741b35b2c0b31ba7ff, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 8358a51e316339741b35b2c0b31ba7ff, type: 3}
 --- !u!1 &8685290886597264474 stripped
 GameObject:
