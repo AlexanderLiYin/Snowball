@@ -182,22 +182,6 @@ namespace Opsive.UltimateInventorySystem.Equipping
         }
 
         /// <summary>
-        /// Get the item equipped in the slot provided.
-        /// </summary>
-        /// <param name="slotName">The slot name.</param>
-        /// <returns>The item equipped in that slot.</returns>
-        public virtual Item GetEquippedItem(string slotName)
-        {
-            var slotIndex = m_ItemSlotSet.GetIndexOf(slotName);
-            if (slotIndex == -1)
-            {
-                return null;
-            }
-
-            return GetEquippedItem(slotIndex);
-        }
-
-        /// <summary>
         /// Get the Equipment stats by retrieving the total value of the attribute.
         /// </summary>
         /// <param name="attributeName">The attribute name.</param>
