@@ -35,6 +35,7 @@ namespace Opsive.UltimateInventorySystem.Equipping
         [SerializeField] protected ItemObjectSlot[] m_Slots;
 
         protected ItemSlotCollection m_EquipmentItemCollection;
+        public SnowPrincess player;
 
         /// <summary>
         /// Initialize the Equiper.
@@ -90,7 +91,6 @@ namespace Opsive.UltimateInventorySystem.Equipping
                 var index = m_EquipmentItemCollection.GetItemSlotIndex(addedItemStack);
                 Equip(addedItemStack.Item, index);
             }
-
         }
 
         /// <summary>
@@ -132,7 +132,17 @@ namespace Opsive.UltimateInventorySystem.Equipping
 
             return false;
             */
-            //I can't remove this function because the IEqipper parent class requires it, but since I don't need to check for slots I'll just return true.
+
+            /*
+            // Change an attribute value on the sword item
+            if (item.TryGetAttributeValue<int>("Attack", out var intAttributeValue))
+            {
+                print("Equipping item");
+                player.attack += intAttributeValue;
+            }
+            else
+                print("Equip failed");
+            */
             return true;
         }
 
@@ -154,19 +164,17 @@ namespace Opsive.UltimateInventorySystem.Equipping
             */
             //Like the equipe function above, I don't need slots but I think I need the event handler to execute the event so I'll keep that.
             EventHandler.ExecuteEvent(this, EventNames.c_Equipper_OnChange);
+            if (item.TryGetAttributeValue<int>("Attack", out var intAttributeValue))
+            {
+                player.attack += intAttributeValue;
+                return true;
+            }
+            else
+            {
+                print("Equip failed");
+                return false;
+            }
 
-            return true;
-        }
-
-        /// <summary>
-        /// Get the item equipped in the slot provided.
-        /// </summary>
-        /// <param name="index">The slot.</param>
-        /// <returns>The item equipped in that slot.</returns>
-        public virtual Item GetEquippedItem(int index)
-        {
-            if (m_Slots[index].ItemObject == null) { return null; }
-            return m_Slots[index].ItemObject.Item;
         }
 
         /// <summary>
