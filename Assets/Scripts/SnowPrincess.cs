@@ -49,6 +49,7 @@ public class SnowPrincess : MonoBehaviour
         //Initialize health
         LoadPlayer();
         HUD.HP(health);
+        HUD.DisplayHP(health, maxHealth);
 
         // Display Energy
         energy = initEnergy;
