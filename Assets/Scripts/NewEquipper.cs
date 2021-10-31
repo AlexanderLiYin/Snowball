@@ -174,7 +174,6 @@ namespace Opsive.UltimateInventorySystem.Equipping
                 print("Equip failed");
                 return false;
             }
-
         }
 
         /// <summary>
@@ -290,12 +289,22 @@ namespace Opsive.UltimateInventorySystem.Equipping
         /// <param name="item">The item to unequip.</param>
         public virtual void UnEquip(Item item)
         {
+            /*
             for (int i = 0; i < m_Slots.Length; i++)
             {
                 if (m_Slots[i].ItemObject == null || m_Slots[i].ItemObject.Item != item) { continue; }
 
                 UnEquip(i);
                 return;
+            }*/
+
+            if (item.TryGetAttributeValue<int>("Attack", out var intAttributeValue))
+            {
+                player.attack -= intAttributeValue;
+            }
+            else
+            {
+                print("Unequip failed");
             }
         }
 
