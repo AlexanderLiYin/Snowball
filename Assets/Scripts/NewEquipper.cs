@@ -34,37 +34,25 @@ namespace Opsive.UltimateInventorySystem.Equipping
         [Tooltip("The item object slots which holds the equipped item.")]
         [SerializeField] protected ItemObjectSlot[] m_Slots;
 
-        [Tooltip("The item object slots which holds the equipped item.")]
-        [SerializeField] protected Item[] Items;
-
         protected ItemSlotCollection m_EquipmentItemCollection;
-
-        public ItemSlotSet ItemSlotSet
-        {
-            get => m_ItemSlotSet;
-            internal set => m_ItemSlotSet = value;
-        }
-        
-        public ItemObjectSlot[] Slots
-        {
-            get => m_Slots;
-            internal set => m_Slots = value;
-        }
 
         /// <summary>
         /// Initialize the Equiper.
         /// </summary>
         protected virtual void Start()
         {
+            //If inventory is null, find inventory component
             if (m_Inventory == null) { m_Inventory = GetComponent<Inventory>(); }
-            m_EquipmentItemCollection = m_Inventory.GetItemCollection(m_EquipmentItemCollectionID) as ItemSlotCollection;
 
+            //If conversion of inventory into item slot collection has failed, print out error
+            m_EquipmentItemCollection = m_Inventory.GetItemCollection(m_EquipmentItemCollectionID) as ItemSlotCollection;
             if (m_EquipmentItemCollection == null)
             {
                 Debug.LogWarning("Your inventory does not have an equipment Item Collection.");
                 return;
             }
 
+            //Register Events(Add a listener functions On added Item To Inventory and On Removed Item From Inventory)
             EventHandler.RegisterEvent<ItemInfo, ItemStack>(m_Inventory, EventNames.c_Inventory_OnAdd_ItemInfo_ItemStack, OnAddedItemToInventory);
             EventHandler.RegisterEvent<ItemInfo>(m_Inventory, EventNames.c_Inventory_OnRemove_ItemInfo, OnRemovedItemFromInventory);
 
