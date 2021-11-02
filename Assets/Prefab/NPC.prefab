@@ -15,7 +15,10 @@ GameObject:
   - component: {fileID: 445098517840271817}
   - component: {fileID: -797543969541372047}
   - component: {fileID: 491919450}
-  - component: {fileID: 491919451}
+  - component: {fileID: -7253711757302427373}
+  - component: {fileID: -4394331021635147194}
+  - component: {fileID: -4100872776756988680}
+  - component: {fileID: -177919044422761050}
   m_Layer: 0
   m_Name: NPC
   m_TagString: Untagged
@@ -153,12 +156,13 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: -797543969541372047}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+        m_TargetAssemblyTypeName: PixelCrushers.DialogueSystem.DialogueSystemTrigger,
+          Assembly-CSharp-firstpass
+        m_MethodName: OnUse
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -263,7 +267,7 @@ MonoBehaviour:
     onUse:
       m_PersistentCalls:
         m_Calls: []
---- !u!114 &491919451
+--- !u!114 &-7253711757302427373
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -272,62 +276,72 @@ MonoBehaviour:
   m_GameObject: {fileID: 9111414172749370280}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c593457cd8105e148906690e1707c592, type: 3}
+  m_Script: {fileID: 11500000, guid: 5bcd4fc02560fce4d9ee6b87734270f3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  trigger: 32
-  condition:
-    luaConditions: []
-    questConditions: []
-    acceptedTags: []
-    acceptedGameObjects: []
-    luaWizardIndex: -1
-    lastEvaluationValue: 0
-  setQuestState: 1
-  questName: 
-  questState: 0
-  setQuestEntryState: 0
-  questEntryNumber: 1
-  questEntryState: 0
-  luaCode: 
-  sequence: 
-  sequenceSpeaker: {fileID: 0}
-  sequenceListener: {fileID: 0}
-  waitOneFrameOnStartOrEnable: 1
-  alertMessage: 
-  textTable: {fileID: 0}
-  alertDuration: 0
-  sendMessages: []
-  barkSource: 0
-  barkConversation: 
-  barkText: 
-  barkTextSequence: 
-  barker: {fileID: 0}
-  barkTarget: {fileID: 0}
-  barkOrder: 0
-  allowBarksDuringConversations: 0
-  skipBarkIfNoValidEntries: 0
-  cacheBarkLines: 0
-  conversation: Shop Conversation
-  conversationConversant: {fileID: 2410679917138900944}
-  conversationActor: {fileID: 0}
-  startConversationEntryID: -1
-  exclusive: 0
-  replace: 0
-  skipIfNoValidEntries: 0
-  stopConversationOnTriggerExit: 0
-  stopConversationIfTooFar: 0
-  maxConversationDistance: 5
-  monitorConversationDistanceFrequency: 1
-  showCursorDuringConversation: 0
-  pauseGameDuringConversation: 0
-  setActiveActions: []
-  setEnabledActions: []
-  setAnimatorStateActions: []
-  onExecute:
-    m_PersistentCalls:
-      m_Calls: []
-  useConversationTitlePicker: 1
-  useBarkTitlePicker: 1
-  useQuestNamePicker: 1
-  selectedDatabase: {fileID: 11400000, guid: 138c68488e73f4040a95b3362d2b6d4d, type: 2}
+  m_BuyAttributeName: BuyPrice
+  m_BuyModifier: -0.05
+  m_SellAttributeName: SellPrice
+  m_SellModifier: 0
+  m_AddItemWithCallback: 0
+  m_RemoveItemWithCallback: 0
+  m_Inventory: {fileID: -177919044422761050}
+  m_DefaultItemCollectionToAddOnBuy:
+    m_Name: 
+    m_Purpose: 1
+  m_ItemCollectionToAddOnBuyByCategory: []
+--- !u!114 &-4394331021635147194
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9111414172749370280}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2de19a5ab9624bae80654a8f4aa1974b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_DeactivateOnInteract: 1
+  m_ScheduleReactivationTime: -1
+  m_SelectIndicators: []
+  m_UsePlayerIDAsPanelManagerID: 1
+  m_MenuOpener: {fileID: -4100872776756988680}
+--- !u!114 &-4100872776756988680
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9111414172749370280}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8406d965d03ec9140ad61f8bda4ec013, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_PanelManagerIndex: 1
+  m_PanelName: Shop Menu
+  m_ClientInventoryIdentifierIndex: 0
+  m_ClientInventory: {fileID: 0}
+  m_Menu: {fileID: 0}
+  m_Shop: {fileID: -7253711757302427373}
+--- !u!114 &-177919044422761050
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9111414172749370280}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7540d24761b4f024d8d8a6014f93d9f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ItemCollectionRestrictionObjects: []
+  m_ItemCollectionData:
+  - m_ObjectType: Opsive.UltimateInventorySystem.Core.InventoryCollections.ItemCollection
+    m_ValueHashes: 0d00eb25b769d11d5030ac3edb08b6c93edd1331719c8809
+    m_ValuePositions: 000000000e0000000e000000120000001300000013000000
+    m_Values: 4974656d436f6c6c656374696f6e010000000000000000
+    m_UnityObjects: []
+    m_Version: 3.1
