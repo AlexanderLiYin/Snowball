@@ -24,6 +24,7 @@ GameObject:
   - component: {fileID: 6603226567442483984}
   - component: {fileID: 81877451}
   - component: {fileID: 81877456}
+  - component: {fileID: 1497758504}
   m_Layer: 0
   m_Name: SnowPrincess
   m_TagString: Player
@@ -519,6 +520,27 @@ MonoBehaviour:
   onDeselectedUsable:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &1497758504
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2128756633633359167}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52052d17a6bbe6146b7d93a8be92e262, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Inventory: {fileID: 1302169125}
+  m_EquipmentItemCollectionID:
+    m_Name: Equipped
+    m_Purpose: 3
+  m_EquipablePrefabAttributeName: EquipmentPrefab
+  m_UsableItemPrefabAttributeName: UsableItemPrefab
+  m_ItemSlotSet: {fileID: 0}
+  m_Slots: []
+  player: {fileID: 1236280219063928417}
 --- !u!1 &8009827429404495592
 GameObject:
   m_ObjectHideFlags: 0
