@@ -15,11 +15,11 @@ D:/Snowball
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-60430
+55800
 Successfully changed project path to: D:/Snowball
 D:/Snowball
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 102.22 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 113.11 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.12f1 (b3b2c6512326)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/Resources/UnitySubsystems
@@ -35,37 +35,37 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56032
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56876
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002119 seconds.
+Registered in 0.002757 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 94.53 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 116.81 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.093 seconds
+- Completed reload, in  2.420 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005662 seconds.
+Registered in 0.006535 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 95.22 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 116.11 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.556 seconds
+- Completed reload, in  1.814 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 1.05 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.97 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3981 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 175.6 MB.
-System memory in use after: 175.7 MB.
+System memory in use before: 175.7 MB.
+System memory in use after: 175.8 MB.
 
 Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 4455.
-Total: 6.311800 ms (FindLiveObjects: 0.328600 ms CreateObjectMapping: 0.185800 ms MarkObjects: 5.625100 ms  DeleteObjects: 0.171300 ms)
+Total: 8.174700 ms (FindLiveObjects: 0.561100 ms CreateObjectMapping: 0.422500 ms MarkObjects: 7.000000 ms  DeleteObjects: 0.189300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -82,62 +82,22 @@ AssetImportParameters requested are different than current active one (requested
 Received Import Request.
   path: Assets/Prefab/SnowPrincess.prefab
   artifactKey: Guid(3b4c23d0ab299a848bdebd67880e652e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/SnowPrincess.prefab using Guid(3b4c23d0ab299a848bdebd67880e652e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '197498a89a0ce2367145462c5fd5e028') in 0.257743 seconds 
-  Import took 0.269781 seconds .
+Start importing Assets/Prefab/SnowPrincess.prefab using Guid(3b4c23d0ab299a848bdebd67880e652e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '501ffde68de6762c94948e5fee799125') in 0.328309 seconds 
+  Import took 0.341890 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 11.973151 seconds.
-  path: Assets/Prefab/SnowPrincess.prefab
-  artifactKey: Guid(3b4c23d0ab299a848bdebd67880e652e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/SnowPrincess.prefab using Guid(3b4c23d0ab299a848bdebd67880e652e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1a84b3c84345ac7a01889ed91320342') in 0.127916 seconds 
-  Import took 0.139796 seconds .
+  Time since last request: 0.000303 seconds.
+  path: Assets/Prefab/Dialogue Manager Variant.prefab
+  artifactKey: Guid(daf08d56eb225ca4b84cbb0035c8460c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Dialogue Manager Variant.prefab using Guid(daf08d56eb225ca4b84cbb0035c8460c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf425d1e0d0721cfb6e679c4c04aeca7') in 0.174825 seconds 
+  Import took 0.185649 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 114.913454 seconds.
-  path: Assets/Prefab/SnowPrincess.prefab
-  artifactKey: Guid(3b4c23d0ab299a848bdebd67880e652e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/SnowPrincess.prefab using Guid(3b4c23d0ab299a848bdebd67880e652e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '461b6a022310f76a3d53d7a44f7d3740') in 0.123502 seconds 
-  Import took 0.136843 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.349374 seconds.
-  path: Assets/Prefab/SnowPrincess.prefab
-  artifactKey: Guid(3b4c23d0ab299a848bdebd67880e652e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/SnowPrincess.prefab using Guid(3b4c23d0ab299a848bdebd67880e652e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b747bdd63ac67429dcd96e350fab9b51') in 0.101349 seconds 
-  Import took 0.115880 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 20.170259 seconds.
-  path: Assets/Prefab/SnowPrincess.prefab
-  artifactKey: Guid(3b4c23d0ab299a848bdebd67880e652e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/SnowPrincess.prefab using Guid(3b4c23d0ab299a848bdebd67880e652e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b730f20668e18cd827bacea5583e4164') in 0.095797 seconds 
-  Import took 0.107443 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 22.624298 seconds.
-  path: Assets/Prefab/SnowPrincess.prefab
-  artifactKey: Guid(3b4c23d0ab299a848bdebd67880e652e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/SnowPrincess.prefab using Guid(3b4c23d0ab299a848bdebd67880e652e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '272c8027cd796edb28750e0a66d52746') in 0.093590 seconds 
-  Import took 0.106221 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.918614 seconds.
-  path: Assets/Prefab/SnowPrincess.prefab
-  artifactKey: Guid(3b4c23d0ab299a848bdebd67880e652e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/SnowPrincess.prefab using Guid(3b4c23d0ab299a848bdebd67880e652e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52140b532ef4be7841ce126c49be9221') in 0.102653 seconds 
-  Import took 0.114206 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 89.523296 seconds.
-  path: Assets/Prefab/SnowPrincess.prefab
-  artifactKey: Guid(3b4c23d0ab299a848bdebd67880e652e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/SnowPrincess.prefab using Guid(3b4c23d0ab299a848bdebd67880e652e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '872b550ab1ebb96c3dac350c8d7a44b0') in 0.105624 seconds 
-  Import took 0.121143 seconds .
+  Time since last request: 6.903874 seconds.
+  path: Assets/Prefab/HUD.prefab
+  artifactKey: Guid(07854d1feeed2f44a941ad73f5485765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/HUD.prefab using Guid(07854d1feeed2f44a941ad73f5485765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad807e30735903ab58cb253c4c3ab5f9') in 0.051237 seconds 
+  Import took 0.060583 seconds .
 
