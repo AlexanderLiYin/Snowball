@@ -735,10 +735,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1302169121, guid: 3b4c23d0ab299a848bdebd67880e652e, type: 3}
-      propertyPath: m_Inventory
-      value: 
-      objectReference: {fileID: 1497758507}
     - target: {fileID: 1236280219063928417, guid: 3b4c23d0ab299a848bdebd67880e652e, type: 3}
       propertyPath: HUD
       value: 
@@ -2696,54 +2692,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: faaaea8c443123144b5b8f51d4691eee, type: 3}
---- !u!1 &1497758503 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2128756633633359167, guid: 3b4c23d0ab299a848bdebd67880e652e, type: 3}
-  m_PrefabInstance: {fileID: 256061546}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1497758504
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1497758503}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 52052d17a6bbe6146b7d93a8be92e262, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Inventory: {fileID: 1497758507}
-  m_EquipmentItemCollectionID:
-    m_Name: Equipped
-    m_Purpose: 3
-  m_EquipablePrefabAttributeName: EquipmentPrefab
-  m_UsableItemPrefabAttributeName: UsableItemPrefab
-  m_ItemSlotSet: {fileID: 0}
-  m_Slots: []
-  player: {fileID: 1497758515}
---- !u!114 &1497758507 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1302169125, guid: 3b4c23d0ab299a848bdebd67880e652e, type: 3}
-  m_PrefabInstance: {fileID: 256061546}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1497758503}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7540d24761b4f024d8d8a6014f93d9f9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1497758515 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1236280219063928417, guid: 3b4c23d0ab299a848bdebd67880e652e, type: 3}
-  m_PrefabInstance: {fileID: 256061546}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1497758503}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d7e5dc5b91f400341a02f0b09766dff1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &1497758518 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1942335342410052555, guid: 3b4c23d0ab299a848bdebd67880e652e, type: 3}
@@ -5972,6 +5920,10 @@ PrefabInstance:
       propertyPath: conversation
       value: ShopKeeper
       objectReference: {fileID: 0}
+    - target: {fileID: 8220451531561209987, guid: d395cce16ca1ad549940812226f4a9e0, type: 3}
+      propertyPath: selectedDatabase
+      value: 
+      objectReference: {fileID: 11400000, guid: 138c68488e73f4040a95b3362d2b6d4d, type: 2}
     - target: {fileID: 8220451531561209987, guid: d395cce16ca1ad549940812226f4a9e0, type: 3}
       propertyPath: conversationActor
       value: 
