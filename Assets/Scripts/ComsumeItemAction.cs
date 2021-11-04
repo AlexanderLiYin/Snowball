@@ -12,7 +12,7 @@ namespace Opsive.UltimateInventorySystem.Demo.ItemActions
     using Opsive.UltimateInventorySystem.ItemActions;
 
     /// <summary>
-    /// Demo Item action used to consume an item.
+    /// Item action used to consume an item.
     /// </summary>
     [System.Serializable]
     public class ConsumeItemAction : ItemAction
@@ -39,11 +39,11 @@ namespace Opsive.UltimateInventorySystem.Demo.ItemActions
         {
             var item = itemInfo.Item;
             var inventory = itemInfo.Inventory;
-            var character = itemUser.GetComponent<Character>();
+            var character = itemUser.GetComponent<SnowPrincess>();
             return item.GetAttribute<Attribute<int>>("HealAmount") != null
                    && character != null
                    && inventory.MainItemCollection.HasItem((1, item))
-                   && character.CharacterDamageable.CurrentHp != character.CharacterDamageable.MaxHp;
+                   && character.health != character.maxHealth;
         }
 
         /// <summary>
@@ -55,10 +55,10 @@ namespace Opsive.UltimateInventorySystem.Demo.ItemActions
         {
             var item = itemInfo.Item;
             var inventory = itemInfo.Inventory;
-            var character = itemUser.GetComponent<Character>();
+            var character = itemUser.GetComponent<SnowPrincess>();
             inventory.MainItemCollection.RemoveItem(item);
             m_HealAmount = item.GetAttribute<Attribute<int>>("HealAmount").GetValue();
-            character.CharacterDamageable.Heal(m_HealAmount);
+            character.incHealth(m_HealAmount);
         }
     }
 }
