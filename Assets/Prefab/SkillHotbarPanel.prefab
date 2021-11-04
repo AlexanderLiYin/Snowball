@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 6061085599689816606}
   - component: {fileID: 2383258416913855086}
   - component: {fileID: 978569465094705767}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Skill View Slot 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -97,7 +97,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5408121825323365599}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Skill Hotbar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -133,7 +133,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3628247752766389750}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Content View
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -169,7 +169,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6511874403235336261}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Main Content
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -210,7 +210,7 @@ GameObject:
   - component: {fileID: 8586663467496852843}
   - component: {fileID: 5796693368197524299}
   - component: {fileID: 3877557598772961708}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Skill View Slots Content
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -343,7 +343,7 @@ GameObject:
   - component: {fileID: 8324301385273308268}
   - component: {fileID: 6408459236330047852}
   - component: {fileID: 1183043867639980021}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Skill View Slot 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -431,7 +431,7 @@ GameObject:
   - component: {fileID: 3483285679391274473}
   - component: {fileID: 8684983699675328184}
   - component: {fileID: 2607189319862772889}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Skill View Slot 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}

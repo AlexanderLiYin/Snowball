@@ -15,11 +15,11 @@ D:/Snowball
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-58412
+60422
 Successfully changed project path to: D:/Snowball
 D:/Snowball
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 96.09 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 101.49 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.12f1 (b3b2c6512326)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/Resources/UnitySubsystems
@@ -35,37 +35,37 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56484
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56696
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002112 seconds.
+Registered in 0.002085 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 97.68 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 115.06 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.074 seconds
+- Completed reload, in  2.141 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005701 seconds.
+Registered in 0.006932 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 99.75 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 105.71 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.472 seconds
+- Completed reload, in  1.734 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.91 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.06 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3981 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 175.7 MB.
 System memory in use after: 175.8 MB.
 
 Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 4455.
-Total: 6.649600 ms (FindLiveObjects: 0.330500 ms CreateObjectMapping: 0.183900 ms MarkObjects: 5.952000 ms  DeleteObjects: 0.182200 ms)
+Total: 8.333700 ms (FindLiveObjects: 0.367100 ms CreateObjectMapping: 0.241200 ms MarkObjects: 7.518900 ms  DeleteObjects: 0.205300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -80,216 +80,55 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
+  path: Assets/Prefab/SkillHotbarPanel.prefab
+  artifactKey: Guid(301c97e9cd6f1a247bd8c5f633c7ba56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/SkillHotbarPanel.prefab using Guid(301c97e9cd6f1a247bd8c5f633c7ba56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2e75a5a77c4e2139ba6f2b051e0d5cd') in 0.053833 seconds 
+  Import took 0.062218 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
   path: Assets/Prefab/InventoryUI.prefab
   artifactKey: Guid(c83dd89330b321d439d2f69ad2a41d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/InventoryUI.prefab using Guid(c83dd89330b321d439d2f69ad2a41d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecbfec5d7e11f2462fe3a66011e7881b') in 0.448261 seconds 
-  Import took 0.471219 seconds .
+Start importing Assets/Prefab/InventoryUI.prefab using Guid(c83dd89330b321d439d2f69ad2a41d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2dca49b3d90a43624f9319d6f6088e7') in 0.462820 seconds 
+  Import took 0.484560 seconds .
 
 ========================================================================
-Received Import Request.
-  Time since last request: 24.630604 seconds.
-  path: Assets/Prefab/InventoryUI.prefab
-  artifactKey: Guid(c83dd89330b321d439d2f69ad2a41d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/InventoryUI.prefab using Guid(c83dd89330b321d439d2f69ad2a41d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad6dea516be75c1cc1718e407b130a41') in 0.261341 seconds 
-  Import took 0.284625 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005934 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.91 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.241 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3953 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 175.7 MB.
+System memory in use after: 175.8 MB.
 
+Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 4460.
+Total: 6.798100 ms (FindLiveObjects: 0.363300 ms CreateObjectMapping: 0.237100 ms MarkObjects: 6.026200 ms  DeleteObjects: 0.170600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 19.835271 seconds.
-  path: Assets/Prefab/InventoryUI.prefab
-  artifactKey: Guid(c83dd89330b321d439d2f69ad2a41d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/InventoryUI.prefab using Guid(c83dd89330b321d439d2f69ad2a41d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a1ac339a45f256377eea214cc4bdf0d') in 0.235530 seconds 
-  Import took 0.255951 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.508852 seconds.
-  path: Assets/Prefab/InventoryUI.prefab
-  artifactKey: Guid(c83dd89330b321d439d2f69ad2a41d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/InventoryUI.prefab using Guid(c83dd89330b321d439d2f69ad2a41d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3af4990a78ef1659e92d2ea822ba786f') in 0.240982 seconds 
-  Import took 0.262770 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 47.081623 seconds.
-  path: Assets/Opsive/UltimateInventorySystem/Editor/Icons/DisplayPanel.png
-  artifactKey: Guid(e83f26b03d4d26540bad1a5eebe8d3d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Opsive/UltimateInventorySystem/Editor/Icons/DisplayPanel.png using Guid(e83f26b03d4d26540bad1a5eebe8d3d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2dcd49b1c8dea60d33e27139953e650') in 0.039115 seconds 
-  Import took 0.049813 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000352 seconds.
-  path: Assets/Opsive/UltimateInventorySystem/Editor/Icons/DisplayPanelManager.png
-  artifactKey: Guid(ff2b6cd44b3ea1c499e7e33ea3072879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Opsive/UltimateInventorySystem/Editor/Icons/DisplayPanelManager.png using Guid(ff2b6cd44b3ea1c499e7e33ea3072879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4919d6f5f4616ec051e652cbb55c12e') in 0.010428 seconds 
-  Import took 0.017800 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.511554 seconds.
-  path: Assets/Opsive/UltimateInventorySystem/Scripts/UI/Panels/DisplayPanel.cs
-  artifactKey: Guid(b66082a767b1a4841927fdfa001813b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Opsive/UltimateInventorySystem/Scripts/UI/Panels/DisplayPanel.cs using Guid(b66082a767b1a4841927fdfa001813b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5129a5c8d6893a174faf1e5fd1fd35e4') in 0.005534 seconds 
-  Import took 0.012991 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001111 seconds.
-  path: Assets/Opsive/UltimateInventorySystem/Scripts/UI/Panels/DisplayPanel.cs
-  artifactKey: Guid(b66082a767b1a4841927fdfa001813b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Opsive/UltimateInventorySystem/Scripts/UI/Panels/DisplayPanel.cs using Guid(b66082a767b1a4841927fdfa001813b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5129a5c8d6893a174faf1e5fd1fd35e4') in 0.001458 seconds 
-  Import took 0.008610 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.249607 seconds.
-  path: Assets/Opsive/UltimateInventorySystem/Editor/Icons/Category.png
-  artifactKey: Guid(cae5ceed97260c84aa54154a126e1c78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Opsive/UltimateInventorySystem/Editor/Icons/Category.png using Guid(cae5ceed97260c84aa54154a126e1c78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29da9dd2a23cce01fb8d0e46305cb167') in 0.015088 seconds 
-  Import took 0.022261 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000261 seconds.
-  path: Assets/Opsive/UltimateInventorySystem/Editor/Icons/ItemRestrictionObject.png
-  artifactKey: Guid(5bfc6b0dca01bde4d99a0a885c74a55d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Opsive/UltimateInventorySystem/Editor/Icons/ItemRestrictionObject.png using Guid(5bfc6b0dca01bde4d99a0a885c74a55d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc450704890a9338eff7483cdbc6da9d') in 0.016924 seconds 
-  Import took 0.024756 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000251 seconds.
-  path: Assets/Opsive/UltimateInventorySystem/Editor/Icons/InventoryDatabase.png
-  artifactKey: Guid(5a2c25d652459db47a3908327eb488f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Opsive/UltimateInventorySystem/Editor/Icons/InventoryDatabase.png using Guid(5a2c25d652459db47a3908327eb488f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff6354301e475763ecc6e18627b3c2c7') in 0.014841 seconds 
-  Import took 0.022934 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000335 seconds.
-  path: Assets/Opsive/UltimateInventorySystem/Editor/Icons/UIDesignerSchema.png
-  artifactKey: Guid(0c906b4f240f7b945bb5581b1088231b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Opsive/UltimateInventorySystem/Editor/Icons/UIDesignerSchema.png using Guid(0c906b4f240f7b945bb5581b1088231b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ceaa3c9ea1194669d9152814534cb730') in 0.015026 seconds 
-  Import took 0.024045 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000236 seconds.
-  path: Assets/Opsive/UltimateInventorySystem/Editor/Icons/ItemViewSlot.png
-  artifactKey: Guid(8c748508f0fd72249b70e0b45d98c1c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Opsive/UltimateInventorySystem/Editor/Icons/ItemViewSlot.png using Guid(8c748508f0fd72249b70e0b45d98c1c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '619b08e4a2577453eb235fe6f272db18') in 0.010760 seconds 
-  Import took 0.018766 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000285 seconds.
-  path: Assets/Opsive/UltimateInventorySystem/Editor/Icons/CogLight.png
-  artifactKey: Guid(01d35754fb059ea45b7bd731f4ede1cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Opsive/UltimateInventorySystem/Editor/Icons/CogLight.png using Guid(01d35754fb059ea45b7bd731f4ede1cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f10b647ce84b22ffe92b89429454e99a') in 0.015216 seconds 
-  Import took 0.022987 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000263 seconds.
-  path: Assets/Opsive/UltimateInventorySystem/Editor/Icons/Craft.png
-  artifactKey: Guid(a728777d51910474c8d3a95968013da8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Opsive/UltimateInventorySystem/Editor/Icons/Craft.png using Guid(a728777d51910474c8d3a95968013da8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32dec3a2af0c935fc3f1f77628bf47c7') in 0.009245 seconds 
-  Import took 0.016054 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000211 seconds.
-  path: Assets/Opsive/UltimateInventorySystem/Editor/Icons/InventoryGrid.png
-  artifactKey: Guid(e4efcb9d471534843b8df6f0abc7780f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Opsive/UltimateInventorySystem/Editor/Icons/InventoryGrid.png using Guid(e4efcb9d471534843b8df6f0abc7780f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac73d6bb37e2a998808b2a1d9c6e3a36') in 0.009857 seconds 
-  Import took 0.016987 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000229 seconds.
-  path: Assets/Opsive/UltimateInventorySystem/Editor/Icons/DropAction.png
-  artifactKey: Guid(8af7007297ab7494e95376267ac87094) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Opsive/UltimateInventorySystem/Editor/Icons/DropAction.png using Guid(8af7007297ab7494e95376267ac87094) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c9d74f8dce48b4926fd32a5ac78a46e') in 0.013581 seconds 
-  Import took 0.021024 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000273 seconds.
-  path: Assets/Opsive/UltimateInventorySystem/Editor/Icons/ItemView.png
-  artifactKey: Guid(8d0fd3bee0fc36e47bc394b54f3e0740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Opsive/UltimateInventorySystem/Editor/Icons/ItemView.png using Guid(8d0fd3bee0fc36e47bc394b54f3e0740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cc4fe404ba9a0764d72a2426022e5b7') in 0.010555 seconds 
-  Import took 0.018245 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000207 seconds.
-  path: Assets/Opsive/UltimateInventorySystem/Editor/Icons/ItemCategory.png
-  artifactKey: Guid(aded4a7ee7f2e9a4c83fefebbb6f19b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Opsive/UltimateInventorySystem/Editor/Icons/ItemCategory.png using Guid(aded4a7ee7f2e9a4c83fefebbb6f19b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca50796c972700a41d0cfdbaa6938d23') in 0.019128 seconds 
-  Import took 0.026343 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000266 seconds.
-  path: Assets/Opsive/UltimateInventorySystem/Editor/Icons/CurrencyView.png
-  artifactKey: Guid(f1c21c383ccb9a644b5fa2620dda1966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Opsive/UltimateInventorySystem/Editor/Icons/CurrencyView.png using Guid(f1c21c383ccb9a644b5fa2620dda1966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e59970468c3743b1a8a3b8a6727ce93d') in 0.008952 seconds 
-  Import took 0.016328 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000215 seconds.
-  path: Assets/Opsive/UltimateInventorySystem/Editor/Icons/Currency.png
-  artifactKey: Guid(70014ee6687184847a67dc36978f3001) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Opsive/UltimateInventorySystem/Editor/Icons/Currency.png using Guid(70014ee6687184847a67dc36978f3001) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b09b307e79de28cee8f406a48c91e58a') in 0.010541 seconds 
-  Import took 0.018205 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000275 seconds.
-  path: Assets/Opsive/UltimateInventorySystem/Editor/Icons/CogDark.png
-  artifactKey: Guid(8b097a15afc724641b5dfbf342ce4940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Opsive/UltimateInventorySystem/Editor/Icons/CogDark.png using Guid(8b097a15afc724641b5dfbf342ce4940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '425e1ed3958a17e3aef22699513e34c3') in 0.013241 seconds 
-  Import took 0.020160 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000215 seconds.
-  path: Assets/Opsive/UltimateInventorySystem/Editor/Icons/InventorySystemManager.png
-  artifactKey: Guid(69e4b9d83e5bb1843b7d4a559797fdf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Opsive/UltimateInventorySystem/Editor/Icons/InventorySystemManager.png using Guid(69e4b9d83e5bb1843b7d4a559797fdf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8aaad0c88af277dd8c88de98516062bf') in 0.008570 seconds 
-  Import took 0.015600 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000261 seconds.
-  path: Assets/Opsive/UltimateInventorySystem/Editor/Icons/ItemDefinition.png
-  artifactKey: Guid(d0d1a3332908cbe458c1ce422aac6e36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Opsive/UltimateInventorySystem/Editor/Icons/ItemDefinition.png using Guid(d0d1a3332908cbe458c1ce422aac6e36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb8b442357faa267dca61489020f35d5') in 0.012278 seconds 
-  Import took 0.019720 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000237 seconds.
-  path: Assets/Opsive/UltimateInventorySystem/Editor/Icons/InventorySystemManager.png
-  artifactKey: Guid(69e4b9d83e5bb1843b7d4a559797fdf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Opsive/UltimateInventorySystem/Editor/Icons/InventorySystemManager.png using Guid(69e4b9d83e5bb1843b7d4a559797fdf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8aaad0c88af277dd8c88de98516062bf') in 0.003961 seconds 
-  Import took 0.010588 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000259 seconds.
-  path: Assets/Opsive/UltimateInventorySystem/Editor/Icons/ItemDefinition.png
-  artifactKey: Guid(d0d1a3332908cbe458c1ce422aac6e36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Opsive/UltimateInventorySystem/Editor/Icons/ItemDefinition.png using Guid(d0d1a3332908cbe458c1ce422aac6e36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb8b442357faa267dca61489020f35d5') in 0.003722 seconds 
-  Import took 0.010453 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 303.610801 seconds.
-  path: Assets/Prefab/InventoryUI.prefab
-  artifactKey: Guid(c83dd89330b321d439d2f69ad2a41d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/InventoryUI.prefab using Guid(c83dd89330b321d439d2f69ad2a41d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6540038c0835e9aa5864b26ee396137f') in 0.233930 seconds 
-  Import took 0.255882 seconds .
+  Time since last request: 243.390521 seconds.
+  path: Assets/Prefab/SkillHotbarPanel.prefab
+  artifactKey: Guid(301c97e9cd6f1a247bd8c5f633c7ba56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/SkillHotbarPanel.prefab using Guid(301c97e9cd6f1a247bd8c5f633c7ba56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '686402c33a71df1c5dfe1157e7c3739d') in 0.043257 seconds 
+  Import took 0.051294 seconds .
 
