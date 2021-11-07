@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_ItemCategory:
     m_Name: Consumable
-    m_ItemCategory: {fileID: 11400000, guid: 22d6dcdd8e29a5b4987a28e2981acb21, type: 2}
+    m_ItemCategory: {fileID: 11400000, guid: 0e154e4155c48bb4580fb3abe5ceae5e, type: 2}
   m_ExceptionCategories:
     m_ItemCategories: []
   m_ItemActionCollection:
