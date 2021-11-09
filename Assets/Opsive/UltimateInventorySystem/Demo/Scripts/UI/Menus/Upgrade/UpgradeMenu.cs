@@ -75,7 +75,7 @@ namespace Opsive.UltimateInventorySystem.Demo.UI.Menus.Upgrade
         /// </summary>
         protected override void OnInventoryBound()
         {
-            m_CharacterStats = m_Inventory.GetComponent<PlayerCharacter>().CharacterStats;
+            //m_CharacterStats = m_Inventory.GetComponent<PlayerCharacter>().CharacterStats;
             m_UpgradableItemsInventoryGrid.Initialize(false);
             m_UpgradableItemsInventoryGrid.SetInventory(m_Inventory);
             m_UpgradesInventoryGridPanelBinding.ItemViewSlotsContainer.Initialize(false);
