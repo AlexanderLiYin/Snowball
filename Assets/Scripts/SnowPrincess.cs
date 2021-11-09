@@ -15,7 +15,7 @@ public class SnowPrincess : MonoBehaviour
     Joystick joystick;
 
     //Player health
-    public HUDScript HUD;
+    HUDScript HUD;
     public int maxHealth = 10;
     public int health = 10;
     bool onTrench = false;
@@ -48,6 +48,7 @@ public class SnowPrincess : MonoBehaviour
 
         //Initialize health
         LoadPlayer();
+        HUD = GameObject.Find("HUD").GetComponent<HUDScript>();
         HUD.HP(health);
         HUD.DisplayHP(health, maxHealth);
 
