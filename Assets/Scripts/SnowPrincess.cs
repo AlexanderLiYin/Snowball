@@ -8,7 +8,7 @@ public class SnowPrincess : MonoBehaviour
     //Player Movement
     public float movespeed = 5f;
     Rigidbody2D rb;
-    public Camera cam;
+    Camera cam;
     Vector2 movement;
     Vector2 mousePos;
     public bool canMove = true;
@@ -45,6 +45,7 @@ public class SnowPrincess : MonoBehaviour
     {
         //Get Rigidbody2D
         rb = gameObject.GetComponent<Rigidbody2D>();
+        cam = GameObject.Find("MainCamera").GetComponent<Camera>();
 
         //Initialize health
         LoadPlayer();
