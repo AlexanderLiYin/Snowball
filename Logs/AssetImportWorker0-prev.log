@@ -2010,4 +2010,1671 @@ Received Import Request.
   Time since last request: 0.000164 seconds.
   path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_182.asset
   artifactKey: Guid(ba3e1a240669dd849bc314fc55301d4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_182.asset using Guid(ba3e1a240669dd849bc314fc55301d4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) 
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_182.asset using Guid(ba3e1a240669dd849bc314fc55301d4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37117d105e0288b0cf3ff5ef6bb77dcb') in 0.024541 seconds 
+  Import took 0.034871 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_79.asset
+  artifactKey: Guid(f223bcd6aeace1447baa225def595d7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_79.asset using Guid(f223bcd6aeace1447baa225def595d7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fe1ed79d26338e8568bf27b61db29bc') in 0.028478 seconds 
+  Import took 0.036558 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_172.asset
+  artifactKey: Guid(5ff1e85977ed0664e96673d0812ccbc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_172.asset using Guid(5ff1e85977ed0664e96673d0812ccbc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c021788a0d5b2de0ec3f9633fb77c3b1') in 0.024918 seconds 
+  Import took 0.038274 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000367 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_46.asset
+  artifactKey: Guid(c288e50e0d769334695a756c51fbf272) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_46.asset using Guid(c288e50e0d769334695a756c51fbf272) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63d82324edcef0fc0dbc87732a88aa4e') in 0.024843 seconds 
+  Import took 0.034024 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_142.asset
+  artifactKey: Guid(305dee91ff581ae4f949336ba5fa8fb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_142.asset using Guid(305dee91ff581ae4f949336ba5fa8fb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f71ee058cb267c0b245f7ea87f6d814') in 0.025599 seconds 
+  Import took 0.035222 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_159.asset
+  artifactKey: Guid(a763b09c60791424085dfc3c28476fcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_159.asset using Guid(a763b09c60791424085dfc3c28476fcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0505ec45d7220432a4225c466c82304') in 0.027267 seconds 
+  Import took 0.035543 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000436 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_111.asset
+  artifactKey: Guid(940e2cbfcd72b0b409e46c5eedbb2e09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_111.asset using Guid(940e2cbfcd72b0b409e46c5eedbb2e09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c23e513403a533ea998d1a88dbafb015') in 0.023327 seconds 
+  Import took 0.031539 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_122.asset
+  artifactKey: Guid(b029c96f83f452d4daa52598bb596d6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_122.asset using Guid(b029c96f83f452d4daa52598bb596d6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8d0d39eb240c3b1319122e2b15e6b75') in 0.025162 seconds 
+  Import took 0.033267 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000366 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_55.asset
+  artifactKey: Guid(430a21b431d59c64ebdef40b357d1796) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_55.asset using Guid(430a21b431d59c64ebdef40b357d1796) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfc745d67d0629cfaf3efae1c5d43989') in 0.025131 seconds 
+  Import took 0.035068 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_206.asset
+  artifactKey: Guid(70c34140b907ecc47a322dbee88435cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_206.asset using Guid(70c34140b907ecc47a322dbee88435cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b123a1d190812fad24c39cc3e8c4f89e') in 0.025135 seconds 
+  Import took 0.032819 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_18.asset
+  artifactKey: Guid(a5f2a806d6296c94793d71a9dc83489b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_18.asset using Guid(a5f2a806d6296c94793d71a9dc83489b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cc3a32726356c617b66f42655b8a95d') in 0.021652 seconds 
+  Import took 0.028623 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_151.asset
+  artifactKey: Guid(893f2678b3f261a42bd57604942112d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_151.asset using Guid(893f2678b3f261a42bd57604942112d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e491b2ebf718af7266ed4c76e79e7ef6') in 0.022118 seconds 
+  Import took 0.029681 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000326 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_237.asset
+  artifactKey: Guid(9a8496e3cacca9d42920e7347c9dd1a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_237.asset using Guid(9a8496e3cacca9d42920e7347c9dd1a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '755ad50977c0acc39122643e7d17deee') in 0.022650 seconds 
+  Import took 0.029641 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_31.asset
+  artifactKey: Guid(178dfc3cf9d2d1f47bf510b4c2461fb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_31.asset using Guid(178dfc3cf9d2d1f47bf510b4c2461fb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd85f131e466e2025ed52728387b9d1e8') in 0.022405 seconds 
+  Import took 0.028825 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_192.asset
+  artifactKey: Guid(cf29450bf70240f47b49859ac1c8e6b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_192.asset using Guid(cf29450bf70240f47b49859ac1c8e6b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77a39341b3dd7ef76ea15a4ef5cf06fb') in 0.021715 seconds 
+  Import took 0.029445 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_223.asset
+  artifactKey: Guid(fe588332dbb3f574abfdaf7aa3800895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_223.asset using Guid(fe588332dbb3f574abfdaf7aa3800895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a2dd2524eea2abb539478f03223cdd0') in 0.023855 seconds 
+  Import took 0.031889 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_160.asset
+  artifactKey: Guid(3009d63c0d4dc4141a36b9bb477489cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_160.asset using Guid(3009d63c0d4dc4141a36b9bb477489cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7654ce3bb05fe545f6a54b6e9dcfc8df') in 0.029174 seconds 
+  Import took 0.042474 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000409 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_96.asset
+  artifactKey: Guid(6df59457bf6883b4ea863dab16252bbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_96.asset using Guid(6df59457bf6883b4ea863dab16252bbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '675dd36d7ab08b6e020b79d83afceeb6') in 0.041632 seconds 
+  Import took 0.063933 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_246.asset
+  artifactKey: Guid(3706465293a6f95419e19ccca9f8c0e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_246.asset using Guid(3706465293a6f95419e19ccca9f8c0e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1193e322c35d89db203e86484886080c') in 0.026910 seconds 
+  Import took 0.034925 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_238.asset
+  artifactKey: Guid(868f856427085664192dee3a7bf10509) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_238.asset using Guid(868f856427085664192dee3a7bf10509) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6aea8cf8a96529af1f4ff22f7ed2a5f') in 0.036520 seconds 
+  Import took 0.046291 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_133.asset
+  artifactKey: Guid(3833cf4129385ee43ae6c468573158e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_133.asset using Guid(3833cf4129385ee43ae6c468573158e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '700d83ce8bd482aac92b228755c372ac') in 0.028386 seconds 
+  Import took 0.037987 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_140.asset
+  artifactKey: Guid(f86e918ccb9d44d459c341182f0016b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_140.asset using Guid(f86e918ccb9d44d459c341182f0016b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67d9182ed5eec8222e3af018ba925ba3') in 0.026395 seconds 
+  Import took 0.033242 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_120.asset
+  artifactKey: Guid(48a4475339866694aa6796fdca6c3b29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_120.asset using Guid(48a4475339866694aa6796fdca6c3b29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3644a074ead59d18b8832d1800b8a6c4') in 0.020764 seconds 
+  Import took 0.027395 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_47.asset
+  artifactKey: Guid(aff7971e51338104494fcdcc4ebca123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_47.asset using Guid(aff7971e51338104494fcdcc4ebca123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cfdadff3496c97fe71548c7e545b412') in 0.021806 seconds 
+  Import took 0.028481 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_150.asset
+  artifactKey: Guid(33f37613ec00ea04a85756968b6e73eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_150.asset using Guid(33f37613ec00ea04a85756968b6e73eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca799edd8c1a84347af8a6f03921d45d') in 0.022170 seconds 
+  Import took 0.029557 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_41.asset
+  artifactKey: Guid(2b9b995dc89a66d4081774dddba1928e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_41.asset using Guid(2b9b995dc89a66d4081774dddba1928e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dac80b72be967fd61c688c3c67600de') in 0.022455 seconds 
+  Import took 0.029509 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_229.asset
+  artifactKey: Guid(ddaa92b6418c2ef4bb7887fc4821ac05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_229.asset using Guid(ddaa92b6418c2ef4bb7887fc4821ac05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43163e227a5d6405714b9cd85f5158bf') in 0.023502 seconds 
+  Import took 0.032594 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_163.asset
+  artifactKey: Guid(b76a9147b3471e0489c591f5930bbcb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_163.asset using Guid(b76a9147b3471e0489c591f5930bbcb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a878a729ec04d7e251cf51706c7a156') in 0.022793 seconds 
+  Import took 0.029968 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_253.asset
+  artifactKey: Guid(6cea159c3d8fe9146a9b68c463286745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_253.asset using Guid(6cea159c3d8fe9146a9b68c463286745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f0e09e7168183787ed9068e04082e3e') in 0.028702 seconds 
+  Import took 0.036773 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_148.asset
+  artifactKey: Guid(fd08084972496154ca19c038b20839d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_148.asset using Guid(fd08084972496154ca19c038b20839d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0950ff16cf6c5ff06a7b0b39c60ca888') in 0.025894 seconds 
+  Import took 0.034061 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_227.asset
+  artifactKey: Guid(051e5f8e62429f24e96393ec15c37e56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_227.asset using Guid(051e5f8e62429f24e96393ec15c37e56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54c8444331b133836a15db96ed977abe') in 0.021962 seconds 
+  Import took 0.029032 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_166.asset
+  artifactKey: Guid(7c6694a1b6ee0334d8700e3dc441937a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_166.asset using Guid(7c6694a1b6ee0334d8700e3dc441937a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22cc6fdfce8771a287ebb2128f725f25') in 0.020727 seconds 
+  Import took 0.027948 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_167.asset
+  artifactKey: Guid(07990b2ed5aa4cb4a98983af4d1dd899) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_167.asset using Guid(07990b2ed5aa4cb4a98983af4d1dd899) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3b5c268bce4024372ee11be2d5a3ed9') in 0.023667 seconds 
+  Import took 0.030645 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_144.asset
+  artifactKey: Guid(f752dd7abe98f18408252b35b21fdd74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_144.asset using Guid(f752dd7abe98f18408252b35b21fdd74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5414eb24960c6455400b0c2082abce13') in 0.024777 seconds 
+  Import took 0.031829 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_235.asset
+  artifactKey: Guid(c9d5f2d11c84476438e3e50160abca28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_235.asset using Guid(c9d5f2d11c84476438e3e50160abca28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '844b682dc8a47e3da1dee113c6a78203') in 0.020895 seconds 
+  Import took 0.027777 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_106.asset
+  artifactKey: Guid(58c346b72dc2e9d439a728416139d1b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_106.asset using Guid(58c346b72dc2e9d439a728416139d1b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cf0be680f3feea4a0978ca1f8d9e0e0') in 0.020824 seconds 
+  Import took 0.027791 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_103.asset
+  artifactKey: Guid(26bee93817aea004089eb68ef8879aa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_103.asset using Guid(26bee93817aea004089eb68ef8879aa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b433b17ad6e9c9170d1f6065f8fc39c') in 0.020473 seconds 
+  Import took 0.027288 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_247.asset
+  artifactKey: Guid(2bca939e6a54d904695065a7e66d4882) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_247.asset using Guid(2bca939e6a54d904695065a7e66d4882) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46150e6f303164f43001b9a5358d12dc') in 0.024855 seconds 
+  Import took 0.032004 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_158.asset
+  artifactKey: Guid(dbeecca7b6bbc5949aa90ebfdb8a5015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_158.asset using Guid(dbeecca7b6bbc5949aa90ebfdb8a5015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '671d8bbe0f1cb6726810e737077de5c6') in 0.020824 seconds 
+  Import took 0.028152 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_147.asset
+  artifactKey: Guid(117315d6d4adf8449932dea2c76e6cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_147.asset using Guid(117315d6d4adf8449932dea2c76e6cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0267763478bd77c7d718d35139a420e9') in 0.021420 seconds 
+  Import took 0.028642 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_181.asset
+  artifactKey: Guid(4a105f3ef55109046a7e9b47a406b042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_181.asset using Guid(4a105f3ef55109046a7e9b47a406b042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9506741fd3825959ccee60e46178881') in 0.020976 seconds 
+  Import took 0.028295 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_161.asset
+  artifactKey: Guid(bfb77c96402f30541a6581a16f92be8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_161.asset using Guid(bfb77c96402f30541a6581a16f92be8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7155b724b6b5ce190cc1560e2a15b449') in 0.022899 seconds 
+  Import took 0.030468 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_135.asset
+  artifactKey: Guid(68489c9d38a341f4f9e9727585251751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_135.asset using Guid(68489c9d38a341f4f9e9727585251751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8abcbcfcaaed0d1e2d9c3d827b18897') in 0.021057 seconds 
+  Import took 0.027856 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_6.asset
+  artifactKey: Guid(c352f8c70e279424aaf1cbaaf1a33c2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_6.asset using Guid(c352f8c70e279424aaf1cbaaf1a33c2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a7fbf742830ab3b5654e97f372f2a81') in 0.020654 seconds 
+  Import took 0.027524 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_37.asset
+  artifactKey: Guid(7b046fd9fc82fad4f901959218189c4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_37.asset using Guid(7b046fd9fc82fad4f901959218189c4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5b63cb484723ed58916beb909f2f69b') in 0.021279 seconds 
+  Import took 0.028025 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_131.asset
+  artifactKey: Guid(7446f5f8917c7604b81ce74eeb96839f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_131.asset using Guid(7446f5f8917c7604b81ce74eeb96839f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b7fe5d85ff8f5dc3b7d13c1b2f9afb4') in 0.022830 seconds 
+  Import took 0.031162 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_95.asset
+  artifactKey: Guid(f5c91868e799d5f479cf0731885741cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_95.asset using Guid(f5c91868e799d5f479cf0731885741cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c13260f56914788841956681611c5dc') in 0.022198 seconds 
+  Import took 0.029257 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_28.asset
+  artifactKey: Guid(9444232710b715d409a425b31d53aa1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_28.asset using Guid(9444232710b715d409a425b31d53aa1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '678a45798a41a23f08053c5ff43f115c') in 0.021627 seconds 
+  Import took 0.028718 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_201.asset
+  artifactKey: Guid(380d5110eb719cb428f72af9c75b4680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_201.asset using Guid(380d5110eb719cb428f72af9c75b4680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3abc7fd5ad462d21f06ea0d80a01984') in 0.020552 seconds 
+  Import took 0.028148 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_188.asset
+  artifactKey: Guid(44b15521ada73304391d46d32a3f8abe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_188.asset using Guid(44b15521ada73304391d46d32a3f8abe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c816e2b7fb277e801d45a423e04d70a') in 0.027269 seconds 
+  Import took 0.034585 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_80.asset
+  artifactKey: Guid(004d4e79fffcb4548a2e2d63acbfc5eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_80.asset using Guid(004d4e79fffcb4548a2e2d63acbfc5eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eafb5feca2b4de19374bc5800a6f82d2') in 0.022696 seconds 
+  Import took 0.029704 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_91.asset
+  artifactKey: Guid(e64ea6c2701c0234a95a4dfaacd53ea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_91.asset using Guid(e64ea6c2701c0234a95a4dfaacd53ea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b14d7a8bc4d18733d568ad6c11b65404') in 0.020268 seconds 
+  Import took 0.027507 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_174.asset
+  artifactKey: Guid(bb8b5ea1bee169a49af90cf6322e213f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_174.asset using Guid(bb8b5ea1bee169a49af90cf6322e213f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dedf69a49aff4e058b92f9c8b03d67e') in 0.021480 seconds 
+  Import took 0.028369 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_54.asset
+  artifactKey: Guid(44e2005ddc1b8904f8c3773f238cdfba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_54.asset using Guid(44e2005ddc1b8904f8c3773f238cdfba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e240961146b03b2e9fa318610d51b8b7') in 0.025302 seconds 
+  Import took 0.032431 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_106.asset
+  artifactKey: Guid(4031d747d3246f841901c88c5b306238) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_106.asset using Guid(4031d747d3246f841901c88c5b306238) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbd733bca50649c6641bd333672ab954') in 0.020591 seconds 
+  Import took 0.027508 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_182.asset
+  artifactKey: Guid(11bad541c044e1f4ca1534c51f46ff65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_182.asset using Guid(11bad541c044e1f4ca1534c51f46ff65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59843ca4413709fcfd1437d8186b5cbc') in 0.019907 seconds 
+  Import took 0.026670 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_20.asset
+  artifactKey: Guid(76c96815278c6ad4da4574db08b9ce75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_20.asset using Guid(76c96815278c6ad4da4574db08b9ce75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '096a494e27db01568015732482f64b6b') in 0.022258 seconds 
+  Import took 0.029185 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_189.asset
+  artifactKey: Guid(c1b1637086b38e64dadeb5855a1baff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_189.asset using Guid(c1b1637086b38e64dadeb5855a1baff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a5998817a119ec168de83a89f0d94a2') in 0.025366 seconds 
+  Import took 0.033520 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_8.asset
+  artifactKey: Guid(d6450decd8242014c81465430aab7282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_8.asset using Guid(d6450decd8242014c81465430aab7282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5e8cc4fa7523b8e1d0feae6bf414e93') in 0.024080 seconds 
+  Import took 0.031824 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_76.asset
+  artifactKey: Guid(e29457705a32b9f43841dbb193d3987c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_76.asset using Guid(e29457705a32b9f43841dbb193d3987c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd76879dcbb211e35e315eed3b0304b67') in 0.023146 seconds 
+  Import took 0.030501 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000345 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_118.asset
+  artifactKey: Guid(27917f734fddd434eb2cda91fbdb90fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_118.asset using Guid(27917f734fddd434eb2cda91fbdb90fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf563dc6275fce67d26107655086fd44') in 0.021376 seconds 
+  Import took 0.028780 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_200.asset
+  artifactKey: Guid(4ef2ac13de8986e4cbfc85804218f3f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_200.asset using Guid(4ef2ac13de8986e4cbfc85804218f3f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68f205a1595011cf3aea985e94cb1657') in 0.025745 seconds 
+  Import took 0.032757 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_84.asset
+  artifactKey: Guid(801c35e51493b4d48a8264ce6e24818e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_84.asset using Guid(801c35e51493b4d48a8264ce6e24818e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffaf88552f3db296b82b2f12ac3c5acc') in 0.021376 seconds 
+  Import took 0.028108 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_52.asset
+  artifactKey: Guid(761f7349f7ad90748af29451a2129e86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_52.asset using Guid(761f7349f7ad90748af29451a2129e86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '833e45ff55be99ebb045347978d6fe5a') in 0.020949 seconds 
+  Import took 0.027831 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_99.asset
+  artifactKey: Guid(9362b0a9a622b744c98d13b602559a7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_99.asset using Guid(9362b0a9a622b744c98d13b602559a7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c0a36e5c6f72574cfa10c70bbad1ee5') in 0.019821 seconds 
+  Import took 0.026707 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_230.asset
+  artifactKey: Guid(d691f2cece051104d9a927fcda555693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_230.asset using Guid(d691f2cece051104d9a927fcda555693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19d9c35e264cdb49e7609972b5173480') in 0.022909 seconds 
+  Import took 0.030692 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_226.asset
+  artifactKey: Guid(2bfed18b03d11024ca780af8a6ee521d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_226.asset using Guid(2bfed18b03d11024ca780af8a6ee521d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df0c5a389287ec5e0091673975c1e81e') in 0.024144 seconds 
+  Import took 0.031078 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_191.asset
+  artifactKey: Guid(2683d1d19cb5aee4598825217c285c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_191.asset using Guid(2683d1d19cb5aee4598825217c285c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e43a6b2fb8a6e1b3f3840ae50172e7f2') in 0.022231 seconds 
+  Import took 0.029142 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_89.asset
+  artifactKey: Guid(832cc4f957a81d746889a065a09d0964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_89.asset using Guid(832cc4f957a81d746889a065a09d0964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4961d3603cbdf14c3e888cdc3faca1f2') in 0.021679 seconds 
+  Import took 0.028458 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_80.asset
+  artifactKey: Guid(d81cc5a7f6a702b4ebd4a6624ca5327a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_80.asset using Guid(d81cc5a7f6a702b4ebd4a6624ca5327a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdaa285b429435e0b2f07e1476f92e72') in 0.022744 seconds 
+  Import took 0.030212 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_1.asset
+  artifactKey: Guid(a0191aecd1a894f4da3c08edb09457d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_1.asset using Guid(a0191aecd1a894f4da3c08edb09457d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b47addea0e63ada71fa8172a3480df6e') in 0.023976 seconds 
+  Import took 0.031555 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_12.asset
+  artifactKey: Guid(d141ffd7621fc4f439282a9865dc50a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_12.asset using Guid(d141ffd7621fc4f439282a9865dc50a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0b0384d2ac177c6dd3325ea447bc175') in 0.022121 seconds 
+  Import took 0.028836 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_234.asset
+  artifactKey: Guid(cf30cd7b473712c43ba0402ffaea5792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_234.asset using Guid(cf30cd7b473712c43ba0402ffaea5792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0937ca8cc4ac94030501cce170aa8bc5') in 0.019490 seconds 
+  Import took 0.026122 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_175.asset
+  artifactKey: Guid(b0f6ae31af5055546af3af4edb581e4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_175.asset using Guid(b0f6ae31af5055546af3af4edb581e4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33b3f2e9f35c2734d7289a39dac6a409') in 0.022160 seconds 
+  Import took 0.029727 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_241.asset
+  artifactKey: Guid(e42777c94a316604aaea10f5b9f4f810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_241.asset using Guid(e42777c94a316604aaea10f5b9f4f810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7114399a26313e20b11093d2abe584ed') in 0.029642 seconds 
+  Import took 0.037591 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_237.asset
+  artifactKey: Guid(298442cd1fe13f24ea0336eaba65d43c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_237.asset using Guid(298442cd1fe13f24ea0336eaba65d43c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4705f43680990df1344f939a41164cb6') in 0.021880 seconds 
+  Import took 0.029065 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_33.asset
+  artifactKey: Guid(68dbeeb4dbf35154490bd3ee0c8525fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_33.asset using Guid(68dbeeb4dbf35154490bd3ee0c8525fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '690a9c1f9e1a208a67e61dcb359c28b7') in 0.020881 seconds 
+  Import took 0.027718 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_85.asset
+  artifactKey: Guid(c998bde7748bc374b9e676739132ccd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_85.asset using Guid(c998bde7748bc374b9e676739132ccd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db14f3ea2ef0ea980497c8f793bc0a7b') in 0.032959 seconds 
+  Import took 0.044925 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_71.asset
+  artifactKey: Guid(d542a81288f788845994cbaa4ea225f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_71.asset using Guid(d542a81288f788845994cbaa4ea225f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e617221c53d22a62b4d4fb2756a889bf') in 0.041916 seconds 
+  Import took 0.053194 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_225.asset
+  artifactKey: Guid(e358a040c282147498b97c9bea352bd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_225.asset using Guid(e358a040c282147498b97c9bea352bd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ec8dc0e68ee71daae9e3e78b3724a71') in 0.024347 seconds 
+  Import took 0.033188 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_131.asset
+  artifactKey: Guid(c5049f37fa86fdb468b109d2b0b5a0df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_131.asset using Guid(c5049f37fa86fdb468b109d2b0b5a0df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32021c859019457798e06b112ef39ba1') in 0.025159 seconds 
+  Import took 0.037860 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_124.asset
+  artifactKey: Guid(c2eec98a94cc6df4e826aeafccbb23e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_124.asset using Guid(c2eec98a94cc6df4e826aeafccbb23e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b38f303f4ecb2c295413535bf69b40c') in 0.033771 seconds 
+  Import took 0.045623 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_161.asset
+  artifactKey: Guid(4dde325ecf3669e4884d4cb4d98b1bb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_161.asset using Guid(4dde325ecf3669e4884d4cb4d98b1bb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59346dc0de4d68ec9700009f6fb836ee') in 0.026681 seconds 
+  Import took 0.036063 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_139.asset
+  artifactKey: Guid(eb537526f8772a14198784944082eda6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_139.asset using Guid(eb537526f8772a14198784944082eda6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64a525418b7b0256b662b0630ad10e0e') in 0.030815 seconds 
+  Import took 0.042017 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_186.asset
+  artifactKey: Guid(15395c2d4d69cd943bfd25a12362f570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_186.asset using Guid(15395c2d4d69cd943bfd25a12362f570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfc481a39c9125d5d293db79c9590411') in 0.027777 seconds 
+  Import took 0.036883 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_149.asset
+  artifactKey: Guid(2eaf22fec972daf44bcbf9ad3cec4a2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_149.asset using Guid(2eaf22fec972daf44bcbf9ad3cec4a2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd721bc787dec30da82cac1bf01565d4b') in 0.028315 seconds 
+  Import took 0.037785 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_254.asset
+  artifactKey: Guid(d396e0824f4f49d43ae739a992718bcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_254.asset using Guid(d396e0824f4f49d43ae739a992718bcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7891b83537fc599e1d3e5d5bf45d6c05') in 0.028668 seconds 
+  Import took 0.039061 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000403 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_202.asset
+  artifactKey: Guid(fb213cdf699d1ff4aa50931fce22acb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_202.asset using Guid(fb213cdf699d1ff4aa50931fce22acb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22bb2850d4e3daeceec7930feef1fa48') in 0.029254 seconds 
+  Import took 0.037862 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_137.asset
+  artifactKey: Guid(4353dd8e1e3d0764e973b53936d89f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_137.asset using Guid(4353dd8e1e3d0764e973b53936d89f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db03657f633acc9e4e187bb00d452eba') in 0.026158 seconds 
+  Import took 0.034515 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_36.asset
+  artifactKey: Guid(237d37fc75537b647bef7ac5cd36f6db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_36.asset using Guid(237d37fc75537b647bef7ac5cd36f6db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c189668fa020ef2df349e14a13cda91') in 0.024848 seconds 
+  Import took 0.032797 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town@128x128_0.asset
+  artifactKey: Guid(85fdffb6f5fdae0499e8a8a8c5a1ef34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town@128x128_0.asset using Guid(85fdffb6f5fdae0499e8a8a8c5a1ef34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e75368062eb42e6e13b628211b9247b') in 0.024122 seconds 
+  Import took 0.033273 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_126.asset
+  artifactKey: Guid(badf87f8dde1c7c4f8f7277af384a491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_126.asset using Guid(badf87f8dde1c7c4f8f7277af384a491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dfeed1dcb0acf2bc1a8c7d6676007c8') in 0.024437 seconds 
+  Import took 0.031624 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_58.asset
+  artifactKey: Guid(45ec90eed87190f4db7b839bbed41575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_58.asset using Guid(45ec90eed87190f4db7b839bbed41575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3702fabb0f1a7e6735f8c0dfabefdad') in 0.024734 seconds 
+  Import took 0.032364 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_207.asset
+  artifactKey: Guid(4238fb59c9b99c549b686434d8fdd6d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_207.asset using Guid(4238fb59c9b99c549b686434d8fdd6d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94c1a974a1f53a8ad01f3a24b25d6c31') in 0.026970 seconds 
+  Import took 0.036055 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_154.asset
+  artifactKey: Guid(0f5922b7d5225154f80b328d74f02305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_154.asset using Guid(0f5922b7d5225154f80b328d74f02305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81e205daaeb40984398a3a02a347a0c9') in 0.023584 seconds 
+  Import took 0.035723 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_148.asset
+  artifactKey: Guid(7a8a63f8fa445eb4fa321f43fba37500) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_148.asset using Guid(7a8a63f8fa445eb4fa321f43fba37500) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0091324883be49a87c2df878aab63ce5') in 0.023136 seconds 
+  Import took 0.033309 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000355 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_255.asset
+  artifactKey: Guid(bb21624b04e9ad7468ca0481092f3353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_255.asset using Guid(bb21624b04e9ad7468ca0481092f3353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77c602e9c0762ac0e03fa6808a54de34') in 0.028039 seconds 
+  Import took 0.037108 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_75.asset
+  artifactKey: Guid(6c4b65bebe537aa4da80b4eaea4006b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_75.asset using Guid(6c4b65bebe537aa4da80b4eaea4006b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '693024b01a41b137031eb434c215709d') in 0.026274 seconds 
+  Import took 0.045481 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_124.asset
+  artifactKey: Guid(599a225d0e07b8b43a1ef7089a105288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_124.asset using Guid(599a225d0e07b8b43a1ef7089a105288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44ae389977f884b9accfcd415c2a0427') in 0.037704 seconds 
+  Import took 0.050665 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_76.asset
+  artifactKey: Guid(015add1f8ea176b4fbe34856aa80e5d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_76.asset using Guid(015add1f8ea176b4fbe34856aa80e5d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1ebea603e052d426f0d153bbb9d9698') in 0.031536 seconds 
+  Import took 0.039484 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_209.asset
+  artifactKey: Guid(fbf61748c78710c47ba115faa007ad76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_209.asset using Guid(fbf61748c78710c47ba115faa007ad76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89bd6c106b3d82420f2f251f5e4bce2d') in 0.033446 seconds 
+  Import took 0.042251 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_159.asset
+  artifactKey: Guid(890973e86d893f94aa5afe8a34926233) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_159.asset using Guid(890973e86d893f94aa5afe8a34926233) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20cf101cbe1c82103e233d79d5e7e344') in 0.030220 seconds 
+  Import took 0.040799 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_3.asset
+  artifactKey: Guid(9ccf9affaa02e5345a787092c0ecd4d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_3.asset using Guid(9ccf9affaa02e5345a787092c0ecd4d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a453ab0f19b4a195fa33cf5d0d8737e6') in 0.026062 seconds 
+  Import took 0.034562 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_249.asset
+  artifactKey: Guid(9545e1f6f1447424383a1b64d4edbd1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_249.asset using Guid(9545e1f6f1447424383a1b64d4edbd1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d79bf44d7c7e24621445f0741cc0b91') in 0.024244 seconds 
+  Import took 0.031879 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000435 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_102.asset
+  artifactKey: Guid(f07946fd0ff268e42b99e4288b6b294c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_102.asset using Guid(f07946fd0ff268e42b99e4288b6b294c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '394ae161617217d4ee74f7852deaacb4') in 0.035276 seconds 
+  Import took 0.047204 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_98.asset
+  artifactKey: Guid(b5116c0ac2a38924c8d02c6bddc9f62f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_98.asset using Guid(b5116c0ac2a38924c8d02c6bddc9f62f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '752e282343849e8f7ed01c4c5ad7663a') in 0.027238 seconds 
+  Import took 0.036754 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_227.asset
+  artifactKey: Guid(a3c22bc47ef439a4e8cc4be56bb1fbbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_227.asset using Guid(a3c22bc47ef439a4e8cc4be56bb1fbbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc13c53e087f5b26290caa198359d296') in 0.027852 seconds 
+  Import took 0.038691 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_73.asset
+  artifactKey: Guid(8cec0c2b2ca76e543804fae4a5cdba61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_73.asset using Guid(8cec0c2b2ca76e543804fae4a5cdba61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f853c2a24fbcc04b382aaf1864aa0580') in 0.030267 seconds 
+  Import took 0.040310 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_202.asset
+  artifactKey: Guid(42fdfe360cc293f468258dcc86e67213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_202.asset using Guid(42fdfe360cc293f468258dcc86e67213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a3e79c3fe96c96e8d0ff27e30fa6588') in 0.026166 seconds 
+  Import took 0.034722 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_22.asset
+  artifactKey: Guid(e30a42cd6ea22ee4d87f20b71bb4474e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_22.asset using Guid(e30a42cd6ea22ee4d87f20b71bb4474e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '235f5411868de471c3ff466066e1acef') in 0.027944 seconds 
+  Import took 0.039030 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_193.asset
+  artifactKey: Guid(8019a839b7855cf4c94db523227e3a24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_193.asset using Guid(8019a839b7855cf4c94db523227e3a24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f218f28fbb0c8c2a39fedee2c41e7520') in 0.031135 seconds 
+  Import took 0.039634 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_135.asset
+  artifactKey: Guid(37d121fdaf4ab084b8541abb0f1c8bf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_135.asset using Guid(37d121fdaf4ab084b8541abb0f1c8bf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84dc3d66cb93ed69fedc850b6b3bac4a') in 0.026005 seconds 
+  Import took 0.033961 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town@128x128_3.asset
+  artifactKey: Guid(8bf36f91386c0e0489486167866e92d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town@128x128_3.asset using Guid(8bf36f91386c0e0489486167866e92d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c601026f5cd37b8241ae23e53bed497a') in 0.027244 seconds 
+  Import took 0.035100 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_228.asset
+  artifactKey: Guid(a97f9a0f044ed764383d6b15e01d1668) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_228.asset using Guid(a97f9a0f044ed764383d6b15e01d1668) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b1940b0ddadf2d18145ea673dc701c5') in 0.022340 seconds 
+  Import took 0.029500 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_66.asset
+  artifactKey: Guid(fe179ee60324512468b62b0d2021be8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_66.asset using Guid(fe179ee60324512468b62b0d2021be8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00312c1b56140d9e779745bd07b4cc8d') in 0.024704 seconds 
+  Import took 0.032507 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_196.asset
+  artifactKey: Guid(e0ca2b0afcfd26345910910e8171e7d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_196.asset using Guid(e0ca2b0afcfd26345910910e8171e7d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1df34a0b00883becbde50739dbaddf75') in 0.025570 seconds 
+  Import took 0.034564 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_53.asset
+  artifactKey: Guid(c605c3f1e26ad2f4e9b82bdb883b8f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_53.asset using Guid(c605c3f1e26ad2f4e9b82bdb883b8f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de26a3d676d2f3b36c0be9e4509c75c9') in 0.022516 seconds 
+  Import took 0.029425 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_219.asset
+  artifactKey: Guid(a5f3e798da82c4c47880fb15c7607f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_219.asset using Guid(a5f3e798da82c4c47880fb15c7607f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84d909712fb7fee411acca3e37a58d54') in 0.021564 seconds 
+  Import took 0.028489 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_129.asset
+  artifactKey: Guid(71f8f380e71179e438c724d90ca7eb80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_129.asset using Guid(71f8f380e71179e438c724d90ca7eb80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8844ac6b0e6fc03a3371f6e0d0c78a93') in 0.026233 seconds 
+  Import took 0.033821 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_194.asset
+  artifactKey: Guid(51ed93d221f1970448ae21f4d02ab4b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_194.asset using Guid(51ed93d221f1970448ae21f4d02ab4b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4147e67d4a8b67af0d62a2df2dbe4b83') in 0.022933 seconds 
+  Import took 0.030081 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_103.asset
+  artifactKey: Guid(7b6daa48cbf94eb4a9544dc1ce52a4d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_103.asset using Guid(7b6daa48cbf94eb4a9544dc1ce52a4d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '245cd7f5881f526a641ad611c9721715') in 0.024174 seconds 
+  Import took 0.031463 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_30.asset
+  artifactKey: Guid(e2dbdef14bca73648bed47c17bf5d060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_30.asset using Guid(e2dbdef14bca73648bed47c17bf5d060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e85e807a7f69994b21f3fcfc8149886') in 0.022663 seconds 
+  Import took 0.030392 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_7.asset
+  artifactKey: Guid(d139cd05c53361a4d8524fbf31f51850) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_7.asset using Guid(d139cd05c53361a4d8524fbf31f51850) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04940a9a6cce52ec2ae24bbdc68956ff') in 0.024109 seconds 
+  Import took 0.030827 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_115.asset
+  artifactKey: Guid(c2156e6be009e6141ab07d8fcc006a97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_115.asset using Guid(c2156e6be009e6141ab07d8fcc006a97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8058eba7843035466c097faa38083a4e') in 0.020724 seconds 
+  Import took 0.027311 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_233.asset
+  artifactKey: Guid(dd7e599b3dc83824fa9804c7094d0e57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_233.asset using Guid(dd7e599b3dc83824fa9804c7094d0e57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e99342d2a6ddaeaa6fbfabd9036ceda') in 0.022230 seconds 
+  Import took 0.031350 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_120.asset
+  artifactKey: Guid(5fb1cd4a2f07f1c429326bb65df42e86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_120.asset using Guid(5fb1cd4a2f07f1c429326bb65df42e86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc50ee1d1ce2c87d67e5283ba3206844') in 0.021864 seconds 
+  Import took 0.029201 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_155.asset
+  artifactKey: Guid(1a9a1a753d2e21a4fb240ae93ec2b97e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_155.asset using Guid(1a9a1a753d2e21a4fb240ae93ec2b97e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90ed66b798d1534acfaa28a59cee4c9c') in 0.021918 seconds 
+  Import took 0.028855 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_79.asset
+  artifactKey: Guid(a4c162a99c230d142ac2accc01fd87df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_79.asset using Guid(a4c162a99c230d142ac2accc01fd87df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0275ee43183c01c8bffb93c287688efb') in 0.024240 seconds 
+  Import took 0.031315 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_78.asset
+  artifactKey: Guid(3f12971fbd835f049bf42a069ef92614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_78.asset using Guid(3f12971fbd835f049bf42a069ef92614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71e8bea0d4ed538e6b1b2f60749dd084') in 0.022580 seconds 
+  Import took 0.030282 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_180.asset
+  artifactKey: Guid(bddee2b5b0971d74b9a80af4451935cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_180.asset using Guid(bddee2b5b0971d74b9a80af4451935cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58a04166f4142113a7083076811aae0b') in 0.027581 seconds 
+  Import took 0.036107 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000356 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_145.asset
+  artifactKey: Guid(681bd91571431d14ea0f9a3b49021817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_145.asset using Guid(681bd91571431d14ea0f9a3b49021817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be23332068ffc4d5d3eb5f87f228e8ff') in 0.032415 seconds 
+  Import took 0.043249 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000380 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_92.asset
+  artifactKey: Guid(9a0a872fa2bdd5945bedabac557cbf87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_92.asset using Guid(9a0a872fa2bdd5945bedabac557cbf87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57f1107533969cd6ca6fb1e6b386cf0b') in 0.031856 seconds 
+  Import took 0.040674 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_94.asset
+  artifactKey: Guid(50f4a373a4264af4bae0c6b9006fb547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_94.asset using Guid(50f4a373a4264af4bae0c6b9006fb547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fd241423b282bd57d77e10059a1a7eb') in 0.020904 seconds 
+  Import took 0.029255 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_127.asset
+  artifactKey: Guid(544b6fa7954850446b2eaf64e4b52425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_127.asset using Guid(544b6fa7954850446b2eaf64e4b52425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e44eb2c32114f9f08ea4a6dafcc75b3e') in 0.025903 seconds 
+  Import took 0.032747 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_207.asset
+  artifactKey: Guid(0f101f7e3c6571e4192b070e1a060b16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_207.asset using Guid(0f101f7e3c6571e4192b070e1a060b16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3ad9eda14af15a9b26cd1ffd82d2383') in 0.023592 seconds 
+  Import took 0.030769 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_150.asset
+  artifactKey: Guid(b0e7b544436b8b648b15a3d39f618aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_150.asset using Guid(b0e7b544436b8b648b15a3d39f618aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7453a4987271fecd0a222f706aa46ad0') in 0.021219 seconds 
+  Import took 0.028696 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_126.asset
+  artifactKey: Guid(40e2aa803fdfc5941ba6e45125e22291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_126.asset using Guid(40e2aa803fdfc5941ba6e45125e22291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '870e5e410804ecc2e06adbcb480ddf2f') in 0.020332 seconds 
+  Import took 0.026961 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_170.asset
+  artifactKey: Guid(5b127e85bc57f0246b1ebcb1ce46bde5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_170.asset using Guid(5b127e85bc57f0246b1ebcb1ce46bde5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bad626242368cbe7b63ab72360117ca') in 0.019990 seconds 
+  Import took 0.026447 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_111.asset
+  artifactKey: Guid(dd0f98f952c6e8a42a22038397f74a76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_111.asset using Guid(dd0f98f952c6e8a42a22038397f74a76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc6b29af266f4ca7e5a1557c7af26d08') in 0.020060 seconds 
+  Import took 0.026642 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_168.asset
+  artifactKey: Guid(2927178ee833edd4690161b8df5f0b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_168.asset using Guid(2927178ee833edd4690161b8df5f0b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '184027bdd3a1abaa958cbb3b258f1908') in 0.033347 seconds 
+  Import took 0.044790 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000394 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_123.asset
+  artifactKey: Guid(1d7b6303ddadb06418f5c98b1cca6e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_123.asset using Guid(1d7b6303ddadb06418f5c98b1cca6e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06e5a2754073551a1cea5cfb642b7b9f') in 0.031961 seconds 
+  Import took 0.045206 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_164.asset
+  artifactKey: Guid(a1ebb13202fa4804398faa5ef434565e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_164.asset using Guid(a1ebb13202fa4804398faa5ef434565e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0f68ccc1bec427d31ca017f1c9839de') in 0.026807 seconds 
+  Import took 0.036755 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000399 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_171.asset
+  artifactKey: Guid(438af02800025b44f912599d76e8f2af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_171.asset using Guid(438af02800025b44f912599d76e8f2af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e82c430ed616aae8d4a243ed4bc2e8d') in 0.038164 seconds 
+  Import took 0.051411 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_134.asset
+  artifactKey: Guid(21177a8f3e7fec14abaf6b91d1b7367b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_134.asset using Guid(21177a8f3e7fec14abaf6b91d1b7367b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc53723d7ac4899b90c123e9674e0bc4') in 0.027976 seconds 
+  Import took 0.040075 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_113.asset
+  artifactKey: Guid(03b3e64fea26e3c478e64eab61735b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_113.asset using Guid(03b3e64fea26e3c478e64eab61735b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06598645e78e304c2264d6bc75f1ddff') in 0.026876 seconds 
+  Import took 0.039596 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_146.asset
+  artifactKey: Guid(6311186104a4d5e4298da9387ff616ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_146.asset using Guid(6311186104a4d5e4298da9387ff616ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '822f105ff93048ae2a271be71977f80a') in 0.025594 seconds 
+  Import took 0.033307 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_176.asset
+  artifactKey: Guid(8aa0748bb95a40745a4e5d9e4eb415b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_176.asset using Guid(8aa0748bb95a40745a4e5d9e4eb415b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e399b65003b37b6323c7c092eca31a23') in 0.039848 seconds 
+  Import took 0.054150 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_38.asset
+  artifactKey: Guid(d748e839ba05b5145a9ece4860df6560) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_38.asset using Guid(d748e839ba05b5145a9ece4860df6560) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5979a54d9f3de9a68adafb593efbff6') in 0.034494 seconds 
+  Import took 0.047355 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_152.asset
+  artifactKey: Guid(82824e21527bbe24793b5f06506d2cc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_152.asset using Guid(82824e21527bbe24793b5f06506d2cc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9fa8d7426ef692faeaf6562f1f7c1a5') in 0.021842 seconds 
+  Import took 0.031200 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_68.asset
+  artifactKey: Guid(cd032bff229c69744bb7eb6669bef647) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_68.asset using Guid(cd032bff229c69744bb7eb6669bef647) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a4a3fa5f4e5401088f6deb8b0391a84') in 0.026428 seconds 
+  Import took 0.034177 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_156.asset
+  artifactKey: Guid(7078cb43a13a5fd428078fb05e7996b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_156.asset using Guid(7078cb43a13a5fd428078fb05e7996b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8349bbd6672361fee092234b26bede7') in 0.022406 seconds 
+  Import took 0.029790 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_231.asset
+  artifactKey: Guid(7f8a051203988964fbe86aa0405f9e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_231.asset using Guid(7f8a051203988964fbe86aa0405f9e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd35b7328bc68906471b4a77e77c3bfcd') in 0.028302 seconds 
+  Import took 0.036121 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_215.asset
+  artifactKey: Guid(506a9cc67b935094da3aa95b19b8408e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_215.asset using Guid(506a9cc67b935094da3aa95b19b8408e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62f01b1c43c07a18924ab0fb8dc238fa') in 0.025341 seconds 
+  Import took 0.034194 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_42.asset
+  artifactKey: Guid(e4cf279cbc95075498a96ec92d3c5b6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_42.asset using Guid(e4cf279cbc95075498a96ec92d3c5b6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35ecf6f4e61372d3698e9c94ad665a75') in 0.030415 seconds 
+  Import took 0.038753 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_24.asset
+  artifactKey: Guid(4704ef4de23fc1945aa9cf7d2f8603c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_24.asset using Guid(4704ef4de23fc1945aa9cf7d2f8603c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b419b5334b975b8f0557ab1e52dceedf') in 0.025052 seconds 
+  Import took 0.032644 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_82.asset
+  artifactKey: Guid(6ea11b1cdec845f4bb77eb297db4672c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_82.asset using Guid(6ea11b1cdec845f4bb77eb297db4672c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4b801aa7d116c1823178db84313dc14') in 0.020633 seconds 
+  Import took 0.028813 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_224.asset
+  artifactKey: Guid(6e2e20630905dbb428bce855dee655f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_224.asset using Guid(6e2e20630905dbb428bce855dee655f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abfb73db9c10cdc317daeb46060bfa61') in 0.022360 seconds 
+  Import took 0.028857 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_90.asset
+  artifactKey: Guid(3ed4c4593d041634fa967de457bceefc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_90.asset using Guid(3ed4c4593d041634fa967de457bceefc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99a04e072163f87a279b2728249a5c6b') in 0.021601 seconds 
+  Import took 0.027858 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_72.asset
+  artifactKey: Guid(ea573ba8781d04f4ea3b1d5a7cace524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_72.asset using Guid(ea573ba8781d04f4ea3b1d5a7cace524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b19455425b1ea2138f0ba3aad6018f7') in 0.020350 seconds 
+  Import took 0.027152 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_104.asset
+  artifactKey: Guid(f185a75a65a39304d9c7d299ebffb380) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_104.asset using Guid(f185a75a65a39304d9c7d299ebffb380) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82282829d44e272d7ea7979576c454ed') in 0.022428 seconds 
+  Import took 0.029227 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_156.asset
+  artifactKey: Guid(61eb153d74eda7741833667969d7d890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_156.asset using Guid(61eb153d74eda7741833667969d7d890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c77818f943276dd28985471ea3aa512e') in 0.020040 seconds 
+  Import took 0.026754 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_221.asset
+  artifactKey: Guid(2d6914b37fedd9742b921f94a2b9c012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_221.asset using Guid(2d6914b37fedd9742b921f94a2b9c012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bad0efa0450f8e6bc7a52af7dfc4d40') in 0.023971 seconds 
+  Import took 0.031632 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_184.asset
+  artifactKey: Guid(e845cf8e21520474a95ad44e6a026e2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_184.asset using Guid(e845cf8e21520474a95ad44e6a026e2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b24e9462664101cc080946484a24905b') in 0.020363 seconds 
+  Import took 0.027166 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_143.asset
+  artifactKey: Guid(10ac719bf8366684b812761eb5be4a23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_143.asset using Guid(10ac719bf8366684b812761eb5be4a23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f14a98513c5be97faf42ccab2b22ebb') in 0.022989 seconds 
+  Import took 0.029369 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_0.asset
+  artifactKey: Guid(6bd2773e69de19645b487ffccb2bf3e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_0.asset using Guid(6bd2773e69de19645b487ffccb2bf3e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a11769d8e0bd94fb04fb55060114be7') in 0.022313 seconds 
+  Import took 0.030787 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_166.asset
+  artifactKey: Guid(b1c5fb9fdc56bec43b07488e15c27b02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_166.asset using Guid(b1c5fb9fdc56bec43b07488e15c27b02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4542d1f89c77237a0b5a1ce93a0e44a0') in 0.030546 seconds 
+  Import took 0.042780 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_101.asset
+  artifactKey: Guid(3f0d64619912be84eb3998ee2359f52c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_101.asset using Guid(3f0d64619912be84eb3998ee2359f52c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '282cfc15ad07c0da451c11de457cf82c') in 0.025716 seconds 
+  Import took 0.033772 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_86.asset
+  artifactKey: Guid(719af2ac4620a4c46a40f0795483ca50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_86.asset using Guid(719af2ac4620a4c46a40f0795483ca50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ccc2552d1b6f44ef7494d27c023c44d') in 0.021610 seconds 
+  Import took 0.028606 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_83.asset
+  artifactKey: Guid(0c5d2d6be1a792a49ab0b3a9f97e7f94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_83.asset using Guid(0c5d2d6be1a792a49ab0b3a9f97e7f94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8b2d68b5d446ad470fbeae5f4446b88') in 0.024554 seconds 
+  Import took 0.031561 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_114.asset
+  artifactKey: Guid(571807b7ef6163141b86a5d2550f928d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_114.asset using Guid(571807b7ef6163141b86a5d2550f928d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10ec82f332ae5517a54bc7dfe8fe3d3d') in 0.022040 seconds 
+  Import took 0.028929 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_17.asset
+  artifactKey: Guid(4e84a593f7d41f4418e278340df49679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_17.asset using Guid(4e84a593f7d41f4418e278340df49679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '808c23bd04da4d1e6a7f2dc6fc9d76a0') in 0.022683 seconds 
+  Import took 0.029420 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_212.asset
+  artifactKey: Guid(99007b80723d60e41be76c94c4efc4b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_212.asset using Guid(99007b80723d60e41be76c94c4efc4b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a81f8e02cfa5a3f2da0870003f951417') in 0.024520 seconds 
+  Import took 0.031852 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_225.asset
+  artifactKey: Guid(ffa3fad1b3a8a77478df45be36829a2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_225.asset using Guid(ffa3fad1b3a8a77478df45be36829a2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '286908fdea1e7095f131c678a4666321') in 0.024654 seconds 
+  Import took 0.032794 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_88.asset
+  artifactKey: Guid(fc9db58ed800ea14f833e8845035b014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_88.asset using Guid(fc9db58ed800ea14f833e8845035b014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c4b0a9a64b497936a9dfcddb0681413') in 0.023030 seconds 
+  Import took 0.031313 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_224.asset
+  artifactKey: Guid(d6621c30beed689478f70fbba186f766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_224.asset using Guid(d6621c30beed689478f70fbba186f766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57fbc4a35b1eef493660d175a845fa07') in 0.019393 seconds 
+  Import took 0.026807 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_234.asset
+  artifactKey: Guid(c376739b9bd744346b2cc5299dd0e99a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_234.asset using Guid(c376739b9bd744346b2cc5299dd0e99a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50fce009cce32242ecd449c9f716c26b') in 0.020179 seconds 
+  Import took 0.027284 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_213.asset
+  artifactKey: Guid(53f676f24341dd44487f5baeb48a159a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_213.asset using Guid(53f676f24341dd44487f5baeb48a159a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed1c2cee871d061309fa327b641c333a') in 0.028900 seconds 
+  Import took 0.036903 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_205.asset
+  artifactKey: Guid(e47bb6b69fc27e54ca6b4d199ae21e51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_205.asset using Guid(e47bb6b69fc27e54ca6b4d199ae21e51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '149535f7dbafe7b6db45352d6be3ea44') in 0.021028 seconds 
+  Import took 0.028751 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_228.asset
+  artifactKey: Guid(92bcbfbfef63b574788da4cc12f7d8c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_228.asset using Guid(92bcbfbfef63b574788da4cc12f7d8c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b0e7d5cdced7ee78f1e4617ab4fb9ad') in 0.020904 seconds 
+  Import took 0.028137 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_221.asset
+  artifactKey: Guid(af8bfe0a0fb52634080fea57e746afbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_221.asset using Guid(af8bfe0a0fb52634080fea57e746afbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe0a2c4e89325bce851b4e9fc95ecc15') in 0.019769 seconds 
+  Import took 0.026358 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_208.asset
+  artifactKey: Guid(c3cc91618c56ed54290b7cac79f69e47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_208.asset using Guid(c3cc91618c56ed54290b7cac79f69e47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7359e3d8f0a636dcce66d8cdf89b2033') in 0.024782 seconds 
+  Import took 0.031547 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_138.asset
+  artifactKey: Guid(a327684141229f24c8ecc4c30774f259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_138.asset using Guid(a327684141229f24c8ecc4c30774f259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd946209b8263e099c8d19ae6f9e5d57e') in 0.021064 seconds 
+  Import took 0.027643 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_190.asset
+  artifactKey: Guid(7ed3039e34b89d04fa8727a78ec492dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_190.asset using Guid(7ed3039e34b89d04fa8727a78ec492dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77d16829e1d41977fda7f61157d61b02') in 0.020329 seconds 
+  Import took 0.026762 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_70.asset
+  artifactKey: Guid(e00856db16a898f4cb939513bccfb473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_70.asset using Guid(e00856db16a898f4cb939513bccfb473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '103e7ddd795a24aeaf34959a36ee3378') in 0.020693 seconds 
+  Import took 0.026953 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_81.asset
+  artifactKey: Guid(61fd89684b252f74cb370ea77ebf3180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_81.asset using Guid(61fd89684b252f74cb370ea77ebf3180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1aba90bfff6d0ee0d0d474f60a8741f2') in 0.021612 seconds 
+  Import took 0.028399 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_216.asset
+  artifactKey: Guid(cb5db13ca61eb764a81bfd43d449e39e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_216.asset using Guid(cb5db13ca61eb764a81bfd43d449e39e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52cdd1d3842de5de4584bb118c507c6d') in 0.022635 seconds 
+  Import took 0.029637 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_181.asset
+  artifactKey: Guid(98c9f0912f4c4854299270f75b9c07cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_181.asset using Guid(98c9f0912f4c4854299270f75b9c07cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a0dc1b70b5db6daa56ec40e203ef711') in 0.019453 seconds 
+  Import took 0.025923 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_99.asset
+  artifactKey: Guid(219b3e165edb86a4d804788c0d65010c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_99.asset using Guid(219b3e165edb86a4d804788c0d65010c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1b7fcac5c6f88e4c59d7b435c3c7f28') in 0.021749 seconds 
+  Import took 0.028499 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_128.asset
+  artifactKey: Guid(9dbd6f54f2a8dfa4d9baa8c5fcc82cd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_128.asset using Guid(9dbd6f54f2a8dfa4d9baa8c5fcc82cd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81f8ef6fd7d498dcef6ac87410837436') in 0.033056 seconds 
+  Import took 0.043690 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_245.asset
+  artifactKey: Guid(b37db4ed82c4b3f45a6e66d7fd006bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_245.asset using Guid(b37db4ed82c4b3f45a6e66d7fd006bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6204ba8673b3f0f827135eebed9b0fc') in 0.034476 seconds 
+  Import took 0.043211 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_74.asset
+  artifactKey: Guid(98d30c5a8788aca408791eafd3ca5f19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_74.asset using Guid(98d30c5a8788aca408791eafd3ca5f19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e16d8cef7d3080b592a87ecbca764701') in 0.024406 seconds 
+  Import took 0.033071 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_157.asset
+  artifactKey: Guid(d2389c14a5b2dbf4589afdd890aea9de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_157.asset using Guid(d2389c14a5b2dbf4589afdd890aea9de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '778893d81c0e9c8ad0ab7cb62dc57c6b') in 0.028356 seconds 
+  Import took 0.035530 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_130.asset
+  artifactKey: Guid(7d704e8b0d2502c47937ef7dac03ce76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_130.asset using Guid(7d704e8b0d2502c47937ef7dac03ce76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '475d5dee3823a19451dc0252e4583bc4') in 0.023179 seconds 
+  Import took 0.030763 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_229.asset
+  artifactKey: Guid(1720bc6f62e14584499eeae64d36c7f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_229.asset using Guid(1720bc6f62e14584499eeae64d36c7f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04e91cda80e11b01570fee62bcd68725') in 0.023068 seconds 
+  Import took 0.029962 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_87.asset
+  artifactKey: Guid(6461b64fd46f2c849a4046775e331472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_87.asset using Guid(6461b64fd46f2c849a4046775e331472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '164b4f313e0fa298fa9e70f427ff1103') in 0.020972 seconds 
+  Import took 0.027888 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_62.asset
+  artifactKey: Guid(ad28aac6bc20ded4d83884db6eaeeef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_62.asset using Guid(ad28aac6bc20ded4d83884db6eaeeef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '054f02e222c5d845174c483771ab14d9') in 0.021056 seconds 
+  Import took 0.027602 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_179.asset
+  artifactKey: Guid(b54f85cf225315547ba28e0267598a90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_179.asset using Guid(b54f85cf225315547ba28e0267598a90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6cb5cabaa36af2f8a3d43310224475f') in 0.023478 seconds 
+  Import took 0.030647 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_208.asset
+  artifactKey: Guid(e68a0ef1a69d904459ce7f01b4374df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_208.asset using Guid(e68a0ef1a69d904459ce7f01b4374df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22a47425e18fa2f098c546ba0cf00598') in 0.022539 seconds 
+  Import took 0.029502 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_162.asset
+  artifactKey: Guid(c2be23fc32e448843bbaaa73c20285ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_162.asset using Guid(c2be23fc32e448843bbaaa73c20285ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '825af223dbfdf81ce66d7a9f6d569a8d') in 0.022175 seconds 
+  Import took 0.028527 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_146.asset
+  artifactKey: Guid(0cc84a48be539de4f975d9fa16bf0aac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_146.asset using Guid(0cc84a48be539de4f975d9fa16bf0aac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df469ebb0888d18d77a1dae69ba538c9') in 0.031555 seconds 
+  Import took 0.038960 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_226.asset
+  artifactKey: Guid(8b746c7b0daf6f344a7afdfe9ea2227a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_226.asset using Guid(8b746c7b0daf6f344a7afdfe9ea2227a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71377070295647d7acc98468d63b82b7') in 0.022315 seconds 
+  Import took 0.029388 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_77.asset
+  artifactKey: Guid(e1dfb39d8aa0c8f498d83251ee5037c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_77.asset using Guid(e1dfb39d8aa0c8f498d83251ee5037c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6cbbe81d7d065602b5eaf1395ed0708') in 0.020309 seconds 
+  Import took 0.027321 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_168.asset
+  artifactKey: Guid(283c0487a9cf9f345960983283366bd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_168.asset using Guid(283c0487a9cf9f345960983283366bd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36298994c8e11cb80db1efd948b1dae2') in 0.021471 seconds 
+  Import took 0.028957 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_239.asset
+  artifactKey: Guid(a21c946ca85a283489599a8889a9909d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_239.asset using Guid(a21c946ca85a283489599a8889a9909d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f2501823d4176b5a242fb7a04fb1ced') in 0.022004 seconds 
+  Import took 0.028945 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000355 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_97.asset
+  artifactKey: Guid(a13d95c1fea6cd74fa817d373e4c74a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_97.asset using Guid(a13d95c1fea6cd74fa817d373e4c74a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56d54f27033b2400e9e9da2cad2ef94b') in 0.020692 seconds 
+  Import took 0.028001 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_197.asset
+  artifactKey: Guid(85099b6309e179d468712b152f5b730f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town 2@128x128_197.asset using Guid(85099b6309e179d468712b152f5b730f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89905467fda1fc98543a4b9deecf85f6') in 0.019831 seconds 
+  Import took 0.027047 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_222.asset
+  artifactKey: Guid(e1fc7545b26212f48bd1cbbe32b3f01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_222.asset using Guid(e1fc7545b26212f48bd1cbbe32b3f01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59794fc90e83b55e54b7879af0c4cdbd') in 0.023364 seconds 
+  Import took 0.031253 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_203.asset
+  artifactKey: Guid(deca47ed2db1b344ab2a6d7f1bbfc3c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_203.asset using Guid(deca47ed2db1b344ab2a6d7f1bbfc3c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60b587d0f910a3ac2408cca957bdb9c8') in 0.020228 seconds 
+  Import took 0.027159 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_65.asset
+  artifactKey: Guid(b0ca5b7383b418642b1db13f3aa3311f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/Tiles 128x128/Town Winter@128x128_65.asset using Guid(b0ca5b7383b418642b1db13f3aa3311f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b36f34e980510b06d617e0b8d7cd90dd') in 0.020287 seconds 
+  Import took 0.026898 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
