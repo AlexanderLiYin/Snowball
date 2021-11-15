@@ -93,3 +93,4 @@ Received Import Request.
 Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Town Tileset/Tile Palette/WinterTown2.prefab using Guid(78238090e3070e34aa0425aa396afde8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a311766410ce5c34b7405ed868d1c0a') in 0.006415 seconds 
   Import took 0.012004 seconds .
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
