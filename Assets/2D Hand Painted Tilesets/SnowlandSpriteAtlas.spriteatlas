@@ -6,7 +6,7 @@ SpriteAtlas:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: SnowLandAtlas
+  m_Name: SnowlandSpriteAtlas
   m_EditorData:
     serializedVersion: 2
     textureSettings:
@@ -6176,5 +6176,5 @@ SpriteAtlas:
   - Snowland Color2@128x128_202
   - Snowland Color2@128x128_0
   m_RenderDataMap: {}
-  m_Tag: SnowLandAtlas
+  m_Tag: SnowlandSpriteAtlas
   m_IsVariant: 0
