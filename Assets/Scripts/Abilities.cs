@@ -24,7 +24,7 @@ public class Abilities : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        abilityImage1.fillAmount = 1;
+        //abilityImage1.fillAmount = 1;
     }
 
     // Update is called once per frame

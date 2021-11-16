@@ -27,7 +27,14 @@ public class HUDScript : MonoBehaviour
 
     void Start()
     {
-        manager = GameObject.Find("GameManager").GetComponent<GameManager>();
+        try
+        {
+            manager = GameObject.Find("GameManager").GetComponent<GameManager>();
+        }
+        catch
+        {
+            print("Game Manager not found");
+        }
         scene = manager.scene; //Get the scene number
 
         //Check to see if platform is mobile

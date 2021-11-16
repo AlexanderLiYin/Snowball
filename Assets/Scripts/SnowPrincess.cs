@@ -49,7 +49,14 @@ public class SnowPrincess : MonoBehaviour
 
         //Initialize health
         LoadPlayer();
-        HUD = GameObject.Find("HUD").GetComponent<HUDScript>();
+        try
+        {
+            HUD = GameObject.Find("HUD").GetComponent<HUDScript>();
+        }
+        catch
+        {
+            print("Error, HUD not found");
+        }
         HUD.HP(health);
         HUD.DisplayHP(health, maxHealth);
 
