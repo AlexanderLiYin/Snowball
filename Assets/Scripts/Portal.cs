@@ -6,7 +6,6 @@ using UnityEngine.SceneManagement;
 public class Portal : MonoBehaviour
 {
     public int scene;
-    public Shop shop;
 
     void OnTriggerEnter2D(Collider2D col)
     {
