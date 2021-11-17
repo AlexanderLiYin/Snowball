@@ -1,0 +1,2432 @@
+Using pre-set license
+Built from '2020.3/release' branch; Version is '2020.3.12f1 (b3b2c6512326) revision 11776710'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19042.1165; Version 2009; 64bit' Language: 'en' Physical Memory: 16263 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.12f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Snowball
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+63893
+Successfully changed project path to: D:/Snowball
+D:/Snowball
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 123.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.12f1 (b3b2c6512326)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Snowball/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1060 (ID=0x1c20)
+    Vendor:   
+    VRAM:     6052 MB
+    Driver:   27.21.14.6280
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56624
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002111 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 105.64 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.037 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005942 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 112.85 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.573 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 1.20 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3982 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 182.6 MB.
+System memory in use after: 182.7 MB.
+
+Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 4456.
+Total: 6.448300 ms (FindLiveObjects: 0.348500 ms CreateObjectMapping: 0.201600 ms MarkObjects: 5.739200 ms  DeleteObjects: 0.157700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Packages/com.unity.2d.sprite/package.json
+  artifactKey: Guid(7dc5f1e5d04ac8549ac21802071e983b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.sprite/package.json using Guid(7dc5f1e5d04ac8549ac21802071e983b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff87128bdf6981a9843158b29f26b2df') in 0.038566 seconds 
+  Import took 0.047290 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 5.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 28 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 102.6 MB.
+System memory in use after: 102.7 MB.
+
+Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 4456.
+Total: 8.438200 ms (FindLiveObjects: 0.351800 ms CreateObjectMapping: 0.203300 ms MarkObjects: 7.728200 ms  DeleteObjects: 0.153400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 4.97 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 28 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 102.6 MB.
+System memory in use after: 102.7 MB.
+
+Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 4456.
+Total: 8.237600 ms (FindLiveObjects: 0.325000 ms CreateObjectMapping: 0.183000 ms MarkObjects: 7.576500 ms  DeleteObjects: 0.151600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 532.874897 seconds.
+  path: Assets/Scenes/Village.unity
+  artifactKey: Guid(59c5fed39e715ac4bae26cca292a6d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Village.unity using Guid(59c5fed39e715ac4bae26cca292a6d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f6e895c319840f4df20b670c858f115') in 0.035870 seconds 
+  Import took 0.045155 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.410464 seconds.
+  path: Assets/Prefab/Dialogue Manager Variant.prefab
+  artifactKey: Guid(daf08d56eb225ca4b84cbb0035c8460c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Dialogue Manager Variant.prefab using Guid(daf08d56eb225ca4b84cbb0035c8460c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1723183c3a966d3fdab9d87d0b3da56') in 0.147712 seconds 
+  Import took 0.156901 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Prefab/NPC.prefab
+  artifactKey: Guid(8358a51e316339741b35b2c0b31ba7ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/NPC.prefab using Guid(8358a51e316339741b35b2c0b31ba7ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecc41dcbf4891701b7d26a5b1233c8d7') in 0.083311 seconds 
+  Import took 0.089946 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Prefab/ShopKeeper.prefab
+  artifactKey: Guid(d395cce16ca1ad549940812226f4a9e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/ShopKeeper.prefab using Guid(d395cce16ca1ad549940812226f4a9e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ed37a2d3c36b7cbbd9df849347f94f9') in 0.015313 seconds 
+  Import took 0.022136 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005782 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.15 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.295 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.20 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3954 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 184.0 MB.
+System memory in use after: 184.1 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 4470.
+Total: 7.930000 ms (FindLiveObjects: 0.325600 ms CreateObjectMapping: 0.183800 ms MarkObjects: 7.268000 ms  DeleteObjects: 0.151100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 20.914063 seconds.
+  path: Assets/Scenes/Shop.unity
+  artifactKey: Guid(d75fa4b546205f346a29f4300a477d59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Shop.unity using Guid(d75fa4b546205f346a29f4300a477d59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56555c0ad89655b8c3f1ed8fbd57505e') in 0.026994 seconds 
+  Import took 0.036387 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 4.45 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 28 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 106.5 MB.
+System memory in use after: 106.6 MB.
+
+Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 4470.
+Total: 6.407700 ms (FindLiveObjects: 0.321000 ms CreateObjectMapping: 0.198300 ms MarkObjects: 5.749500 ms  DeleteObjects: 0.137900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 165.236661 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Interior Tileset/Prefabs
+  artifactKey: Guid(288cd2a25ff5f6841a55741a3ec74865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Interior Tileset/Prefabs using Guid(288cd2a25ff5f6841a55741a3ec74865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51ce4d7d2414dce647aedc38aaa0ce88') in 0.009858 seconds 
+  Import took 0.017717 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.054152 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Interior Tileset/Prefabs/Open Book.prefab
+  artifactKey: Guid(0b484d0ece7693f48a18c960ef198f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Interior Tileset/Prefabs/Open Book.prefab using Guid(0b484d0ece7693f48a18c960ef198f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80ed38c74ed3e03b1828b150fd35b67a') in 0.111136 seconds 
+  Import took 0.160805 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Interior Tileset/Prefabs/Spear Rack.prefab
+  artifactKey: Guid(33c32da6dd8e61a4fae4678b4fe872f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Interior Tileset/Prefabs/Spear Rack.prefab using Guid(33c32da6dd8e61a4fae4678b4fe872f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48dd2afcef5a8d19f485065b1d482c0c') in 0.035486 seconds 
+  Import took 0.043063 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Interior Tileset/Prefabs/Small Flowers.prefab
+  artifactKey: Guid(89e694b1e9336ea4396dcde58e1a0a0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Interior Tileset/Prefabs/Small Flowers.prefab using Guid(89e694b1e9336ea4396dcde58e1a0a0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b41299c7ee72f151d1b438f3b53fd7f') in 0.021615 seconds 
+  Import took 0.029295 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Interior Tileset/Prefabs/Quill.prefab
+  artifactKey: Guid(d8984fad7550f924b8369ee4acfc6da4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Interior Tileset/Prefabs/Quill.prefab using Guid(d8984fad7550f924b8369ee4acfc6da4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c1847006c95b959a2018e29b336f525') in 0.021403 seconds 
+  Import took 0.029421 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Interior Tileset/Prefabs/Scrolls.prefab
+  artifactKey: Guid(efaa2bf62d0b85d47aee923f9e5d5255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Interior Tileset/Prefabs/Scrolls.prefab using Guid(efaa2bf62d0b85d47aee923f9e5d5255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1d76903f87703f341cf30e03d23a319') in 0.024275 seconds 
+  Import took 0.031927 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Interior Tileset/Prefabs/Sword Rack.prefab
+  artifactKey: Guid(ee0e1d30fdf6df740ad13953133f9d07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Interior Tileset/Prefabs/Sword Rack.prefab using Guid(ee0e1d30fdf6df740ad13953133f9d07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baa8512e2582d5723eb36bd80b788dcc') in 0.022565 seconds 
+  Import took 0.030425 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.582757 seconds.
+  path: Assets/Scenes/Village.unity
+  artifactKey: Guid(59c5fed39e715ac4bae26cca292a6d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Village.unity using Guid(59c5fed39e715ac4bae26cca292a6d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'addffabe9cf48965d30cd0e3b512829a') in 0.002098 seconds 
+  Import took 0.012347 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005745 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.12 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.362 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.30 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3954 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 190.9 MB.
+System memory in use after: 191.0 MB.
+
+Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 4480.
+Total: 8.577600 ms (FindLiveObjects: 0.473200 ms CreateObjectMapping: 0.239600 ms MarkObjects: 7.706900 ms  DeleteObjects: 0.156400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005991 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.14 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.276 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.14 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3954 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 189.9 MB.
+System memory in use after: 190.0 MB.
+
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 4485.
+Total: 8.574200 ms (FindLiveObjects: 0.366800 ms CreateObjectMapping: 0.219700 ms MarkObjects: 7.830100 ms  DeleteObjects: 0.156300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005866 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.22 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.242 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.08 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3954 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 187.1 MB.
+System memory in use after: 187.2 MB.
+
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 4490.
+Total: 8.741000 ms (FindLiveObjects: 0.389100 ms CreateObjectMapping: 0.241300 ms MarkObjects: 7.950900 ms  DeleteObjects: 0.158300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005739 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.18 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.273 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3954 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 189.9 MB.
+System memory in use after: 190.0 MB.
+
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 4495.
+Total: 10.485300 ms (FindLiveObjects: 0.648500 ms CreateObjectMapping: 0.458400 ms MarkObjects: 9.195100 ms  DeleteObjects: 0.182200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1501.485858 seconds.
+  path: Assets/Prefab/BigPortal.prefab
+  artifactKey: Guid(1d660d90b6e72944e8cd56bf82935905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/BigPortal.prefab using Guid(1d660d90b6e72944e8cd56bf82935905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d1f120feb735f9cf9eb63943d979dbb') in 0.110192 seconds 
+  Import took 0.121572 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.073962 seconds.
+  path: Assets/Prefab/BigPortal.prefab
+  artifactKey: Guid(1d660d90b6e72944e8cd56bf82935905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/BigPortal.prefab using Guid(1d660d90b6e72944e8cd56bf82935905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d8b7ceb2d59fefdb00e99c4af1a63f6') in 0.025519 seconds 
+  Import took 0.037784 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.630997 seconds.
+  path: Assets/Prefab/BigPortal.prefab
+  artifactKey: Guid(1d660d90b6e72944e8cd56bf82935905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/BigPortal.prefab using Guid(1d660d90b6e72944e8cd56bf82935905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a4e557c4c2fefff77c381ff9b4b48d9') in 0.044728 seconds 
+  Import took 0.053650 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.953164 seconds.
+  path: Assets/Prefab/BigPortal.prefab
+  artifactKey: Guid(1d660d90b6e72944e8cd56bf82935905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/BigPortal.prefab using Guid(1d660d90b6e72944e8cd56bf82935905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22ddaf776cd7518aa65ab867c31b5eb9') in 0.039655 seconds 
+  Import took 0.049422 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.569663 seconds.
+  path: Assets/Prefab/BigPortal.prefab
+  artifactKey: Guid(1d660d90b6e72944e8cd56bf82935905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/BigPortal.prefab using Guid(1d660d90b6e72944e8cd56bf82935905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5378690e8d6c482b1b7895d9369eb090') in 0.039276 seconds 
+  Import took 0.049178 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.552095 seconds.
+  path: Assets/Prefab/BigPortal.prefab
+  artifactKey: Guid(1d660d90b6e72944e8cd56bf82935905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/BigPortal.prefab using Guid(1d660d90b6e72944e8cd56bf82935905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b2964b7896ab723599676d34ec18ded') in 0.039052 seconds 
+  Import took 0.048340 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.360254 seconds.
+  path: Assets/Prefab/BigPortal.prefab
+  artifactKey: Guid(1d660d90b6e72944e8cd56bf82935905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/BigPortal.prefab using Guid(1d660d90b6e72944e8cd56bf82935905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7361d7ab53a00a17ddad743c735cded5') in 0.038111 seconds 
+  Import took 0.047358 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.351841 seconds.
+  path: Assets/Prefab/BigPortal.prefab
+  artifactKey: Guid(1d660d90b6e72944e8cd56bf82935905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/BigPortal.prefab using Guid(1d660d90b6e72944e8cd56bf82935905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea68250fd3d7986965487dc80c6b27a7') in 0.039444 seconds 
+  Import took 0.048759 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.362298 seconds.
+  path: Assets/Prefab/BigPortal.prefab
+  artifactKey: Guid(1d660d90b6e72944e8cd56bf82935905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/BigPortal.prefab using Guid(1d660d90b6e72944e8cd56bf82935905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a3497c6c6b96cefba1fab60ceaf968c') in 0.026452 seconds 
+  Import took 0.035831 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.773238 seconds.
+  path: Assets/Prefab/BigPortal.prefab
+  artifactKey: Guid(1d660d90b6e72944e8cd56bf82935905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/BigPortal.prefab using Guid(1d660d90b6e72944e8cd56bf82935905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34697e7cdbf19f279d87275e25c0216a') in 0.024165 seconds 
+  Import took 0.032058 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.374184 seconds.
+  path: Assets/Prefab/BigPortal.prefab
+  artifactKey: Guid(1d660d90b6e72944e8cd56bf82935905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/BigPortal.prefab using Guid(1d660d90b6e72944e8cd56bf82935905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdf9c6b5055220f8134d622c4f0c6989') in 0.024686 seconds 
+  Import took 0.034594 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.366207 seconds.
+  path: Assets/Prefab/BigPortal.prefab
+  artifactKey: Guid(1d660d90b6e72944e8cd56bf82935905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/BigPortal.prefab using Guid(1d660d90b6e72944e8cd56bf82935905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72c3deeebcd44d263ec77c9a42be6727') in 0.025271 seconds 
+  Import took 0.034630 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.769449 seconds.
+  path: Assets/Prefab/BigPortal.prefab
+  artifactKey: Guid(1d660d90b6e72944e8cd56bf82935905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/BigPortal.prefab using Guid(1d660d90b6e72944e8cd56bf82935905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6bc918795fda33351a91ecc5898f612') in 0.026195 seconds 
+  Import took 0.035439 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.563502 seconds.
+  path: Assets/Prefab/BigPortal.prefab
+  artifactKey: Guid(1d660d90b6e72944e8cd56bf82935905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/BigPortal.prefab using Guid(1d660d90b6e72944e8cd56bf82935905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c99ea25186c5b5dfc60f12d572785f61') in 0.028469 seconds 
+  Import took 0.038034 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.959687 seconds.
+  path: Assets/Prefab/BigPortal.prefab
+  artifactKey: Guid(1d660d90b6e72944e8cd56bf82935905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/BigPortal.prefab using Guid(1d660d90b6e72944e8cd56bf82935905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd1fff8e29878baf82c8f3beb72f09fe') in 0.050221 seconds 
+  Import took 0.059678 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.547284 seconds.
+  path: Assets/Prefab/BigPortal.prefab
+  artifactKey: Guid(1d660d90b6e72944e8cd56bf82935905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/BigPortal.prefab using Guid(1d660d90b6e72944e8cd56bf82935905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1b10eb92621e857df9aba4dcf35e9dd') in 0.050224 seconds 
+  Import took 0.060335 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.961217 seconds.
+  path: Assets/Prefab/BigPortal.prefab
+  artifactKey: Guid(1d660d90b6e72944e8cd56bf82935905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/BigPortal.prefab using Guid(1d660d90b6e72944e8cd56bf82935905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4bca3feb1294f62abc48dab22179d17') in 0.050064 seconds 
+  Import took 0.060382 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.353045 seconds.
+  path: Assets/Prefab/BigPortal.prefab
+  artifactKey: Guid(1d660d90b6e72944e8cd56bf82935905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/BigPortal.prefab using Guid(1d660d90b6e72944e8cd56bf82935905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb4f6e9422f9546b39355b962964c1d4') in 0.045587 seconds 
+  Import took 0.055959 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.200439 seconds.
+  path: Assets/Prefab/BigPortal.prefab
+  artifactKey: Guid(1d660d90b6e72944e8cd56bf82935905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/BigPortal.prefab using Guid(1d660d90b6e72944e8cd56bf82935905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01e7ea8b0812caf29e2b1ec163ec91ed') in 0.065297 seconds 
+  Import took 0.079091 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.109901 seconds.
+  path: Assets/Prefab/BigPortal.prefab
+  artifactKey: Guid(1d660d90b6e72944e8cd56bf82935905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/BigPortal.prefab using Guid(1d660d90b6e72944e8cd56bf82935905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '347c98079b38b98156c3353b9295bda5') in 0.035855 seconds 
+  Import took 0.044172 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.376774 seconds.
+  path: Assets/Prefab/BigPortal.prefab
+  artifactKey: Guid(1d660d90b6e72944e8cd56bf82935905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/BigPortal.prefab using Guid(1d660d90b6e72944e8cd56bf82935905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '436054432bc1bf8e8b37ee7cef446d7c') in 0.035579 seconds 
+  Import took 0.044267 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.568166 seconds.
+  path: Assets/Prefab/BigPortal.prefab
+  artifactKey: Guid(1d660d90b6e72944e8cd56bf82935905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/BigPortal.prefab using Guid(1d660d90b6e72944e8cd56bf82935905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c41c2976d7210a1999fe2ba5b98dda24') in 0.033764 seconds 
+  Import took 0.041987 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.760051 seconds.
+  path: Assets/Prefab/BigPortal.prefab
+  artifactKey: Guid(1d660d90b6e72944e8cd56bf82935905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/BigPortal.prefab using Guid(1d660d90b6e72944e8cd56bf82935905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28edc03538b67415a1a9f87718bd6714') in 0.036071 seconds 
+  Import took 0.045168 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.564051 seconds.
+  path: Assets/Prefab/BigPortal.prefab
+  artifactKey: Guid(1d660d90b6e72944e8cd56bf82935905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/BigPortal.prefab using Guid(1d660d90b6e72944e8cd56bf82935905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea49737e75a5a69dabcd2abbc2fcf3f7') in 0.033308 seconds 
+  Import took 0.042918 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.561054 seconds.
+  path: Assets/Prefab/BigPortal.prefab
+  artifactKey: Guid(1d660d90b6e72944e8cd56bf82935905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/BigPortal.prefab using Guid(1d660d90b6e72944e8cd56bf82935905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd468c5fe206305ff04e461adb3bf770f') in 0.034015 seconds 
+  Import took 0.043898 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.560305 seconds.
+  path: Assets/Prefab/BigPortal.prefab
+  artifactKey: Guid(1d660d90b6e72944e8cd56bf82935905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/BigPortal.prefab using Guid(1d660d90b6e72944e8cd56bf82935905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccf8841ce3bd187a51d7bd4573b3b12b') in 0.036367 seconds 
+  Import took 0.046662 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.560313 seconds.
+  path: Assets/Prefab/BigPortal.prefab
+  artifactKey: Guid(1d660d90b6e72944e8cd56bf82935905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/BigPortal.prefab using Guid(1d660d90b6e72944e8cd56bf82935905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff44ac8f9dcc0b748518d3aa536a3279') in 0.034747 seconds 
+  Import took 0.044812 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.355742 seconds.
+  path: Assets/Prefab/BigPortal.prefab
+  artifactKey: Guid(1d660d90b6e72944e8cd56bf82935905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/BigPortal.prefab using Guid(1d660d90b6e72944e8cd56bf82935905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6df61f10d8cb0f332e9dd304ccc6d77e') in 0.032640 seconds 
+  Import took 0.042775 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.761372 seconds.
+  path: Assets/Prefab/BigPortal.prefab
+  artifactKey: Guid(1d660d90b6e72944e8cd56bf82935905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/BigPortal.prefab using Guid(1d660d90b6e72944e8cd56bf82935905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ae0d05c4446444892d72f66b953d289') in 0.035921 seconds 
+  Import took 0.045703 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.176762 seconds.
+  path: Assets/Prefab/BigPortal.prefab
+  artifactKey: Guid(1d660d90b6e72944e8cd56bf82935905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/BigPortal.prefab using Guid(1d660d90b6e72944e8cd56bf82935905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eac5a48f7570ab16b3aa3e2cdf2ae2c7') in 0.037936 seconds 
+  Import took 0.047382 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.343049 seconds.
+  path: Assets/Prefab/BigPortal.prefab
+  artifactKey: Guid(1d660d90b6e72944e8cd56bf82935905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/BigPortal.prefab using Guid(1d660d90b6e72944e8cd56bf82935905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6043146b8c265cafed17394eca0033de') in 0.043250 seconds 
+  Import took 0.053462 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.378967 seconds.
+  path: Assets/Prefab/BigPortal.prefab
+  artifactKey: Guid(1d660d90b6e72944e8cd56bf82935905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/BigPortal.prefab using Guid(1d660d90b6e72944e8cd56bf82935905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'add40b4eed3ccce2e69bccff584bc481') in 0.037064 seconds 
+  Import took 0.045995 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.954270 seconds.
+  path: Assets/Prefab/BigPortal.prefab
+  artifactKey: Guid(1d660d90b6e72944e8cd56bf82935905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/BigPortal.prefab using Guid(1d660d90b6e72944e8cd56bf82935905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1ef4cc35fded78a0fa15f90007f8d54') in 0.040984 seconds 
+  Import took 0.051039 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 122.485706 seconds.
+  path: Assets/Prefab/BigPortal.prefab
+  artifactKey: Guid(1d660d90b6e72944e8cd56bf82935905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/BigPortal.prefab using Guid(1d660d90b6e72944e8cd56bf82935905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48d74ae4dbfa739e18de08ba2f9dd34a') in 0.053803 seconds 
+  Import took 0.062080 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.557451 seconds.
+  path: Assets/Prefab/BigPortal.prefab
+  artifactKey: Guid(1d660d90b6e72944e8cd56bf82935905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/BigPortal.prefab using Guid(1d660d90b6e72944e8cd56bf82935905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f03ec6f55bfaf0b35c75ec358ac182b2') in 0.049821 seconds 
+  Import took 0.060141 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.348865 seconds.
+  path: Assets/Prefab/BigPortal.prefab
+  artifactKey: Guid(1d660d90b6e72944e8cd56bf82935905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/BigPortal.prefab using Guid(1d660d90b6e72944e8cd56bf82935905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0d8e9f4c5b48ea7161e2ab314364232') in 0.051881 seconds 
+  Import took 0.061861 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.344851 seconds.
+  path: Assets/Prefab/BigPortal.prefab
+  artifactKey: Guid(1d660d90b6e72944e8cd56bf82935905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/BigPortal.prefab using Guid(1d660d90b6e72944e8cd56bf82935905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75f09ad245937c3a75d7098b193b3e67') in 0.050459 seconds 
+  Import took 0.061062 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.759044 seconds.
+  path: Assets/Prefab/BigPortal.prefab
+  artifactKey: Guid(1d660d90b6e72944e8cd56bf82935905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/BigPortal.prefab using Guid(1d660d90b6e72944e8cd56bf82935905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '934d3eef134be6f6b1771d39e11dacc0') in 0.033421 seconds 
+  Import took 0.043442 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.760599 seconds.
+  path: Assets/Prefab/BigPortal.prefab
+  artifactKey: Guid(1d660d90b6e72944e8cd56bf82935905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/BigPortal.prefab using Guid(1d660d90b6e72944e8cd56bf82935905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a373a5946a1616ada770fa6caafa9a65') in 0.036826 seconds 
+  Import took 0.046826 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.553071 seconds.
+  path: Assets/Prefab/BigPortal.prefab
+  artifactKey: Guid(1d660d90b6e72944e8cd56bf82935905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/BigPortal.prefab using Guid(1d660d90b6e72944e8cd56bf82935905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a007387c7c7eefc06758ede6403bc5f4') in 0.046284 seconds 
+  Import took 0.055306 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.350964 seconds.
+  path: Assets/Prefab/BigPortal.prefab
+  artifactKey: Guid(1d660d90b6e72944e8cd56bf82935905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/BigPortal.prefab using Guid(1d660d90b6e72944e8cd56bf82935905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74d723ba083f493e58db432511e627c5') in 0.036897 seconds 
+  Import took 0.046591 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.759543 seconds.
+  path: Assets/Prefab/BigPortal.prefab
+  artifactKey: Guid(1d660d90b6e72944e8cd56bf82935905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/BigPortal.prefab using Guid(1d660d90b6e72944e8cd56bf82935905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '735b94f38b3d91c6cdce29c90bc8824c') in 0.034743 seconds 
+  Import took 0.043160 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.311428 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_80.asset
+  artifactKey: Guid(30c78be3f283b494c92fd835718e7c6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_80.asset using Guid(30c78be3f283b494c92fd835718e7c6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd924f8e4273fe2f723c683c36ec5d73') in 0.043693 seconds 
+  Import took 0.051686 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_112.asset
+  artifactKey: Guid(a5c912b6e0cf1c34a99f3475af64f3e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_112.asset using Guid(a5c912b6e0cf1c34a99f3475af64f3e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0373fcc8b78a37688ecbfb2118ab4952') in 0.030835 seconds 
+  Import took 0.039289 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_122.asset
+  artifactKey: Guid(8e7b3988657215c4bb53002b590fb26b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_122.asset using Guid(8e7b3988657215c4bb53002b590fb26b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b45ae418c51d0b4dddbae36fdc8b8b5') in 0.030873 seconds 
+  Import took 0.040259 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_127.asset
+  artifactKey: Guid(b77404c7f1da38c47a980421f19fcef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_127.asset using Guid(b77404c7f1da38c47a980421f19fcef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9f6542e699c428e35e6b506593d62fd') in 0.032857 seconds 
+  Import took 0.040141 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_88.asset
+  artifactKey: Guid(fbd499ae5471d3541a49598743a74e1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_88.asset using Guid(fbd499ae5471d3541a49598743a74e1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42e07ae9390c30e7f7d8d7b35bd841d1') in 0.035794 seconds 
+  Import took 0.044536 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_91.asset
+  artifactKey: Guid(84b386b994b23af4bb0f051734e3c466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_91.asset using Guid(84b386b994b23af4bb0f051734e3c466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '747d645db8378f6709508126347768d2') in 0.042001 seconds 
+  Import took 0.049760 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_123.asset
+  artifactKey: Guid(75927ebc98ea29a4fa66a38df75f3f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_123.asset using Guid(75927ebc98ea29a4fa66a38df75f3f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5e4163b5a3729686a075b5bfc272bad') in 0.030606 seconds 
+  Import took 0.038558 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_199.asset
+  artifactKey: Guid(0d20bafce05812646a8ee891953a3b18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_199.asset using Guid(0d20bafce05812646a8ee891953a3b18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5808062ede829e58287e8cd1e99dc59e') in 0.025091 seconds 
+  Import took 0.033053 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_120.asset
+  artifactKey: Guid(a1c0b578d23edb841b431e437de6d217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_120.asset using Guid(a1c0b578d23edb841b431e437de6d217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8079ab85d340ad20c50e35301050c096') in 0.022696 seconds 
+  Import took 0.031142 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_151.asset
+  artifactKey: Guid(5208f942aab93204cbad7aa03624f1ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_151.asset using Guid(5208f942aab93204cbad7aa03624f1ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '717bda81c214da6cdc786a7b167aeab7') in 0.020613 seconds 
+  Import took 0.028637 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_193.asset
+  artifactKey: Guid(d0a4c88889c16934aa5b1f94518ccbab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_193.asset using Guid(d0a4c88889c16934aa5b1f94518ccbab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f54c7f0ab0f757eb3799c245e6d6a96') in 0.022453 seconds 
+  Import took 0.029993 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_224.asset
+  artifactKey: Guid(9743488e054d0ee4e9eec5243d4b0975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_224.asset using Guid(9743488e054d0ee4e9eec5243d4b0975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cc1aa5572edc6ce125170fa9903366a') in 0.019915 seconds 
+  Import took 0.028086 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_81.asset
+  artifactKey: Guid(7b17ae2dab2479443bc0541e370bbff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_81.asset using Guid(7b17ae2dab2479443bc0541e370bbff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b011021ebfcfba46df8e763e6d1e3e17') in 0.022422 seconds 
+  Import took 0.030834 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_147.asset
+  artifactKey: Guid(f94e1df21b83d5e438ebbdc23459a4c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_147.asset using Guid(f94e1df21b83d5e438ebbdc23459a4c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4ba8e1848238af82716aeb3f9877603') in 0.020223 seconds 
+  Import took 0.027668 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_169.asset
+  artifactKey: Guid(da217e770693c0f4f9c9f6d6f7826bed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_169.asset using Guid(da217e770693c0f4f9c9f6d6f7826bed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1254e558af5afa6095f32b908e86a6b9') in 0.019992 seconds 
+  Import took 0.028026 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_184.asset
+  artifactKey: Guid(ed2207fa04f23e34bacdc7085365baf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_184.asset using Guid(ed2207fa04f23e34bacdc7085365baf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6916abf6904fa803d241c062960f433a') in 0.020772 seconds 
+  Import took 0.028725 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_238.asset
+  artifactKey: Guid(5badeb1425b5f904fbafb4feedc25981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_238.asset using Guid(5badeb1425b5f904fbafb4feedc25981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '578cba16f663e4e63d3cca3d31dde4e9') in 0.022128 seconds 
+  Import took 0.030277 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_247.asset
+  artifactKey: Guid(11b1ebbc0f5da1441bc7d4447e97209a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_247.asset using Guid(11b1ebbc0f5da1441bc7d4447e97209a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b8d95f87f90ed4d273b53d7ff01e8c4') in 0.023609 seconds 
+  Import took 0.032051 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_256.asset
+  artifactKey: Guid(ed38ee37dfa2c3049ac6ae8e8991b23c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_256.asset using Guid(ed38ee37dfa2c3049ac6ae8e8991b23c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8eb53fa4e3810e4618b306a7b79b0a6') in 0.021257 seconds 
+  Import took 0.029416 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_2542.asset
+  artifactKey: Guid(57c630baaebdfed45bee2f6a9be61fdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_2542.asset using Guid(57c630baaebdfed45bee2f6a9be61fdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca6e25d66059815b5095e61b596268a9') in 0.020663 seconds 
+  Import took 0.028188 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_139.asset
+  artifactKey: Guid(d51392cc12a70a544aa692c0dd28134a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_139.asset using Guid(d51392cc12a70a544aa692c0dd28134a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac49647ad5f18c690165576de0f1447a') in 0.023230 seconds 
+  Import took 0.031944 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_242.asset
+  artifactKey: Guid(e1f20ee71a9b5b44f963e6110b505206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_242.asset using Guid(e1f20ee71a9b5b44f963e6110b505206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '613d79d38885f2ab9ec50bfd53f509dd') in 0.021140 seconds 
+  Import took 0.029196 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_157.asset
+  artifactKey: Guid(be7ab1e3922ae0e4cac9ad73a235358d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_157.asset using Guid(be7ab1e3922ae0e4cac9ad73a235358d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '262b878060a5e4cbd6fd5ba7ab5d0898') in 0.023220 seconds 
+  Import took 0.030920 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_155.asset
+  artifactKey: Guid(cd43beac81572e74d8b4ec6bd9d46d7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_155.asset using Guid(cd43beac81572e74d8b4ec6bd9d46d7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63d6aaff62514aba29c72ee5c075382f') in 0.020869 seconds 
+  Import took 0.030543 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_216.asset
+  artifactKey: Guid(e98489536dfa43b46b1451d823220deb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_216.asset using Guid(e98489536dfa43b46b1451d823220deb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c400680e1a23547901436024aee05716') in 0.020121 seconds 
+  Import took 0.027704 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_102.asset
+  artifactKey: Guid(860d653f235457b45b68867a91a559b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_102.asset using Guid(860d653f235457b45b68867a91a559b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a01c29ac6830dc9e96acc4f6cbcf8bf') in 0.022852 seconds 
+  Import took 0.030570 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_92.asset
+  artifactKey: Guid(20cf86824d4f7134a9e4d4273debc131) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_92.asset using Guid(20cf86824d4f7134a9e4d4273debc131) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3039d99cc4dcde9f0310a17ea18ff30a') in 0.022693 seconds 
+  Import took 0.029867 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_158.asset
+  artifactKey: Guid(42f20d8364bcce24ab7b8b05c7539167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_158.asset using Guid(42f20d8364bcce24ab7b8b05c7539167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '762d8c813fec243868f9567af2740a0f') in 0.022951 seconds 
+  Import took 0.030049 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_213.asset
+  artifactKey: Guid(0b596d02238bff24ebea0fe3bd71f553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_213.asset using Guid(0b596d02238bff24ebea0fe3bd71f553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '597eeb010f2bff19738e201dc2f856c6') in 0.021628 seconds 
+  Import took 0.029267 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_93.asset
+  artifactKey: Guid(4a78d6c684948094e856850f317ca83e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_93.asset using Guid(4a78d6c684948094e856850f317ca83e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd42a6e8e8cb4ba9f0a05fc0f0965bb46') in 0.021113 seconds 
+  Import took 0.028657 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_237.asset
+  artifactKey: Guid(da194cc72d886e14085d61d8fd77be41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_237.asset using Guid(da194cc72d886e14085d61d8fd77be41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5db07799709217448c023d744a5fc4c0') in 0.022586 seconds 
+  Import took 0.030442 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_176.asset
+  artifactKey: Guid(de2c64b6f50f92d419cdb9ecd306f657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_176.asset using Guid(de2c64b6f50f92d419cdb9ecd306f657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82bcaed3fbd92e8283d298386447d0cf') in 0.020709 seconds 
+  Import took 0.028587 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_192.asset
+  artifactKey: Guid(4035d338eccf8554f86070893ca5b91d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_192.asset using Guid(4035d338eccf8554f86070893ca5b91d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f8b9d97f216b603c0c56dd25dc5f47b') in 0.021836 seconds 
+  Import took 0.029296 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_218.asset
+  artifactKey: Guid(e88f025e77039e247a9411ba99b04010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_218.asset using Guid(e88f025e77039e247a9411ba99b04010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '669e81aadd507ff41a234cb1ab2a437c') in 0.022753 seconds 
+  Import took 0.030184 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_164.asset
+  artifactKey: Guid(5b8f893581d9f8d44b1366d2c95282a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_164.asset using Guid(5b8f893581d9f8d44b1366d2c95282a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f4333c430de71634524a7297dea3715') in 0.020858 seconds 
+  Import took 0.028464 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_246.asset
+  artifactKey: Guid(99d053942178f4349bd91f28bffd630a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_246.asset using Guid(99d053942178f4349bd91f28bffd630a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3afe03129039f0909aa4ba2f00c3d20') in 0.022677 seconds 
+  Import took 0.029972 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_189.asset
+  artifactKey: Guid(a9cf9ba485155834f8cf736f744c4031) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_189.asset using Guid(a9cf9ba485155834f8cf736f744c4031) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6d1159ed180d7362037c08ce7879e76') in 0.033833 seconds 
+  Import took 0.042220 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_204.asset
+  artifactKey: Guid(d828942ab514ff145bb33b18def17ad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_204.asset using Guid(d828942ab514ff145bb33b18def17ad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '167044a1ee3056ffe7319967bc37aa97') in 0.027787 seconds 
+  Import took 0.035851 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_143.asset
+  artifactKey: Guid(345c73ef4ced30a4fbc79c91903697f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_143.asset using Guid(345c73ef4ced30a4fbc79c91903697f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2a7d23e6041568fba105071f58e3079') in 0.021884 seconds 
+  Import took 0.029560 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_138.asset
+  artifactKey: Guid(f094c49d40b67bc4bad4a90886e1eb87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_138.asset using Guid(f094c49d40b67bc4bad4a90886e1eb87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fd5203b6341b901871d07ac88a25515') in 0.021912 seconds 
+  Import took 0.030535 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_105.asset
+  artifactKey: Guid(b2c27d45ea8ec2a4d9e594358d6e6c86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_105.asset using Guid(b2c27d45ea8ec2a4d9e594358d6e6c86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9762b1a9a3e10e62c8c6da504d148872') in 0.020618 seconds 
+  Import took 0.029963 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_100.asset
+  artifactKey: Guid(ddc18362775171b42aac246b2b1d7efc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_100.asset using Guid(ddc18362775171b42aac246b2b1d7efc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36e754dd29ff664fc14f6a1483ca1859') in 0.022464 seconds 
+  Import took 0.029992 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000912 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_168.asset
+  artifactKey: Guid(48061842beb4988489781537409b6362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_168.asset using Guid(48061842beb4988489781537409b6362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aef071483409446afbda1502a806af89') in 0.022043 seconds 
+  Import took 0.029929 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_150.asset
+  artifactKey: Guid(21d0755d1115fb64a8e9cf517376692b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_150.asset using Guid(21d0755d1115fb64a8e9cf517376692b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fb80f00bf3b71a8010283f7973c06b6') in 0.020421 seconds 
+  Import took 0.028097 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_226.asset
+  artifactKey: Guid(ef6d7af707f72434481a6e58a957cc6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_226.asset using Guid(ef6d7af707f72434481a6e58a957cc6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cd4f37c5df8e9b9d3cc3d20674e0208') in 0.020798 seconds 
+  Import took 0.029106 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_222.asset
+  artifactKey: Guid(4fe1d22e6d4421141ab853123eb7989a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_222.asset using Guid(4fe1d22e6d4421141ab853123eb7989a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dc2fe8dc93f30a2c2945a5740e687b8') in 0.021874 seconds 
+  Import took 0.029540 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_128.asset
+  artifactKey: Guid(97842d911c8460444b1c87534959ccfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_128.asset using Guid(97842d911c8460444b1c87534959ccfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2df2d94c1a082a9dae0b0f2f2b69bdd') in 0.022909 seconds 
+  Import took 0.030544 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_140.asset
+  artifactKey: Guid(036a804daee53694aa789a34c4504d0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_140.asset using Guid(036a804daee53694aa789a34c4504d0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bde72c899a925ee65f09bfc6c9d1ccf') in 0.019623 seconds 
+  Import took 0.027046 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_190.asset
+  artifactKey: Guid(55efc0adfed847f4c9add0b0c9f1a717) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_190.asset using Guid(55efc0adfed847f4c9add0b0c9f1a717) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '351a932d33a8ee556f5b803534fb1cf5') in 0.020963 seconds 
+  Import took 0.028574 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_85.asset
+  artifactKey: Guid(095a1988baeafdf49a20849a9e252243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_85.asset using Guid(095a1988baeafdf49a20849a9e252243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b18419e565b5e016ebf5102d51f5fe77') in 0.027197 seconds 
+  Import took 0.035158 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_94.asset
+  artifactKey: Guid(7cb07deaff701cc43a30f08996055444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_94.asset using Guid(7cb07deaff701cc43a30f08996055444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7481f4c214db9cbfc776bb3a9f010a6d') in 0.020322 seconds 
+  Import took 0.028004 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_215.asset
+  artifactKey: Guid(497864de43c19264480010bdf0ed6d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_215.asset using Guid(497864de43c19264480010bdf0ed6d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19f7474ba792a83e17a605d969f2ec97') in 0.024712 seconds 
+  Import took 0.032392 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_200.asset
+  artifactKey: Guid(f388b38136514fd4385bbca8d91c7501) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_200.asset using Guid(f388b38136514fd4385bbca8d91c7501) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cab3974dcae04d36924bb0432e2722cd') in 0.022204 seconds 
+  Import took 0.030161 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_145.asset
+  artifactKey: Guid(d3887d04f1f2f2b49a596ce0632c3458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_145.asset using Guid(d3887d04f1f2f2b49a596ce0632c3458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26ac053066b021efdb0cd17ac72d78e6') in 0.022909 seconds 
+  Import took 0.030936 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_149.asset
+  artifactKey: Guid(d7b146a5fdc06ce43961a33ae70ebb6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_149.asset using Guid(d7b146a5fdc06ce43961a33ae70ebb6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed4427d9a3051dd82043ee5ac151cfa0') in 0.022150 seconds 
+  Import took 0.030722 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_259.asset
+  artifactKey: Guid(b8c2f67f8f9cbd54c808c6afe4b08c74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_259.asset using Guid(b8c2f67f8f9cbd54c808c6afe4b08c74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08cc7eec58d2b420ba8b20fea888b998') in 0.022143 seconds 
+  Import took 0.029657 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_108.asset
+  artifactKey: Guid(9a8fe1e2e99e3b241bbc6f8d47084546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_108.asset using Guid(9a8fe1e2e99e3b241bbc6f8d47084546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d3c9b60c90fba432d5cef4890475eb9') in 0.020897 seconds 
+  Import took 0.029484 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_202.asset
+  artifactKey: Guid(f7e95e862b4db414794c2f9a86a8e408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_202.asset using Guid(f7e95e862b4db414794c2f9a86a8e408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d4a8bfdfb53469755f6c9f5a6d8486e') in 0.020228 seconds 
+  Import took 0.028100 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_191.asset
+  artifactKey: Guid(926284e4c497e0a459f9f375ed38c957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_191.asset using Guid(926284e4c497e0a459f9f375ed38c957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f216f3ae8fd8d1bc98661b464a4e6ac') in 0.021032 seconds 
+  Import took 0.028533 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_183.asset
+  artifactKey: Guid(60afbb6732b878b48b2e7030dd003891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_183.asset using Guid(60afbb6732b878b48b2e7030dd003891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '620a7b897768212fc216c82866b06af2') in 0.019616 seconds 
+  Import took 0.027664 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_118.asset
+  artifactKey: Guid(78cfd3f12f143cf4a97a5196e34c7d28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_118.asset using Guid(78cfd3f12f143cf4a97a5196e34c7d28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd0e7ae2cc85179aee108784954b491f') in 0.020936 seconds 
+  Import took 0.028407 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_84.asset
+  artifactKey: Guid(b0f5b5ca3896d624aa2553b1173b5536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_84.asset using Guid(b0f5b5ca3896d624aa2553b1173b5536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '752ba60f0bfb9e3bbfc158fed2acfda7') in 0.022559 seconds 
+  Import took 0.030039 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_165.asset
+  artifactKey: Guid(0a62eba410b847e478358dd4b7da3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_165.asset using Guid(0a62eba410b847e478358dd4b7da3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff3495d37f8d825eb2f255dea70f4165') in 0.022614 seconds 
+  Import took 0.029921 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_223.asset
+  artifactKey: Guid(71d22fb503a4b4549b0b79b8a8a8591f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_223.asset using Guid(71d22fb503a4b4549b0b79b8a8a8591f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc943c4b040f8fc26c09a8d97d974459') in 0.022258 seconds 
+  Import took 0.030860 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_253.asset
+  artifactKey: Guid(342d91de27f6dfa4e90357d1f71ab4dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_253.asset using Guid(342d91de27f6dfa4e90357d1f71ab4dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76205e1e619e325baab9a74be9dafc66') in 0.022828 seconds 
+  Import took 0.030778 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_114.asset
+  artifactKey: Guid(7a731c39cec8cb246931dd212cfc4b00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_114.asset using Guid(7a731c39cec8cb246931dd212cfc4b00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f8a932e34f3d577eaea5f591d8d433a') in 0.021433 seconds 
+  Import took 0.028898 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_208.asset
+  artifactKey: Guid(752df8c20a53c7a45a04e8dc29711b53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_208.asset using Guid(752df8c20a53c7a45a04e8dc29711b53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e2c0f137b88554e5e2970e8dc221f6e') in 0.022724 seconds 
+  Import took 0.030802 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_252.asset
+  artifactKey: Guid(fe371c7c53ec4514f9bdcfd822e4770b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_252.asset using Guid(fe371c7c53ec4514f9bdcfd822e4770b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ff6323048ea68fbf2f1aec7e50f4bdf') in 0.023949 seconds 
+  Import took 0.032104 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_124.asset
+  artifactKey: Guid(40b1ee1723a54bc40a520672f6a64889) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_124.asset using Guid(40b1ee1723a54bc40a520672f6a64889) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae7654a2c4383ab9784c6018b57f7d0f') in 0.023901 seconds 
+  Import took 0.032642 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000464 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_161.asset
+  artifactKey: Guid(ddca4e97bd6981943919d00068b46559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_161.asset using Guid(ddca4e97bd6981943919d00068b46559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4e0b2d08c7d138d0d965b2ffebf38e9') in 0.025769 seconds 
+  Import took 0.035206 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_225.asset
+  artifactKey: Guid(e501c7914ad03e842aed21a7fad3efdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_225.asset using Guid(e501c7914ad03e842aed21a7fad3efdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0b547226b05211f593067ceede90b4e') in 0.027588 seconds 
+  Import took 0.037011 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_133.asset
+  artifactKey: Guid(c1b55e0f1c306aa4180f5905b224b473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_133.asset using Guid(c1b55e0f1c306aa4180f5905b224b473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efba729fd58e60597d08d6e2dd432d24') in 0.023831 seconds 
+  Import took 0.031442 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_236.asset
+  artifactKey: Guid(418f96a6ad597884d985ed8f080be4a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_236.asset using Guid(418f96a6ad597884d985ed8f080be4a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '850918fb31a6e539e194f09d1ddf71af') in 0.021943 seconds 
+  Import took 0.029638 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_221.asset
+  artifactKey: Guid(0ef95d2c8f57f3f44979f90cd5e0929a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_221.asset using Guid(0ef95d2c8f57f3f44979f90cd5e0929a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7e20f74fee6ad3a0f979c8042d53ad9') in 0.021866 seconds 
+  Import took 0.029749 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_116.asset
+  artifactKey: Guid(6a4cc03a8fd42de43896dd0ce62f84d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_116.asset using Guid(6a4cc03a8fd42de43896dd0ce62f84d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4d50a30abb9d1854c1b4fc4eee72a18') in 0.022080 seconds 
+  Import took 0.029445 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_244.asset
+  artifactKey: Guid(57a56e5b5995b8b4883826b1ad30dd7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_244.asset using Guid(57a56e5b5995b8b4883826b1ad30dd7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e70efb7679bba315639794ac6f3dd49c') in 0.020650 seconds 
+  Import took 0.028807 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_206.asset
+  artifactKey: Guid(ce0224ad907135443baa11622739bbe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_206.asset using Guid(ce0224ad907135443baa11622739bbe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dafb75bc24c3be04950ffd19bf9a4fda') in 0.023147 seconds 
+  Import took 0.030670 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_159.asset
+  artifactKey: Guid(21c2cecebdb168f4aa8ce098102fc8a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_159.asset using Guid(21c2cecebdb168f4aa8ce098102fc8a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcfb80b9dd78a69abf5c5a61db9ea3fd') in 0.023165 seconds 
+  Import took 0.030923 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_121.asset
+  artifactKey: Guid(08a223507a5a07042a8729fb5a9955a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_121.asset using Guid(08a223507a5a07042a8729fb5a9955a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae5c20409a20a04ab34cdebecb6f8aea') in 0.020623 seconds 
+  Import took 0.029250 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_2552.asset
+  artifactKey: Guid(723c343700e15df469c9c046109b3c87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_2552.asset using Guid(723c343700e15df469c9c046109b3c87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '004d2c63e5408fe5cef58a3e1e07243f') in 0.021920 seconds 
+  Import took 0.029576 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_160.asset
+  artifactKey: Guid(daf0a1365f12ad044bcbf09de9329f9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_160.asset using Guid(daf0a1365f12ad044bcbf09de9329f9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ee8ab3d0b267a01e13cd9c9d7027bba') in 0.025939 seconds 
+  Import took 0.033580 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_229.asset
+  artifactKey: Guid(1687e415554aa3047a7c9994018e12e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_229.asset using Guid(1687e415554aa3047a7c9994018e12e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1956daccd72282c56ce3ff18a6f2a1e0') in 0.026965 seconds 
+  Import took 0.034241 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_144.asset
+  artifactKey: Guid(ff5a3cc8fa176b840bbb11b285cc028a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_144.asset using Guid(ff5a3cc8fa176b840bbb11b285cc028a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4ec9226db1871badfbf99b7de919f8a') in 0.020667 seconds 
+  Import took 0.028301 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_86.asset
+  artifactKey: Guid(3d7723f5a24f276459ad91f3e447ed4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_86.asset using Guid(3d7723f5a24f276459ad91f3e447ed4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b96242e590b7b4c0f18c15d4bb07f1f') in 0.020220 seconds 
+  Import took 0.027676 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_106.asset
+  artifactKey: Guid(a36f1b8b264a8a145805e73860f1c2e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_106.asset using Guid(a36f1b8b264a8a145805e73860f1c2e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35e9d1f62c6da8545522fc62484e6ebe') in 0.020507 seconds 
+  Import took 0.028520 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_235.asset
+  artifactKey: Guid(97cf99fac6bfb374985cf4512d636bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_235.asset using Guid(97cf99fac6bfb374985cf4512d636bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2f7bc4873497978219a781c4a5ce056') in 0.022944 seconds 
+  Import took 0.030828 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_153.asset
+  artifactKey: Guid(cca20951f3e89d6499486b8765357024) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_153.asset using Guid(cca20951f3e89d6499486b8765357024) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd16fec931febc63dbc83e8cd743689b5') in 0.022442 seconds 
+  Import took 0.030315 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_177.asset
+  artifactKey: Guid(bfd0357b5358f774a955a92bb6fb9cc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_177.asset using Guid(bfd0357b5358f774a955a92bb6fb9cc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96f8fefb6b2530998f6e320d9ad95e7a') in 0.022255 seconds 
+  Import took 0.030025 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_231.asset
+  artifactKey: Guid(93efecc439e964f46a24def14aa9cd1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_231.asset using Guid(93efecc439e964f46a24def14aa9cd1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a64d61c801b0dec097da7e370c8dadf7') in 0.020777 seconds 
+  Import took 0.028115 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_125.asset
+  artifactKey: Guid(033f192b11b478d4baccdd89eae44865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_125.asset using Guid(033f192b11b478d4baccdd89eae44865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6dc6647c9629833385206692af36908') in 0.022245 seconds 
+  Import took 0.030111 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_186.asset
+  artifactKey: Guid(a56e976ed99896c41949124747a6cfc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_186.asset using Guid(a56e976ed99896c41949124747a6cfc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bf11de7419530deffbe3f59a1fd20f8') in 0.020592 seconds 
+  Import took 0.028769 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_214.asset
+  artifactKey: Guid(e390b1dc825719e40b8f7bd52c6899bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_214.asset using Guid(e390b1dc825719e40b8f7bd52c6899bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7aaa7ec44d0558684ce7d60cefa783ce') in 0.020805 seconds 
+  Import took 0.028317 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_83.asset
+  artifactKey: Guid(3b82fde55174cbf4886b3ae860e43386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_83.asset using Guid(3b82fde55174cbf4886b3ae860e43386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a92c35101ebed9d36150774f69b9335e') in 0.020670 seconds 
+  Import took 0.028394 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_211.asset
+  artifactKey: Guid(4d5b846d577dc8746a4876fd11e65c48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_211.asset using Guid(4d5b846d577dc8746a4876fd11e65c48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48af315a4a3af686d93cf42ce6a893fc') in 0.023220 seconds 
+  Import took 0.031344 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_182.asset
+  artifactKey: Guid(5d91fc594f9ded94cb7b6db0d1fa40ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_182.asset using Guid(5d91fc594f9ded94cb7b6db0d1fa40ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82cf1dec4fb989179fe1892e855cc41b') in 0.021970 seconds 
+  Import took 0.030376 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000340 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_130.asset
+  artifactKey: Guid(cff01ef3bb2df894cb8ff6b1b8ef582a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_130.asset using Guid(cff01ef3bb2df894cb8ff6b1b8ef582a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2d1ed26715623542ade6483899070af') in 0.021075 seconds 
+  Import took 0.028197 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_187.asset
+  artifactKey: Guid(b90aa5a4cb928724385a51ddc66081a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_187.asset using Guid(b90aa5a4cb928724385a51ddc66081a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ef54daa0563fc5ca62e16cbb3680064') in 0.019990 seconds 
+  Import took 0.027962 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_233.asset
+  artifactKey: Guid(f9683e8faf734124e8007cc96ff16420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_233.asset using Guid(f9683e8faf734124e8007cc96ff16420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ec63d035572a728ecaef751af1a7801') in 0.021431 seconds 
+  Import took 0.028935 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_212.asset
+  artifactKey: Guid(73310fd82807e4448b085b2718eb9337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_212.asset using Guid(73310fd82807e4448b085b2718eb9337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc9f92e010dcb4b4a4fe64e3846a637b') in 0.021992 seconds 
+  Import took 0.029469 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_240.asset
+  artifactKey: Guid(30bb668f6c7955d408b3b20839d2e0b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_240.asset using Guid(30bb668f6c7955d408b3b20839d2e0b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4891dbe74ac7970dfa265038c4cc464a') in 0.023480 seconds 
+  Import took 0.031601 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_209.asset
+  artifactKey: Guid(d35158b586da8a3418f7748bf536b656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_209.asset using Guid(d35158b586da8a3418f7748bf536b656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1ab12eea57cdbec403302c88ce8c802') in 0.024438 seconds 
+  Import took 0.031907 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_156.asset
+  artifactKey: Guid(9aacdec6134941241b298b0e8168fb70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_156.asset using Guid(9aacdec6134941241b298b0e8168fb70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba358c8524d44ab337904f07fb04f2f8') in 0.026904 seconds 
+  Import took 0.035010 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_136.asset
+  artifactKey: Guid(64f546a8bcbd572419995115702ad5a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_136.asset using Guid(64f546a8bcbd572419995115702ad5a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c0c17d4090251c6750b7c2159cdb78b') in 0.028095 seconds 
+  Import took 0.036738 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_95.asset
+  artifactKey: Guid(c44f9c51f72db8e48bea01d30cfbf08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_95.asset using Guid(c44f9c51f72db8e48bea01d30cfbf08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '021d395c2307a488e983e18a81e8b835') in 0.023230 seconds 
+  Import took 0.031278 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_195.asset
+  artifactKey: Guid(a9f2f52b19d68e04ebce89d5f2fa0b38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_195.asset using Guid(a9f2f52b19d68e04ebce89d5f2fa0b38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '432fd9155338c13ab30c6019206a15f7') in 0.023033 seconds 
+  Import took 0.030370 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_82.asset
+  artifactKey: Guid(a6b1b3b85232fa54f95e02ffce210007) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_82.asset using Guid(a6b1b3b85232fa54f95e02ffce210007) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35a896ae8377d167683abc119cde9e9b') in 0.020352 seconds 
+  Import took 0.027805 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_96.asset
+  artifactKey: Guid(41aa29b185ee0bc469007a4801b03948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_96.asset using Guid(41aa29b185ee0bc469007a4801b03948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecdccfd005191be448a64ff7e0c9edcb') in 0.021943 seconds 
+  Import took 0.029358 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000542 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_255.asset
+  artifactKey: Guid(f4a644a540294834082b3241f1484657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_255.asset using Guid(f4a644a540294834082b3241f1484657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7862dbd2348df3ce68cf545ca23d801c') in 0.021172 seconds 
+  Import took 0.028839 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_234.asset
+  artifactKey: Guid(ab03666f7b3df5940aa07cb29169ebf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_234.asset using Guid(ab03666f7b3df5940aa07cb29169ebf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0dd02b3802373d17e7fa4d9f397ff67') in 0.022985 seconds 
+  Import took 0.030971 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_249.asset
+  artifactKey: Guid(abf0d7f49dc151a4eb95687a7f1e4454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_249.asset using Guid(abf0d7f49dc151a4eb95687a7f1e4454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3adf31512d46ed9fe7de0aef7af63db9') in 0.021353 seconds 
+  Import took 0.028637 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_241.asset
+  artifactKey: Guid(f61c09c3a3a51734785a989335959fb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_241.asset using Guid(f61c09c3a3a51734785a989335959fb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee1c9f6f8cd420e637c8c6f9edd273a9') in 0.020946 seconds 
+  Import took 0.028374 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_257.asset
+  artifactKey: Guid(b015d8a278d9bf5499cfcf1197f4e526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_257.asset using Guid(b015d8a278d9bf5499cfcf1197f4e526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b999b5fe74e3f078f6a31c0cc01f4b50') in 0.019821 seconds 
+  Import took 0.026875 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_119.asset
+  artifactKey: Guid(7e8748f51cc53d345a01bd050ede5aea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_119.asset using Guid(7e8748f51cc53d345a01bd050ede5aea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9477e72a438a9e921274f343b357552e') in 0.020271 seconds 
+  Import took 0.027873 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_126.asset
+  artifactKey: Guid(5ce50ad382711844094bdc2329fdc9ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_126.asset using Guid(5ce50ad382711844094bdc2329fdc9ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dd8ae4180a12904b57cc793823d3d9e') in 0.021642 seconds 
+  Import took 0.030120 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_245.asset
+  artifactKey: Guid(fb5a44d0afe6d00458f36c05b6cd71ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_245.asset using Guid(fb5a44d0afe6d00458f36c05b6cd71ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '067c13417f56a7d7e327a84aa8a504ee') in 0.022116 seconds 
+  Import took 0.029579 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_117.asset
+  artifactKey: Guid(967bc4658f2bed141b65076848577c9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_117.asset using Guid(967bc4658f2bed141b65076848577c9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e661cd8b3599b5204580d1bc6e0ffac') in 0.023686 seconds 
+  Import took 0.030940 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_131.asset
+  artifactKey: Guid(080dd39ada4190348ad38093cb4a86b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_131.asset using Guid(080dd39ada4190348ad38093cb4a86b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e3947f444af0a2341d23d5dcde0d4ac') in 0.022276 seconds 
+  Import took 0.029481 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_243.asset
+  artifactKey: Guid(2cdb52ac8668dd74fac7504214cec0b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_243.asset using Guid(2cdb52ac8668dd74fac7504214cec0b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f161b195b953105feb59cd64321acd10') in 0.019898 seconds 
+  Import took 0.027210 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_97.asset
+  artifactKey: Guid(328982b6f7bb719479d1b9d8e9d35602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_97.asset using Guid(328982b6f7bb719479d1b9d8e9d35602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eed9082e0f6f18368fa5ede97221b219') in 0.022499 seconds 
+  Import took 0.029869 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_89.asset
+  artifactKey: Guid(0890a94f9b092c647a80e81bcf021cd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_89.asset using Guid(0890a94f9b092c647a80e81bcf021cd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc2fe8a0a119f78c2a29484e04b8c844') in 0.021579 seconds 
+  Import took 0.028986 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_142.asset
+  artifactKey: Guid(5f71d779dea1168478c4d9cca7327613) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_142.asset using Guid(5f71d779dea1168478c4d9cca7327613) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ed1ab47d20eadc6a95e451876a8f789') in 0.024078 seconds 
+  Import took 0.031197 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_180.asset
+  artifactKey: Guid(11a930259b8db3942930810da58f1bcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_180.asset using Guid(11a930259b8db3942930810da58f1bcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '870e549e4779219c2d24db74f0a099d1') in 0.019116 seconds 
+  Import took 0.027229 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_104.asset
+  artifactKey: Guid(fd3cea8e8226d4545aff95548e08007b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_104.asset using Guid(fd3cea8e8226d4545aff95548e08007b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c4906a37ade7e4b91792c0e54359db6') in 0.022258 seconds 
+  Import took 0.030318 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_166.asset
+  artifactKey: Guid(3542fb528b7a64b4d8be07b8075e3d64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_166.asset using Guid(3542fb528b7a64b4d8be07b8075e3d64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac3193a5954fd4e586a902bd1acc2f20') in 0.021867 seconds 
+  Import took 0.029704 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_188.asset
+  artifactKey: Guid(f05ba2aea4756214b902823359d83a6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_188.asset using Guid(f05ba2aea4756214b902823359d83a6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c02276a05434bd74fa6822a2d8fc249d') in 0.022243 seconds 
+  Import took 0.029695 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_162.asset
+  artifactKey: Guid(d1f60f9389d2eae41b6963cd98410bb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_162.asset using Guid(d1f60f9389d2eae41b6963cd98410bb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef30ee79edf6840f1339d95e537bf1f0') in 0.022429 seconds 
+  Import took 0.029634 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_203.asset
+  artifactKey: Guid(64d9865f9c3ff3541bfaf216a0fff811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_203.asset using Guid(64d9865f9c3ff3541bfaf216a0fff811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1634f95b91387feea4db0bc9526b0c5a') in 0.022401 seconds 
+  Import took 0.029873 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_196.asset
+  artifactKey: Guid(6db1768b828ed8647ae5cb05307a04dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_196.asset using Guid(6db1768b828ed8647ae5cb05307a04dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e0b40981a52a059a83fee831667bfc7') in 0.020940 seconds 
+  Import took 0.027887 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_171.asset
+  artifactKey: Guid(067910cea3f00b84ba24cff7aa5dcb7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_171.asset using Guid(067910cea3f00b84ba24cff7aa5dcb7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f980cd984c770c4367cfb4558aa09ac9') in 0.021895 seconds 
+  Import took 0.029282 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_232.asset
+  artifactKey: Guid(601755c6c7d974b41b5d023b4fbf1c94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_232.asset using Guid(601755c6c7d974b41b5d023b4fbf1c94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '522aa9b0fae0c5623883c06de028fe89') in 0.024249 seconds 
+  Import took 0.031424 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_178.asset
+  artifactKey: Guid(34651c1d9bfa25343a89e782bb84eeb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_178.asset using Guid(34651c1d9bfa25343a89e782bb84eeb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ba9ff6c41628cdcda46c3558769342c') in 0.021936 seconds 
+  Import took 0.029795 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_228.asset
+  artifactKey: Guid(4325c60ce4d788a44afa58b204c3d976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_228.asset using Guid(4325c60ce4d788a44afa58b204c3d976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e27ff7d9a77303513377ad8e8091280') in 0.021700 seconds 
+  Import took 0.029108 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_251.asset
+  artifactKey: Guid(32092b1bfaccc944e8fe54ef87ac294e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_251.asset using Guid(32092b1bfaccc944e8fe54ef87ac294e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0ff47c5f4ae2d7535cab12626a94879') in 0.021606 seconds 
+  Import took 0.028460 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_146.asset
+  artifactKey: Guid(4aa0abe9dddaf084a8950a4107437479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_146.asset using Guid(4aa0abe9dddaf084a8950a4107437479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8df1dc69a8108421bd0838127793486') in 0.021356 seconds 
+  Import took 0.028897 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_230.asset
+  artifactKey: Guid(2d620e8018c1b124ab4500891fe55986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_230.asset using Guid(2d620e8018c1b124ab4500891fe55986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11174bbaa39310effeadb5b8abda6923') in 0.022100 seconds 
+  Import took 0.030150 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_154.asset
+  artifactKey: Guid(befccfc44e4911b46a41d10a6454cd08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_154.asset using Guid(befccfc44e4911b46a41d10a6454cd08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '908ede813760e4de290ca5ceaf2be387') in 0.028974 seconds 
+  Import took 0.037718 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_163.asset
+  artifactKey: Guid(394d47114f14a7e43b91a305b93cc6c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_163.asset using Guid(394d47114f14a7e43b91a305b93cc6c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3631853a40f3a831386bd9a9b37c605') in 0.027713 seconds 
+  Import took 0.036959 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_137.asset
+  artifactKey: Guid(3a49660202a0c7f449a85fa47677a35c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_137.asset using Guid(3a49660202a0c7f449a85fa47677a35c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1a62d56aaa0f5c0770cc0672096bb69') in 0.023493 seconds 
+  Import took 0.032936 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_172.asset
+  artifactKey: Guid(c1dab711ebb4e0640a8fd08e29eca68e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_172.asset using Guid(c1dab711ebb4e0640a8fd08e29eca68e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f155573a8df1781e1ca7e6be56ec78c7') in 0.021375 seconds 
+  Import took 0.028573 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_132.asset
+  artifactKey: Guid(6e55f74261593154082aead6950d968a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_132.asset using Guid(6e55f74261593154082aead6950d968a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f6dbef3792d7f465e801445a0dda5c9') in 0.023227 seconds 
+  Import took 0.030858 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_111.asset
+  artifactKey: Guid(25dc44b8984f9454c9a7d8d5b8c7d9ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_111.asset using Guid(25dc44b8984f9454c9a7d8d5b8c7d9ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89e353da24f44239733cbe2c2adcbcdf') in 0.022797 seconds 
+  Import took 0.031012 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_90.asset
+  artifactKey: Guid(5d3653573dd261046bcc78227b315b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_90.asset using Guid(5d3653573dd261046bcc78227b315b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b188ab71473300781c71efdb5157cca9') in 0.020711 seconds 
+  Import took 0.027825 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_194.asset
+  artifactKey: Guid(c1f8003784132ae41b24c597639446d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_194.asset using Guid(c1f8003784132ae41b24c597639446d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83b1777f060eafe13476f9fe12564138') in 0.021341 seconds 
+  Import took 0.028794 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_198.asset
+  artifactKey: Guid(ca9e99a2d64b82d4fa44b07f57697d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_198.asset using Guid(ca9e99a2d64b82d4fa44b07f57697d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40283f8bafa59e773aa93491df938138') in 0.021693 seconds 
+  Import took 0.028990 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_227.asset
+  artifactKey: Guid(7f29914c476157f48a540b3f0d3a5365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_227.asset using Guid(7f29914c476157f48a540b3f0d3a5365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b68dedbf9f35fa9f983bed325469e097') in 0.020938 seconds 
+  Import took 0.028034 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_98.asset
+  artifactKey: Guid(40749b4cf7f4d1b43a349a704c1386d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_98.asset using Guid(40749b4cf7f4d1b43a349a704c1386d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a039ce1f0fae3d31c6fbe4a4abb94e1') in 0.023172 seconds 
+  Import took 0.030306 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000442 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_141.asset
+  artifactKey: Guid(99553ac49efff1249839230536ed80af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_141.asset using Guid(99553ac49efff1249839230536ed80af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '693243f5fa7a0ab97a220b3a14df07f3') in 0.020245 seconds 
+  Import took 0.027588 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_87.asset
+  artifactKey: Guid(1277a7924588584489e4772d881bc191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_87.asset using Guid(1277a7924588584489e4772d881bc191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3db7cba4ac79f4f686bb1de6a0a6bca5') in 0.021867 seconds 
+  Import took 0.029042 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_135.asset
+  artifactKey: Guid(8e3a889af17521446998bdf401717bbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_135.asset using Guid(8e3a889af17521446998bdf401717bbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37f0531d415f9d43586aaaca9c9aac01') in 0.024438 seconds 
+  Import took 0.032246 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_175.asset
+  artifactKey: Guid(42799349defe22e428961e4fa71ca30f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_175.asset using Guid(42799349defe22e428961e4fa71ca30f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b15c298093d85ae53c07164ec55b53cc') in 0.022270 seconds 
+  Import took 0.030728 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_115.asset
+  artifactKey: Guid(934b50a133eb70d4e89ada1a69391da0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_115.asset using Guid(934b50a133eb70d4e89ada1a69391da0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c4b8a48a0d0bf0c4143b390497bbf8f') in 0.021585 seconds 
+  Import took 0.029070 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_217.asset
+  artifactKey: Guid(7288998b65464cd4f818c2af13dec55a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_217.asset using Guid(7288998b65464cd4f818c2af13dec55a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5706f9455022e1fa99147e83c94702db') in 0.023493 seconds 
+  Import took 0.030720 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_205.asset
+  artifactKey: Guid(30bc584bc4f0e6b4e9e06ca5c63a1473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_205.asset using Guid(30bc584bc4f0e6b4e9e06ca5c63a1473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '009f2407a1ad2e831e570776b26189aa') in 0.023390 seconds 
+  Import took 0.031096 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_174.asset
+  artifactKey: Guid(e61fdc6a74fb9274da94719ef7a00f55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_174.asset using Guid(e61fdc6a74fb9274da94719ef7a00f55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4df239f579770eca1e09196ab185022c') in 0.020609 seconds 
+  Import took 0.028176 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_181.asset
+  artifactKey: Guid(281d06eb26a50004dbdf1081e03d80b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_181.asset using Guid(281d06eb26a50004dbdf1081e03d80b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd715bbb15fc514095c3a80357fcb7b74') in 0.020808 seconds 
+  Import took 0.029755 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000347 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_107.asset
+  artifactKey: Guid(6dd3eb5fe673dcc4f8674b350b3cddb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_107.asset using Guid(6dd3eb5fe673dcc4f8674b350b3cddb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a2ba8c01b0f15825d403fc9e058998e') in 0.023791 seconds 
+  Import took 0.031237 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_250.asset
+  artifactKey: Guid(6814ad6b9c066c644b1a2b69ae4103d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_250.asset using Guid(6814ad6b9c066c644b1a2b69ae4103d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c37b82732439e32565eeaaf95cde24b') in 0.020776 seconds 
+  Import took 0.028138 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_201.asset
+  artifactKey: Guid(9e74419303f8b2a4bbdae4f224376524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_201.asset using Guid(9e74419303f8b2a4bbdae4f224376524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2af34fd0f74f41f01ed6db96956de01') in 0.023263 seconds 
+  Import took 0.030552 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_152.asset
+  artifactKey: Guid(8cbc5ad9755059d49b1dce453fdb2d6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_152.asset using Guid(8cbc5ad9755059d49b1dce453fdb2d6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50b07d628afab15e61016e58038c2a21') in 0.023956 seconds 
+  Import took 0.031399 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_148.asset
+  artifactKey: Guid(f7a629de7cc5343469f9627176f134e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_148.asset using Guid(f7a629de7cc5343469f9627176f134e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '481f454f38dda5e8e2eaf1edd72e74fe') in 0.022606 seconds 
+  Import took 0.030153 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_185.asset
+  artifactKey: Guid(104e5dc922fda3147b1836a1792bb733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_185.asset using Guid(104e5dc922fda3147b1836a1792bb733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a16ebd2385b5fd70e66d210599348665') in 0.022824 seconds 
+  Import took 0.030325 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_99.asset
+  artifactKey: Guid(d49489131ac74b140a7b8b325ce2d6ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_99.asset using Guid(d49489131ac74b140a7b8b325ce2d6ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a7af464bc27eff8a17727d7a5ff835e') in 0.023520 seconds 
+  Import took 0.030876 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_109.asset
+  artifactKey: Guid(624d1e65630c1f545a26b9c44745a44e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_109.asset using Guid(624d1e65630c1f545a26b9c44745a44e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbe7210b948774e752f61371a7a9bdca') in 0.022917 seconds 
+  Import took 0.030251 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_210.asset
+  artifactKey: Guid(26bd752527b24074eae01316d935c8b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_210.asset using Guid(26bd752527b24074eae01316d935c8b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03d0b4f705a6f5b29aa110f4bfb945ca') in 0.023444 seconds 
+  Import took 0.031164 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_167.asset
+  artifactKey: Guid(c9040d126c0ad3d4ea8824a8338780ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_167.asset using Guid(c9040d126c0ad3d4ea8824a8338780ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0189707e58ae57d6e5ed8da9d8088df') in 0.024141 seconds 
+  Import took 0.031091 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_170.asset
+  artifactKey: Guid(d540f4e22abff3844814293286e4925b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_170.asset using Guid(d540f4e22abff3844814293286e4925b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30965a6ebfa31cbb17ed34cd5d5c4a55') in 0.022858 seconds 
+  Import took 0.029948 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000345 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_219.asset
+  artifactKey: Guid(7805a74a99f562d4a8550c33bb5712de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_219.asset using Guid(7805a74a99f562d4a8550c33bb5712de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98849eea171e72fb1f360b7fe00e3bb3') in 0.022519 seconds 
+  Import took 0.030217 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_129.asset
+  artifactKey: Guid(a4f982dfe2143de4d87dfbb7759dde8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_129.asset using Guid(a4f982dfe2143de4d87dfbb7759dde8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15d6beccdcf20954d8c08230c3a8436d') in 0.026820 seconds 
+  Import took 0.035897 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000347 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_134.asset
+  artifactKey: Guid(d2b00faefdeae88458e4e034456640e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_134.asset using Guid(d2b00faefdeae88458e4e034456640e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31c780a4a1b9351d7faee68812c29e14') in 0.029132 seconds 
+  Import took 0.038644 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_220.asset
+  artifactKey: Guid(d0180c19fd3ab354aa16624a2cd09cad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_220.asset using Guid(d0180c19fd3ab354aa16624a2cd09cad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b89341ad0d4e538b856383473a24189') in 0.025430 seconds 
+  Import took 0.034530 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_258.asset
+  artifactKey: Guid(9b4905f5d191ecc4a8801bda68cd4e59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_258.asset using Guid(9b4905f5d191ecc4a8801bda68cd4e59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a212876cb00e57243a078aaf8bcfa50') in 0.027348 seconds 
+  Import took 0.035624 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_239.asset
+  artifactKey: Guid(045c61c6f004cc4438f54f1f914bdcb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_239.asset using Guid(045c61c6f004cc4438f54f1f914bdcb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '452653afe02457c8902fe17d3d268682') in 0.020526 seconds 
+  Import took 0.028154 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_179.asset
+  artifactKey: Guid(7e8e63f3e0d927e4aa126658a5c22963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_179.asset using Guid(7e8e63f3e0d927e4aa126658a5c22963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61b802881b9d2448050da8505b663128') in 0.021829 seconds 
+  Import took 0.029194 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_207.asset
+  artifactKey: Guid(9a01660321f24c34abecd3c8e27a15e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_207.asset using Guid(9a01660321f24c34abecd3c8e27a15e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d8b01e09833ef80f23bff68852a1813') in 0.020818 seconds 
+  Import took 0.028321 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_197.asset
+  artifactKey: Guid(3f2adf9282f478e4a903da668c699abc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_197.asset using Guid(3f2adf9282f478e4a903da668c699abc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c311652b8ea4f19aadc32e2079d8a6f') in 0.020839 seconds 
+  Import took 0.028181 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_101.asset
+  artifactKey: Guid(765110f8074f8654aa6772032558d1f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_101.asset using Guid(765110f8074f8654aa6772032558d1f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c68296f137625b2a37a65f894af73c4') in 0.021721 seconds 
+  Import took 0.029414 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_173.asset
+  artifactKey: Guid(24a648f8f3b144b4e9194547e7df8576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_173.asset using Guid(24a648f8f3b144b4e9194547e7df8576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07ccf920d9057a868a7ac22a8c1f788c') in 0.021607 seconds 
+  Import took 0.030050 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_113.asset
+  artifactKey: Guid(fae0832e9dafbfb4aac9624f539f8b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_113.asset using Guid(fae0832e9dafbfb4aac9624f539f8b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97ed75b91ba40dcfe09bf508d66e6ae2') in 0.022242 seconds 
+  Import took 0.030090 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_248.asset
+  artifactKey: Guid(211c2a046ae04fe49be0a8c002226e36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_248.asset using Guid(211c2a046ae04fe49be0a8c002226e36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e29a66a8f1c3d07968e4263be77f18c') in 0.020883 seconds 
+  Import took 0.028984 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_110.asset
+  artifactKey: Guid(c7a3bfcc44c94f540aa586164676b0cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_110.asset using Guid(c7a3bfcc44c94f540aa586164676b0cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58435eaac2a10bc387190ef5ea66acbd') in 0.021386 seconds 
+  Import took 0.028969 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_254.asset
+  artifactKey: Guid(6b257b4cdfe44fe4497d2b560e4f940b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_254.asset using Guid(6b257b4cdfe44fe4497d2b560e4f940b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53398382509d823b0b6243f410243eff') in 0.023386 seconds 
+  Import took 0.030851 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_103.asset
+  artifactKey: Guid(b266bcae6d618f246886e09ae5982b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Hand Painted Tilesets/2D Hand Painted - Snowland Tileset/Tile Palette/Tiles 128x128/Snowland@128x128_103.asset using Guid(b266bcae6d618f246886e09ae5982b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85189a48eeb277098f56d33f05246804') in 0.022774 seconds 
+  Import took 0.030107 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.567797 seconds.
+  path: Assets/Prefab/BigPortal.prefab
+  artifactKey: Guid(1d660d90b6e72944e8cd56bf82935905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/BigPortal.prefab using Guid(1d660d90b6e72944e8cd56bf82935905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '933cb7d98f0388d3c4a0d3d88ca8a9b9') in 0.036253 seconds 
+  Import took 0.045193 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.520735 seconds.
+  path: Assets/Prefab/BigPortal.prefab
+  artifactKey: Guid(1d660d90b6e72944e8cd56bf82935905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/BigPortal.prefab using Guid(1d660d90b6e72944e8cd56bf82935905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aacdc5888fa66cf7d0da794f7d24788f') in 0.035926 seconds 
+  Import took 0.044861 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.240929 seconds.
+  path: Assets/Prefab/BigPortal.prefab
+  artifactKey: Guid(1d660d90b6e72944e8cd56bf82935905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/BigPortal.prefab using Guid(1d660d90b6e72944e8cd56bf82935905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e9481259b0a43d7c2a4ae5e392271b6') in 0.045985 seconds 
+  Import took 0.056161 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.524297 seconds.
+  path: Assets/Prefab/BigPortal.prefab
+  artifactKey: Guid(1d660d90b6e72944e8cd56bf82935905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/BigPortal.prefab using Guid(1d660d90b6e72944e8cd56bf82935905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '994cefaadc2b4a1f407caf70772a0b5c') in 0.055847 seconds 
+  Import took 0.065690 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.726537 seconds.
+  path: Assets/Prefab/BigPortal.prefab
+  artifactKey: Guid(1d660d90b6e72944e8cd56bf82935905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/BigPortal.prefab using Guid(1d660d90b6e72944e8cd56bf82935905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9d2d7d0aaef42ecd1e618f8bce4dbe7') in 0.036045 seconds 
+  Import took 0.045682 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.949473 seconds.
+  path: Assets/Prefab/BigPortal.prefab
+  artifactKey: Guid(1d660d90b6e72944e8cd56bf82935905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/BigPortal.prefab using Guid(1d660d90b6e72944e8cd56bf82935905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd14a927c0fa141874196ede89d020ea') in 0.016095 seconds 
+  Import took 0.025422 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 47.564161 seconds.
+  path: Assets/Prefab/BigPortal.prefab
+  artifactKey: Guid(1d660d90b6e72944e8cd56bf82935905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/BigPortal.prefab using Guid(1d660d90b6e72944e8cd56bf82935905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a428c24f1177bba64bb0dd8268b98dde') in 0.015190 seconds 
+  Import took 0.022956 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 68.624383 seconds.
+  path: Assets/Prefab/BigPortal.prefab
+  artifactKey: Guid(1d660d90b6e72944e8cd56bf82935905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/BigPortal.prefab using Guid(1d660d90b6e72944e8cd56bf82935905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcc582b0828a67e3100f4d2d6c5b1a3e') in 0.015203 seconds 
+  Import took 0.024633 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.781701 seconds.
+  path: Assets/Prefab/BigPortal.prefab
+  artifactKey: Guid(1d660d90b6e72944e8cd56bf82935905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/BigPortal.prefab using Guid(1d660d90b6e72944e8cd56bf82935905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d7166fe96e299bcbd7888250eb3c6b3') in 0.015614 seconds 
+  Import took 0.023630 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.990387 seconds.
+  path: Assets/Prefab/BigPortal.prefab
+  artifactKey: Guid(1d660d90b6e72944e8cd56bf82935905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/BigPortal.prefab using Guid(1d660d90b6e72944e8cd56bf82935905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8738191dbd401d2774b12dabaa10d505') in 0.015358 seconds 
+  Import took 0.024593 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.364573 seconds.
+  path: Assets/Prefab/BigPortal.prefab
+  artifactKey: Guid(1d660d90b6e72944e8cd56bf82935905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/BigPortal.prefab using Guid(1d660d90b6e72944e8cd56bf82935905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a87e932f5f0e4c9cbeeaf2f441a5a82c') in 0.015401 seconds 
+  Import took 0.024939 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.248043 seconds.
+  path: Assets/Prefab/BigPortal.prefab
+  artifactKey: Guid(1d660d90b6e72944e8cd56bf82935905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/BigPortal.prefab using Guid(1d660d90b6e72944e8cd56bf82935905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bcb6c34bd858e7c7ec6bdffd0e0eb5f') in 0.017418 seconds 
+  Import took 0.026924 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.804202 seconds.
+  path: Assets/Prefab/BigPortal.prefab
+  artifactKey: Guid(1d660d90b6e72944e8cd56bf82935905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/BigPortal.prefab using Guid(1d660d90b6e72944e8cd56bf82935905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06680bba0f527e25d24849dc4ba2cd23') in 0.019243 seconds 
+  Import took 0.028718 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005852 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.15 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.248 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.15 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3954 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 187.3 MB.
+System memory in use after: 187.4 MB.
+
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 4503.
+Total: 8.667300 ms (FindLiveObjects: 0.634300 ms CreateObjectMapping: 0.195200 ms MarkObjects: 7.689000 ms  DeleteObjects: 0.147700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005797 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.15 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.239 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.14 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3954 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 190.1 MB.
+System memory in use after: 190.2 MB.
+
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 4508.
+Total: 8.538400 ms (FindLiveObjects: 0.382800 ms CreateObjectMapping: 0.197500 ms MarkObjects: 7.793200 ms  DeleteObjects: 0.163800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005744 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.24 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.290 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.37 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3954 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 190.1 MB.
+System memory in use after: 190.2 MB.
+
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 4513.
+Total: 7.553900 ms (FindLiveObjects: 0.361000 ms CreateObjectMapping: 0.162200 ms MarkObjects: 6.880600 ms  DeleteObjects: 0.148900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 101.923739 seconds.
+  path: Assets/Prefab/BigPortal.prefab
+  artifactKey: Guid(1d660d90b6e72944e8cd56bf82935905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/BigPortal.prefab using Guid(1d660d90b6e72944e8cd56bf82935905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e4a11b2ebc9fe1ae960160333231407') in 0.044193 seconds 
+  Import took 0.051431 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 4.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 28 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 112.7 MB.
+System memory in use after: 112.9 MB.
+
+Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 4513.
+Total: 7.573100 ms (FindLiveObjects: 0.337900 ms CreateObjectMapping: 0.190500 ms MarkObjects: 6.886700 ms  DeleteObjects: 0.156900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

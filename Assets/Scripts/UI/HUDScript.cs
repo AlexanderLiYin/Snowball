@@ -139,6 +139,6 @@ public class HUDScript : MonoBehaviour
     public void OverWorld()
     {
         Time.timeScale = 1f;
-        SceneManager.LoadScene(3);
+        SceneManager.LoadScene(1);
     }
 }
