@@ -9,21 +9,21 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: 1948889e0fd7d754fae1c93bf191dcc6
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 1
-    path: Assets/Scenes/First Battlefield.unity
-    guid: 1765e624a865b7e4d9299832f08821b7
-  - enabled: 1
-    path: Assets/Scenes/Overworld.unity
-    guid: 9a3fbe926f903ce4dbf8bd38a6de7471
+    path: Assets/Scenes/Village.unity
+    guid: 59c5fed39e715ac4bae26cca292a6d2c
   - enabled: 1
     path: Assets/Scenes/Second Map.unity
     guid: fa1837360cf6d5244a310abfd3b67df8
   - enabled: 1
-    path: Assets/Scenes/Village.unity
-    guid: 59c5fed39e715ac4bae26cca292a6d2c
-  - enabled: 1
     path: Assets/Scenes/Shop.unity
     guid: d75fa4b546205f346a29f4300a477d59
+  - enabled: 0
+    path: Assets/Scenes/SampleScene.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 0
+    path: Assets/Scenes/First Battlefield.unity
+    guid: 1765e624a865b7e4d9299832f08821b7
+  - enabled: 0
+    path: Assets/Scenes/Overworld.unity
+    guid: 9a3fbe926f903ce4dbf8bd38a6de7471
   m_configObjects: {}
