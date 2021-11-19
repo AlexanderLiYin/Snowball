@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 935899b62f48ae5498594680ed17d133, type: 3}
   m_Name: Dialogue Database
   m_EditorClassIdentifier: 
-  version: 
+  version: 1
   author: Alexander Li Yin
   description: Dialogue for the game
   globalUserScript: 
@@ -46,7 +46,7 @@ MonoBehaviour:
       type: 3
       typeString: CustomFieldType_Files
     - title: Description
-      value: 
+      value: The player character
       type: 0
       typeString: 
     - title: IsPlayer
@@ -60,7 +60,7 @@ MonoBehaviour:
   - id: 2
     fields:
     - title: Name
-      value: NPC
+      value: Shopkeeper
       type: 0
       typeString: 
     - title: Pictures
@@ -68,7 +68,7 @@ MonoBehaviour:
       type: 3
       typeString: CustomFieldType_Files
     - title: Description
-      value: 
+      value: A shopkeeper
       type: 0
       typeString: 
     - title: IsPlayer
@@ -79,8 +79,48 @@ MonoBehaviour:
     spritePortrait: {fileID: 0}
     alternatePortraits: []
     spritePortraits: []
-  items: []
-  locations: []
+  items:
+  - id: 1
+    fields:
+    - title: Name
+      value: Starting Quest
+      type: 0
+      typeString: 
+    - title: Pictures
+      value: '[]'
+      type: 3
+      typeString: CustomFieldType_Files
+    - title: Description
+      value: The quest the player will start out with upon entering the game.
+      type: 0
+      typeString: 
+    - title: Success Description
+      value: 
+      type: 0
+      typeString: 
+    - title: Failure Description
+      value: 
+      type: 0
+      typeString: 
+    - title: State
+      value: unassigned
+      type: 0
+      typeString: 
+    - title: Is Item
+      value: False
+      type: 2
+      typeString: CustomFieldType_Boolean
+  locations:
+  - id: 1
+    fields:
+    - title: Name
+      value: Village
+      type: 0
+      typeString: 
+    - title: Description
+      value: The village where the player starts and all the shops are located.
+      type: 0
+      typeString: 
   variables:
   - id: 1
     fields:
@@ -443,7 +483,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: OpenShop()@{{end}}
         type: 0
         typeString: 
       conversationID: 1
@@ -547,7 +587,7 @@ MonoBehaviour:
       isGroup: 0
       nodeColor: 
       delaySimStatus: 0
-      falseConditionAction: 
+      falseConditionAction: Block
       conditionPriority: 2
       outgoingLinks: []
       conditionsString: 

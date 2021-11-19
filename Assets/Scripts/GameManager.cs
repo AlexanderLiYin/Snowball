@@ -16,8 +16,8 @@ public class GameManager : MonoBehaviour
         HUD = GameObject.Find("HUD").GetComponent<HUDScript>();
         scene = SceneManager.GetActiveScene().buildIndex;
         player.canAttack = canAttack;
-        if (scene != 3)
-            player.inBattle = true;
+        if (scene == 2)
+            player.inBattle = true; //Controls Snow Princess energy recharge
         else player.inBattle = false;
     }
     public void Win()
