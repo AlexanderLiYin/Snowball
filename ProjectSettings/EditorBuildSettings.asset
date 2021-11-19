@@ -18,12 +18,12 @@ EditorBuildSettings:
     path: Assets/Scenes/Shop.unity
     guid: d75fa4b546205f346a29f4300a477d59
   - enabled: 0
-    path: Assets/Scenes/SampleScene.unity
+    path: Assets/Scenes/Not in game/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 0
-    path: Assets/Scenes/First Battlefield.unity
+    path: Assets/Scenes/Not in game/First Battlefield.unity
     guid: 1765e624a865b7e4d9299832f08821b7
   - enabled: 0
-    path: Assets/Scenes/Overworld.unity
+    path: Assets/Scenes/Not in game/Overworld.unity
     guid: 9a3fbe926f903ce4dbf8bd38a6de7471
   m_configObjects: {}
