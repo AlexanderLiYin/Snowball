@@ -167,11 +167,11 @@ MonoBehaviour:
       type: 0
       typeString: 
     - title: Initial Value
-      value: 1
-      type: 6
-      typeString: CustomFieldType_Item
+      value: False
+      type: 2
+      typeString: CustomFieldType_Boolean
     - title: Description
-      value: Player's starting wand
+      value: Does the player have an ice wand?
       type: 0
       typeString: 
   - id: 3
@@ -641,8 +641,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Using a magic wand for a snowball fight? Well, as long as you're paying
-          .
+        value: Using a magic wand for a snowball fight? Well, as long as you're paying.
         type: 0
         typeString: 
       - title: Sequence
@@ -661,14 +660,16 @@ MonoBehaviour:
       userScript: 'uisAddItem("Ice Wand", 1, "", "");
 
         Variable["Talked_with_shopkeeper"]
-        = true'
+        = true;
+
+        Variable["Ice_Wand"] = true;'
       onExecute:
         m_PersistentCalls:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 92.29788
-        y: 324.65955
+        x: 95.489365
+        y: 323.59573
         width: 160
         height: 30
     entryGroups: []
@@ -781,7 +782,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 263
+        x: 262
         y: 21
         width: 160
         height: 30
@@ -927,16 +928,16 @@ MonoBehaviour:
       falseConditionAction: Block
       conditionPriority: 2
       outgoingLinks: []
-      conditionsString: CurrentQuestState("Starting Quest") == "active" and (Variable["Ice
-        Wand"] ~= "1")
+      conditionsString: CurrentQuestState("Starting Quest") == "active" and (Variable["Ice_Wand"]
+        == false)
       userScript: 
       onExecute:
         m_PersistentCalls:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 257
-        y: 131
+        x: 242
+        y: 266
         width: 160
         height: 30
     - id: 5
@@ -978,20 +979,20 @@ MonoBehaviour:
       falseConditionAction: Block
       conditionPriority: 2
       outgoingLinks: []
-      conditionsString: CurrentQuestState("Starting Quest") == "active" and (Variable["Ice
-        Wand"] == "1")
+      conditionsString: CurrentQuestState("Starting Quest") == "active"  and (Variable["Ice_Wand"]
+        == true)
       userScript: SetQuestState("Starting Quest", "success")
       onExecute:
         m_PersistentCalls:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 444
-        y: 123
+        x: 482
+        y: 262
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 0}
+    canvasScrollPosition: {x: 55, y: 0}
     canvasZoom: 1
   syncInfo:
     syncActors: 0
