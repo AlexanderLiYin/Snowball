@@ -1197,7 +1197,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: LoadLevel(Second Map);
         type: 0
         typeString: 
       conversationID: 3
@@ -1209,7 +1209,7 @@ MonoBehaviour:
       conditionPriority: 2
       outgoingLinks: []
       conditionsString: 
-      userScript: LoadScene(3)
+      userScript: 
       onExecute:
         m_PersistentCalls:
           m_Calls: []
