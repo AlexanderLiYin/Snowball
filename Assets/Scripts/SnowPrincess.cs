@@ -13,6 +13,7 @@ public class SnowPrincess : MonoBehaviour
     Vector2 mousePos;
     public bool canMove = true;
     Joystick joystick;
+    float footstepTime = 0;
 
     //Player health
     HUDScript HUD;
@@ -40,6 +41,8 @@ public class SnowPrincess : MonoBehaviour
     public int maxEnergy = 120;
     public float energyPerSec = 1;
     float energy;
+
+
     
     void Start()
     {
@@ -65,12 +68,14 @@ public class SnowPrincess : MonoBehaviour
         HUD.DisplayEnergy(energy, maxEnergy);
 
         // Get platform
+        /*
         if ((Application.platform == RuntimePlatform.IPhonePlayer) || (Application.platform == RuntimePlatform.Android))
             mobile = true;
         else mobile = false;
 
         if (mobile)
             joystick = HUD.joystick.GetComponent<FixedJoystick>();
+        */
     }
 
     void Update()
@@ -123,6 +128,19 @@ public class SnowPrincess : MonoBehaviour
             Vector2 lookDir = mousePos - rb.position;
             float angle = Mathf.Atan2(lookDir.y, lookDir.x) * Mathf.Rad2Deg - 90f;
             rb.rotation = angle;
+
+            //Used for footstep sound
+            if (movement.x != 0 || movement.y != 0)
+            {
+                if (Time.time >= footstepTime)
+                {
+                    if (Time.timeScale != 0)
+                    {
+                        gameObject.GetComponent<AudioSource>().Play();
+                        footstepTime = Time.time + .5f;
+                    }
+                }
+            }
         }
 
         //Energy Generation

@@ -68872,6 +68872,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SnowPrincess
       objectReference: {fileID: 0}
+    - target: {fileID: 2369207834289146758, guid: 3b4c23d0ab299a848bdebd67880e652e, type: 3}
+      propertyPath: Loop
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 4843992693256272619, guid: 3b4c23d0ab299a848bdebd67880e652e, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 3b4c23d0ab299a848bdebd67880e652e, type: 3}
