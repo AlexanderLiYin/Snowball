@@ -27,6 +27,10 @@ PrefabInstance:
       value: ShopKeeper
       objectReference: {fileID: 0}
     - target: {fileID: -797543969541372047, guid: 8358a51e316339741b35b2c0b31ba7ff, type: 3}
+      propertyPath: selectedDatabase
+      value: 
+      objectReference: {fileID: 11400000, guid: 138c68488e73f4040a95b3362d2b6d4d, type: 2}
+    - target: {fileID: -797543969541372047, guid: 8358a51e316339741b35b2c0b31ba7ff, type: 3}
       propertyPath: conversationConversant
       value: 
       objectReference: {fileID: 2850233746492596258}
@@ -2898,7 +2902,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: ShopKeeper
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -4394331021635147194, guid: 8358a51e316339741b35b2c0b31ba7ff, type: 3}
+    - {fileID: 445098517840271817, guid: 8358a51e316339741b35b2c0b31ba7ff, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 8358a51e316339741b35b2c0b31ba7ff, type: 3}
 --- !u!1 &8685290886597264474 stripped
 GameObject:

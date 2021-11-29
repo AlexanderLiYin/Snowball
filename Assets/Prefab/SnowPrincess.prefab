@@ -126,11 +126,14 @@ MonoBehaviour:
   initEnergy: 50
   maxEnergy: 120
   energyPerSec: 1
-  soundPack:
-    name: footsteps
+  footsteps:
     audio:
     - {fileID: 8300000, guid: 0ca0e58496af6a34f8ed5a86d667f02e, type: 3}
     - {fileID: 8300000, guid: 7f60b502f792785489cd8b058b9cb794, type: 3}
+  damage:
+    audio:
+    - {fileID: 8300000, guid: 4013d16b77c15c44e9d9ae153a5c4d0a, type: 3}
+    - {fileID: 8300000, guid: 46dcdd80cbb9d61448a13b8481c2397d, type: 3}
 --- !u!114 &4843992693256272619
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -495,8 +498,8 @@ MonoBehaviour:
   color: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
   textStyle: 1
   textStyleColor: {r: 0, g: 0, b: 0, a: 1}
-  defaultUseMessage: (spacebar to interact)
-  useKey: 32
+  defaultUseMessage: E to talk
+  useKey: 101
   useButton: Fire2
   enableTouch: 0
   touchArea:

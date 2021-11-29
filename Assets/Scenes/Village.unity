@@ -68816,30 +68816,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 81877456, guid: 3b4c23d0ab299a848bdebd67880e652e, type: 3}
-      propertyPath: useKey
-      value: 101
-      objectReference: {fileID: 0}
-    - target: {fileID: 81877456, guid: 3b4c23d0ab299a848bdebd67880e652e, type: 3}
-      propertyPath: defaultUseMessage
-      value: E to talk
+    - target: {fileID: 1236280219063928417, guid: 3b4c23d0ab299a848bdebd67880e652e, type: 3}
+      propertyPath: damage.name
+      value: damage
       objectReference: {fileID: 0}
     - target: {fileID: 1236280219063928417, guid: 3b4c23d0ab299a848bdebd67880e652e, type: 3}
-      propertyPath: soundPack.name
-      value: footsteps
+      propertyPath: footsteps.name
+      value: footstep
       objectReference: {fileID: 0}
-    - target: {fileID: 1236280219063928417, guid: 3b4c23d0ab299a848bdebd67880e652e, type: 3}
-      propertyPath: soundPack.audio.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1236280219063928417, guid: 3b4c23d0ab299a848bdebd67880e652e, type: 3}
-      propertyPath: soundPack.audio.Array.data[0]
-      value: 
-      objectReference: {fileID: 8300000, guid: 0ca0e58496af6a34f8ed5a86d667f02e, type: 3}
-    - target: {fileID: 1236280219063928417, guid: 3b4c23d0ab299a848bdebd67880e652e, type: 3}
-      propertyPath: soundPack.audio.Array.data[1]
-      value: 
-      objectReference: {fileID: 8300000, guid: 7f60b502f792785489cd8b058b9cb794, type: 3}
     - target: {fileID: 1942335342410052555, guid: 3b4c23d0ab299a848bdebd67880e652e, type: 3}
       propertyPath: m_RootOrder
       value: 5

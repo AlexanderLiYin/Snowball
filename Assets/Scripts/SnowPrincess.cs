@@ -43,7 +43,8 @@ public class SnowPrincess : MonoBehaviour
     float energy;
 
     //Sound
-    public SoundPack soundPack;
+    public SoundPack footsteps;
+    public SoundPack damage;
     AudioSource audioSource;
 
     void Start()
@@ -140,7 +141,7 @@ public class SnowPrincess : MonoBehaviour
                 {
                     if (Time.timeScale != 0)
                     {
-                        audioSource.clip = soundPack.audio[0];
+                        audioSource.clip = footsteps.audio[1];
                         audioSource.Play();
                         footstepTime = Time.time + .5f;
                     }
@@ -168,6 +169,8 @@ public class SnowPrincess : MonoBehaviour
         health -= dmg;
         HUD.HP(health);
         HUD.DisplayHP(health, maxHealth);
+        audioSource.clip = damage.audio[0];
+        audioSource.Play();
         if (health <= 0)
         {
             print("Health is 0");
