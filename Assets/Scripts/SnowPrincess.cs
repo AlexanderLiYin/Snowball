@@ -44,13 +44,16 @@ public class SnowPrincess : MonoBehaviour
 
     //Sound
     public SoundPack soundPack;
-    
+    AudioSource audioSource;
+
     void Start()
     {
         //Get Rigidbody2D
         rb = gameObject.GetComponent<Rigidbody2D>();
         cam = GameObject.Find("MainCamera").GetComponent<Camera>();
 
+        //Get Audio Source
+        audioSource = gameObject.GetComponent<AudioSource>();
         //Initialize health
         LoadPlayer();
         try
@@ -137,7 +140,8 @@ public class SnowPrincess : MonoBehaviour
                 {
                     if (Time.timeScale != 0)
                     {
-                        gameObject.GetComponent<AudioSource>().Play();
+                        audioSource.clip = soundPack.audio[0];
+                        audioSource.Play();
                         footstepTime = Time.time + .5f;
                     }
                 }
