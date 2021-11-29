@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Audio;
 
 public class EnemyHealth : MonoBehaviour
 {
@@ -17,23 +18,20 @@ public class EnemyHealth : MonoBehaviour
     public event Action<EnemyHealth> OnDefeat;
     public int group;
 
-    // Start is called before the first frame update
+    public SoundPack damageSound;
+    AudioSource source;
+
     void Start()
     {
         health = initHealth;
+        source = gameObject.GetComponent<AudioSource>();
     }
 
     public void decHealth(int dmg)
     {
+        source.clip = damageSound.audio[0];
+        source.Play();
         OnDmgTaken.Invoke(group); //Tell the game manager that an enemy has taken damage
-        if (onTrench)
-        {
-            if (evadeChance > UnityEngine.Random.Range(0, 99))
-            {
-                print("Miss");
-                return;
-            }
-        }
         health -= dmg;
         hpBar.HP(health);
         if(health <= 0)

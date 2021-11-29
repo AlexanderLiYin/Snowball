@@ -1,0 +1,2218 @@
+Using pre-set license
+Built from '2020.3/release' branch; Version is '2020.3.12f1 (b3b2c6512326) revision 11776710'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19042.1165; Version 2009; 64bit' Language: 'en' Physical Memory: 16263 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.12f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Snowball
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+63740
+Successfully changed project path to: D:/Snowball
+D:/Snowball
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 153.14 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.12f1 (b3b2c6512326)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Snowball/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1060 (ID=0x1c20)
+    Vendor:   
+    VRAM:     6052 MB
+    Driver:   27.21.14.6280
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56340
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001995 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 132.36 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.710 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.008719 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 134.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.508 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 1.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3983 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 182.4 MB.
+System memory in use after: 182.5 MB.
+
+Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 4455.
+Total: 6.600300 ms (FindLiveObjects: 0.333300 ms CreateObjectMapping: 0.181500 ms MarkObjects: 5.882100 ms  DeleteObjects: 0.200600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Scripts/SoundPack.cs
+  artifactKey: Guid(144ebe11b8628124eb7e99c080ef7fd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SoundPack.cs using Guid(144ebe11b8628124eb7e99c080ef7fd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03adfe94c57efce31f07e7547748e03c') in 0.026036 seconds 
+  Import took 0.033977 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006347 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.264 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.66 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3957 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 180.4 MB.
+System memory in use after: 180.4 MB.
+
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 4460.
+Total: 10.835400 ms (FindLiveObjects: 0.501500 ms CreateObjectMapping: 0.395700 ms MarkObjects: 9.758800 ms  DeleteObjects: 0.178000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 60.646141 seconds.
+  path: Assets/Prefab/Boss.prefab
+  artifactKey: Guid(c4d2ee0be5558934387aed008cabad77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Boss.prefab using Guid(c4d2ee0be5558934387aed008cabad77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21f6261cc4d2274c2dbd35a9692d4cc4') in 0.170514 seconds 
+  Import took 0.180006 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/Prefab/SnowPrincess.prefab
+  artifactKey: Guid(3b4c23d0ab299a848bdebd67880e652e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/SnowPrincess.prefab using Guid(3b4c23d0ab299a848bdebd67880e652e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e52170028df33cce3164c66e01616dc') in 0.237216 seconds 
+  Import took 0.249307 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Prefab/Helper.prefab
+  artifactKey: Guid(a71aca8bcba57cc44bc3ae3d81928a0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Helper.prefab using Guid(a71aca8bcba57cc44bc3ae3d81928a0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4be486b5cece9a72d0428b45cba222a3') in 0.036210 seconds 
+  Import took 0.044478 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Prefab/EnemyManager.prefab
+  artifactKey: Guid(dbdb9ced27933c542b1e267fcf1138ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/EnemyManager.prefab using Guid(dbdb9ced27933c542b1e267fcf1138ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25bd70e61d18f1c68129bf046d172a00') in 0.036321 seconds 
+  Import took 0.043972 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Prefab/Snowball.prefab
+  artifactKey: Guid(8165d44a9b9b9cb49b273cc83ec35b29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Snowball.prefab using Guid(8165d44a9b9b9cb49b273cc83ec35b29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dc1bb58eb004837c231a554fd6d8f11') in 0.030283 seconds 
+  Import took 0.037847 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Prefab/Enemy.prefab
+  artifactKey: Guid(8bb84a63041016b40a33fadf8e699dbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Enemy.prefab using Guid(8bb84a63041016b40a33fadf8e699dbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e47188face312c74e3d93ce37c0b306') in 0.039490 seconds 
+  Import took 0.046629 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Prefab/EnemyCaptain.prefab
+  artifactKey: Guid(a51dc6f409592654b849ea578eebf072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/EnemyCaptain.prefab using Guid(a51dc6f409592654b849ea578eebf072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '604548dc4bf6ac19d2a7e6d664c7d828') in 0.031880 seconds 
+  Import took 0.039387 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.606253 seconds.
+  path: Assets/Prefab/Enemy.prefab
+  artifactKey: Guid(8bb84a63041016b40a33fadf8e699dbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Enemy.prefab using Guid(8bb84a63041016b40a33fadf8e699dbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7c66e7d99f1bd06b69737e1d9825b36') in 0.029845 seconds 
+  Import took 0.038957 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Prefab/EnemyManager.prefab
+  artifactKey: Guid(dbdb9ced27933c542b1e267fcf1138ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/EnemyManager.prefab using Guid(dbdb9ced27933c542b1e267fcf1138ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd499073eb1111f2cf9aa900d4e2de849') in 0.031133 seconds 
+  Import took 0.038751 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006555 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.268 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3957 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 184.2 MB.
+System memory in use after: 184.2 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 4473.
+Total: 6.488300 ms (FindLiveObjects: 0.310500 ms CreateObjectMapping: 0.167200 ms MarkObjects: 5.806900 ms  DeleteObjects: 0.202700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 56.809440 seconds.
+  path: Assets/Prefab/Helper.prefab
+  artifactKey: Guid(a71aca8bcba57cc44bc3ae3d81928a0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Helper.prefab using Guid(a71aca8bcba57cc44bc3ae3d81928a0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8787452a4dd44bfb10ad6d7b3dca7a08') in 0.121173 seconds 
+  Import took 0.130020 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/Prefab/EnemyManager.prefab
+  artifactKey: Guid(dbdb9ced27933c542b1e267fcf1138ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/EnemyManager.prefab using Guid(dbdb9ced27933c542b1e267fcf1138ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbafed8f418c07c4b0fa348487da9ef5') in 0.031550 seconds 
+  Import took 0.038602 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/Prefab/Boss.prefab
+  artifactKey: Guid(c4d2ee0be5558934387aed008cabad77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Boss.prefab using Guid(c4d2ee0be5558934387aed008cabad77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03f06eaa518d2fd1012c71c87ab02b5a') in 0.030533 seconds 
+  Import took 0.038007 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Prefab/Enemy.prefab
+  artifactKey: Guid(8bb84a63041016b40a33fadf8e699dbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Enemy.prefab using Guid(8bb84a63041016b40a33fadf8e699dbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91246ab961b5ca263fd46bbec6caf0ac') in 0.028535 seconds 
+  Import took 0.036431 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Prefab/EnemyCaptain.prefab
+  artifactKey: Guid(a51dc6f409592654b849ea578eebf072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/EnemyCaptain.prefab using Guid(a51dc6f409592654b849ea578eebf072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38cf78cb8e40eafb8e3dd26559f44a3b') in 0.030458 seconds 
+  Import took 0.038365 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.378885 seconds.
+  path: Assets/Prefab/Enemy.prefab
+  artifactKey: Guid(8bb84a63041016b40a33fadf8e699dbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Enemy.prefab using Guid(8bb84a63041016b40a33fadf8e699dbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6efd56b262f18d8d47bc851e632abc05') in 0.028133 seconds 
+  Import took 0.036861 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000693 seconds.
+  path: Assets/Prefab/EnemyManager.prefab
+  artifactKey: Guid(dbdb9ced27933c542b1e267fcf1138ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/EnemyManager.prefab using Guid(dbdb9ced27933c542b1e267fcf1138ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67b5c3d40b0bf117f0827268e703367f') in 0.030743 seconds 
+  Import took 0.038201 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006297 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.268 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3957 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 184.2 MB.
+System memory in use after: 184.3 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 4479.
+Total: 7.284900 ms (FindLiveObjects: 0.352900 ms CreateObjectMapping: 0.165100 ms MarkObjects: 6.580300 ms  DeleteObjects: 0.185600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 101.163393 seconds.
+  path: Assets/Prefab/Enemy.prefab
+  artifactKey: Guid(8bb84a63041016b40a33fadf8e699dbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Enemy.prefab using Guid(8bb84a63041016b40a33fadf8e699dbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20e012b2167156801d0852e0ba55fb39') in 0.136631 seconds 
+  Import took 0.145806 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000582 seconds.
+  path: Assets/Prefab/EnemyManager.prefab
+  artifactKey: Guid(dbdb9ced27933c542b1e267fcf1138ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/EnemyManager.prefab using Guid(dbdb9ced27933c542b1e267fcf1138ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10ced67c906f0921f2b2f9fa46fc01f7') in 0.030348 seconds 
+  Import took 0.038148 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.186764 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_attack_set1_01.wav
+  artifactKey: Guid(b0c0e91349ecc714ebbc31c0297900c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_attack_set1_01.wav using Guid(b0c0e91349ecc714ebbc31c0297900c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99fa2da558f5be5b61dca29dfb3a75fb') in 0.042623 seconds 
+  Import took 0.049644 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_attack_set1_03.wav
+  artifactKey: Guid(78ae48773d9fd1e41a00b6f05be1dedc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_attack_set1_03.wav using Guid(78ae48773d9fd1e41a00b6f05be1dedc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ae4987242ad2171f208c775a3dc8f68') in 0.014905 seconds 
+  Import took 0.022301 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_attack_set4_07.wav
+  artifactKey: Guid(4ef8bede7d1ecce4c813d8a714f85769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_attack_set4_07.wav using Guid(4ef8bede7d1ecce4c813d8a714f85769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b50d00d878648385e6a83cb4181e443') in 0.014906 seconds 
+  Import took 0.021928 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_battle_shout_long_03.wav
+  artifactKey: Guid(4cbda1d268ec6484ea153c789cf43167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_battle_shout_long_03.wav using Guid(4cbda1d268ec6484ea153c789cf43167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eea5e7d8412e1bef73b60114e3bed918') in 0.014932 seconds 
+  Import took 0.022877 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_battle_shout_short_15.wav
+  artifactKey: Guid(1fb2e959926398a4bbcd769da633111a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_battle_shout_short_15.wav using Guid(1fb2e959926398a4bbcd769da633111a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5dfb691681119ccd5e1c20b0ba5307e') in 0.016238 seconds 
+  Import took 0.023065 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_attack_set3_06.wav
+  artifactKey: Guid(435db40c270f94646a62b20622f7b5ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_attack_set3_06.wav using Guid(435db40c270f94646a62b20622f7b5ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '961500d696eb766a538bfe3ce109bf85') in 0.016948 seconds 
+  Import took 0.024358 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_attack_set4_04.wav
+  artifactKey: Guid(c95465183b6aa71488102cc42ea1a4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_attack_set4_04.wav using Guid(c95465183b6aa71488102cc42ea1a4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f14b762341506e16b1a7fecbc50ee3f') in 0.015049 seconds 
+  Import took 0.022171 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_attack_set4_05.wav
+  artifactKey: Guid(b78867c61eedab84d87f2a886408c05b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_attack_set4_05.wav using Guid(b78867c61eedab84d87f2a886408c05b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05810d354db6e9cc8f0e58285ed67aaf') in 0.017068 seconds 
+  Import took 0.024439 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_battle_shout_long_01.wav
+  artifactKey: Guid(67364fc46ff01f24ba5cb91ef6c88ec6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_battle_shout_long_01.wav using Guid(67364fc46ff01f24ba5cb91ef6c88ec6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0845dc38f17a13531c81242e42ec634d') in 0.014286 seconds 
+  Import took 0.020932 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_attack_set3_03.wav
+  artifactKey: Guid(af818e3d0136c3a41b0acefa94d3fcb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_attack_set3_03.wav using Guid(af818e3d0136c3a41b0acefa94d3fcb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ba594e1920dceae8e00a1a777647077') in 0.013502 seconds 
+  Import took 0.020214 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_attack_set1_06.wav
+  artifactKey: Guid(c93da4f61c55a7b46a76ef10f3cfa277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_attack_set1_06.wav using Guid(c93da4f61c55a7b46a76ef10f3cfa277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd783e55beed03aff32e301eefda05539') in 0.013532 seconds 
+  Import took 0.020962 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_battle_shout_short_07.wav
+  artifactKey: Guid(c294757191e054241bfa29b310aef410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_battle_shout_short_07.wav using Guid(c294757191e054241bfa29b310aef410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce825420a04753fda910acc67bf03175') in 0.013660 seconds 
+  Import took 0.020745 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_battle_shout_short_03.wav
+  artifactKey: Guid(328cfb544ee73464b9fdd317ea23b0e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_battle_shout_short_03.wav using Guid(328cfb544ee73464b9fdd317ea23b0e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d7d7af513e80de586c02d2522d8450b') in 0.014628 seconds 
+  Import took 0.021749 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_battle_shout_long_11.wav
+  artifactKey: Guid(4f3c6635f6c7d2a45a669ea3cd26733a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_battle_shout_long_11.wav using Guid(4f3c6635f6c7d2a45a669ea3cd26733a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f16bcbf85dccb7b6fe1cb039039da7fd') in 0.016096 seconds 
+  Import took 0.022516 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_attack_set3_05.wav
+  artifactKey: Guid(474edb055cea1db4c87401b1ab4ba348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_attack_set3_05.wav using Guid(474edb055cea1db4c87401b1ab4ba348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6e6d7126d2ab91857a9f01ad5849134') in 0.013390 seconds 
+  Import took 0.020865 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_battle_shout_long_05.wav
+  artifactKey: Guid(37c8d90d70ae15b4582f8286ce8c1d46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_battle_shout_long_05.wav using Guid(37c8d90d70ae15b4582f8286ce8c1d46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6128e4a2c8e7b15a0d12051a8f368c7f') in 0.014723 seconds 
+  Import took 0.022124 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_battle_shout_long_12.wav
+  artifactKey: Guid(774bbfaafdc313c498def481f87bec5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_battle_shout_long_12.wav using Guid(774bbfaafdc313c498def481f87bec5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e82bae5bf8596b63426f184143563c1') in 0.014779 seconds 
+  Import took 0.022071 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_attack_set4_06.wav
+  artifactKey: Guid(841b5bb933747db4e9a2b07355c1ca50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_attack_set4_06.wav using Guid(841b5bb933747db4e9a2b07355c1ca50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fdc9a6e0f8c48d627d92ca5b8b602d5') in 0.012957 seconds 
+  Import took 0.019706 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_battle_shout_long_06.wav
+  artifactKey: Guid(aa2dacd2c92d60448a00f412745e3a50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_battle_shout_long_06.wav using Guid(aa2dacd2c92d60448a00f412745e3a50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd01f94a1cf1377581148d69ed19f9524') in 0.013592 seconds 
+  Import took 0.020697 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_attack_set3_07.wav
+  artifactKey: Guid(e32363191cdf54a40a17829dac8b0d20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_attack_set3_07.wav using Guid(e32363191cdf54a40a17829dac8b0d20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6a4c4726b35abb43f72e486e0738fb5') in 0.013043 seconds 
+  Import took 0.020008 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_battle_shout_short_12.wav
+  artifactKey: Guid(c4eec15d88fd8b6498d16af5ae59f882) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_battle_shout_short_12.wav using Guid(c4eec15d88fd8b6498d16af5ae59f882) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6648c724a43d7bb7d18c2204ee32bebd') in 0.014220 seconds 
+  Import took 0.021263 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_battle_shout_long_08.wav
+  artifactKey: Guid(f09d9c68dd66e4d44a2699f0e8620d42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_battle_shout_long_08.wav using Guid(f09d9c68dd66e4d44a2699f0e8620d42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c712694c37400667d3fbf4bf61d61c0') in 0.013799 seconds 
+  Import took 0.020736 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_breath_pant_03.wav
+  artifactKey: Guid(81375c675ef5cca418ade67afa0d8afd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_breath_pant_03.wav using Guid(81375c675ef5cca418ade67afa0d8afd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d00a7839c2caa5bd1a78858dd6f77a8') in 0.014973 seconds 
+  Import took 0.022713 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_attack_set1_04.wav
+  artifactKey: Guid(6bf43fb611445e24faea837b56fbdaf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_attack_set1_04.wav using Guid(6bf43fb611445e24faea837b56fbdaf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97e99c8990b6ff31b8cdcd8b9bd05cc5') in 0.013249 seconds 
+  Import took 0.021066 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_breath_pant_01.wav
+  artifactKey: Guid(1bcca0974c7e252429845dd7f682a9b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_breath_pant_01.wav using Guid(1bcca0974c7e252429845dd7f682a9b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61b02fe376580faa0f288af5b4430273') in 0.016605 seconds 
+  Import took 0.024432 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_battle_shout_long_13.wav
+  artifactKey: Guid(b8df261e457eed94c85ec03a7883de16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_battle_shout_long_13.wav using Guid(b8df261e457eed94c85ec03a7883de16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af91d05d70a91488babd56800d1d30e1') in 0.014931 seconds 
+  Import took 0.021661 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_attack_set1_02.wav
+  artifactKey: Guid(8b903081e26d3ae49b6df8a7567a2f67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_attack_set1_02.wav using Guid(8b903081e26d3ae49b6df8a7567a2f67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b69ba11443f3a07619ebc9856054d22') in 0.014572 seconds 
+  Import took 0.021501 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_battle_shout_short_09.wav
+  artifactKey: Guid(a6b6efb316b70464c90d7aa0d632553b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_battle_shout_short_09.wav using Guid(a6b6efb316b70464c90d7aa0d632553b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1e295bd9345c6edd42c7de8b173b54c') in 0.014193 seconds 
+  Import took 0.021417 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_attack_set2_02.wav
+  artifactKey: Guid(6f4ae06d5e04e1b4cb40661ab02b2d0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_attack_set2_02.wav using Guid(6f4ae06d5e04e1b4cb40661ab02b2d0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0dd7a592736f25fb613bcd7b85f042e') in 0.014573 seconds 
+  Import took 0.022662 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_attack_set1_05.wav
+  artifactKey: Guid(ef85615f5a2a9284ab5d5905a0f14cc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_attack_set1_05.wav using Guid(ef85615f5a2a9284ab5d5905a0f14cc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2382a8878b03d04e8ad66ba757b7706d') in 0.015051 seconds 
+  Import took 0.022370 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_battle_shout_long_04.wav
+  artifactKey: Guid(d81dd4e1afb1b094f982e6c972d46672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_battle_shout_long_04.wav using Guid(d81dd4e1afb1b094f982e6c972d46672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67cd64bdf08c89c7a6524fe4339dcc74') in 0.014189 seconds 
+  Import took 0.021803 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_attack_set3_08.wav
+  artifactKey: Guid(a38e007fb425c8046ab848e778ad9887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_attack_set3_08.wav using Guid(a38e007fb425c8046ab848e778ad9887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0207590568c30eda3d725eeaac314b5') in 0.014290 seconds 
+  Import took 0.021156 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_attack_set3_04.wav
+  artifactKey: Guid(3a7dfa93df464eb4bbae5c0259c2102c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_attack_set3_04.wav using Guid(3a7dfa93df464eb4bbae5c0259c2102c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '104f6739ef4e706b103cb2d3141f5513') in 0.013717 seconds 
+  Import took 0.021092 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_battle_shout_short_01.wav
+  artifactKey: Guid(eee895bc3a84d4148b13e2269a933d82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_battle_shout_short_01.wav using Guid(eee895bc3a84d4148b13e2269a933d82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '179b5c1dc076a25cb62adaef616d45f9') in 0.013964 seconds 
+  Import took 0.021537 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_attack_set3_02.wav
+  artifactKey: Guid(207f31308a225c04bb663c792a3bd4af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_attack_set3_02.wav using Guid(207f31308a225c04bb663c792a3bd4af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c2cf38796d9e75a32b8520ed1cbec8a') in 0.015042 seconds 
+  Import took 0.022169 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_attack_set2_03.wav
+  artifactKey: Guid(b5d1ca5a0016d4b4ebb9dd9aab590740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_attack_set2_03.wav using Guid(b5d1ca5a0016d4b4ebb9dd9aab590740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6330fe69d14bc45209d5ccb603e6a23c') in 0.013909 seconds 
+  Import took 0.021429 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_attack_set3_01.wav
+  artifactKey: Guid(b9ac893ec9c73e949bc22b5b36775be4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_attack_set3_01.wav using Guid(b9ac893ec9c73e949bc22b5b36775be4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1b475aeb0a0c33b29dab0f87930c65b') in 0.014531 seconds 
+  Import took 0.021334 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_attack_set4_02.wav
+  artifactKey: Guid(7b64629619d7ce241b33f20688b316b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_attack_set4_02.wav using Guid(7b64629619d7ce241b33f20688b316b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5d3968b2dac4f4aa877348ae6d9f27e') in 0.014310 seconds 
+  Import took 0.020667 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_battle_shout_short_06.wav
+  artifactKey: Guid(8173310853c89484e827c10e285eb2a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_battle_shout_short_06.wav using Guid(8173310853c89484e827c10e285eb2a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa971201059ba1f3ddf63ff610c9d7df') in 0.013619 seconds 
+  Import took 0.020752 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_battle_shout_long_09.wav
+  artifactKey: Guid(233be9c4e60757548b59db1122f024bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_battle_shout_long_09.wav using Guid(233be9c4e60757548b59db1122f024bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23edcd7d4bf94f8b5dc579db726eb74d') in 0.013684 seconds 
+  Import took 0.021027 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_battle_shout_short_11.wav
+  artifactKey: Guid(23d7e6d0aa0540f46b07dbb1cb274e3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_battle_shout_short_11.wav using Guid(23d7e6d0aa0540f46b07dbb1cb274e3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fe86dadbce9846f80b3cdd2faf94a3d') in 0.014313 seconds 
+  Import took 0.021064 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_attack_set2_01.wav
+  artifactKey: Guid(bc882f1b6be10a044a44c93c8796e4a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_attack_set2_01.wav using Guid(bc882f1b6be10a044a44c93c8796e4a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '439422bcb07f6ea386bb1358f8a59266') in 0.013486 seconds 
+  Import took 0.020464 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_battle_shout_short_05.wav
+  artifactKey: Guid(f47b83da737f86e45a2311a572159147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_battle_shout_short_05.wav using Guid(f47b83da737f86e45a2311a572159147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1797ec967d074ffba05f14b3aa44526a') in 0.013957 seconds 
+  Import took 0.020629 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_battle_shout_short_13.wav
+  artifactKey: Guid(f03f68dd0c54d144bb48fdadff01757e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_battle_shout_short_13.wav using Guid(f03f68dd0c54d144bb48fdadff01757e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08e69a8e08bb1b3c4881971c106d9c10') in 0.014014 seconds 
+  Import took 0.020830 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_attack_set2_04.wav
+  artifactKey: Guid(972735a78b7384f49a3e46ab6594bab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_attack_set2_04.wav using Guid(972735a78b7384f49a3e46ab6594bab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98d3eea577525fb195db4dcfd42891b4') in 0.014395 seconds 
+  Import took 0.021129 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_battle_shout_short_08.wav
+  artifactKey: Guid(7e23b4bb919445d49826c8bc999fbd81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_battle_shout_short_08.wav using Guid(7e23b4bb919445d49826c8bc999fbd81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '769750b0ea5e107841117deff699bb12') in 0.014327 seconds 
+  Import took 0.021654 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_battle_shout_long_14.wav
+  artifactKey: Guid(ac51bd8e5b4719b42b0720b7fec3fc09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_battle_shout_long_14.wav using Guid(ac51bd8e5b4719b42b0720b7fec3fc09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e10f02db6373353381a8cb7ec08db34') in 0.014744 seconds 
+  Import took 0.022025 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_attack_set2_08.wav
+  artifactKey: Guid(b0da35a579b06ae43aae0e691922de2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_attack_set2_08.wav using Guid(b0da35a579b06ae43aae0e691922de2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03a5ed8f475b596482b1befda0832572') in 0.013409 seconds 
+  Import took 0.020418 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_battle_shout_long_10.wav
+  artifactKey: Guid(883554768727132459dba6f0d2b25920) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_battle_shout_long_10.wav using Guid(883554768727132459dba6f0d2b25920) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba658920069a25a6fe81f7e9ba5497eb') in 0.013566 seconds 
+  Import took 0.020742 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_battle_laugh_01.wav
+  artifactKey: Guid(98bb885141500d44abe5794fd4f61044) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_battle_laugh_01.wav using Guid(98bb885141500d44abe5794fd4f61044) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '390b3386733c2fcb5c77979e56007933') in 0.014192 seconds 
+  Import took 0.021266 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_attack_set2_07.wav
+  artifactKey: Guid(1f258a77f2a372d44b4d6ffd15bc0df8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_attack_set2_07.wav using Guid(1f258a77f2a372d44b4d6ffd15bc0df8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b6bb92b1c49e5abb73797f8215de5dc') in 0.013710 seconds 
+  Import took 0.021153 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_battle_shout_long_15.wav
+  artifactKey: Guid(0caed8320faf8cd4bafff0c528d9a638) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_battle_shout_long_15.wav using Guid(0caed8320faf8cd4bafff0c528d9a638) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2901508240e3571688e2048f1c63ecf') in 0.013795 seconds 
+  Import took 0.020745 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_attack_set4_03.wav
+  artifactKey: Guid(74fc4cc3cd1020840bfe6152b9295e82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_attack_set4_03.wav using Guid(74fc4cc3cd1020840bfe6152b9295e82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97e85df04bde0402938a72d40007858a') in 0.014247 seconds 
+  Import took 0.021407 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_attack_set1_07.wav
+  artifactKey: Guid(3f3056508e0dbcf4fa27b1ca351178bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_attack_set1_07.wav using Guid(3f3056508e0dbcf4fa27b1ca351178bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31b2056e7dcc919f81d8defa367290e1') in 0.014234 seconds 
+  Import took 0.021226 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_battle_laugh_02.wav
+  artifactKey: Guid(92d1fc29cf924ec4db9f7ff1e4b68862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_battle_laugh_02.wav using Guid(92d1fc29cf924ec4db9f7ff1e4b68862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6dd0986a9125a61c393eda89e7f6e92') in 0.014050 seconds 
+  Import took 0.020976 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000326 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_attack_set2_06.wav
+  artifactKey: Guid(9821a647fcb034c44b8e056f7ef7133d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_attack_set2_06.wav using Guid(9821a647fcb034c44b8e056f7ef7133d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '093dd8cacc24cd6e489657a02c16d43e') in 0.013817 seconds 
+  Import took 0.020727 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_attack_set4_01.wav
+  artifactKey: Guid(b06e3508a893fff4db08dd566c5a2755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_attack_set4_01.wav using Guid(b06e3508a893fff4db08dd566c5a2755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ef0767702004188793252cec04db8b1') in 0.012387 seconds 
+  Import took 0.019383 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_battle_shout_short_10.wav
+  artifactKey: Guid(4f60190eab4d415488c6dc202d48031b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_battle_shout_short_10.wav using Guid(4f60190eab4d415488c6dc202d48031b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '396d969b3e8f0b0276105d0049dd83e6') in 0.013551 seconds 
+  Import took 0.020313 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_battle_shout_short_04.wav
+  artifactKey: Guid(6eb0fa628c176c048b979d6d937eb562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_battle_shout_short_04.wav using Guid(6eb0fa628c176c048b979d6d937eb562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6719532b3f4323612a4328eab8785e54') in 0.012740 seconds 
+  Import took 0.019087 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_battle_shout_short_14.wav
+  artifactKey: Guid(17511693eac3979478da048b02b107c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_battle_shout_short_14.wav using Guid(17511693eac3979478da048b02b107c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5922f867c1ae491fa439f3c147adae25') in 0.013770 seconds 
+  Import took 0.021299 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_battle_shout_short_02.wav
+  artifactKey: Guid(a3319db3f9d95ae4796321972fa123a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_battle_shout_short_02.wav using Guid(a3319db3f9d95ae4796321972fa123a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2bd09133cc144ad8fadf68fa4a8ee01') in 0.013214 seconds 
+  Import took 0.020406 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_attack_set2_05.wav
+  artifactKey: Guid(0dc3c9b36ca3de94cb32e5b1de3ccabb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_attack_set2_05.wav using Guid(0dc3c9b36ca3de94cb32e5b1de3ccabb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad951f236d18ec0f61a4dab3b6c4bf96') in 0.013521 seconds 
+  Import took 0.020596 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_battle_shout_long_07.wav
+  artifactKey: Guid(99a2e8d7bee702c438353210f7657dc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_battle_shout_long_07.wav using Guid(99a2e8d7bee702c438353210f7657dc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdf46949460b2da7476065568c9009e0') in 0.012966 seconds 
+  Import took 0.019911 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_breath_pant_02.wav
+  artifactKey: Guid(9018dc284af3a5e41b954b094472f075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_breath_pant_02.wav using Guid(9018dc284af3a5e41b954b094472f075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b648c7f1b9da11c97fc68f1fb9a9e33') in 0.014529 seconds 
+  Import took 0.022689 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000463 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_battle_shout_long_02.wav
+  artifactKey: Guid(0a2a3a69830b865449c975bfa15c1008) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_battle_shout_long_02.wav using Guid(0a2a3a69830b865449c975bfa15c1008) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f32c3f9c4496f48ae74ef8854850cdb') in 0.019460 seconds 
+  Import took 0.029957 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.902192 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_hurt_pain_comedy_01.wav
+  artifactKey: Guid(cf32bddc37ad3f04589f5caf0a6543df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_hurt_pain_comedy_01.wav using Guid(cf32bddc37ad3f04589f5caf0a6543df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9789f622b8917bedcf2fa875cbdc0295') in 0.014631 seconds 
+  Import took 0.021625 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_hurt_pain_set_2_12.wav
+  artifactKey: Guid(c28db8357edefe84fb009fd05b138589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_hurt_pain_set_2_12.wav using Guid(c28db8357edefe84fb009fd05b138589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0415c8da2ec5de28b1c3fb2ccb5771cd') in 0.014084 seconds 
+  Import took 0.021032 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_hurt_pain_set_2_14.wav
+  artifactKey: Guid(47b3d858a6199254daafaa5e5f7f144b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_hurt_pain_set_2_14.wav using Guid(47b3d858a6199254daafaa5e5f7f144b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87f832da7294e9edf2cd9d3a7f774d76') in 0.014122 seconds 
+  Import took 0.021215 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_hurt_pain_set_2_04.wav
+  artifactKey: Guid(094429fa82b27d04c864f2ae1174656e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_hurt_pain_set_2_04.wav using Guid(094429fa82b27d04c864f2ae1174656e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bb0e82c2ec30006025d5c7c0763c747') in 0.013869 seconds 
+  Import took 0.021168 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_hurt_pain_set_3_02.wav
+  artifactKey: Guid(30d284e82aace5d419ed9318deb022e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_hurt_pain_set_3_02.wav using Guid(30d284e82aace5d419ed9318deb022e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bcb9b13895eaf16af5d08b15c10399d') in 0.014657 seconds 
+  Import took 0.022214 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_hurt_pain_set_1_05.wav
+  artifactKey: Guid(d510abe649bb2d341937da9a676b4d37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_hurt_pain_set_1_05.wav using Guid(d510abe649bb2d341937da9a676b4d37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7c1542f2df806f44df19bad063cc50a') in 0.014663 seconds 
+  Import took 0.021450 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_hurt_pain_set_2_01.wav
+  artifactKey: Guid(a29a76f9483c3f149960c2f3277ad9fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_hurt_pain_set_2_01.wav using Guid(a29a76f9483c3f149960c2f3277ad9fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff952f8dbd9067782f4f8a1d1098d8ae') in 0.015748 seconds 
+  Import took 0.022670 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_hurt_pain_set_1_07.wav
+  artifactKey: Guid(8bd6f2e48902a11439f70f9e32e72e7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_hurt_pain_set_1_07.wav using Guid(8bd6f2e48902a11439f70f9e32e72e7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be7e0866bf468adc3ead8afca1cdad6d') in 0.014474 seconds 
+  Import took 0.021838 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_hurt_pain_set_5_06.wav
+  artifactKey: Guid(f9a645cc096de8c45bd0145160d6de29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_hurt_pain_set_5_06.wav using Guid(f9a645cc096de8c45bd0145160d6de29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95d28048c76c57eafb501d12e818dd27') in 0.015303 seconds 
+  Import took 0.022831 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_hurt_pain_set_5_21.wav
+  artifactKey: Guid(1221398e3bbc49a4c85e2fa3d4741784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_hurt_pain_set_5_21.wav using Guid(1221398e3bbc49a4c85e2fa3d4741784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f81f5bc9b551475e55c3f8d021125c7') in 0.014067 seconds 
+  Import took 0.021213 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_hurt_pain_set_4_03.wav
+  artifactKey: Guid(d45f156b63814ef42a79e9bd2cf5c9f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_hurt_pain_set_4_03.wav using Guid(d45f156b63814ef42a79e9bd2cf5c9f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3cbed12638506bc11db6243737e365c') in 0.017372 seconds 
+  Import took 0.025378 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_hurt_pain_set_4_05.wav
+  artifactKey: Guid(e5558064b2ae6f547a18c0d26fb46da2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_hurt_pain_set_4_05.wav using Guid(e5558064b2ae6f547a18c0d26fb46da2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '293c8366ff5f2d04bb3a082ca956bbb0') in 0.014641 seconds 
+  Import took 0.023179 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_hurt_pain_set_4_01.wav
+  artifactKey: Guid(d6ade51e5cb069e47bc6015effefca51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_hurt_pain_set_4_01.wav using Guid(d6ade51e5cb069e47bc6015effefca51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e9912637537fda8c36d34c956e8d847') in 0.014519 seconds 
+  Import took 0.022254 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_hurt_pain_set_2_11.wav
+  artifactKey: Guid(571bff446f4679b4db75fc2d8411ce7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_hurt_pain_set_2_11.wav using Guid(571bff446f4679b4db75fc2d8411ce7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4195041840b5c2c75480cea9721f901c') in 0.016517 seconds 
+  Import took 0.023890 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_hurt_pain_set_5_13.wav
+  artifactKey: Guid(a448edc28e164d149a95e0706f4e1894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_hurt_pain_set_5_13.wav using Guid(a448edc28e164d149a95e0706f4e1894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b106b2679d8055fc1b7c481d5988995d') in 0.014933 seconds 
+  Import took 0.022066 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_hurt_pain_set_5_04.wav
+  artifactKey: Guid(cdb21a4ceefc0c54e8c92574c3e923b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_hurt_pain_set_5_04.wav using Guid(cdb21a4ceefc0c54e8c92574c3e923b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff389fff8a0986a6a71ca863f1268227') in 0.014545 seconds 
+  Import took 0.022035 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_hurt_pain_set_5_03.wav
+  artifactKey: Guid(9806922f2e589ac48b7902a5701e2227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_hurt_pain_set_5_03.wav using Guid(9806922f2e589ac48b7902a5701e2227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49c08c4118a5e0b8b2b5c52f342232b8') in 0.015670 seconds 
+  Import took 0.022963 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_hurt_pain_set_5_01.wav
+  artifactKey: Guid(2d98aa893e5b6694cbb991de6e889b61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_hurt_pain_set_5_01.wav using Guid(2d98aa893e5b6694cbb991de6e889b61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e7c52ec59ba03c7817397a6bc7279a1') in 0.014513 seconds 
+  Import took 0.021036 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_hurt_pain_set_2_05.wav
+  artifactKey: Guid(47bc84329f94a5e4da3d94d5f3684562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_hurt_pain_set_2_05.wav using Guid(47bc84329f94a5e4da3d94d5f3684562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64a2d9412ed26f145038cb1dbc662530') in 0.015663 seconds 
+  Import took 0.022913 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_hurt_pain_set_5_12.wav
+  artifactKey: Guid(d8ac134eaa81a6745bd777b47d8d7677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_hurt_pain_set_5_12.wav using Guid(d8ac134eaa81a6745bd777b47d8d7677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d5c39bd89fbae4f409f07c47b18aa90') in 0.014237 seconds 
+  Import took 0.021530 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_hurt_pain_set_4_04.wav
+  artifactKey: Guid(ba8b2b7261ba56940ae45dce042f4e85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_hurt_pain_set_4_04.wav using Guid(ba8b2b7261ba56940ae45dce042f4e85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '791a323c7a2be223603be8eafa05b465') in 0.015386 seconds 
+  Import took 0.022346 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_hurt_pain_set_5_18.wav
+  artifactKey: Guid(f70db45555d94de4189559869e134446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_hurt_pain_set_5_18.wav using Guid(f70db45555d94de4189559869e134446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aff553f0f9059f1d4571aa6828c5052') in 0.013655 seconds 
+  Import took 0.021358 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_hurt_pain_set_2_08.wav
+  artifactKey: Guid(1dcefcf3615950a409f7813548b703e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_hurt_pain_set_2_08.wav using Guid(1dcefcf3615950a409f7813548b703e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23bd36a3ac3d7650521cc822a36a70d4') in 0.014466 seconds 
+  Import took 0.021500 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_hurt_pain_set_1_01.wav
+  artifactKey: Guid(00c97f0fdb8e06a43b77a6d37525805c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_hurt_pain_set_1_01.wav using Guid(00c97f0fdb8e06a43b77a6d37525805c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86f944d45b9c13c5c35aaefb27799576') in 0.014339 seconds 
+  Import took 0.020856 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_hurt_pain_set_2_03.wav
+  artifactKey: Guid(4f2afeafdc847114ab975a123677f61e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_hurt_pain_set_2_03.wav using Guid(4f2afeafdc847114ab975a123677f61e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eae10595a7ef142952b31f7d8d07bac7') in 0.015613 seconds 
+  Import took 0.022546 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_hurt_pain_set_5_10.wav
+  artifactKey: Guid(ac09b3bca0232314a9886d868470dadd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_hurt_pain_set_5_10.wav using Guid(ac09b3bca0232314a9886d868470dadd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b421acc2c2e73d9e69908cf1f6ba50f') in 0.015117 seconds 
+  Import took 0.022278 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_hurt_pain_set_2_09.wav
+  artifactKey: Guid(f807152f5f6510d42bf22ac7120b5600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_hurt_pain_set_2_09.wav using Guid(f807152f5f6510d42bf22ac7120b5600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5de71be6d860259dfbdfdf650c240107') in 0.013885 seconds 
+  Import took 0.021798 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_hurt_pain_set_5_19.wav
+  artifactKey: Guid(cb253e5bf55c00b4699981b0bab5edc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_hurt_pain_set_5_19.wav using Guid(cb253e5bf55c00b4699981b0bab5edc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3586ecbc1ddf1723bc81d200380cefc') in 0.014766 seconds 
+  Import took 0.022439 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_hurt_pain_set_1_02.wav
+  artifactKey: Guid(dab1dedc21abcc642aedb832d56838c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_hurt_pain_set_1_02.wav using Guid(dab1dedc21abcc642aedb832d56838c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '650a389bed91f6ab863616c7646fe019') in 0.013679 seconds 
+  Import took 0.020640 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_hurt_pain_set_5_08.wav
+  artifactKey: Guid(03562d997d4d92f4eb71d9a3d64764be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_hurt_pain_set_5_08.wav using Guid(03562d997d4d92f4eb71d9a3d64764be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab66f81e89d30bf07903aeef10c6eebe') in 0.014445 seconds 
+  Import took 0.022420 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_hurt_pain_set_5_20.wav
+  artifactKey: Guid(f522f4215f4bb144f9d7c5170e750812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_hurt_pain_set_5_20.wav using Guid(f522f4215f4bb144f9d7c5170e750812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea8cdb2de91a7dd2be83462e76eae1db') in 0.014502 seconds 
+  Import took 0.022719 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_hurt_pain_set_2_13.wav
+  artifactKey: Guid(88d27b524cea1b1459d947e48bcbef04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_hurt_pain_set_2_13.wav using Guid(88d27b524cea1b1459d947e48bcbef04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb1024330c2253eace111b93fdc0d0d2') in 0.013758 seconds 
+  Import took 0.020785 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_hurt_pain_set_5_17.wav
+  artifactKey: Guid(f295653189e1d334290ec546949c07e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_hurt_pain_set_5_17.wav using Guid(f295653189e1d334290ec546949c07e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d49da324fce55a1d2a0dfbd98c7c2bf') in 0.014161 seconds 
+  Import took 0.022923 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_hurt_pain_set_2_07.wav
+  artifactKey: Guid(f7240c261eff5cb4b93bb7134649507f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_hurt_pain_set_2_07.wav using Guid(f7240c261eff5cb4b93bb7134649507f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b123688116ed61eeb89f80b53518d1d8') in 0.022705 seconds 
+  Import took 0.029740 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_hurt_pain_set_3_08.wav
+  artifactKey: Guid(1b1f4575879449a48b6cde7b27f3732b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_hurt_pain_set_3_08.wav using Guid(1b1f4575879449a48b6cde7b27f3732b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35351e7d85bd0f771f18aab022199105') in 0.013620 seconds 
+  Import took 0.020990 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_hurt_pain_set_3_05.wav
+  artifactKey: Guid(226c194b2fef0394cb30d5e1ae97ea46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_hurt_pain_set_3_05.wav using Guid(226c194b2fef0394cb30d5e1ae97ea46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '913796793d5d9f2b318e9e9968cbc430') in 0.014599 seconds 
+  Import took 0.021481 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_hurt_pain_set_1_03.wav
+  artifactKey: Guid(52384f601f12dd34aa4b0446f08deadf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_hurt_pain_set_1_03.wav using Guid(52384f601f12dd34aa4b0446f08deadf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f61cceeab83d1be4edd23a8baee2cbc2') in 0.013936 seconds 
+  Import took 0.021133 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_hurt_pain_set_1_06.wav
+  artifactKey: Guid(ddb35d4e2e3116046a56321b04d3a77f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_hurt_pain_set_1_06.wav using Guid(ddb35d4e2e3116046a56321b04d3a77f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bf03dc9a5c616855462c97fb6d712e2') in 0.015042 seconds 
+  Import took 0.023456 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_hurt_pain_set_3_01.wav
+  artifactKey: Guid(ca4ee218265b74e4aa296b3633a9bd70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_hurt_pain_set_3_01.wav using Guid(ca4ee218265b74e4aa296b3633a9bd70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17a5ba0a28fb0d81fb78cbc9afd56e8d') in 0.018164 seconds 
+  Import took 0.027459 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_hurt_pain_set_2_02.wav
+  artifactKey: Guid(b07638cb7abef7c4f8b6a6d4f97931e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_hurt_pain_set_2_02.wav using Guid(b07638cb7abef7c4f8b6a6d4f97931e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93f95b0e5ecc9f8fa47df57f4ec7518e') in 0.014261 seconds 
+  Import took 0.021892 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_hurt_pain_set_3_04.wav
+  artifactKey: Guid(85c1c752a0a1ae04ba3ad4a212927bbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_hurt_pain_set_3_04.wav using Guid(85c1c752a0a1ae04ba3ad4a212927bbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfa898d197737977812c15ede175e545') in 0.014977 seconds 
+  Import took 0.022315 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_hurt_pain_set_5_02.wav
+  artifactKey: Guid(50e436a718c6e8047b7b2bdf39078720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_hurt_pain_set_5_02.wav using Guid(50e436a718c6e8047b7b2bdf39078720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '944baeab7a7aef4f2471cebde1fd3773') in 0.014345 seconds 
+  Import took 0.021604 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000339 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_hurt_pain_comedy_02.wav
+  artifactKey: Guid(d8de50f9c3ae0a440880e09d5e617759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_hurt_pain_comedy_02.wav using Guid(d8de50f9c3ae0a440880e09d5e617759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95ef714a0978f4bf22c1141afa5e9357') in 0.014895 seconds 
+  Import took 0.024066 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_hurt_pain_set_5_09.wav
+  artifactKey: Guid(1cd5f53bf6ce2244c91b5ec6fdfa4096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_hurt_pain_set_5_09.wav using Guid(1cd5f53bf6ce2244c91b5ec6fdfa4096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27412f10c3eaed388813620cad6bcf60') in 0.017910 seconds 
+  Import took 0.027874 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_hurt_pain_set_2_10.wav
+  artifactKey: Guid(ef3bc104d51612344bdbcce225b50dbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_hurt_pain_set_2_10.wav using Guid(ef3bc104d51612344bdbcce225b50dbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93a2e39a0a46a475f5ac2ef190fdcc9c') in 0.018505 seconds 
+  Import took 0.026714 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_hurt_pain_set_3_03.wav
+  artifactKey: Guid(fd01a08cbc192da44be8f31b73fda1e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_hurt_pain_set_3_03.wav using Guid(fd01a08cbc192da44be8f31b73fda1e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f293d09ae99dcc4969edfdcb8326dc2') in 0.016623 seconds 
+  Import took 0.024238 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_hurt_pain_set_5_05.wav
+  artifactKey: Guid(23dacf14f4e6d064390ef8ebcf8bab69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_hurt_pain_set_5_05.wav using Guid(23dacf14f4e6d064390ef8ebcf8bab69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f58e0e9b08771fe27d983b1d8a64526') in 0.014574 seconds 
+  Import took 0.021854 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_hurt_pain_set_5_07.wav
+  artifactKey: Guid(688b2111ce9bc264081878063685ba56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_hurt_pain_set_5_07.wav using Guid(688b2111ce9bc264081878063685ba56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c586aca7ffd1b59445c6966ea90aa68d') in 0.016059 seconds 
+  Import took 0.022923 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000369 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_hurt_pain_set_2_06.wav
+  artifactKey: Guid(d11ace905cd85cc4abad9b96a7519f37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_hurt_pain_set_2_06.wav using Guid(d11ace905cd85cc4abad9b96a7519f37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff0183a7da2482fac7f3169b88d621df') in 0.015305 seconds 
+  Import took 0.022343 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_hurt_pain_set_3_06.wav
+  artifactKey: Guid(9c5ec49f45642974b9c17cd69b726542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_hurt_pain_set_3_06.wav using Guid(9c5ec49f45642974b9c17cd69b726542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d5e05f11607c602d798329c510d5b38') in 0.014225 seconds 
+  Import took 0.021245 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_hurt_pain_set_5_11.wav
+  artifactKey: Guid(dd7a7232f5a48914f8a0a883c8063c7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_hurt_pain_set_5_11.wav using Guid(dd7a7232f5a48914f8a0a883c8063c7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dac731da1686c37db6938caef7d68366') in 0.014760 seconds 
+  Import took 0.022530 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_hurt_pain_set_5_14.wav
+  artifactKey: Guid(7773a6468d1f85647a73aa3aba21bbed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_hurt_pain_set_5_14.wav using Guid(7773a6468d1f85647a73aa3aba21bbed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e46e5f2a416eac0061e4f7b6437b9603') in 0.015187 seconds 
+  Import took 0.021976 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_hurt_pain_set_5_16.wav
+  artifactKey: Guid(32f4d9906056f1940bc822cdb62a56f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_hurt_pain_set_5_16.wav using Guid(32f4d9906056f1940bc822cdb62a56f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b59ed8e2e261d6646cca7d1bd50f22e4') in 0.015888 seconds 
+  Import took 0.023877 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_hurt_pain_set_3_07.wav
+  artifactKey: Guid(11bb8ed40cdfcec4eb23ea92738e0bfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_hurt_pain_set_3_07.wav using Guid(11bb8ed40cdfcec4eb23ea92738e0bfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3a780b8d4e11233db7e745416f1fc0c') in 0.014185 seconds 
+  Import took 0.021601 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_hurt_pain_set_5_15.wav
+  artifactKey: Guid(7a33ad011c3a4d44ea0480d6735e85f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_hurt_pain_set_5_15.wav using Guid(7a33ad011c3a4d44ea0480d6735e85f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '377752f37e532944f0fa96184b063481') in 0.014684 seconds 
+  Import took 0.022418 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000427 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_hurt_pain_set_1_04.wav
+  artifactKey: Guid(13102942f203f9b4398ba8d31afb64ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_hurt_pain_set_1_04.wav using Guid(13102942f203f9b4398ba8d31afb64ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b20296181de0f9b9152a48c202c30c19') in 0.018148 seconds 
+  Import took 0.030031 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_hurt_pain_set_4_02.wav
+  artifactKey: Guid(c5f19cf48de7f554f89ec8b1d772015e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_hurt_pain_set_4_02.wav using Guid(c5f19cf48de7f554f89ec8b1d772015e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c594f8d63a5b268ca94ccc362af75383') in 0.016199 seconds 
+  Import took 0.022936 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.403960 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_effort_struggle_03.wav
+  artifactKey: Guid(84c17a7d0198d2446ba6dc71d761376c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_effort_struggle_03.wav using Guid(84c17a7d0198d2446ba6dc71d761376c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11116b9790e5db589e778f2107ae8eb4') in 0.015855 seconds 
+  Import took 0.022670 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_growl_06.wav
+  artifactKey: Guid(b10b8cf885c71e94a80a47100951d0d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_growl_06.wav using Guid(b10b8cf885c71e94a80a47100951d0d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4aa8df4cc66ede8e7d7c168aad4a794e') in 0.018641 seconds 
+  Import took 0.025480 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_growl_05.wav
+  artifactKey: Guid(922de1e7b8e254d4ebf311ca169ad00b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_growl_05.wav using Guid(922de1e7b8e254d4ebf311ca169ad00b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0eef1ba62054a6ef3155166fcb72017') in 0.015348 seconds 
+  Import took 0.022816 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_growl_11.wav
+  artifactKey: Guid(344b230f1c7f68b4e81d8e00900807b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_growl_11.wav using Guid(344b230f1c7f68b4e81d8e00900807b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6687ae948446308dde6332e0d1a23c3') in 0.015815 seconds 
+  Import took 0.023458 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_growl_effort_02.wav
+  artifactKey: Guid(9aada352a7b03654dbbc6c3f542232f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_growl_effort_02.wav using Guid(9aada352a7b03654dbbc6c3f542232f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ff16069fd312cae3a3d3be4046c6d4a') in 0.015898 seconds 
+  Import took 0.022827 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_growl_effort_01.wav
+  artifactKey: Guid(bf8cbcdcab7760e4b8265f5abf054985) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_growl_effort_01.wav using Guid(bf8cbcdcab7760e4b8265f5abf054985) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecfa3f118397fa7cde078354f17ef41a') in 0.014629 seconds 
+  Import took 0.021987 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_growl_10.wav
+  artifactKey: Guid(5852b20f72a4b9a4095dc133da2c9244) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_growl_10.wav using Guid(5852b20f72a4b9a4095dc133da2c9244) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ea43a315c130d4fe1316b3baac83de4') in 0.019098 seconds 
+  Import took 0.026438 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_growl_01.wav
+  artifactKey: Guid(fda4429471291c2438637ae1e1888d8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_growl_01.wav using Guid(fda4429471291c2438637ae1e1888d8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74c46b25fb7fe991c680fe85d8e64b91') in 0.018050 seconds 
+  Import took 0.025250 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_growl_effort_03.wav
+  artifactKey: Guid(c24ea01b0a1745e4282ae2d80f011c55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_growl_effort_03.wav using Guid(c24ea01b0a1745e4282ae2d80f011c55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46be1f46d3544c53cb55116775f05005') in 0.022775 seconds 
+  Import took 0.029716 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_growl_08.wav
+  artifactKey: Guid(d45ae40692309da408f5e7008a8b533b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_growl_08.wav using Guid(d45ae40692309da408f5e7008a8b533b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '415f2a5fbd191357bd0da3dfcb457693') in 0.014473 seconds 
+  Import took 0.021273 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_growl_04.wav
+  artifactKey: Guid(545c57bba7e3cc542b7e8028a49cbbf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_growl_04.wav using Guid(545c57bba7e3cc542b7e8028a49cbbf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbbc02cc6bf7c3ce2c17f840c40562ff') in 0.015753 seconds 
+  Import took 0.022648 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_growl_02.wav
+  artifactKey: Guid(27f5d9f0cb67819468700a90ee78b851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_growl_02.wav using Guid(27f5d9f0cb67819468700a90ee78b851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '446e0540943d582049e18483d86442de') in 0.015314 seconds 
+  Import took 0.021963 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_growl_12.wav
+  artifactKey: Guid(de9f81a58dfe20f4189526d511572400) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_growl_12.wav using Guid(de9f81a58dfe20f4189526d511572400) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72bbc13674b657ea40d463d17c67e114') in 0.013370 seconds 
+  Import took 0.020967 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000351 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_growl_09.wav
+  artifactKey: Guid(58a6162b69cf64542b07ab34e1382938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_growl_09.wav using Guid(58a6162b69cf64542b07ab34e1382938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8eca36dec3ae0d677359f156929946b6') in 0.016233 seconds 
+  Import took 0.023446 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_growl_07.wav
+  artifactKey: Guid(50ffeb28c8382ba42951afbbb35a15e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_growl_07.wav using Guid(50ffeb28c8382ba42951afbbb35a15e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0b51d15d34dd93fef51b286ee3e0856') in 0.015657 seconds 
+  Import took 0.023507 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_growl_03.wav
+  artifactKey: Guid(e4748b1f1def59a41ba2e08b12a101ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male B/voice_male_b_growl_03.wav using Guid(e4748b1f1def59a41ba2e08b12a101ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfab6e68193109685c6a9500224c1d02') in 0.016383 seconds 
+  Import took 0.023429 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.339911 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_breathing_mask_loop_jog_01.wav
+  artifactKey: Guid(fac43e9b294761e4da705f1a961dea7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_breathing_mask_loop_jog_01.wav using Guid(fac43e9b294761e4da705f1a961dea7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b84eaa03f3ce1c2a4ddfa18c65e102d') in 0.017353 seconds 
+  Import took 0.024025 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_coughing_15.wav
+  artifactKey: Guid(a46adb35d45fdb54cabebe48dafb3319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_coughing_15.wav using Guid(a46adb35d45fdb54cabebe48dafb3319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edaa18443598d7460e16c65bcfa1f4f2') in 0.017150 seconds 
+  Import took 0.023700 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_grunt_pain_01.wav
+  artifactKey: Guid(35d2a090569a3124f8b6fec5050fba4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_grunt_pain_01.wav using Guid(35d2a090569a3124f8b6fec5050fba4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75710c958d50f7532b6c57b5c1fb17ca') in 0.017901 seconds 
+  Import took 0.025119 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_coughing_02.wav
+  artifactKey: Guid(04b0f5658231ac34c95990b19d9168f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_coughing_02.wav using Guid(04b0f5658231ac34c95990b19d9168f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d3cf3d263939cda303e246cf7851496') in 0.014674 seconds 
+  Import took 0.021698 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_grunt_pain_10.wav
+  artifactKey: Guid(419ef76064888a24bb6b39acec5f5a8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_grunt_pain_10.wav using Guid(419ef76064888a24bb6b39acec5f5a8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e241eb740b8a1ed55c71e6fab2e3be8') in 0.014786 seconds 
+  Import took 0.021642 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_breathing_mask_loop_run_02.wav
+  artifactKey: Guid(e5435e2fd04598a4ba92b42e8e76f7f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_breathing_mask_loop_run_02.wav using Guid(e5435e2fd04598a4ba92b42e8e76f7f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0754b8162f5056651404d9b981e058db') in 0.023660 seconds 
+  Import took 0.030707 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_coughing_06.wav
+  artifactKey: Guid(d97c14bc851692e408635094bd76533d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_coughing_06.wav using Guid(d97c14bc851692e408635094bd76533d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfd2a332a189f1a9146dfea9ff2cdb91') in 0.018002 seconds 
+  Import took 0.024899 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_coughing_13.wav
+  artifactKey: Guid(90d1f80252b56f1418ba187a3287e877) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_coughing_13.wav using Guid(90d1f80252b56f1418ba187a3287e877) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53db5d1cda77ea1456797b19349eefab') in 0.015965 seconds 
+  Import took 0.022765 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_grunt_pain_12.wav
+  artifactKey: Guid(97e12a40155782948aafb0903bf3c6e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_grunt_pain_12.wav using Guid(97e12a40155782948aafb0903bf3c6e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7383d003a765fa50dab3a8b3e7c1632b') in 0.016993 seconds 
+  Import took 0.024129 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_grunt_pain_08.wav
+  artifactKey: Guid(17996a65320562745b2d1017b55b74fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_grunt_pain_08.wav using Guid(17996a65320562745b2d1017b55b74fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '043e2ec5a9970773e1b33ea9819f50aa') in 0.021506 seconds 
+  Import took 0.029387 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_groan_03.wav
+  artifactKey: Guid(4f5778433d4a72843b35256230b0fd53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_groan_03.wav using Guid(4f5778433d4a72843b35256230b0fd53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb58907832b4e780ca5a6f7cc69d91c6') in 0.017761 seconds 
+  Import took 0.025271 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_coughing_11.wav
+  artifactKey: Guid(f52d67a0dd6130242bb6c10d2d45e647) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_coughing_11.wav using Guid(f52d67a0dd6130242bb6c10d2d45e647) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc677cfa71c9e6f23b64ac2503669d1d') in 0.014810 seconds 
+  Import took 0.021610 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_coughing_choking_01.wav
+  artifactKey: Guid(19c87d065490f154ca0adcefb9b6ae03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_coughing_choking_01.wav using Guid(19c87d065490f154ca0adcefb9b6ae03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b66ba6c29121f25732224a1ef3d4ad06') in 0.015168 seconds 
+  Import took 0.022179 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_grunt_pain_04.wav
+  artifactKey: Guid(1ba225074474cdc4aa9cc1dd63c82969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_grunt_pain_04.wav using Guid(1ba225074474cdc4aa9cc1dd63c82969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb7dddfc10ae358a5685b21152cbc67a') in 0.015319 seconds 
+  Import took 0.022612 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_effort_grunt_05.wav
+  artifactKey: Guid(533e1a92518e8cc42a7d77d9ab993c96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_effort_grunt_05.wav using Guid(533e1a92518e8cc42a7d77d9ab993c96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a44bc455dd4ff61001f187c6aed9c196') in 0.015135 seconds 
+  Import took 0.022606 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_grunt_pain_death_10.wav
+  artifactKey: Guid(94d99e1bca68d8849880be2b67c832e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_grunt_pain_death_10.wav using Guid(94d99e1bca68d8849880be2b67c832e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a37195483104d891b27a8a1e2f07164') in 0.018758 seconds 
+  Import took 0.026658 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_grunt_pain_death_02.wav
+  artifactKey: Guid(7799d597ba031804ca95f3353ce74b44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_grunt_pain_death_02.wav using Guid(7799d597ba031804ca95f3353ce74b44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22d933681d8b13057c5932f04246f003') in 0.020198 seconds 
+  Import took 0.027232 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_effort_grunt_02.wav
+  artifactKey: Guid(0fcdb5469f09fb949a3c8f78d22e7c28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_effort_grunt_02.wav using Guid(0fcdb5469f09fb949a3c8f78d22e7c28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f36cecbb859ccb8d9dfd8d347e09f8f7') in 0.016800 seconds 
+  Import took 0.023931 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_grunt_pain_07.wav
+  artifactKey: Guid(d0f5afc530871d244b86d0e786fd91d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_grunt_pain_07.wav using Guid(d0f5afc530871d244b86d0e786fd91d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c66b5f8121ee25c75ec052fd090007dd') in 0.019095 seconds 
+  Import took 0.026260 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_grunt_pain_11.wav
+  artifactKey: Guid(e2366604374e5ed4684866dd7a41c4d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_grunt_pain_11.wav using Guid(e2366604374e5ed4684866dd7a41c4d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f30a028ce70eb54376dd8df9cde110a7') in 0.014799 seconds 
+  Import took 0.022221 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_grunt_pain_03.wav
+  artifactKey: Guid(0fe22592c58b663419723fc798df90d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_grunt_pain_03.wav using Guid(0fe22592c58b663419723fc798df90d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc1f4f5b8dbb9ca89d0cfc4818f1f8bf') in 0.014859 seconds 
+  Import took 0.021859 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_grunt_pain_05.wav
+  artifactKey: Guid(5d22c87645e20f04f9ba6c364f375cc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_grunt_pain_05.wav using Guid(5d22c87645e20f04f9ba6c364f375cc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3e02688e1143e3449fea32d95aa933f') in 0.016137 seconds 
+  Import took 0.023197 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_coughing_08.wav
+  artifactKey: Guid(a52bc73644976ca439d605571c5c7c12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_coughing_08.wav using Guid(a52bc73644976ca439d605571c5c7c12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcf0becf2e2fda4dcce91490822dcc9b') in 0.016738 seconds 
+  Import took 0.023910 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_grunt_pain_06.wav
+  artifactKey: Guid(daeb2b8dd04ba8b4fbeb708c2b05acc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_grunt_pain_06.wav using Guid(daeb2b8dd04ba8b4fbeb708c2b05acc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb717619e2d95433b2db222ebe6e741e') in 0.014792 seconds 
+  Import took 0.021795 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_coughing_14.wav
+  artifactKey: Guid(506dfa5b4d9e26e4f894af65c7f28288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_coughing_14.wav using Guid(506dfa5b4d9e26e4f894af65c7f28288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '539b9fe5815a62bc767cc6b9635c1216') in 0.017862 seconds 
+  Import took 0.025671 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_grunt_pain_15.wav
+  artifactKey: Guid(f94c837e0c844f440b00264e37f708df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_grunt_pain_15.wav using Guid(f94c837e0c844f440b00264e37f708df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fc8e681bd1f9d092f3fd161ef3412aa') in 0.015786 seconds 
+  Import took 0.023188 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_effort_grunt_06.wav
+  artifactKey: Guid(11ad018ee48009f4e8f7c72b5359383e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_effort_grunt_06.wav using Guid(11ad018ee48009f4e8f7c72b5359383e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '856b0d2f46081ec137729c39329c4a3f') in 0.017428 seconds 
+  Import took 0.024614 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_grunt_pain_13.wav
+  artifactKey: Guid(9500103a3e6328247bef45d04082e47d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_grunt_pain_13.wav using Guid(9500103a3e6328247bef45d04082e47d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df769bff6d57a33c98928e7fb8e44aab') in 0.016603 seconds 
+  Import took 0.023133 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_coughing_12.wav
+  artifactKey: Guid(e4354b8426bffec41ab24c8ae337fd1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_coughing_12.wav using Guid(e4354b8426bffec41ab24c8ae337fd1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bafc4f4ce16c22850b9d9d549c74b10') in 0.016240 seconds 
+  Import took 0.024237 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_grunt_pain_14.wav
+  artifactKey: Guid(9979118f1444a444e837474d22ee2865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_grunt_pain_14.wav using Guid(9979118f1444a444e837474d22ee2865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c18eb0e40096df905a2915115e0b25ea') in 0.014419 seconds 
+  Import took 0.022685 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_coughing_01.wav
+  artifactKey: Guid(bdc6d9969c449974e9a84ef89858f9cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_coughing_01.wav using Guid(bdc6d9969c449974e9a84ef89858f9cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41b4c27aed4c693a88c25b13b8874ac4') in 0.016079 seconds 
+  Import took 0.023285 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_effort_grunt_long_01.wav
+  artifactKey: Guid(5c827170ef1a00b4db9ce5e98b54a928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_effort_grunt_long_01.wav using Guid(5c827170ef1a00b4db9ce5e98b54a928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f20694a50b3cf33da3b1c9b56b9cabb9') in 0.015247 seconds 
+  Import took 0.022695 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_groan_02.wav
+  artifactKey: Guid(de53f1fea1835464688303938fa03d0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_groan_02.wav using Guid(de53f1fea1835464688303938fa03d0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f0199d0f71a995d6522863b1239412b') in 0.018070 seconds 
+  Import took 0.025075 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_groan_01.wav
+  artifactKey: Guid(21575a55e24e64749905ee1eeee55570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_groan_01.wav using Guid(21575a55e24e64749905ee1eeee55570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '080cd9f6e971175774603b286a0f0a16') in 0.014880 seconds 
+  Import took 0.022481 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_effort_grunt_04.wav
+  artifactKey: Guid(0e685dca6441c9d40a38bc3ab55146f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_effort_grunt_04.wav using Guid(0e685dca6441c9d40a38bc3ab55146f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3753eed16854fbaa39ade4ac41ef6015') in 0.014882 seconds 
+  Import took 0.022000 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_grunt_pain_death_03.wav
+  artifactKey: Guid(00d11579e10565f4eae7bd758ae6e010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_grunt_pain_death_03.wav using Guid(00d11579e10565f4eae7bd758ae6e010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03753fbf563074af73dadb2ba7a2e7d3') in 0.020059 seconds 
+  Import took 0.026946 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_coughing_10.wav
+  artifactKey: Guid(a9a578316f5e5004e82339685ee76d98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_coughing_10.wav using Guid(a9a578316f5e5004e82339685ee76d98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2dcee67facc16ee63178f6707d90bbe') in 0.022714 seconds 
+  Import took 0.030885 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_grunt_pain_18.wav
+  artifactKey: Guid(eea88474a851304418ba3bd81a5d7656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_grunt_pain_18.wav using Guid(eea88474a851304418ba3bd81a5d7656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cec9473fd9af155db20f3db25cabc3e5') in 0.015019 seconds 
+  Import took 0.022060 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_coughing_03.wav
+  artifactKey: Guid(fe5bf8e0f0b6a8846ac7c59a613fbc46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_coughing_03.wav using Guid(fe5bf8e0f0b6a8846ac7c59a613fbc46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aff353651d5b4dd88fae23b4ed823678') in 0.015100 seconds 
+  Import took 0.022270 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_breathing_mask_loop_walk_jog_02.wav
+  artifactKey: Guid(c1a51c5bba169a947b992fe41bd7d7c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_breathing_mask_loop_walk_jog_02.wav using Guid(c1a51c5bba169a947b992fe41bd7d7c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a5f5a30eeac29e110dddeef6b1a9ccc') in 0.019018 seconds 
+  Import took 0.026045 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_effort_grunt_03.wav
+  artifactKey: Guid(1782af71669078543b8aee1152d60526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_effort_grunt_03.wav using Guid(1782af71669078543b8aee1152d60526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8278765eb2deede558ac5e92ffae4fbe') in 0.019391 seconds 
+  Import took 0.026796 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_effort_grunt_long_03.wav
+  artifactKey: Guid(210518f8395269a4fb6a29c62b0c5c6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_effort_grunt_long_03.wav using Guid(210518f8395269a4fb6a29c62b0c5c6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0b5e3b3903cdf2bd104632cd5fe744b') in 0.018566 seconds 
+  Import took 0.025217 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_grunt_pain_death_06.wav
+  artifactKey: Guid(fbd190c0e5369b04989cba45f372d8fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_grunt_pain_death_06.wav using Guid(fbd190c0e5369b04989cba45f372d8fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4340bfefc311aa4d3e191cc45920ffd') in 0.017968 seconds 
+  Import took 0.025592 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_breathing_mask_loop_walk_jog_01.wav
+  artifactKey: Guid(1f87c2e869871ab44bb7c353e09b2253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_breathing_mask_loop_walk_jog_01.wav using Guid(1f87c2e869871ab44bb7c353e09b2253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bad4a3d392c0a7a5f6140993415b6ec8') in 0.014455 seconds 
+  Import took 0.022122 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_grunt_pain_death_05.wav
+  artifactKey: Guid(947cf37489086284ba3919d06078807b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_grunt_pain_death_05.wav using Guid(947cf37489086284ba3919d06078807b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bd0179a23f853a499c1784114eb79a9') in 0.015222 seconds 
+  Import took 0.023022 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_coughing_05.wav
+  artifactKey: Guid(85fe438de011dcb418775748811a684f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_coughing_05.wav using Guid(85fe438de011dcb418775748811a684f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfc7ce7d04ff283ecd7d5c824d836758') in 0.015111 seconds 
+  Import took 0.021863 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_groan_04.wav
+  artifactKey: Guid(9ea23aff255cd634faaa01304927fe2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_groan_04.wav using Guid(9ea23aff255cd634faaa01304927fe2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fa203fafeabaac8eb8768d357fa2719') in 0.017492 seconds 
+  Import took 0.024619 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_soldier_enemy_inbound_01.wav
+  artifactKey: Guid(948a1209bed84f64fb1a45ca20cbee65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_soldier_enemy_inbound_01.wav using Guid(948a1209bed84f64fb1a45ca20cbee65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '345bfee722055a21476665fa5722ed61') in 0.016367 seconds 
+  Import took 0.023693 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_soldier_fire_02.wav
+  artifactKey: Guid(5bc662668f492da4587fca3204c09c6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_soldier_fire_02.wav using Guid(5bc662668f492da4587fca3204c09c6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72f6169d42131a5d898edb87458c775d') in 0.015523 seconds 
+  Import took 0.022341 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_soldier_enemy_spotted_01.wav
+  artifactKey: Guid(72537c7ee72d99a47b62e6cc601dda4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_soldier_enemy_spotted_01.wav using Guid(72537c7ee72d99a47b62e6cc601dda4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fb6efdaa287d4ce211d11e34bb9079b') in 0.016109 seconds 
+  Import took 0.023325 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_soldier_cover_me_01.wav
+  artifactKey: Guid(1bc326bb0f9884f4b8e56fe02b7293be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_soldier_cover_me_01.wav using Guid(1bc326bb0f9884f4b8e56fe02b7293be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a5b40377cabf4c688b57caf97c9c011') in 0.015748 seconds 
+  Import took 0.023005 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_soldier_enemy_down_01.wav
+  artifactKey: Guid(c92da38924a2e6f4c9f9e12db4455ed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_soldier_enemy_down_01.wav using Guid(c92da38924a2e6f4c9f9e12db4455ed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91609736af0b8f34627a22996acb9f6c') in 0.020875 seconds 
+  Import took 0.027826 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_soldier_hold_01.wav
+  artifactKey: Guid(9b9a395301be73c448dfd9b5d2d5bba2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_soldier_hold_01.wav using Guid(9b9a395301be73c448dfd9b5d2d5bba2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e79e3776f7239c2bfa7a9fcd66ab2c5') in 0.019554 seconds 
+  Import took 0.026259 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_soldier_go_go_go_03.wav
+  artifactKey: Guid(adb41900fea272f49bda6789467ee644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_soldier_go_go_go_03.wav using Guid(adb41900fea272f49bda6789467ee644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e583fa2f7f085ad681dce9f50a20f72') in 0.017206 seconds 
+  Import took 0.024280 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_soldier_get_down_01.wav
+  artifactKey: Guid(bc7f2298f17b16747ba6deeec16e1499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_soldier_get_down_01.wav using Guid(bc7f2298f17b16747ba6deeec16e1499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de827047cbe2edbdacf28bc6335215be') in 0.016387 seconds 
+  Import took 0.023542 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_soldier_we're_being_overrun_01.wav
+  artifactKey: Guid(56510bda34cded447bd7c89f8e115855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_soldier_we're_being_overrun_01.wav using Guid(56510bda34cded447bd7c89f8e115855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9757c0203a0a9f27397211035ff059e') in 0.016988 seconds 
+  Import took 0.023988 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_soldier_go_go_go_02.wav
+  artifactKey: Guid(21c8631c5e2b0af4080fe817aeaf93a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_soldier_go_go_go_02.wav using Guid(21c8631c5e2b0af4080fe817aeaf93a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8695d6a2f90f5f70bf6b75a7fc0528b') in 0.014291 seconds 
+  Import took 0.021735 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_soldier_move_out_01.wav
+  artifactKey: Guid(57a233a21457eeb4b8df7d2dd069f12e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_soldier_move_out_01.wav using Guid(57a233a21457eeb4b8df7d2dd069f12e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2af0baadd6b82488379b4beebde0f145') in 0.018077 seconds 
+  Import took 0.025546 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_soldier_I've_been_hit_01.wav
+  artifactKey: Guid(b9f53f55b050ced4cb94a7843e361f94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_soldier_I've_been_hit_01.wav using Guid(b9f53f55b050ced4cb94a7843e361f94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4272f8518632994e6f8d3015cd8174f9') in 0.019583 seconds 
+  Import took 0.026539 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_soldier_genade_02.wav
+  artifactKey: Guid(f5ea3392faab0314a914ee934b27421d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_soldier_genade_02.wav using Guid(f5ea3392faab0314a914ee934b27421d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dbfff189973853f06bd8c2fb3751c51') in 0.015519 seconds 
+  Import took 0.022307 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_soldier_go_01.wav
+  artifactKey: Guid(4125bd39a82a1dc49aa8d3c4b8f0f1ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_soldier_go_01.wav using Guid(4125bd39a82a1dc49aa8d3c4b8f0f1ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '028bb5049ca4683de0945e463ab99ee1') in 0.015632 seconds 
+  Import took 0.022484 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_soldier_retreat_02.wav
+  artifactKey: Guid(a0baa900c2688b7428bcd3c52e9b22d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_soldier_retreat_02.wav using Guid(a0baa900c2688b7428bcd3c52e9b22d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84ff5d851f3d15d093ea8a280bcb90fe') in 0.016809 seconds 
+  Import took 0.023851 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_soldier_genade_01.wav
+  artifactKey: Guid(ec0fb13f588715848ab10dd45da5fb82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_soldier_genade_01.wav using Guid(ec0fb13f588715848ab10dd45da5fb82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db1d55702dc4ce6479fb586087d069bc') in 0.015376 seconds 
+  Import took 0.022486 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_soldier_fire_01.wav
+  artifactKey: Guid(565b5ea16aa677b469dbd99dd9ab15e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_soldier_fire_01.wav using Guid(565b5ea16aa677b469dbd99dd9ab15e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a87edbb8ccc119240d9a8032a62e495') in 0.013621 seconds 
+  Import took 0.020841 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_soldier_go_go_go_01.wav
+  artifactKey: Guid(6b20d5ca26c9b7743b955634baf07183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_soldier_go_go_go_01.wav using Guid(6b20d5ca26c9b7743b955634baf07183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e23dbe90061214d28e61c5230653dcf') in 0.013248 seconds 
+  Import took 0.020630 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_coughing_07.wav
+  artifactKey: Guid(aa5d516d2773721468242ac9cde237c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_coughing_07.wav using Guid(aa5d516d2773721468242ac9cde237c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '196fdef625c2b5bac3d05743c2baab8b') in 0.014494 seconds 
+  Import took 0.021064 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_grunt_pain_17.wav
+  artifactKey: Guid(ea9a0b7d17292d744a586833c0da5fe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_grunt_pain_17.wav using Guid(ea9a0b7d17292d744a586833c0da5fe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93abaf0dc498d7761830948e1d8da093') in 0.014354 seconds 
+  Import took 0.020852 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_grunt_pain_death_01.wav
+  artifactKey: Guid(506a454fa45480f499eb414a34cc767c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_grunt_pain_death_01.wav using Guid(506a454fa45480f499eb414a34cc767c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '499c625b4245f0cd57318871e5ba9e8f') in 0.014909 seconds 
+  Import took 0.021615 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_soldier_go_go_go_04.wav
+  artifactKey: Guid(625e319e39d508344a2225137cf279c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_soldier_go_go_go_04.wav using Guid(625e319e39d508344a2225137cf279c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '460e75347f2d026df83e6fd8055baa65') in 0.014062 seconds 
+  Import took 0.021196 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_breathing_mask_loop_run_01.wav
+  artifactKey: Guid(d8a0730bdcf23b5499f9937805a34080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_breathing_mask_loop_run_01.wav using Guid(d8a0730bdcf23b5499f9937805a34080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c4d0e80e558c702f0c437f17d644ff5') in 0.013761 seconds 
+  Import took 0.021411 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_grunt_pain_death_07.wav
+  artifactKey: Guid(047a732b674f8e44990e670d8990f584) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_grunt_pain_death_07.wav using Guid(047a732b674f8e44990e670d8990f584) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '237bb958d186ab269f91c1b216e37ce0') in 0.015081 seconds 
+  Import took 0.022181 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_effort_grunt_long_02.wav
+  artifactKey: Guid(a25019f93fcc2e74da556ed5f514efc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_effort_grunt_long_02.wav using Guid(a25019f93fcc2e74da556ed5f514efc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '440f66d2d2c52ba8d8822eecff3587b9') in 0.015393 seconds 
+  Import took 0.021974 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_soldier_I've_been_hit_02.wav
+  artifactKey: Guid(2a7df502d29a9c54f85e13d5e70f91f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_soldier_I've_been_hit_02.wav using Guid(2a7df502d29a9c54f85e13d5e70f91f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a1427adef1c46f9a3d5a08cd7d42814') in 0.014595 seconds 
+  Import took 0.021919 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_soldier_move_out_02.wav
+  artifactKey: Guid(40b5d1b66ff89e14da73dba1f0ae9442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_soldier_move_out_02.wav using Guid(40b5d1b66ff89e14da73dba1f0ae9442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '300913621346de7639f1a2c8b3fdcd35') in 0.013573 seconds 
+  Import took 0.021314 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_soldier_retreat_01.wav
+  artifactKey: Guid(93dfd5d15285c9146b027b383d94b934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_soldier_retreat_01.wav using Guid(93dfd5d15285c9146b027b383d94b934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a83587bac0dac659681de97c21cc58b7') in 0.013338 seconds 
+  Import took 0.019858 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_breathing_mask_loop_jog_02.wav
+  artifactKey: Guid(4ca4e7b99572f694eb61d55084b44892) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_breathing_mask_loop_jog_02.wav using Guid(4ca4e7b99572f694eb61d55084b44892) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7421e9b9b65b7bd52bed979a7cae248e') in 0.013505 seconds 
+  Import took 0.021205 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_grunt_pain_16.wav
+  artifactKey: Guid(5395fd1720583fc4bbb348f8cc1f078f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_grunt_pain_16.wav using Guid(5395fd1720583fc4bbb348f8cc1f078f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f7c3294533c90a7c3c40903f5f85c18') in 0.013992 seconds 
+  Import took 0.021519 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_grunt_pain_09.wav
+  artifactKey: Guid(ae8fc827f9a176841a81768fc6b4e940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_grunt_pain_09.wav using Guid(ae8fc827f9a176841a81768fc6b4e940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31dbd723b70689f96b5dfdaa0d4a6ead') in 0.014623 seconds 
+  Import took 0.021215 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_soldier_attack_01.wav
+  artifactKey: Guid(21a13b8443c2c3d47a0959863de2e3f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_soldier_attack_01.wav using Guid(21a13b8443c2c3d47a0959863de2e3f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19ad9c9a8b3732402e57d0490e211b78') in 0.014361 seconds 
+  Import took 0.021523 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_effort_grunt_01.wav
+  artifactKey: Guid(5c5c63d768eb8e24585b89830949b5f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_effort_grunt_01.wav using Guid(5c5c63d768eb8e24585b89830949b5f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '799d19f6d8a0e134a9ab18fe7a4fc4c2') in 0.015517 seconds 
+  Import took 0.022959 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_coughing_09.wav
+  artifactKey: Guid(b263af7918c5aec47be5bd3c6e9375d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_coughing_09.wav using Guid(b263af7918c5aec47be5bd3c6e9375d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '424dea6e9c40cde39c8c7d2ea310a5a9') in 0.015879 seconds 
+  Import took 0.023880 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_grunt_pain_02.wav
+  artifactKey: Guid(1a8a4fbac6bd0c240a1d7491d0f5ba26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_grunt_pain_02.wav using Guid(1a8a4fbac6bd0c240a1d7491d0f5ba26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f00a883e3ea7eb401ba00b682d132a52') in 0.013747 seconds 
+  Import took 0.020762 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_grunt_pain_death_04.wav
+  artifactKey: Guid(7cfc92ae6df19ac43ac46e6250aa3d51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_grunt_pain_death_04.wav using Guid(7cfc92ae6df19ac43ac46e6250aa3d51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8504d7fbb795cdc79f8890bff93755aa') in 0.013565 seconds 
+  Import took 0.019785 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_grunt_pain_death_09.wav
+  artifactKey: Guid(334794239070d9449885373b98d7e505) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_grunt_pain_death_09.wav using Guid(334794239070d9449885373b98d7e505) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6587413aa392ecbf78b458cff9ac956f') in 0.019105 seconds 
+  Import took 0.026315 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_coughing_04.wav
+  artifactKey: Guid(f20877114cce4164db74cf138aa32979) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_coughing_04.wav using Guid(f20877114cce4164db74cf138aa32979) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a7f4f9ff50094caa9323cf08870305a') in 0.014061 seconds 
+  Import took 0.021731 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_grunt_pain_death_08.wav
+  artifactKey: Guid(64b0ef4ad46e521489bdaa96ac6664b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_grunt_pain_death_08.wav using Guid(64b0ef4ad46e521489bdaa96ac6664b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31721d1fe7ff62e4b162cc6a19a46b1e') in 0.012999 seconds 
+  Import took 0.019481 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_soldier_contact_01.wav
+  artifactKey: Guid(1d6fe7b07c530a4448f3c05aef2926a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gamemaster Audio - Pro Sound Collection/Voice/Human Male A/voice_male_soldier_contact_01.wav using Guid(1d6fe7b07c530a4448f3c05aef2926a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ada23d45f73d65f04baa624ce50df88') in 0.014012 seconds 
+  Import took 0.020508 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007445 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.267 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3957 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 184.6 MB.
+System memory in use after: 184.6 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 4487.
+Total: 6.543600 ms (FindLiveObjects: 0.358500 ms CreateObjectMapping: 0.187700 ms MarkObjects: 5.799500 ms  DeleteObjects: 0.196900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006456 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.250 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3957 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 184.6 MB.
+System memory in use after: 184.6 MB.
+
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 4492.
+Total: 8.748400 ms (FindLiveObjects: 0.442300 ms CreateObjectMapping: 0.245600 ms MarkObjects: 7.830500 ms  DeleteObjects: 0.228800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006409 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.64 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.201 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3957 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 184.6 MB.
+System memory in use after: 184.6 MB.
+
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 4497.
+Total: 7.139100 ms (FindLiveObjects: 0.301900 ms CreateObjectMapping: 0.165800 ms MarkObjects: 6.477600 ms  DeleteObjects: 0.192900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
