@@ -68824,6 +68824,14 @@ PrefabInstance:
       propertyPath: defaultUseMessage
       value: E to talk
       objectReference: {fileID: 0}
+    - target: {fileID: 1236280219063928417, guid: 3b4c23d0ab299a848bdebd67880e652e, type: 3}
+      propertyPath: soundPack.name
+      value: footsteps
+      objectReference: {fileID: 0}
+    - target: {fileID: 1236280219063928417, guid: 3b4c23d0ab299a848bdebd67880e652e, type: 3}
+      propertyPath: soundPack.audio.Array.size
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 1942335342410052555, guid: 3b4c23d0ab299a848bdebd67880e652e, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -68871,10 +68879,6 @@ PrefabInstance:
     - target: {fileID: 2128756633633359167, guid: 3b4c23d0ab299a848bdebd67880e652e, type: 3}
       propertyPath: m_Name
       value: SnowPrincess
-      objectReference: {fileID: 0}
-    - target: {fileID: 2369207834289146758, guid: 3b4c23d0ab299a848bdebd67880e652e, type: 3}
-      propertyPath: Loop
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 4843992693256272619, guid: 3b4c23d0ab299a848bdebd67880e652e, type: 3}

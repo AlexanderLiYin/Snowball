@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using Audio;
 
 public class SnowPrincess : MonoBehaviour
 {
@@ -41,7 +42,8 @@ public class SnowPrincess : MonoBehaviour
     public float energyPerSec = 1;
     float energy;
 
-
+    //Sound
+    public SoundPack soundPack;
     
     void Start()
     {
