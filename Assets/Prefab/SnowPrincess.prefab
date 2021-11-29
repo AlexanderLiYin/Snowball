@@ -134,6 +134,10 @@ MonoBehaviour:
     audio:
     - {fileID: 8300000, guid: 4013d16b77c15c44e9d9ae153a5c4d0a, type: 3}
     - {fileID: 8300000, guid: 46dcdd80cbb9d61448a13b8481c2397d, type: 3}
+  attackSound:
+    audio:
+    - {fileID: 8300000, guid: 58cab6beb796f6a48ae7eb5f6318bc47, type: 3}
+    - {fileID: 8300000, guid: 8a72bbcfba1b6304dba062fe34a05a02, type: 3}
 --- !u!114 &4843992693256272619
 MonoBehaviour:
   m_ObjectHideFlags: 0

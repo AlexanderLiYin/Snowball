@@ -1,19 +1,29 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Audio;
 
 public class Snowball : MonoBehaviour
 {
     public DmgPopUp dmgPopUp;
     int dmg = 1;
+    public SoundPack soundpack;
+    AudioSource source;
 
     public void setDmg(int damage)
     {
         dmg = damage;
     }
 
-    void OnCollisionEnter2D(Collision2D col)
+    void Start()
     {
+        source = gameObject.GetComponent<AudioSource>();
+        source.clip = soundpack.audio[0];
+    }
+
+    void OnCollisionEnter2D(Collision2D col)
+    {    
+        source.Play();
         if (col.gameObject.tag == "Enemy")
         {
             EnemyHealth temp;

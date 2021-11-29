@@ -45,6 +45,7 @@ public class SnowPrincess : MonoBehaviour
     //Sound
     public SoundPack footsteps;
     public SoundPack damage;
+    public SoundPack attackSound;
     AudioSource audioSource;
 
     void Start()
@@ -194,6 +195,9 @@ public class SnowPrincess : MonoBehaviour
         snowball.GetComponent<Snowball>().setDmg(attack);
         Rigidbody2D rb = snowball.GetComponent<Rigidbody2D>();
         rb.AddForce(firePoint.up * bulletForce, ForceMode2D.Impulse);
+
+        audioSource.clip = attackSound.audio[0];
+        audioSource.Play();
     }
 
     public void addCoins(int amount)

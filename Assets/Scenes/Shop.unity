@@ -6274,10 +6274,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8220451531561209987, guid: d395cce16ca1ad549940812226f4a9e0, type: 3}
-      propertyPath: selectedDatabase
-      value: 
-      objectReference: {fileID: 11400000, guid: 138c68488e73f4040a95b3362d2b6d4d, type: 2}
     - target: {fileID: 8685290886597264474, guid: d395cce16ca1ad549940812226f4a9e0, type: 3}
       propertyPath: m_Name
       value: ShopKeeper
