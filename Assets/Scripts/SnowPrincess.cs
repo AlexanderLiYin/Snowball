@@ -57,7 +57,7 @@ public class SnowPrincess : MonoBehaviour
         //Get Audio Source
         audioSource = gameObject.GetComponent<AudioSource>();
         //Initialize health
-        LoadPlayer();
+        //LoadPlayer();
         try
         {
             HUD = GameObject.Find("HUD").GetComponent<HUDScript>();

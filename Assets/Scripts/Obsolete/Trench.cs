@@ -16,7 +16,6 @@ public class Trench : MonoBehaviour
         {
             PlayerHealth temp;
             temp = col.gameObject.GetComponent<PlayerHealth>();
-            temp.TrenchStatus(true);
         }
     }
 
@@ -32,7 +31,6 @@ public class Trench : MonoBehaviour
         {
             PlayerHealth temp;
             temp = col.gameObject.GetComponent<PlayerHealth>();
-            temp.TrenchStatus(false);
         }
     }
 }
