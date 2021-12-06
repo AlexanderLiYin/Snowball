@@ -8,7 +8,7 @@ public class SaveData
     public int maxHealth;
     public int health;
     public int coins;
-    public float moveSpeed;
+    //public float moveSpeed;
     public float attackRate;
     public int attack;
 
@@ -16,7 +16,7 @@ public class SaveData
     {
         maxHealth = player.maxHealth;
         health = player.health;
-        moveSpeed = player.movespeed;
+        //moveSpeed = player.movespeed;
         attackRate = player.attackRate;
         coins = player.coins;
         attack = player.attack;

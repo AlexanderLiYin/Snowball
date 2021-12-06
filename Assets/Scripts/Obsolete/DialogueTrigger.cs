@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class DialogueTrigger : MonoBehaviour
 {
+    /*
     bool inRange = false;
     public bool isShop;
     public Dialogue dialogue;
@@ -36,4 +37,5 @@ public class DialogueTrigger : MonoBehaviour
     {
         FindObjectOfType<DialogueManager>().StartDialogue(dialogue, isShop);
     }
+    */
 }

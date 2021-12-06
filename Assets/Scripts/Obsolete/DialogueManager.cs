@@ -6,6 +6,7 @@ using TMPro;
 
 public class DialogueManager : MonoBehaviour
 {
+    /*
     Queue<string> sentences;
     public TMP_Text nameText;
     public TMP_Text dialogueText;
@@ -85,4 +86,5 @@ public class DialogueManager : MonoBehaviour
         canvas.SetActive(false);
         player.canMove = true;
     }
+    */
 }

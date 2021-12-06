@@ -6,6 +6,7 @@ using TMPro;
 
 public class Shop : MonoBehaviour
 {
+    /*
     SnowPrincess player;
     public TMP_Text coins;
     public TMP_Text descript;
@@ -105,4 +106,5 @@ public class Shop : MonoBehaviour
                 break;
         }
     }
+    */
 }
