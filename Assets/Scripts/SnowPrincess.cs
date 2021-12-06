@@ -11,7 +11,6 @@ public class SnowPrincess : MonoBehaviour
     HUDScript HUD;
     public int maxHealth = 10;
     public int health = 10;
-    public float evadeChance = 10;
 
     // Player attack
     public int attack = 1;
