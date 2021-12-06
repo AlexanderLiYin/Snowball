@@ -26,12 +26,6 @@ public class SnowPrincess : MonoBehaviour
     public bool inBattle;
     bool mobile;
 
-    //Energy
-    public int initEnergy = 50;
-    public int maxEnergy = 120;
-    public float energyPerSec = 1;
-    float energy;
-
     //Sound
     public SoundPack damage;
     public SoundPack attackSound;
@@ -53,10 +47,6 @@ public class SnowPrincess : MonoBehaviour
         }
         HUD.HP(health);
         HUD.DisplayHP(health, maxHealth);
-
-        // Display Energy
-        energy = initEnergy;
-        HUD.DisplayEnergy(energy, maxEnergy);
 
         // Get platform
         /*
@@ -85,19 +75,7 @@ public class SnowPrincess : MonoBehaviour
     // Used for moving the player
     void FixedUpdate()
     {
-        //Energy Generation
-        if (inBattle)
-        {
-            if (energy < maxEnergy)
-            {
-                energy += Time.deltaTime * energyPerSec;
-            }
-            else
-            {
-                energy = maxEnergy;
-            }
-            HUD.DisplayEnergy(energy, maxEnergy);
-        }
+
     }
 
     public void decHealth(int dmg)
@@ -176,48 +154,6 @@ public class SnowPrincess : MonoBehaviour
         {
             HUD.DisplayHP(health, maxHealth);
             maxHealth -= hp;
-            return true;
-        }
-        else return false;
-    }
-
-    public bool decEnergy(int cost)
-    {
-        if (cost > energy)
-            return false;
-        else
-        {
-            energy = energy - cost;
-            return true;
-        }
-    }
-
-    public void incMaxEnergy(int energy)
-    {
-        maxEnergy += energy;
-        HUD.DisplayEnergy(energy, maxEnergy);
-    }
-
-    public bool decMaxEnergy(int energy)
-    {
-        if ((maxEnergy - energy) > 0)
-        {
-            maxEnergy -= energy;
-            return true;
-        }
-        else return false;
-    }
-
-    public void incEnergyRecharge(float rate)
-    {
-        energyPerSec += rate;
-    }
-
-    public bool decEnergyRecharge(float rate)
-    {
-        if ((energyPerSec - rate) > 0)
-        {
-            energyPerSec -= rate;
             return true;
         }
         else return false;

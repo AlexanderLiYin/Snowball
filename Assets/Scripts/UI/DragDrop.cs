@@ -12,7 +12,7 @@ public class DragDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, I
     Color color;
 
     public GameObject building;
-    SnowPrincess energy;
+    Mana energy;
     public int cost = 40;
 
     [SerializeField] private Canvas canvas; // Used to scale drag incase canvas gets rescaled
@@ -23,7 +23,7 @@ public class DragDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, I
         originPos = rectTransform.position;
         canvasGroup = GetComponent<CanvasGroup>();
         color = gameObject.GetComponent<Image>().color;
-        energy = GameObject.Find("SnowPrincess").GetComponent<SnowPrincess>();
+        energy = GameObject.Find("SnowPrincess").GetComponent<Mana>();
     }
 
     public void OnPointerDown(PointerEventData eventData)
