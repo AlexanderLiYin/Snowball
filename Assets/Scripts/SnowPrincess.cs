@@ -33,7 +33,6 @@ public class SnowPrincess : MonoBehaviour
     float energy;
 
     //Sound
-    public SoundPack footsteps;
     public SoundPack damage;
     public SoundPack attackSound;
     AudioSource audioSource;
