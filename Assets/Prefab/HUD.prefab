@@ -2879,6 +2879,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   slider: {fileID: 4949959822881374556}
+  slider2: {fileID: 5513282866605559929}
   loseScreen: {fileID: 4738620037063140500}
   winScreen: {fileID: 5782630206689343566}
   timer: {fileID: 8422500760895368203}

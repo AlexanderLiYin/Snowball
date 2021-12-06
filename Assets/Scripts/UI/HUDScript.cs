@@ -8,6 +8,7 @@ using TMPro;
 public class HUDScript : MonoBehaviour
 {
     public Slider slider;
+    public Slider slider2;
     public GameObject loseScreen;
     public GameObject winScreen;
     public TMP_Text timer;
@@ -103,6 +104,16 @@ public class HUDScript : MonoBehaviour
     public void IncMaxHealth(int hp)
     {
         slider.maxValue += hp;
+    }
+
+    public void Mana(float mana)
+    {
+        slider2.value = mana;
+    }
+
+    public void IncMaxMana(int mana)
+    {
+        slider2.maxValue += mana;
     }
 
     public void Win()

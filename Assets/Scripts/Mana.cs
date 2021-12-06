@@ -28,6 +28,7 @@ public class Mana : MonoBehaviour
         if (energy < maxEnergy)
         {
             energy += Time.deltaTime * energyPerSec;
+            HUD.Mana(energy);
         }
         else
         {

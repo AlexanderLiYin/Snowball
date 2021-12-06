@@ -72,12 +72,6 @@ public class SnowPrincess : MonoBehaviour
         }
     }
 
-    // Used for moving the player
-    void FixedUpdate()
-    {
-
-    }
-
     public void decHealth(int dmg)
     {
         health -= dmg;
