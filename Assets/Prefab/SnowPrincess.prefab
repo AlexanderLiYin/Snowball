@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: -2331440124487354196}
   - component: {fileID: -6592994830062129251}
   - component: {fileID: 1236280219063928417}
+  - component: {fileID: 1060652220974620872}
   - component: {fileID: 4843992693256272619}
   - component: {fileID: 1302169121}
   - component: {fileID: 1302169123}
@@ -138,6 +139,24 @@ MonoBehaviour:
     audio:
     - {fileID: 8300000, guid: 58cab6beb796f6a48ae7eb5f6318bc47, type: 3}
     - {fileID: 8300000, guid: 8a72bbcfba1b6304dba062fe34a05a02, type: 3}
+--- !u!114 &1060652220974620872
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2128756633633359167}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c2b0187e681bbe41bf7b7b6368d3ac9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  movespeed: 5
+  canMove: 1
+  footsteps:
+    audio:
+    - {fileID: 8300000, guid: 0ca0e58496af6a34f8ed5a86d667f02e, type: 3}
+    - {fileID: 8300000, guid: 7f60b502f792785489cd8b058b9cb794, type: 3}
 --- !u!114 &4843992693256272619
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -564,7 +583,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 4c836fe1500c645408427b955663f582, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.5
   m_Pitch: 1
   Loop: 0
   Mute: 0
