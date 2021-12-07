@@ -1718,17 +1718,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18ade7202bda25946822c09ac5761e7e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coins: {fileID: 5817665909932190287}
-  descript: {fileID: 3342225137738235924}
-  amount: {fileID: 7384026519507608784}
-  cost: {fileID: 3279405380097053882}
-  items:
-  - {fileID: 11400000, guid: 3cd96bbceeaa5f844acaed98f579f5c1, type: 2}
-  - {fileID: 11400000, guid: d241783872689b24692b3b715cf7e665, type: 2}
-  - {fileID: 11400000, guid: 5d58e61be63d6a1408bfc9f77f32b2a8, type: 2}
-  - {fileID: 11400000, guid: e0d049e51b62b824897979db89e13f82, type: 2}
-  - {fileID: 11400000, guid: e921d4ca8da7aa448873686cad03f016, type: 2}
-  - {fileID: 11400000, guid: 66c341e85e5ece84aad0da2e6fb4b745, type: 2}
 --- !u!1 &4532072931943664952
 GameObject:
   m_ObjectHideFlags: 0
@@ -1907,10 +1896,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c52d4d461940444bb657d9910a5ed6c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameText: {fileID: 6259785227936485608}
-  dialogueText: {fileID: 4172961877192681809}
-  canvas: {fileID: 1199206225820142618}
-  shop: {fileID: 3368779573897288731}
 --- !u!1 &5150128789256656857
 GameObject:
   m_ObjectHideFlags: 0
@@ -2807,7 +2792,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &2086627172101660567
 RectTransform:
   m_ObjectHideFlags: 0
