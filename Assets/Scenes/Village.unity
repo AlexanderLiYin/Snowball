@@ -80843,7 +80843,7 @@ PrefabInstance:
     - target: {fileID: 1698458080184901466, guid: daf08d56eb225ca4b84cbb0035c8460c, type: 3}
       propertyPath: displaySettings.dialogueUI
       value: 
-      objectReference: {fileID: 533516976}
+      objectReference: {fileID: 177140, guid: 77d31c2998b2bd148b0ede2a5ab00489, type: 3}
     - target: {fileID: 1698458080184979092, guid: daf08d56eb225ca4b84cbb0035c8460c, type: 3}
       propertyPath: m_Enabled
       value: 0
