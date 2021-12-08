@@ -13,6 +13,8 @@ GameObject:
   - component: {fileID: 4136595981497252181}
   - component: {fileID: 5108704668017473564}
   - component: {fileID: 1854043683310193784}
+  - component: {fileID: 779175654754540367}
+  - component: {fileID: 428593240196052672}
   m_Layer: 0
   m_Name: Chest
   m_TagString: Untagged
@@ -140,3 +142,97 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coins: 100
+  group: -1
+--- !u!114 &779175654754540367
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3635926081691486478}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c593457cd8105e148906690e1707c592, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trigger: 32
+  condition:
+    luaConditions: []
+    questConditions: []
+    acceptedTags: []
+    acceptedGameObjects: []
+    luaWizardIndex: -1
+    lastEvaluationValue: 0
+  setQuestState: 1
+  questName: 
+  questState: 0
+  setQuestEntryState: 0
+  questEntryNumber: 1
+  questEntryState: 0
+  luaCode: 
+  sequence: 
+  sequenceSpeaker: {fileID: 0}
+  sequenceListener: {fileID: 0}
+  waitOneFrameOnStartOrEnable: 1
+  alertMessage: Chest Opened
+  textTable: {fileID: 0}
+  alertDuration: 0
+  sendMessages: []
+  barkSource: 0
+  barkConversation: 
+  barkText: 
+  barkTextSequence: 
+  barker: {fileID: 0}
+  barkTarget: {fileID: 0}
+  barkOrder: 0
+  allowBarksDuringConversations: 0
+  skipBarkIfNoValidEntries: 0
+  cacheBarkLines: 0
+  conversation: 
+  conversationConversant: {fileID: 0}
+  conversationActor: {fileID: 0}
+  startConversationEntryID: -1
+  exclusive: 0
+  replace: 0
+  skipIfNoValidEntries: 0
+  stopConversationOnTriggerExit: 0
+  stopConversationIfTooFar: 0
+  maxConversationDistance: 5
+  monitorConversationDistanceFrequency: 1
+  showCursorDuringConversation: 0
+  pauseGameDuringConversation: 0
+  setActiveActions: []
+  setEnabledActions: []
+  setAnimatorStateActions: []
+  onExecute:
+    m_PersistentCalls:
+      m_Calls: []
+  useConversationTitlePicker: 1
+  useBarkTitlePicker: 1
+  useQuestNamePicker: 1
+  selectedDatabase: {fileID: 11400000, guid: 138c68488e73f4040a95b3362d2b6d4d, type: 2}
+--- !u!114 &428593240196052672
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3635926081691486478}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 274b80ab5b659c646ba9338870d14625, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  overrideName: 
+  overrideUseMessage: 
+  maxUseDistance: 5
+  events:
+    onSelect:
+      m_PersistentCalls:
+        m_Calls: []
+    onDeselect:
+      m_PersistentCalls:
+        m_Calls: []
+    onUse:
+      m_PersistentCalls:
+        m_Calls: []
