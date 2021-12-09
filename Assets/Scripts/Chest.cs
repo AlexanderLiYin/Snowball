@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Opsive.UltimateInventorySystem.Exchange;
 
 public class Chest : MonoBehaviour
 {
@@ -10,13 +11,22 @@ public class Chest : MonoBehaviour
     bool opened = false;
     bool inRange = false;
     Notification hud;
+    CurrencyOwner player;
 
     //Will later need to save the state of chests
     void Start()
     {
         hud = GameObject.Find("HUD").GetComponent<Notification>();
+        player = GameObject.Find("SnowPrincess").GetComponent<CurrencyOwner>();
     }
 
+    //Add gold function
+    public void AddGold(int amount)
+    {
+        player.AddCurrency("Gold",amount);
+    }
+
+    /*
     void Update()
     {
         if(inRange && Input.GetKeyDown(KeyCode.E))
@@ -45,4 +55,5 @@ public class Chest : MonoBehaviour
     {
         inRange = false;
     }
+    */
 }
