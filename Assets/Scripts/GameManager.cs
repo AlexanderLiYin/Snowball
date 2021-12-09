@@ -23,7 +23,7 @@ public class GameManager : MonoBehaviour
     public void Win()
     {
         print("You Win");
-        player.addCoins(100);
+        //player.addCoins(100);
         SaveSystem.SavePlayer(player);
         HUD.Win();
     }

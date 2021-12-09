@@ -22,7 +22,6 @@ public class SnowPrincess : MonoBehaviour
     public bool canAttack = true;
 
     //Player Stats
-    public int coins;
     public bool inBattle;
     bool mobile;
 
@@ -107,31 +106,11 @@ public class SnowPrincess : MonoBehaviour
         audioSource.Play();
     }
 
-    public void addCoins(int amount)
-    {
-        coins += amount;
-        print("Coin count is now " + coins);
-    }
-
-    public bool subCoins(int amount)
-    {
-        print(coins);
-        if (amount <= coins)
-        {
-            print(amount);
-            coins -= amount;
-            return true;
-        }
-        else
-            return false;
-    }
-
     public void LoadPlayer()
     {
         SaveData data = SaveSystem.LoadPlayer();
         maxHealth = data.maxHealth;
         attackRate = data.attackRate;
-        coins = data.coins;
         attack = data.attack;
     }
 

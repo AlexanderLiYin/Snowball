@@ -5,55 +5,24 @@ using Opsive.UltimateInventorySystem.Exchange;
 
 public class Chest : MonoBehaviour
 {
-    public int coins;
     [Tooltip("Negative 1 if not in any group")]
     public int group = -1; //Negative 1 if not in any group
     bool opened = false;
-    bool inRange = false;
-    Notification hud;
     CurrencyOwner player;
 
     //Will later need to save the state of chests
     void Start()
     {
-        hud = GameObject.Find("HUD").GetComponent<Notification>();
         player = GameObject.Find("SnowPrincess").GetComponent<CurrencyOwner>();
     }
 
     //Add gold function
     public void AddGold(int amount)
     {
-        player.AddCurrency("Gold",amount);
-    }
-
-    /*
-    void Update()
-    {
-        if(inRange && Input.GetKeyDown(KeyCode.E))
+        if(!opened)
         {
-            if (!opened)
-            {
-                FindObjectOfType<SnowPrincess>().addCoins(coins);
-                hud.Notify(coins + " coins added");
-                opened = true;
-            }
-            else
-                hud.Notify("Chest has already been opened.");
-        }
+            player.AddCurrency("Gold", amount);
+            opened = true;
+        }     
     }
-
-    void OnTriggerEnter2D(Collider2D col)
-    {
-        if (col.gameObject.tag == "Player")
-        {
-            hud.Notify("E to Interact");
-            inRange = true;
-        }
-    }
-
-    void OnTriggerExit2D(Collider2D col)
-    {
-        inRange = false;
-    }
-    */
 }

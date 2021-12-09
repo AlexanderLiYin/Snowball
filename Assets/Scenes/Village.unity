@@ -80657,58 +80657,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 428593240196052672, guid: 296c5630c80158040af965f16424d52a, type: 3}
-      propertyPath: events.onUse.m_PersistentCalls.m_Calls.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 428593240196052672, guid: 296c5630c80158040af965f16424d52a, type: 3}
-      propertyPath: events.onUse.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 428593240196052672, guid: 296c5630c80158040af965f16424d52a, type: 3}
-      propertyPath: events.onUse.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 1529928986}
-    - target: {fileID: 428593240196052672, guid: 296c5630c80158040af965f16424d52a, type: 3}
-      propertyPath: events.onUse.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 428593240196052672, guid: 296c5630c80158040af965f16424d52a, type: 3}
-      propertyPath: events.onUse.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: AddGold
-      objectReference: {fileID: 0}
-    - target: {fileID: 428593240196052672, guid: 296c5630c80158040af965f16424d52a, type: 3}
-      propertyPath: events.onUse.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: Chest, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 428593240196052672, guid: 296c5630c80158040af965f16424d52a, type: 3}
-      propertyPath: events.onUse.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 428593240196052672, guid: 296c5630c80158040af965f16424d52a, type: 3}
-      propertyPath: events.onUse.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
-    - target: {fileID: 779175654754540367, guid: 296c5630c80158040af965f16424d52a, type: 3}
-      propertyPath: luaCode
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 779175654754540367, guid: 296c5630c80158040af965f16424d52a, type: 3}
-      propertyPath: condition.luaConditions.Array.size
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 779175654754540367, guid: 296c5630c80158040af965f16424d52a, type: 3}
-      propertyPath: condition.luaConditions.Array.data[0]
-      value: Variable["opened"] == false
-      objectReference: {fileID: 0}
-    - target: {fileID: 779175654754540367, guid: 296c5630c80158040af965f16424d52a, type: 3}
-      propertyPath: condition.luaConditions.Array.data[1]
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 1854043683310193784, guid: 296c5630c80158040af965f16424d52a, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 2359628023681206974, guid: 296c5630c80158040af965f16424d52a, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -80759,17 +80707,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 296c5630c80158040af965f16424d52a, type: 3}
---- !u!114 &1529928986 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1854043683310193784, guid: 296c5630c80158040af965f16424d52a, type: 3}
-  m_PrefabInstance: {fileID: 1529928985}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f91d9b3d573731a42a9279e1a8e37beb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &1565621895
 PrefabInstance:
   m_ObjectHideFlags: 0
