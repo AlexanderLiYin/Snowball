@@ -118,7 +118,6 @@ MonoBehaviour:
   bulletForce: 20
   attackRate: 2
   canAttack: 1
-  coins: 100
   inBattle: 0
   damage:
     audio:
@@ -140,7 +139,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c2b0187e681bbe41bf7b7b6368d3ac9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movespeed: 5
+  movespeed: 6
   canMove: 1
   footsteps:
     audio:
