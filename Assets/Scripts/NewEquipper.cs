@@ -162,18 +162,20 @@ namespace Opsive.UltimateInventorySystem.Equipping
 
             slot.SetItemObject(itemObject);
             */
-            //Like the equipe function above, I don't need slots but I think I need the event handler to execute the event so I'll keep that.
+            //Like the equip function above, I don't need slots but I think I need the event handler to execute the event so I'll keep that.
             EventHandler.ExecuteEvent(this, EventNames.c_Equipper_OnChange);
             if (item.TryGetAttributeValue<int>("Attack", out var intAttributeValue))
             {
                 player.attack += intAttributeValue;
                 return true;
             }
-            else
+            else if (item.TryGetAttributeValue<int>("Health",out var intAttributeValue2))
             {
-                print("Equip failed");
-                return false;
+                player.maxHealth += intAttributeValue2;
+                return true;
             }
+            print("Equip failed");
+            return false;
         }
 
         /// <summary>
@@ -301,6 +303,10 @@ namespace Opsive.UltimateInventorySystem.Equipping
             if (item.TryGetAttributeValue<int>("Attack", out var intAttributeValue))
             {
                 player.attack -= intAttributeValue;
+            }
+            else if (item.TryGetAttributeValue<int>("Health", out var intAttributeValue2))
+            {
+                player.attack -= intAttributeValue2;
             }
             else
             {
