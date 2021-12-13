@@ -1,5 +1,8 @@
 fileFormatVersion: 2
-guid: c411498ae3ca2004289bdde7166a83e6
+guid: d58e765782f6e104b817e03ddd06cf03
+labels:
+- InventoryDatabase
+- Uncategorized
 NativeFormatImporter:
   externalObjects: {}
   mainObjectFileID: 11400000

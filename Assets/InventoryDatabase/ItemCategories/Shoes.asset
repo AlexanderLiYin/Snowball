@@ -33,10 +33,11 @@ MonoBehaviour:
   m_ElementsData:
     m_ObjectType: Opsive.Shared.Utility.ResizableArray`1[[Opsive.UltimateInventorySystem.Core.ItemDefinition,
       Opsive.UltimateInventorySystem, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]
-    m_ValueHashes: 4c1e4f8ec2330064
-    m_ValuePositions: 0000000004000000
-    m_Values: 0000000000000000
-    m_UnityObjects: []
+    m_ValueHashes: 4c1e4f8ec233006407c1b589
+    m_ValuePositions: 000000000400000008000000
+    m_Values: 010000000100000000000000
+    m_UnityObjects:
+    - {fileID: 11400000, guid: d58e765782f6e104b817e03ddd06cf03, type: 2}
     m_Version: 3.1
   m_IsAbstract: 0
   m_Color: {r: 0.37059727, g: 0.6625475, b: 0.24473539, a: 1}
@@ -135,6 +136,13 @@ MonoBehaviour:
       m_Values: 536861706549636f6e00000000004546ececffffffffffffffff
       m_UnityObjects: []
       m_Version: 3.1
+    - m_ObjectType: Opsive.UltimateInventorySystem.Core.AttributeSystem.Attribute`1[[System.Int32,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+      m_ValueHashes: 0d00eb255b713f72086efd3934ebab2af446621ba8823c4a424b280f861dc27b
+      m_ValuePositions: 000000000d0000000e0000000e0000001200000012000000160000001a000000
+      m_Values: 426173654d6f766573706565640100000000602f9cc40000000000000000
+      m_UnityObjects: []
+      m_Version: 3.1
   m_RequiredItemAttributes:
     m_AttributeCollectionData:
     - m_ObjectType: Opsive.UltimateInventorySystem.Core.AttributeSystem.Attribute`1[[Opsive.UltimateInventorySystem.Core.DataStructures.ItemAmounts,
@@ -149,6 +157,13 @@ MonoBehaviour:
       m_ValueHashes: 0d00eb255b713f72086efd3934ebab2af446621ba8823c4a424b280f861dc27b
       m_ValuePositions: 000000000700000008000000080000000c0000000c0000001000000014000000
       m_Values: 446566656e73650000000000cb613fc90000000001000000
+      m_UnityObjects: []
+      m_Version: 3.1
+    - m_ObjectType: Opsive.UltimateInventorySystem.Core.AttributeSystem.Attribute`1[[System.Int32,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+      m_ValueHashes: 0d00eb255b713f72086efd3934ebab2af446621ba8823c4a424b280f861dc27b
+      m_ValuePositions: 00000000090000000a0000000a0000000e0000000e0000001200000016000000
+      m_Values: 4d6f7665737065656401010000005870f0ad0100000001000000
       m_UnityObjects: []
       m_Version: 3.1
   m_IsMutable: 1
