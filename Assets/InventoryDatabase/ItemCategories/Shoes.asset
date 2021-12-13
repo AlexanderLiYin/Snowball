@@ -20,7 +20,7 @@ MonoBehaviour:
     m_ValuePositions: 000000000400000008000000
     m_Values: 010000000100000000000000
     m_UnityObjects:
-    - {fileID: 11400000, guid: fda56cf26747791469ad1dc034d4d888, type: 2}
+    - {fileID: 11400000, guid: dbf5fd8a6a6df7946ace45f4246e6a24, type: 2}
     m_Version: 3.1
   m_ChildrenData:
     m_ObjectType: Opsive.Shared.Utility.ResizableArray`1[[Opsive.UltimateInventorySystem.Core.ItemCategory,

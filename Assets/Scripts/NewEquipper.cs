@@ -168,15 +168,15 @@ namespace Opsive.UltimateInventorySystem.Equipping
             EventHandler.ExecuteEvent(this, EventNames.c_Equipper_OnChange);
             if (item.TryGetAttributeValue<int>("Attack", out var intAttributeValue))
             {
-                player.attack += intAttributeValue;
+                player.incAttack(intAttributeValue);
             }
             if (item.TryGetAttributeValue<int>("Defense",out var intAttributeValue2))
             {
-                player.maxHealth += intAttributeValue2;
+                player.incMaxHealth(intAttributeValue2);
             }
             if (item.TryGetAttributeValue<int>("Movespeed", out var intAttributeValue3))
             {
-                movement.movespeed += intAttributeValue3;
+                movement.incMoveSpd(intAttributeValue3);
             }
             return true;
         }
@@ -305,15 +305,15 @@ namespace Opsive.UltimateInventorySystem.Equipping
 
             if (item.TryGetAttributeValue<int>("Attack", out var intAttributeValue))
             {
-                player.attack -= intAttributeValue;
+                player.decAttack(intAttributeValue);
             }
             if (item.TryGetAttributeValue<int>("Defense", out var intAttributeValue2))
             {
-                player.attack -= intAttributeValue2;
+                player.decMaxHealth(intAttributeValue2);
             }
             if (item.TryGetAttributeValue<int>("Movespeed", out var intAttributeValue3))
             {
-                movement.movespeed -= intAttributeValue3;
+                movement.decMoveSpd(intAttributeValue3);
             }
         }
 
