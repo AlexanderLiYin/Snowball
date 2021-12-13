@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Movement;
 
 namespace Opsive.UltimateInventorySystem.Equipping
 {
@@ -35,10 +36,11 @@ namespace Opsive.UltimateInventorySystem.Equipping
         [SerializeField] protected ItemObjectSlot[] m_Slots;
 
         protected ItemSlotCollection m_EquipmentItemCollection;
-        public SnowPrincess player;
+        public SnowPrincess player; //Used to change player's health and Attack
+        public PlayerMovement movement; //Used to change the player's movepeed
 
         /// <summary>
-        /// Initialize the Equiper.
+        /// Initialize the Equipper.
         /// </summary>
         protected virtual void Start()
         {
@@ -169,9 +171,14 @@ namespace Opsive.UltimateInventorySystem.Equipping
                 player.attack += intAttributeValue;
                 return true;
             }
-            else if (item.TryGetAttributeValue<int>("Health",out var intAttributeValue2))
+            else if (item.TryGetAttributeValue<int>("Defense",out var intAttributeValue2))
             {
                 player.maxHealth += intAttributeValue2;
+                return true;
+            }
+            else if (item.TryGetAttributeValue<int>("Movespeed", out var intAttributeValue3))
+            {
+                movement.movespeed += intAttributeValue3;
                 return true;
             }
             print("Equip failed");
@@ -304,9 +311,13 @@ namespace Opsive.UltimateInventorySystem.Equipping
             {
                 player.attack -= intAttributeValue;
             }
-            else if (item.TryGetAttributeValue<int>("Health", out var intAttributeValue2))
+            else if (item.TryGetAttributeValue<int>("Defense", out var intAttributeValue2))
             {
                 player.attack -= intAttributeValue2;
+            }
+            else if (item.TryGetAttributeValue<int>("Movespeed", out var intAttributeValue3))
+            {
+                movement.movespeed -= intAttributeValue3;
             }
             else
             {
