@@ -297,10 +297,10 @@ MonoBehaviour:
     m_ItemAmount:
       m_Amount: 1
       m_Item:
-        m_ID: 1182965243
-        m_Name: Bomb
-        m_ItemDefinitionID: 3307665372
-        m_ItemDefinition: {fileID: 11400000, guid: e0cf6cb55f3fd6d40a65bcb20f1a3297, type: 2}
+        m_ID: 4077608052
+        m_Name: 
+        m_ItemDefinitionID: 0
+        m_ItemDefinition: {fileID: 0}
         m_ItemAttributeCollection:
           m_AttributeCollectionData: []
 --- !u!114 &7222818330016978773
