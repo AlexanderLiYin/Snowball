@@ -116,17 +116,17 @@ public class SnowPrincess : MonoBehaviour
 
     public void incMaxHealth(int hp)
     {
+        maxHealth += hp;
         HUD.IncMaxHealth(hp);
         HUD.DisplayHP(health, maxHealth);
-        maxHealth += hp;
     }
 
     public bool decMaxHealth(int hp)
     {
         if ((maxHealth - hp) > 0)
         {
-            HUD.DisplayHP(health, maxHealth);
             maxHealth -= hp;
+            HUD.DisplayHP(health, maxHealth);
             return true;
         }
         else return false;
