@@ -95563,6 +95563,10 @@ PrefabInstance:
       propertyPath: m_Panels.Array.size
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 2198416796469954443, guid: c83dd89330b321d439d2f69ad2a41d00, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2198416796515110221, guid: c83dd89330b321d439d2f69ad2a41d00, type: 3}
       propertyPath: m_IsActive
       value: 0

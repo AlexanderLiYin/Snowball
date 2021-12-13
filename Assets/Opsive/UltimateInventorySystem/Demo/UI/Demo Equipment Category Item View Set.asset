@@ -16,11 +16,11 @@ MonoBehaviour:
   m_CategoriesItemViews:
   - m_Category:
       m_Name: Weapons
-      m_ItemCategory: {fileID: 11400000, guid: af709a2c720e59949a5398cba38d76ac, type: 2}
+      m_ItemCategory: {fileID: 11400000, guid: 31a668a561323f64aab6bf61164069b3, type: 2}
     m_ItemViewPrefab: {fileID: 1072622073030267207, guid: 9717c2e2d5fad5e429d2f81f427a287e, type: 3}
   - m_Category:
       m_Name: Armor
-      m_ItemCategory: {fileID: 11400000, guid: f3dd971f03c17d14fa88fef8c52a2a08, type: 2}
+      m_ItemCategory: {fileID: 11400000, guid: fda56cf26747791469ad1dc034d4d888, type: 2}
     m_ItemViewPrefab: {fileID: 8379959364269447002, guid: 45020dbfb215eaa478a21a9c8b56228d, type: 3}
   - m_Category:
       m_Name: 
