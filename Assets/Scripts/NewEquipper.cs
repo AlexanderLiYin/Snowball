@@ -169,20 +169,16 @@ namespace Opsive.UltimateInventorySystem.Equipping
             if (item.TryGetAttributeValue<int>("Attack", out var intAttributeValue))
             {
                 player.attack += intAttributeValue;
-                return true;
             }
-            else if (item.TryGetAttributeValue<int>("Defense",out var intAttributeValue2))
+            if (item.TryGetAttributeValue<int>("Defense",out var intAttributeValue2))
             {
                 player.maxHealth += intAttributeValue2;
-                return true;
             }
-            else if (item.TryGetAttributeValue<int>("Movespeed", out var intAttributeValue3))
+            if (item.TryGetAttributeValue<int>("Movespeed", out var intAttributeValue3))
             {
                 movement.movespeed += intAttributeValue3;
-                return true;
             }
-            print("Equip failed");
-            return false;
+            return true;
         }
 
         /// <summary>
@@ -311,17 +307,13 @@ namespace Opsive.UltimateInventorySystem.Equipping
             {
                 player.attack -= intAttributeValue;
             }
-            else if (item.TryGetAttributeValue<int>("Defense", out var intAttributeValue2))
+            if (item.TryGetAttributeValue<int>("Defense", out var intAttributeValue2))
             {
                 player.attack -= intAttributeValue2;
             }
-            else if (item.TryGetAttributeValue<int>("Movespeed", out var intAttributeValue3))
+            if (item.TryGetAttributeValue<int>("Movespeed", out var intAttributeValue3))
             {
                 movement.movespeed -= intAttributeValue3;
-            }
-            else
-            {
-                print("Unequip failed");
             }
         }
 
