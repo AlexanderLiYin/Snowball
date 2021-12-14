@@ -38,6 +38,7 @@ namespace Opsive.UltimateInventorySystem.Equipping
         protected ItemSlotCollection m_EquipmentItemCollection;
         public SnowPrincess player; //Used to change player's health and Attack
         public PlayerMovement movement; //Used to change the player's movepeed
+        public Mana mana; //Used to change the player's movepeed
 
         /// <summary>
         /// Initialize the Equipper.
@@ -178,6 +179,10 @@ namespace Opsive.UltimateInventorySystem.Equipping
             {
                 movement.incMoveSpd(intAttributeValue3);
             }
+            if (item.TryGetAttributeValue<int>("Mana", out var intAttributeValue4))
+            {
+                mana.incMaxEnergy(intAttributeValue4);
+            }
             return true;
         }
 
@@ -314,6 +319,10 @@ namespace Opsive.UltimateInventorySystem.Equipping
             if (item.TryGetAttributeValue<int>("Movespeed", out var intAttributeValue3))
             {
                 movement.decMoveSpd(intAttributeValue3);
+            }
+            if (item.TryGetAttributeValue<int>("Mana", out var intAttributeValue4))
+            {
+                mana.decMaxEnergy(intAttributeValue4);
             }
         }
 
