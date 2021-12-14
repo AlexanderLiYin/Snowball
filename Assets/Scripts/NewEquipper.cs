@@ -183,6 +183,10 @@ namespace Opsive.UltimateInventorySystem.Equipping
             {
                 mana.incMaxEnergy(intAttributeValue4);
             }
+            if (item.TryGetAttributeValue<int>("Recharge", out var intAttributeValue5))
+            {
+                mana.incEnergyRecharge(intAttributeValue5);
+            }
             return true;
         }
 
@@ -323,6 +327,10 @@ namespace Opsive.UltimateInventorySystem.Equipping
             if (item.TryGetAttributeValue<int>("Mana", out var intAttributeValue4))
             {
                 mana.decMaxEnergy(intAttributeValue4);
+            }
+            if (item.TryGetAttributeValue<int>("Recharge", out var intAttributeValue5))
+            {
+                mana.decEnergyRecharge(intAttributeValue5);
             }
         }
 
