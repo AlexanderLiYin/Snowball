@@ -560,6 +560,7 @@ MonoBehaviour:
   m_Slots: []
   player: {fileID: 1236280219063928417}
   movement: {fileID: 1060652220974620872}
+  mana: {fileID: 7120802010484425410}
 --- !u!82 &2369207834289146758
 AudioSource:
   m_ObjectHideFlags: 0
