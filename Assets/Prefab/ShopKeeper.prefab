@@ -2850,6 +2850,22 @@ PrefabInstance:
       propertyPath: m_ItemCollectionData.Array.data[0].m_ValuePositions.Array.data[104]
       value: 632
       objectReference: {fileID: 0}
+    - target: {fileID: 491919450, guid: 8358a51e316339741b35b2c0b31ba7ff, type: 3}
+      propertyPath: events.onUse.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 491919450, guid: 8358a51e316339741b35b2c0b31ba7ff, type: 3}
+      propertyPath: events.onUse.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 491919450, guid: 8358a51e316339741b35b2c0b31ba7ff, type: 3}
+      propertyPath: events.onUse.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 6356547924163125860, guid: 07854d1feeed2f44a941ad73f5485765, type: 3}
+    - target: {fileID: 491919450, guid: 8358a51e316339741b35b2c0b31ba7ff, type: 3}
+      propertyPath: events.onUse.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 445098517840271817, guid: 8358a51e316339741b35b2c0b31ba7ff, type: 3}
       propertyPath: m_OnInteract.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 

@@ -56657,6 +56657,8 @@ GameObject:
   - component: {fileID: 205259809}
   - component: {fileID: 205259808}
   - component: {fileID: 205259810}
+  - component: {fileID: 205259811}
+  - component: {fileID: 205259812}
   m_Layer: 0
   m_Name: FirstQuestGiver
   m_TagString: Untagged
@@ -56764,6 +56766,178 @@ MonoBehaviour:
   showCursorDuringConversation: 0
   pauseGameDuringConversation: 1
   setActiveActions: []
+  setEnabledActions: []
+  setAnimatorStateActions: []
+  onExecute:
+    m_PersistentCalls:
+      m_Calls: []
+  useConversationTitlePicker: 1
+  useBarkTitlePicker: 1
+  useQuestNamePicker: 1
+  selectedDatabase: {fileID: 11400000, guid: 138c68488e73f4040a95b3362d2b6d4d, type: 2}
+--- !u!114 &205259811
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 205259807}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c593457cd8105e148906690e1707c592, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trigger: 2
+  condition:
+    luaConditions: []
+    questConditions: []
+    acceptedTags: []
+    acceptedGameObjects: []
+    luaWizardIndex: -1
+    lastEvaluationValue: 0
+  setQuestState: 1
+  questName: 
+  questState: 0
+  setQuestEntryState: 0
+  questEntryNumber: 1
+  questEntryState: 0
+  luaCode: 
+  sequence: 
+  sequenceSpeaker: {fileID: 0}
+  sequenceListener: {fileID: 0}
+  waitOneFrameOnStartOrEnable: 1
+  alertMessage: 
+  textTable: {fileID: 0}
+  alertDuration: 0
+  sendMessages: []
+  barkSource: 0
+  barkConversation: 
+  barkText: 
+  barkTextSequence: 
+  barker: {fileID: 0}
+  barkTarget: {fileID: 0}
+  barkOrder: 0
+  allowBarksDuringConversations: 0
+  skipBarkIfNoValidEntries: 0
+  cacheBarkLines: 0
+  conversation: 
+  conversationConversant: {fileID: 0}
+  conversationActor: {fileID: 0}
+  startConversationEntryID: -1
+  exclusive: 0
+  replace: 0
+  skipIfNoValidEntries: 0
+  stopConversationOnTriggerExit: 0
+  stopConversationIfTooFar: 0
+  maxConversationDistance: 5
+  monitorConversationDistanceFrequency: 1
+  showCursorDuringConversation: 0
+  pauseGameDuringConversation: 0
+  setActiveActions:
+  - condition:
+      luaConditions: []
+      questConditions: []
+      acceptedTags: []
+      acceptedGameObjects: []
+      luaWizardIndex: 0
+      lastEvaluationValue: 0
+    target: {fileID: 385878956}
+    state: 0
+  - condition:
+      luaConditions: []
+      questConditions: []
+      acceptedTags: []
+      acceptedGameObjects: []
+      luaWizardIndex: 0
+      lastEvaluationValue: 0
+    target: {fileID: 1599422054}
+    state: 0
+  setEnabledActions: []
+  setAnimatorStateActions: []
+  onExecute:
+    m_PersistentCalls:
+      m_Calls: []
+  useConversationTitlePicker: 1
+  useBarkTitlePicker: 1
+  useQuestNamePicker: 1
+  selectedDatabase: {fileID: 11400000, guid: 138c68488e73f4040a95b3362d2b6d4d, type: 2}
+--- !u!114 &205259812
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 205259807}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c593457cd8105e148906690e1707c592, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trigger: 16384
+  condition:
+    luaConditions: []
+    questConditions: []
+    acceptedTags: []
+    acceptedGameObjects: []
+    luaWizardIndex: -1
+    lastEvaluationValue: 0
+  setQuestState: 1
+  questName: 
+  questState: 0
+  setQuestEntryState: 0
+  questEntryNumber: 1
+  questEntryState: 0
+  luaCode: 
+  sequence: 
+  sequenceSpeaker: {fileID: 0}
+  sequenceListener: {fileID: 0}
+  waitOneFrameOnStartOrEnable: 1
+  alertMessage: 
+  textTable: {fileID: 0}
+  alertDuration: 0
+  sendMessages: []
+  barkSource: 0
+  barkConversation: 
+  barkText: 
+  barkTextSequence: 
+  barker: {fileID: 0}
+  barkTarget: {fileID: 0}
+  barkOrder: 0
+  allowBarksDuringConversations: 0
+  skipBarkIfNoValidEntries: 0
+  cacheBarkLines: 0
+  conversation: 
+  conversationConversant: {fileID: 0}
+  conversationActor: {fileID: 0}
+  startConversationEntryID: -1
+  exclusive: 0
+  replace: 0
+  skipIfNoValidEntries: 0
+  stopConversationOnTriggerExit: 0
+  stopConversationIfTooFar: 0
+  maxConversationDistance: 5
+  monitorConversationDistanceFrequency: 1
+  showCursorDuringConversation: 0
+  pauseGameDuringConversation: 0
+  setActiveActions:
+  - condition:
+      luaConditions: []
+      questConditions: []
+      acceptedTags: []
+      acceptedGameObjects: []
+      luaWizardIndex: 0
+      lastEvaluationValue: 0
+    target: {fileID: 385878956}
+    state: 1
+  - condition:
+      luaConditions: []
+      questConditions: []
+      acceptedTags: []
+      acceptedGameObjects: []
+      luaWizardIndex: 0
+      lastEvaluationValue: 0
+    target: {fileID: 1599422054}
+    state: 1
   setEnabledActions: []
   setAnimatorStateActions: []
   onExecute:
@@ -62478,6 +62652,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 07854d1feeed2f44a941ad73f5485765, type: 3}
+--- !u!4 &385878956 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2607827467338201083, guid: 07854d1feeed2f44a941ad73f5485765, type: 3}
+  m_PrefabInstance: {fileID: 385878955}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &398967554
 GameObject:
   m_ObjectHideFlags: 0
@@ -95413,7 +95592,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2198416796856523542, guid: c83dd89330b321d439d2f69ad2a41d00, type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 2198416796856523542, guid: c83dd89330b321d439d2f69ad2a41d00, type: 3}
       propertyPath: m_AnchorMax.x
@@ -97347,6 +97526,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: daf08d56eb225ca4b84cbb0035c8460c, type: 3}
+--- !u!224 &1599422054 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 2198416796856523542, guid: c83dd89330b321d439d2f69ad2a41d00, type: 3}
+  m_PrefabInstance: {fileID: 1284336847}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1647345216
 GameObject:
   m_ObjectHideFlags: 0
