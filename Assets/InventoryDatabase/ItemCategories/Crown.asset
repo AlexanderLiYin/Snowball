@@ -142,6 +142,13 @@ MonoBehaviour:
       m_Values: 426173654d616e6101000000000670657d0500000000000000
       m_UnityObjects: []
       m_Version: 3.1
+    - m_ObjectType: Opsive.UltimateInventorySystem.Core.AttributeSystem.Attribute`1[[System.Int32,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+      m_ValueHashes: 0d00eb255b713f72086efd3934ebab2af446621ba8823c4a424b280f861dc27b
+      m_ValuePositions: 000000000d0000000e0000000e0000001200000012000000160000001a000000
+      m_Values: 426173652052656368617267650100000000a8f5611e0000000000000000
+      m_UnityObjects: []
+      m_Version: 3.1
   m_RequiredItemAttributes:
     m_AttributeCollectionData:
     - m_ObjectType: Opsive.UltimateInventorySystem.Core.AttributeSystem.Attribute`1[[Opsive.UltimateInventorySystem.Core.DataStructures.ItemAmounts,
@@ -163,6 +170,13 @@ MonoBehaviour:
       m_ValueHashes: 0d00eb255b713f72086efd3934ebab2af446621ba8823c4a424b280f861dc27b
       m_ValuePositions: 0000000004000000050000000500000009000000090000000d00000011000000
       m_Values: 4d616e6101000000003d8c78350500000000000000
+      m_UnityObjects: []
+      m_Version: 3.1
+    - m_ObjectType: Opsive.UltimateInventorySystem.Core.AttributeSystem.Attribute`1[[System.Int32,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]
+      m_ValueHashes: 0d00eb255b713f72086efd3934ebab2af446621ba8823c4a424b280f861dc27b
+      m_ValuePositions: 000000000800000009000000090000000d0000000d0000001100000015000000
+      m_Values: 526563686172676501000000003705845c0100000000000000
       m_UnityObjects: []
       m_Version: 3.1
   m_IsMutable: 1
