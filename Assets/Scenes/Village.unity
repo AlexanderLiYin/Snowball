@@ -56602,7 +56602,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4261504717979411170, guid: e7170c9b7ec4c7b439d359ed7a3cde11, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4261504717979411170, guid: e7170c9b7ec4c7b439d359ed7a3cde11, type: 3}
       propertyPath: m_LocalPosition.x
@@ -56753,8 +56753,8 @@ MonoBehaviour:
   skipBarkIfNoValidEntries: 0
   cacheBarkLines: 0
   conversation: Prepare for a Snowball Fight!
-  conversationConversant: {fileID: 0}
-  conversationActor: {fileID: 0}
+  conversationConversant: {fileID: 1432752308}
+  conversationActor: {fileID: 205259809}
   startConversationEntryID: -1
   exclusive: 0
   replace: 0
@@ -62596,7 +62596,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2607827467338201083, guid: 07854d1feeed2f44a941ad73f5485765, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 2607827467338201083, guid: 07854d1feeed2f44a941ad73f5485765, type: 3}
       propertyPath: m_LocalPosition.x
@@ -95592,7 +95592,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2198416796856523542, guid: c83dd89330b321d439d2f69ad2a41d00, type: 3}
       propertyPath: m_RootOrder
-      value: 9
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 2198416796856523542, guid: c83dd89330b321d439d2f69ad2a41d00, type: 3}
       propertyPath: m_AnchorMax.x
@@ -96272,7 +96272,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2359628023681206974, guid: 296c5630c80158040af965f16424d52a, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2359628023681206974, guid: 296c5630c80158040af965f16424d52a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -96320,6 +96320,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 296c5630c80158040af965f16424d52a, type: 3}
+--- !u!4 &1432752308 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1942335342410052555, guid: 3b4c23d0ab299a848bdebd67880e652e, type: 3}
+  m_PrefabInstance: {fileID: 49622110}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1446926482
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -96974,7 +96979,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6471328862625853933, guid: 495987cea5e1404489afa153747f6b1e, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6471328862625853933, guid: 495987cea5e1404489afa153747f6b1e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -97295,7 +97300,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4261504717979411170, guid: e7170c9b7ec4c7b439d359ed7a3cde11, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4261504717979411170, guid: e7170c9b7ec4c7b439d359ed7a3cde11, type: 3}
       propertyPath: m_LocalPosition.x
@@ -97478,7 +97483,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1698458080195918078, guid: daf08d56eb225ca4b84cbb0035c8460c, type: 3}
       propertyPath: m_RootOrder
-      value: 10
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 1698458080195918078, guid: daf08d56eb225ca4b84cbb0035c8460c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -97959,7 +97964,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8957680423265833472, guid: 1d660d90b6e72944e8cd56bf82935905, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 8957680423265833472, guid: 1d660d90b6e72944e8cd56bf82935905, type: 3}
       propertyPath: m_LocalPosition.x
