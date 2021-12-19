@@ -12,8 +12,6 @@ public class EnemyHealth : MonoBehaviour
     public HealthBar hpBar;
     public bool isBoss;
 
-    bool onTrench = false;
-    public float evadeChance = 10;
     public event Action<int> OnDmgTaken;
     public event Action<EnemyHealth> OnDefeat;
     public int group;
@@ -43,10 +41,5 @@ public class EnemyHealth : MonoBehaviour
             OnDefeat.Invoke(this);
             Destroy(gameObject);
         }
-    }
-
-    public void TrenchStatus(bool status)
-    {
-        onTrench = status;
     }
 }

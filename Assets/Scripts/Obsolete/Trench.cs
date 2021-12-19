@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Trench : MonoBehaviour
 {
+    /*
     void OnTriggerEnter2D(Collider2D col)
     {
         if (col.gameObject.tag == "Enemy")
@@ -33,4 +34,5 @@ public class Trench : MonoBehaviour
             temp = col.gameObject.GetComponent<PlayerHealth>();
         }
     }
+    */
 }
