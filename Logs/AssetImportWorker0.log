@@ -15,11 +15,11 @@ D:/Snowball
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-56652
+54910
 Successfully changed project path to: D:/Snowball
 D:/Snowball
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 199.53 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 157.42 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.12f1 (b3b2c6512326)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/Resources/UnitySubsystems
@@ -35,37 +35,37 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56728
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56384
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002090 seconds.
+Registered in 0.002029 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 145.46 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 142.34 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.112 seconds
+- Completed reload, in  2.198 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.007070 seconds.
+Registered in 0.007184 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 132.18 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 140.86 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.657 seconds
+- Completed reload, in  1.551 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 2.42 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 3.77 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3981 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 182.0 MB.
 System memory in use after: 182.1 MB.
 
 Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 4455.
-Total: 27.070300 ms (FindLiveObjects: 1.086400 ms CreateObjectMapping: 0.750700 ms MarkObjects: 24.590500 ms  DeleteObjects: 0.638300 ms)
+Total: 8.037300 ms (FindLiveObjects: 0.529200 ms CreateObjectMapping: 0.439000 ms MarkObjects: 6.861300 ms  DeleteObjects: 0.206000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -80,88 +80,24 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Sprites/SnowPrincess.png
-  artifactKey: Guid(d946d2d33dd55754287bd6b03f2e5672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/SnowPrincess.png using Guid(d946d2d33dd55754287bd6b03f2e5672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bd6b0d541dc1e353f50b22095be0adc') in 0.147524 seconds 
-  Import took 0.162005 seconds .
+  path: Assets/Sprites/Enemy.png
+  artifactKey: Guid(2d539409b01cccf4ca05d374f43cb240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemy.png using Guid(2d539409b01cccf4ca05d374f43cb240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbe5c3301c126a9134d9e139d9bbacbe') in 0.131002 seconds 
+  Import took 0.138466 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000203 seconds.
+  Time since last request: 0.000342 seconds.
+  path: Assets/Sprites/EnemySketch.png
+  artifactKey: Guid(e2c92edebd30d9345ae06b61fdbf63ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/EnemySketch.png using Guid(e2c92edebd30d9345ae06b61fdbf63ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75d5667708dc20511a177ca638183407') in 0.017439 seconds 
+  Import took 0.025312 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.433131 seconds.
   path: Assets/Prefab/SnowPrincess.prefab
   artifactKey: Guid(3b4c23d0ab299a848bdebd67880e652e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/SnowPrincess.prefab using Guid(3b4c23d0ab299a848bdebd67880e652e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f8ed1f51745dc4faf22bff673d4c915') in 0.291409 seconds 
-  Import took 0.306637 seconds .
+Start importing Assets/Prefab/SnowPrincess.prefab using Guid(3b4c23d0ab299a848bdebd67880e652e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97fcc5773b07ac83c3e5e1efe79b5edc') in 0.246543 seconds 
+  Import took 0.258479 seconds .
 
-========================================================================
-Received Import Request.
-  Time since last request: 13.606900 seconds.
-  path: Assets/Prefab/SnowPrincess.prefab
-  artifactKey: Guid(3b4c23d0ab299a848bdebd67880e652e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/SnowPrincess.prefab using Guid(3b4c23d0ab299a848bdebd67880e652e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48bd258df6f1d0ca8931500787eb96e5') in 0.112418 seconds 
-  Import took 0.122538 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.222727 seconds.
-  path: Assets/Prefab/SnowPrincess.prefab
-  artifactKey: Guid(3b4c23d0ab299a848bdebd67880e652e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/SnowPrincess.prefab using Guid(3b4c23d0ab299a848bdebd67880e652e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8977c43ca07be6c26697478dab0cf8f4') in 0.098887 seconds 
-  Import took 0.110924 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 94.094537 seconds.
-  path: Assets/Sprites/SnowPrincess.png
-  artifactKey: Guid(d946d2d33dd55754287bd6b03f2e5672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/SnowPrincess.png using Guid(d946d2d33dd55754287bd6b03f2e5672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e08d61b5b99e20d1eebd52e37298956') in 0.013957 seconds 
-  Import took 0.023387 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.488332 seconds.
-  path: Assets/Sprites/SnowPrincess.png
-  artifactKey: Guid(d946d2d33dd55754287bd6b03f2e5672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/SnowPrincess.png using Guid(d946d2d33dd55754287bd6b03f2e5672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '096a5eff93357ba0653901ace9e1fb3a') in 0.011678 seconds 
-  Import took 0.020947 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.006997 seconds.
-  path: Assets/Sprites/SnowPrincess.png
-  artifactKey: Guid(d946d2d33dd55754287bd6b03f2e5672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/SnowPrincess.png using Guid(d946d2d33dd55754287bd6b03f2e5672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '096a5eff93357ba0653901ace9e1fb3a') in 0.011206 seconds 
-  Import took 0.018037 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006168 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.78 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.217 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.62 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3956 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 183.8 MB.
-System memory in use after: 183.9 MB.
-
-Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 4469.
-Total: 14.762100 ms (FindLiveObjects: 0.437800 ms CreateObjectMapping: 0.266300 ms MarkObjects: 13.499400 ms  DeleteObjects: 0.556000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
