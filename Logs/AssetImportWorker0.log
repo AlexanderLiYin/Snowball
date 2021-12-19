@@ -85,3 +85,4 @@ Received Import Request.
 Start importing Assets/Scenes/Village.unity using Guid(59c5fed39e715ac4bae26cca292a6d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71d2bbf4e01176d61dbd3e04c6d7b5fc') in 0.019442 seconds 
   Import took 0.027166 seconds .
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
