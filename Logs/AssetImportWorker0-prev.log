@@ -15,11 +15,11 @@ D:/Snowball
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-58270
+57199
 Successfully changed project path to: D:/Snowball
 D:/Snowball
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 166.61 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 149.50 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.12f1 (b3b2c6512326)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/Resources/UnitySubsystems
@@ -35,37 +35,37 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56892
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56332
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002063 seconds.
+Registered in 0.002096 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 135.72 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 145.55 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.247 seconds
+- Completed reload, in  2.073 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006234 seconds.
+Registered in 0.006481 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 164.06 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 149.37 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.673 seconds
+- Completed reload, in  1.539 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 1.63 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 2.33 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3981 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 182.0 MB.
-System memory in use after: 182.2 MB.
+Unloading 3986 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 182.5 MB.
+System memory in use after: 182.6 MB.
 
-Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 4455.
-Total: 6.978700 ms (FindLiveObjects: 0.357500 ms CreateObjectMapping: 0.169400 ms MarkObjects: 6.277700 ms  DeleteObjects: 0.173000 ms)
+Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 4460.
+Total: 6.537400 ms (FindLiveObjects: 0.358300 ms CreateObjectMapping: 0.206600 ms MarkObjects: 5.815300 ms  DeleteObjects: 0.156300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -80,9 +80,80 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Scenes/Village.unity
-  artifactKey: Guid(59c5fed39e715ac4bae26cca292a6d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Village.unity using Guid(59c5fed39e715ac4bae26cca292a6d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71d2bbf4e01176d61dbd3e04c6d7b5fc') in 0.019442 seconds 
-  Import took 0.027166 seconds .
+  path: Assets/GUI PRO Kit - Fantasy RPG
+  artifactKey: Guid(a1a311f536531b341a81b38e41328afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG using Guid(a1a311f536531b341a81b38e41328afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a67569d2df2b632452a72cb696cf572b') in 0.008399 seconds 
+  Import took 0.015863 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/+Document README+
+  artifactKey: Guid(c0da24c3ba4c749659f54c168e1e19f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/+Document README+ using Guid(c0da24c3ba4c749659f54c168e1e19f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92ea13f3855f3d174f5f8bc39d370085') in 0.004771 seconds 
+  Import took 0.011193 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/+Document README+/Fantasy RPG - Manual.pdf
+  artifactKey: Guid(722e3f9ab5341496b8b362ee895a837a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/+Document README+/Fantasy RPG - Manual.pdf using Guid(722e3f9ab5341496b8b362ee895a837a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6200abc963867dac23039f2bf21dd132') in 0.030445 seconds 
+  Import took 0.036761 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/Scenes
+  artifactKey: Guid(365cc73098d6e41ea98575620dd15d12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/Scenes using Guid(365cc73098d6e41ea98575620dd15d12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f88927db6a0773eaafd53f125ee2671') in 0.005312 seconds 
+  Import took 0.013817 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/+Document README+/Fantasy RPG - Manual.pdf
+  artifactKey: Guid(722e3f9ab5341496b8b362ee895a837a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/+Document README+/Fantasy RPG - Manual.pdf using Guid(722e3f9ab5341496b8b362ee895a837a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6200abc963867dac23039f2bf21dd132') in 0.001584 seconds 
+  Import took 0.008198 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.891502 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/Scenes/DemoScene_(v2.0).unity
+  artifactKey: Guid(8fe2d91c983bc44c488025fa4c5cdc57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/Scenes/DemoScene_(v2.0).unity using Guid(8fe2d91c983bc44c488025fa4c5cdc57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9f1ea3ad45f251b91ffa0d5e2336a69') in 0.005346 seconds 
+  Import took 0.011976 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007798 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.493 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.97 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3959 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 180.4 MB.
+System memory in use after: 180.5 MB.
+
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 4465.
+Total: 7.637400 ms (FindLiveObjects: 0.349400 ms CreateObjectMapping: 0.237300 ms MarkObjects: 6.843200 ms  DeleteObjects: 0.206100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
