@@ -9,11 +9,14 @@ public class Chest : MonoBehaviour
     public int group = -1; //Negative 1 if not in any group
     bool opened = false;
     CurrencyOwner player;
+    SpriteRenderer sprite;
+    public Sprite openChest;
 
     //Will later need to save the state of chests
     void Start()
     {
         player = GameObject.Find("SnowPrincess").GetComponent<CurrencyOwner>();
+        sprite = gameObject.GetComponent<SpriteRenderer>();
     }
 
     //Add gold function
@@ -21,9 +24,14 @@ public class Chest : MonoBehaviour
     {
         if(!opened)
         {
-            print("Being Openned");
             player.AddCurrency("Gold", amount);
+            ChangeSprite();
             opened = true;
         }     
+    }
+
+    void ChangeSprite()
+    {
+        sprite.sprite = openChest;
     }
 }
