@@ -25,6 +25,7 @@ public class Chest : MonoBehaviour
         if(!opened)
         {
             player.AddCurrency("Gold", amount);
+            gameObject.GetComponent<AudioSource>().Play();
             ChangeSprite();
             opened = true;
         }     
