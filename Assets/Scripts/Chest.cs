@@ -21,6 +21,7 @@ public class Chest : MonoBehaviour
     {
         if(!opened)
         {
+            print("Being Openned");
             player.AddCurrency("Gold", amount);
             opened = true;
         }     

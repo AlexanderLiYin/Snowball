@@ -47,6 +47,7 @@ MonoBehaviour:
   scene: 0
   canAttack: 1
   victoryMusic: {fileID: 8300000, guid: 2265753964b738a4080454e18df1cfcb, type: 3}
+  defeatMusic: {fileID: 8300000, guid: 3d1719e44c778224eb983b3135c3d859, type: 3}
 --- !u!82 &1791017195255749581
 AudioSource:
   m_ObjectHideFlags: 0
