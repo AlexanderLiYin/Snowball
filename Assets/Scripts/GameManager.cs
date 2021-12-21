@@ -8,6 +8,7 @@ public class GameManager : MonoBehaviour
     HUDScript HUD;
     public int scene;
     public bool canAttack = true;
+    public AudioClip victoryMusic;
 
     SnowPrincess player;
     void Start()
@@ -25,6 +26,8 @@ public class GameManager : MonoBehaviour
         print("You Win");
         //player.addCoins(100);
         SaveSystem.SavePlayer(player);
+        gameObject.GetComponent<AudioSource>().clip = victoryMusic;
+        gameObject.GetComponent<AudioSource>().Play();
         HUD.Win();
     }
 
