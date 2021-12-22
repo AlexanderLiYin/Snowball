@@ -392,8 +392,8 @@ MonoBehaviour:
     onConversationStart:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 1236280219063928417}
-          m_TargetAssemblyTypeName: SnowPrincess, Assembly-CSharp
+        - m_Target: {fileID: 1060652220974620872}
+          m_TargetAssemblyTypeName: Movement.PlayerMovement, Assembly-CSharp
           m_MethodName: DisableMovement
           m_Mode: 1
           m_Arguments:
@@ -407,8 +407,8 @@ MonoBehaviour:
     onConversationEnd:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 1236280219063928417}
-          m_TargetAssemblyTypeName: SnowPrincess, Assembly-CSharp
+        - m_Target: {fileID: 1060652220974620872}
+          m_TargetAssemblyTypeName: Movement.PlayerMovement, Assembly-CSharp
           m_MethodName: EnableMovement
           m_Mode: 1
           m_Arguments:
@@ -422,8 +422,8 @@ MonoBehaviour:
     onConversationCancelled:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 1236280219063928417}
-          m_TargetAssemblyTypeName: SnowPrincess, Assembly-CSharp
+        - m_Target: {fileID: 1060652220974620872}
+          m_TargetAssemblyTypeName: Movement.PlayerMovement, Assembly-CSharp
           m_MethodName: EnableMovement
           m_Mode: 1
           m_Arguments:
