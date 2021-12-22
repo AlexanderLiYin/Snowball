@@ -28,6 +28,7 @@ GameObject:
   - component: {fileID: 1497758504}
   - component: {fileID: 2369207834289146758}
   - component: {fileID: 7120802010484425410}
+  - component: {fileID: 635565063453463533}
   m_Layer: 0
   m_Name: SnowPrincess
   m_TagString: Player
@@ -671,6 +672,20 @@ MonoBehaviour:
   initEnergy: 100
   maxEnergy: 120
   energyPerSec: 1
+--- !u!114 &635565063453463533
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2128756633633359167}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf9481d631e872c45a9f702509a148ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tagSpecificElements: []
+  layerSpecificElements: []
 --- !u!1 &8620116525174297902
 GameObject:
   m_ObjectHideFlags: 0
