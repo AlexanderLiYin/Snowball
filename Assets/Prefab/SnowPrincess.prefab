@@ -282,8 +282,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Key: 
   m_SaveOnApplicationQuit: 0
-  m_SaveOnDestroy: 0
-  m_LoadOnStart: 0
+  m_SaveOnDestroy: 1
+  m_LoadOnStart: 1
   m_Inventory: {fileID: 1302169125}
   m_Additive: 0
 --- !u!114 &1302169122
@@ -322,8 +322,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Key: 
   m_SaveOnApplicationQuit: 0
-  m_SaveOnDestroy: 0
-  m_LoadOnStart: 0
+  m_SaveOnDestroy: 1
+  m_LoadOnStart: 1
   m_CurrencyOwner: {fileID: 1302169122}
   m_Additive: 0
 --- !u!212 &6603226567442483984

@@ -56960,6 +56960,8 @@ GameObject:
   - component: {fileID: 218750952}
   - component: {fileID: 218750951}
   - component: {fileID: 218750950}
+  - component: {fileID: 218750956}
+  - component: {fileID: 218750955}
   m_Layer: 0
   m_Name: Game
   m_TagString: Untagged
@@ -57036,6 +57038,47 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &218750955
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 218750949}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40123f38ebe24d1db0ba048e9639f0d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Key: 
+  m_SaveOnApplicationQuit: 0
+  m_SaveOnDestroy: 1
+  m_LoadOnStart: 1
+  m_UsingNestedItems: 1
+  m_SaveItemNames: 1
+--- !u!114 &218750956
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 218750949}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1789a7d60ce4b4843b1aa7f7152927b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_AutoLoadOnInitialize: 0
+  m_AutoLoadOnSceneLoaded: 1
+  m_AutoSaveOnSceneUnloaded: 1
+  m_AutoSaveOnApplicationQuit: 0
+  m_SaveFileName: SaveFile
+  m_SaveFileExtension: save
+  m_MaxSaves: 5
+  m_SaveMetaDataCreator: {fileID: 0}
+  m_SaveMetaDataFileExtension: metadata
+  m_InventorySystemManagerItemSaver: {fileID: 0}
+  m_DebugJsonCopy: 0
 --- !u!1001 &245290993
 PrefabInstance:
   m_ObjectHideFlags: 0
